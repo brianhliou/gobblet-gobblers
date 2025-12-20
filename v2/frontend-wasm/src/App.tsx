@@ -1,7 +1,9 @@
 import { useCallback, useEffect, useState, useRef } from "react";
 import init, { WasmBoard } from "gobblet-core";
 import { lookupPositions } from "./api";
+import { AboutModal } from "./components/AboutModal";
 import { Board } from "./components/Board";
+import { Header } from "./components/Header";
 import { History } from "./components/History";
 import { MovesPanel } from "./components/MovesPanel";
 import { Reserves } from "./components/Reserves";
@@ -146,6 +148,7 @@ function App() {
   const [selection, setSelection] = useState<Selection | null>(null);
   const [hoveredMove, setHoveredMove] = useState<LegalMove | null>(null);
   const [showExportImport, setShowExportImport] = useState(false);
+  const [showAbout, setShowAbout] = useState(false);
   const [notationText, setNotationText] = useState("");
   const [stateText, setStateText] = useState("");
   const [exportTab, setExportTab] = useState<"game" | "state">("game");
@@ -521,8 +524,9 @@ function App() {
 
   return (
     <div className="app">
-      <h1>Gobblet Gobblers</h1>
+      <Header onHowItWorksClick={() => setShowAbout(true)} />
 
+      <div className="game-content">
       <div className="game-layout">
         <div className="left-column">
           <History
@@ -644,6 +648,9 @@ function App() {
             : `Piece at (${selection.row}, ${selection.col})`}
         </div>
       )}
+      </div>
+
+      <AboutModal isOpen={showAbout} onClose={() => setShowAbout(false)} />
     </div>
   );
 }
