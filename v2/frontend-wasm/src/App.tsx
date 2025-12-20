@@ -183,6 +183,12 @@ function App() {
     if (board.result() === "ongoing") {
       const moves = getLegalMoves(board);
 
+      // Show moves immediately without evaluations
+      setLegalMoves(moves);
+
+      // Get canonical position for this board to detect stale responses
+      const currentCanonical = board.canonical();
+
       // Fetch evaluations for all moves
       const childPositions = moves.map((move) => {
         const child = board.clone();
@@ -200,13 +206,16 @@ function App() {
 
       const evaluations = await lookupPositions(childPositions);
 
-      // Attach evaluations to moves
-      const movesWithEval = moves.map((move, i) => ({
-        ...move,
-        evaluation: evaluations[i] ?? undefined,
-      }));
-
-      setLegalMoves(movesWithEval);
+      // Only update if we're still on the same position (avoid stale updates)
+      const boardNow = boardRef.current;
+      if (boardNow && boardNow.canonical() === currentCanonical) {
+        // Attach evaluations to moves
+        const movesWithEval = moves.map((move, i) => ({
+          ...move,
+          evaluation: evaluations[i] ?? undefined,
+        }));
+        setLegalMoves(movesWithEval);
+      }
     } else {
       setLegalMoves([]);
     }
