@@ -1,4 +1,4 @@
-import { readFileSync } from 'fs';
+import { readFileSync, existsSync, readdirSync } from 'fs';
 import { join } from 'path';
 
 // Use Node.js runtime (not Edge) for file system access
@@ -11,14 +11,29 @@ interface BatchRequest {
 // Cache tablebase in memory between invocations (warm function)
 let tablebaseBuffer: Buffer | null = null;
 let entryCount = 0;
+let loadError: string | null = null;
 
 function loadTablebase() {
-  if (tablebaseBuffer) return;
+  if (tablebaseBuffer || loadError) return;
 
-  const binPath = join(process.cwd(), 'api', 'tablebase.bin');
-  tablebaseBuffer = readFileSync(binPath);
-  entryCount = tablebaseBuffer.length / 9; // 8 bytes canonical + 1 byte outcome
-  console.log(`Loaded tablebase: ${entryCount} positions`);
+  try {
+    const cwd = process.cwd();
+    const binPath = join(cwd, 'api', 'tablebase.bin');
+
+    if (!existsSync(binPath)) {
+      // List what's in the api directory for debugging
+      const apiPath = join(cwd, 'api');
+      const files = existsSync(apiPath) ? readdirSync(apiPath) : ['api dir not found'];
+      loadError = `File not found: ${binPath}. CWD: ${cwd}. API files: ${files.join(', ')}`;
+      return;
+    }
+
+    tablebaseBuffer = readFileSync(binPath);
+    entryCount = tablebaseBuffer.length / 9; // 8 bytes canonical + 1 byte outcome
+    console.log(`Loaded tablebase: ${entryCount} positions`);
+  } catch (e) {
+    loadError = e instanceof Error ? e.message : String(e);
+  }
 }
 
 function lookupPosition(canonical: bigint): number | null {
@@ -55,6 +70,10 @@ export default function handler(req: { method: string; body: BatchRequest }, res
 
   // Load tablebase on first request (cold start)
   loadTablebase();
+
+  if (loadError) {
+    return res.status(500).json({ error: 'Failed to load tablebase', details: loadError });
+  }
 
   const { positions } = req.body;
 
