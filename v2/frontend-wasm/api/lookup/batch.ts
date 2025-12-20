@@ -6,11 +6,6 @@ interface BatchRequest {
   positions: string[];
 }
 
-const db = createClient({
-  url: process.env.TURSO_URL!,
-  authToken: process.env.TURSO_AUTH_TOKEN!,
-});
-
 export default async function handler(req: Request) {
   if (req.method !== 'POST') {
     return new Response(JSON.stringify({ error: 'Method not allowed' }), {
@@ -18,6 +13,11 @@ export default async function handler(req: Request) {
       headers: { 'Content-Type': 'application/json' },
     });
   }
+
+  const db = createClient({
+    url: process.env.TURSO_URL!,
+    authToken: process.env.TURSO_AUTH_TOKEN!,
+  });
 
   try {
     const { positions }: BatchRequest = await req.json();
