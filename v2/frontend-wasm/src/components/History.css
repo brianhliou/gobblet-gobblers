@@ -1,0 +1,101 @@
+.history-panel {
+  background: #2a2a2a;
+  border-radius: 12px;
+  padding: 16px;
+  min-width: 200px;
+  max-height: calc(100vh - 180px);
+  display: flex;
+  flex-direction: column;
+}
+
+.history-header {
+  font-weight: bold;
+  margin-bottom: 12px;
+  color: #fff;
+  font-size: 14px;
+}
+
+.history-controls {
+  display: flex;
+  gap: 8px;
+  margin-bottom: 12px;
+}
+
+.history-controls button {
+  flex: 1;
+  padding: 8px 12px;
+  font-size: 12px;
+}
+
+.history-controls button:disabled {
+  opacity: 0.4;
+  cursor: not-allowed;
+}
+
+.history-list {
+  flex: 1;
+  overflow-y: auto;
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.history-entry {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  padding: 6px 10px;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background 0.15s ease;
+  font-size: 13px;
+  color: #aaa;
+}
+
+.history-entry:hover {
+  background: #3a3a3a;
+}
+
+.history-entry.current {
+  background: #3a4a5a;
+  color: #fff;
+  border-left: 3px solid #4a9eff;
+}
+
+.history-entry.player-1 .move-notation {
+  color: #e74c3c;
+}
+
+.history-entry.player-2 .move-notation {
+  color: #3498db;
+}
+
+.move-number {
+  min-width: 36px;
+  font-weight: 500;
+}
+
+.move-notation {
+  flex: 1;
+  font-family: monospace;
+}
+
+.history-empty {
+  color: #666;
+  font-size: 12px;
+  text-align: center;
+  padding: 20px 0;
+}
+
+.history-actions {
+  display: flex;
+  gap: 8px;
+  margin-top: 12px;
+  padding-top: 12px;
+  border-top: 1px solid #3a3a3a;
+}
+
+.history-actions button {
+  flex: 1;
+  font-size: 12px;
+}

@@ -1,0 +1,45 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+venv/
+*.egg-info/
+dist/
+build/
+.eggs/
+*.egg
+.mypy_cache/
+.pytest_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# Frontend
+frontend/node_modules/
+frontend/dist/
+frontend/.env.local
+frontend-api/node_modules/
+frontend-api/dist/
+
+# V2
+v2/frontend-wasm/node_modules/
+v2/frontend-wasm/dist/
+v2/gobblet-core/target/
+v2/gobblet-solver/target/
+v2/gobblet-api/target/
+v2/gobblet-solver/data/
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Environment
+.env
+.env.local
