@@ -1,0 +1,17 @@
+{
+  "name": "gobblet-core",
+  "type": "module",
+  "description": "Gobblet Gobblers game logic with bit-based board representation",
+  "version": "0.1.0",
+  "license": "MIT",
+  "files": [
+    "gobblet_core_bg.wasm",
+    "gobblet_core.js",
+    "gobblet_core.d.ts"
+  ],
+  "main": "gobblet_core.js",
+  "types": "gobblet_core.d.ts",
+  "sideEffects": [
+    "./snippets/*"
+  ]
+}
