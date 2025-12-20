@@ -35,20 +35,21 @@ export default async function handler(req: Request) {
       });
     }
 
-    // Query each position
-    const evaluations = await Promise.all(
-      positions.map(async (canonical) => {
-        try {
-          const result = await db.execute({
-            sql: 'SELECT outcome FROM positions WHERE canonical = ?',
-            args: [canonical],
-          });
-          return result.rows[0]?.outcome ?? null;
-        } catch {
-          return null;
-        }
-      })
-    );
+    // Single query with IN clause for all positions
+    const placeholders = positions.map(() => '?').join(',');
+    const result = await db.execute({
+      sql: `SELECT canonical, outcome FROM positions WHERE canonical IN (${placeholders})`,
+      args: positions,
+    });
+
+    // Build a map for fast lookup
+    const resultMap = new Map<string, number>();
+    for (const row of result.rows) {
+      resultMap.set(String(row.canonical), row.outcome as number);
+    }
+
+    // Return evaluations in same order as input positions
+    const evaluations = positions.map(pos => resultMap.get(pos) ?? null);
 
     return new Response(JSON.stringify({ evaluations }), {
       headers: { 'Content-Type': 'application/json' },
