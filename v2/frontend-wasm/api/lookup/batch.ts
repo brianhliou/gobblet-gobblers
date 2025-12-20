@@ -1,8 +1,13 @@
 import { readFileSync, existsSync, readdirSync } from 'fs';
-import { join } from 'path';
+import { join, dirname } from 'path';
+import { fileURLToPath } from 'url';
 
 // Use Node.js runtime (not Edge) for file system access
 export const config = { runtime: 'nodejs' };
+
+// ES module equivalent of __dirname
+const __filename = fileURLToPath(import.meta.url);
+const __dirname = dirname(__filename);
 
 interface BatchRequest {
   positions: string[];
