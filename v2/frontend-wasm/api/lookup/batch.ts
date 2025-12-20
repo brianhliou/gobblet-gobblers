@@ -1,4 +1,4 @@
-import { readFileSync, existsSync, readdirSync } from 'fs';
+import { readFileSync } from 'fs';
 import { join, dirname } from 'path';
 import { fileURLToPath } from 'url';
 
@@ -22,23 +22,9 @@ function loadTablebase() {
   if (tablebaseBuffer || loadError) return;
 
   try {
-    // __dirname is the function's directory, tablebase.bin is included via vercel.json
     const binPath = join(__dirname, '..', 'tablebase.bin');
-
-    if (!existsSync(binPath)) {
-      // Try alternative paths for debugging
-      const altPath1 = join(process.cwd(), 'api', 'tablebase.bin');
-      const altPath2 = join(__dirname, 'tablebase.bin');
-      const cwd = process.cwd();
-      const cwdFiles = existsSync(cwd) ? readdirSync(cwd).slice(0, 10) : [];
-      const dirFiles = existsSync(__dirname) ? readdirSync(__dirname) : [];
-      loadError = `File not found. Tried: ${binPath}, ${altPath1}, ${altPath2}. __dirname: ${__dirname}. CWD: ${cwd}. CWD files: ${cwdFiles.join(', ')}. Dir files: ${dirFiles.join(', ')}`;
-      return;
-    }
-
     tablebaseBuffer = readFileSync(binPath);
     entryCount = tablebaseBuffer.length / 9; // 8 bytes canonical + 1 byte outcome
-    console.log(`Loaded tablebase: ${entryCount} positions`);
   } catch (e) {
     loadError = e instanceof Error ? e.message : String(e);
   }
