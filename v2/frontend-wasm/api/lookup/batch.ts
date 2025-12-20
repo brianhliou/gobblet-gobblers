@@ -2,16 +2,16 @@ import { createClient } from '@libsql/client/web';
 
 export const config = { runtime: 'edge' };
 
-const db = createClient({
-  url: process.env.TURSO_URL!,
-  authToken: process.env.TURSO_AUTH_TOKEN!,
-});
-
 interface BatchRequest {
   positions: string[];
 }
 
 export default async function handler(req: Request) {
+  // Create client at request time to ensure env vars are available
+  const db = createClient({
+    url: process.env.TURSO_URL!,
+    authToken: process.env.TURSO_AUTH_TOKEN!,
+  });
   // Only allow POST
   if (req.method !== 'POST') {
     return new Response(JSON.stringify({ error: 'Method not allowed' }), {
