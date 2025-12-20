@@ -56,7 +56,12 @@ export default async function handler(req: Request) {
       headers: { 'Content-Type': 'application/json' },
     });
   } catch (error) {
-    return new Response(JSON.stringify({ error: 'Internal server error' }), {
+    return new Response(JSON.stringify({
+      error: 'Internal server error',
+      message: error instanceof Error ? error.message : String(error),
+      hasUrl: !!process.env.TURSO_URL,
+      hasToken: !!process.env.TURSO_AUTH_TOKEN,
+    }), {
       status: 500,
       headers: { 'Content-Type': 'application/json' },
     });
