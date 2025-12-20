@@ -1,66 +1,73 @@
-import { createClient } from '@libsql/client/web';
+import { readFileSync } from 'fs';
+import { join } from 'path';
 
-export const config = { runtime: 'edge' };
+// Use Node.js runtime (not Edge) for file system access
+export const config = { runtime: 'nodejs' };
 
 interface BatchRequest {
   positions: string[];
 }
 
-export default async function handler(req: Request) {
+// Cache tablebase in memory between invocations (warm function)
+let tablebaseBuffer: Buffer | null = null;
+let entryCount = 0;
+
+function loadTablebase() {
+  if (tablebaseBuffer) return;
+
+  const binPath = join(process.cwd(), 'api', 'tablebase.bin');
+  tablebaseBuffer = readFileSync(binPath);
+  entryCount = tablebaseBuffer.length / 9; // 8 bytes canonical + 1 byte outcome
+  console.log(`Loaded tablebase: ${entryCount} positions`);
+}
+
+function lookupPosition(canonical: bigint): number | null {
+  if (!tablebaseBuffer) return null;
+
+  // Binary search in sorted array
+  let lo = 0;
+  let hi = entryCount - 1;
+
+  while (lo <= hi) {
+    const mid = Math.floor((lo + hi) / 2);
+    const offset = mid * 9;
+
+    // Read 8-byte little-endian BigInt
+    const key = tablebaseBuffer.readBigInt64LE(offset);
+
+    if (key === canonical) {
+      // Read 1-byte signed outcome
+      return tablebaseBuffer.readInt8(offset + 8);
+    } else if (key < canonical) {
+      lo = mid + 1;
+    } else {
+      hi = mid - 1;
+    }
+  }
+
+  return null; // Not found
+}
+
+export default function handler(req: { method: string; body: BatchRequest }, res: { status: (code: number) => { json: (data: unknown) => void }; json: (data: unknown) => void }) {
   if (req.method !== 'POST') {
-    return new Response(JSON.stringify({ error: 'Method not allowed' }), {
-      status: 405,
-      headers: { 'Content-Type': 'application/json' },
-    });
+    return res.status(405).json({ error: 'Method not allowed' });
   }
 
-  const db = createClient({
-    url: process.env.TURSO_URL!,
-    authToken: process.env.TURSO_AUTH_TOKEN!,
-  });
+  // Load tablebase on first request (cold start)
+  loadTablebase();
 
-  try {
-    const { positions }: BatchRequest = await req.json();
+  const { positions } = req.body;
 
-    if (!positions || !Array.isArray(positions)) {
-      return new Response(JSON.stringify({ error: 'positions array required' }), {
-        status: 400,
-        headers: { 'Content-Type': 'application/json' },
-      });
-    }
-
-    if (positions.length === 0) {
-      return new Response(JSON.stringify({ evaluations: [] }), {
-        headers: { 'Content-Type': 'application/json' },
-      });
-    }
-
-    // Single query with IN clause for all positions
-    const placeholders = positions.map(() => '?').join(',');
-    const result = await db.execute({
-      sql: `SELECT canonical, outcome FROM positions WHERE canonical IN (${placeholders})`,
-      args: positions,
-    });
-
-    // Build a map for fast lookup
-    const resultMap = new Map<string, number>();
-    for (const row of result.rows) {
-      resultMap.set(String(row.canonical), row.outcome as number);
-    }
-
-    // Return evaluations in same order as input positions
-    const evaluations = positions.map(pos => resultMap.get(pos) ?? null);
-
-    return new Response(JSON.stringify({ evaluations }), {
-      headers: { 'Content-Type': 'application/json' },
-    });
-  } catch (error) {
-    return new Response(JSON.stringify({
-      error: 'Internal server error',
-      message: error instanceof Error ? error.message : String(error),
-    }), {
-      status: 500,
-      headers: { 'Content-Type': 'application/json' },
-    });
+  if (!positions || !Array.isArray(positions)) {
+    return res.status(400).json({ error: 'positions array required' });
   }
+
+  if (positions.length === 0) {
+    return res.json({ evaluations: [] });
+  }
+
+  // Lookup all positions
+  const evaluations = positions.map(pos => lookupPosition(BigInt(pos)));
+
+  return res.json({ evaluations });
 }

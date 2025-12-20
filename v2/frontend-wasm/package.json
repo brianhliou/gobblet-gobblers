@@ -10,7 +10,6 @@
     "preview": "vite preview"
   },
   "dependencies": {
-    "@libsql/client": "^0.15.15",
     "gobblet-core": "file:./wasm-pkg",
     "react": "^19.2.0",
     "react-dom": "^19.2.0"
