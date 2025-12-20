@@ -17,14 +17,17 @@ function loadTablebase() {
   if (tablebaseBuffer || loadError) return;
 
   try {
-    const cwd = process.cwd();
-    const binPath = join(cwd, 'api', 'tablebase.bin');
+    // __dirname is the function's directory, tablebase.bin is included via vercel.json
+    const binPath = join(__dirname, '..', 'tablebase.bin');
 
     if (!existsSync(binPath)) {
-      // List what's in the api directory for debugging
-      const apiPath = join(cwd, 'api');
-      const files = existsSync(apiPath) ? readdirSync(apiPath) : ['api dir not found'];
-      loadError = `File not found: ${binPath}. CWD: ${cwd}. API files: ${files.join(', ')}`;
+      // Try alternative paths for debugging
+      const altPath1 = join(process.cwd(), 'api', 'tablebase.bin');
+      const altPath2 = join(__dirname, 'tablebase.bin');
+      const cwd = process.cwd();
+      const cwdFiles = existsSync(cwd) ? readdirSync(cwd).slice(0, 10) : [];
+      const dirFiles = existsSync(__dirname) ? readdirSync(__dirname) : [];
+      loadError = `File not found. Tried: ${binPath}, ${altPath1}, ${altPath2}. __dirname: ${__dirname}. CWD: ${cwd}. CWD files: ${cwdFiles.join(', ')}. Dir files: ${dirFiles.join(', ')}`;
       return;
     }
 
