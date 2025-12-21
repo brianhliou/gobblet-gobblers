@@ -174,6 +174,15 @@ function App() {
     updateGameState(board, 0, false, false);
   }, [wasmReady]);
 
+  // Update favicon based on current player
+  useEffect(() => {
+    if (!gameState) return;
+    const favicon = document.getElementById("favicon") as HTMLLinkElement | null;
+    if (favicon) {
+      favicon.href = gameState.current_player === 1 ? "/favicon-p1.svg" : "/favicon-p2.svg";
+    }
+  }, [gameState?.current_player]);
+
   // Update game state and fetch evaluations
   const updateGameState = useCallback(async (
     board: WasmBoard,
