@@ -21,8 +21,8 @@ wasm-pack build --target web
 ### gobblet-solver
 Minimax solver with alpha-beta pruning. Generates the complete tablebase.
 
-- Retrograde analysis from terminal positions
-- Transposition table with Zobrist hashing
+- Forward minimax from initial position
+- Transposition table with canonical position encoding (symmetry reduction)
 - Checkpoint/resume for long solves
 - Exports to SQLite and binary formats
 
@@ -30,8 +30,9 @@ Minimax solver with alpha-beta pruning. Generates the complete tablebase.
 # Run solver (takes ~10 minutes)
 cd gobblet-solver
 cargo run --release
+# Generates data/pruned.bin
 
-# Export to binary for deployment
+# Optional: export to SQLite for inspection
 cargo run --release --bin export_sqlite
 ```
 

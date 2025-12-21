@@ -86,9 +86,9 @@ vercel dev       # Full stack with tablebase
 - Reveal rule: if lifting reveals opponent win, restrict to hail mary moves
 
 ### Solver (gobblet-solver)
-- Minimax with alpha-beta pruning
-- Transposition table with Zobrist hashing
-- Move ordering: winning moves first, captures, center preference
+- Forward minimax with alpha-beta pruning
+- Transposition table with canonical position encoding (symmetry reduction)
+- Move ordering: known wins first, unknown middle, known losses last
 - Result: 19.8M positions (optimal play + all P2 responses)
 
 ## Conventions

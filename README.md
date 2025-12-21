@@ -66,8 +66,13 @@ See [docs/deployment.md](docs/deployment.md) for architecture details.
 ```bash
 cd v2/gobblet-solver
 cargo run --release
-# Generates tablebase.db (~265MB SQLite)
-# Convert to binary for deployment (see docs/deployment.md)
+# Generates data/pruned.bin (~170MB binary checkpoint)
+
+# Optional: export to SQLite for inspection
+cargo run --release --bin export_sqlite
+# Generates data/tablebase.db (~265MB)
+
+# Convert to deployment format (see docs/deployment.md)
 ```
 
 ## Game Rules
