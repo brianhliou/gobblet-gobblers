@@ -4,6 +4,8 @@ A solved implementation of the Gobblet Gobblers board game with optimal play vis
 
 **[Play the live demo](https://gobblet-gobblers-tablebase.vercel.app/)**
 
+![Gobblet Gobblers Tablebase](docs/screenshot.png)
+
 ## About
 
 Gobblet Gobblers is a Tic-Tac-Toe variant where:
