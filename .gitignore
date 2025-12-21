@@ -15,19 +15,22 @@ build/
 .coverage
 htmlcov/
 
-# Frontend
-frontend/node_modules/
-frontend/dist/
-frontend/.env.local
+# Rust
+target/
+
+# Node
+node_modules/
+
+# Builds
+dist/
+
+# Frontend (deprecated)
 frontend-api/node_modules/
 frontend-api/dist/
 
 # V2
 v2/frontend-wasm/node_modules/
 v2/frontend-wasm/dist/
-v2/gobblet-core/target/
-v2/gobblet-solver/target/
-v2/gobblet-api/target/
 v2/gobblet-solver/data/
 
 # IDE
@@ -43,7 +46,5 @@ Thumbs.db
 # Environment
 .env
 .env.local
+.env*.local
 .vercel
-
-
-

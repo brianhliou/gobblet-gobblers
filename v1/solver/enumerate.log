@@ -1,0 +1,478 @@
+[2025-12-19 05:27:43] ============================================================
+[2025-12-19 05:27:43] POSITION COLLECTOR
+[2025-12-19 05:27:43] ============================================================
+[2025-12-19 05:27:43] Target depth: 400
+[2025-12-19 05:27:43] Max positions: 1,000
+[2025-12-19 05:27:43] Method: enumerate
+[2025-12-19 05:27:43] Output file: solver/unsolved_frontier.json
+[2025-12-19 05:27:43] Loading transposition table to skip solved positions...
+[2025-12-19 05:27:56] Loaded 19,972,877 solved positions
+[2025-12-19 05:27:56] 
+[2025-12-19 05:27:56] Starting collection...
+[2025-12-19 05:27:56] Enumerating ALL unsolved positions with depth (Ctrl+C to stop and save)...
+[2025-12-19 05:28:03] BFS[enc]: 10,000 nodes (1429/s), 120,860 unsolved, queue: 30,527, depth: 6, ~4MB, elapsed: 7s
+[2025-12-19 05:28:09] BFS[enc]: 20,000 nodes (1455/s), 239,004 unsolved, queue: 49,690, depth: 6, ~7MB, elapsed: 14s
+[2025-12-19 05:28:16] BFS[enc]: 30,000 nodes (1470/s), 365,546 unsolved, queue: 69,288, depth: 7, ~10MB, elapsed: 20s
+[2025-12-19 05:28:23] BFS[enc]: 40,000 nodes (1467/s), 497,034 unsolved, queue: 90,453, depth: 7, ~14MB, elapsed: 27s
+[2025-12-19 05:28:30] BFS[enc]: 50,000 nodes (1469/s), 623,749 unsolved, queue: 105,796, depth: 7, ~17MB, elapsed: 34s
+[2025-12-19 05:28:36] BFS[enc]: 60,000 nodes (1476/s), 745,732 unsolved, queue: 124,653, depth: 7, ~20MB, elapsed: 41s
+[2025-12-19 05:28:43] BFS[enc]: 70,000 nodes (1477/s), 866,996 unsolved, queue: 139,789, depth: 7, ~24MB, elapsed: 47s
+[2025-12-19 05:28:50] BFS[enc]: 80,000 nodes (1485/s), 979,401 unsolved, queue: 151,407, depth: 7, ~26MB, elapsed: 54s
+[2025-12-19 05:28:56] BFS[enc]: 90,000 nodes (1497/s), 1,092,481 unsolved, queue: 164,991, depth: 8, ~29MB, elapsed: 60s
+[2025-12-19 05:29:02] BFS[enc]: 100,000 nodes (1503/s), 1,200,033 unsolved, queue: 177,032, depth: 8, ~32MB, elapsed: 67s
+[2025-12-19 05:29:09] BFS[enc]: 110,000 nodes (1511/s), 1,317,044 unsolved, queue: 188,955, depth: 8, ~35MB, elapsed: 73s
+[2025-12-19 05:29:15] BFS[enc]: 120,000 nodes (1517/s), 1,427,437 unsolved, queue: 200,661, depth: 8, ~38MB, elapsed: 79s
+[2025-12-19 05:29:21] BFS[enc]: 130,000 nodes (1523/s), 1,532,760 unsolved, queue: 211,652, depth: 8, ~41MB, elapsed: 85s
+[2025-12-19 05:29:28] BFS[enc]: 140,000 nodes (1526/s), 1,651,115 unsolved, queue: 223,110, depth: 8, ~44MB, elapsed: 92s
+[2025-12-19 05:29:34] BFS[enc]: 150,000 nodes (1531/s), 1,768,377 unsolved, queue: 233,215, depth: 8, ~47MB, elapsed: 98s
+[2025-12-19 05:29:40] BFS[enc]: 160,000 nodes (1535/s), 1,884,083 unsolved, queue: 243,178, depth: 8, ~50MB, elapsed: 104s
+[2025-12-19 05:29:46] BFS[enc]: 170,000 nodes (1540/s), 1,998,112 unsolved, queue: 251,150, depth: 8, ~53MB, elapsed: 110s
+[2025-12-19 05:29:52] BFS[enc]: 180,000 nodes (1543/s), 2,109,602 unsolved, queue: 257,801, depth: 8, ~56MB, elapsed: 117s
+[2025-12-19 05:29:59] BFS[enc]: 190,000 nodes (1545/s), 2,211,545 unsolved, queue: 267,201, depth: 8, ~58MB, elapsed: 123s
+[2025-12-19 05:30:05] BFS[enc]: 200,000 nodes (1548/s), 2,320,986 unsolved, queue: 274,829, depth: 8, ~61MB, elapsed: 129s
+[2025-12-19 05:30:11] BFS[enc]: 210,000 nodes (1551/s), 2,430,832 unsolved, queue: 282,422, depth: 8, ~64MB, elapsed: 135s
+[2025-12-19 05:30:17] BFS[enc]: 220,000 nodes (1557/s), 2,530,405 unsolved, queue: 290,016, depth: 8, ~66MB, elapsed: 141s
+[2025-12-19 05:30:23] BFS[enc]: 230,000 nodes (1561/s), 2,647,380 unsolved, queue: 298,949, depth: 8, ~69MB, elapsed: 147s
+[2025-12-19 05:30:29] BFS[enc]: 240,000 nodes (1566/s), 2,754,537 unsolved, queue: 302,315, depth: 8, ~72MB, elapsed: 153s
+[2025-12-19 05:30:35] BFS[enc]: 250,000 nodes (1567/s), 2,867,025 unsolved, queue: 308,384, depth: 9, ~75MB, elapsed: 160s
+[2025-12-19 05:30:42] BFS[enc]: 260,000 nodes (1567/s), 2,973,595 unsolved, queue: 323,606, depth: 9, ~77MB, elapsed: 166s
+[2025-12-19 05:30:48] BFS[enc]: 270,000 nodes (1566/s), 3,083,847 unsolved, queue: 341,678, depth: 9, ~80MB, elapsed: 172s
+[2025-12-19 05:30:55] BFS[enc]: 280,000 nodes (1565/s), 3,204,269 unsolved, queue: 353,500, depth: 9, ~84MB, elapsed: 179s
+[2025-12-19 05:31:01] BFS[enc]: 290,000 nodes (1565/s), 3,316,776 unsolved, queue: 363,906, depth: 9, ~86MB, elapsed: 185s
+[2025-12-19 05:31:07] BFS[enc]: 300,000 nodes (1565/s), 3,429,589 unsolved, queue: 376,068, depth: 9, ~89MB, elapsed: 192s
+[2025-12-19 05:31:14] BFS[enc]: 310,000 nodes (1566/s), 3,537,434 unsolved, queue: 385,664, depth: 9, ~92MB, elapsed: 198s
+[2025-12-19 05:31:20] BFS[enc]: 320,000 nodes (1566/s), 3,645,684 unsolved, queue: 395,210, depth: 9, ~95MB, elapsed: 204s
+[2025-12-19 05:31:26] BFS[enc]: 330,000 nodes (1566/s), 3,764,510 unsolved, queue: 405,589, depth: 9, ~98MB, elapsed: 211s
+[2025-12-19 05:31:33] BFS[enc]: 340,000 nodes (1568/s), 3,873,726 unsolved, queue: 414,200, depth: 9, ~101MB, elapsed: 217s
+[2025-12-19 05:31:39] BFS[enc]: 350,000 nodes (1570/s), 3,987,536 unsolved, queue: 419,998, depth: 9, ~104MB, elapsed: 223s
+[2025-12-19 05:31:45] BFS[enc]: 360,000 nodes (1570/s), 4,101,146 unsolved, queue: 425,469, depth: 9, ~106MB, elapsed: 229s
+[2025-12-19 05:31:51] BFS[enc]: 370,000 nodes (1573/s), 4,199,663 unsolved, queue: 436,572, depth: 9, ~109MB, elapsed: 235s
+[2025-12-19 05:31:57] BFS[enc]: 380,000 nodes (1573/s), 4,311,919 unsolved, queue: 448,848, depth: 9, ~112MB, elapsed: 242s
+[2025-12-19 05:32:04] BFS[enc]: 390,000 nodes (1574/s), 4,417,997 unsolved, queue: 461,560, depth: 9, ~115MB, elapsed: 248s
+[2025-12-19 05:32:10] BFS[enc]: 400,000 nodes (1574/s), 4,527,284 unsolved, queue: 471,399, depth: 9, ~117MB, elapsed: 254s
+[2025-12-19 05:32:16] BFS[enc]: 410,000 nodes (1577/s), 4,624,388 unsolved, queue: 482,563, depth: 9, ~120MB, elapsed: 260s
+[2025-12-19 05:32:22] BFS[enc]: 420,000 nodes (1578/s), 4,738,737 unsolved, queue: 491,251, depth: 9, ~123MB, elapsed: 266s
+[2025-12-19 05:32:28] BFS[enc]: 430,000 nodes (1580/s), 4,843,916 unsolved, queue: 502,844, depth: 9, ~126MB, elapsed: 272s
+[2025-12-19 05:32:34] BFS[enc]: 440,000 nodes (1579/s), 4,945,848 unsolved, queue: 513,794, depth: 9, ~128MB, elapsed: 279s
+[2025-12-19 05:32:41] BFS[enc]: 450,000 nodes (1579/s), 5,047,431 unsolved, queue: 523,893, depth: 9, ~131MB, elapsed: 285s
+[2025-12-19 05:32:47] BFS[enc]: 460,000 nodes (1579/s), 5,159,885 unsolved, queue: 529,022, depth: 9, ~134MB, elapsed: 291s
+[2025-12-19 05:32:53] BFS[enc]: 470,000 nodes (1581/s), 5,267,409 unsolved, queue: 534,492, depth: 9, ~136MB, elapsed: 297s
+[2025-12-19 05:33:22] Checkpoint saved: 5,306,423 positions to solver/unsolved_frontier.json
+[2025-12-19 05:33:26] BFS[enc]: 480,000 nodes (1454/s), 5,364,871 unsolved, queue: 542,908, depth: 9, ~139MB, elapsed: 330s
+[2025-12-19 05:33:32] BFS[enc]: 490,000 nodes (1458/s), 5,470,345 unsolved, queue: 550,496, depth: 9, ~142MB, elapsed: 336s
+[2025-12-19 05:33:38] BFS[enc]: 500,000 nodes (1463/s), 5,552,516 unsolved, queue: 556,472, depth: 9, ~144MB, elapsed: 342s
+[2025-12-19 05:33:44] BFS[enc]: 510,000 nodes (1466/s), 5,640,998 unsolved, queue: 562,276, depth: 9, ~146MB, elapsed: 348s
+[2025-12-19 05:33:49] BFS[enc]: 520,000 nodes (1471/s), 5,728,740 unsolved, queue: 572,157, depth: 9, ~148MB, elapsed: 353s
+[2025-12-19 05:33:55] BFS[enc]: 530,000 nodes (1476/s), 5,821,823 unsolved, queue: 582,238, depth: 9, ~151MB, elapsed: 359s
+[2025-12-19 05:34:01] BFS[enc]: 540,000 nodes (1479/s), 5,919,529 unsolved, queue: 591,314, depth: 9, ~153MB, elapsed: 365s
+[2025-12-19 05:34:06] BFS[enc]: 550,000 nodes (1485/s), 6,015,937 unsolved, queue: 595,749, depth: 10, ~156MB, elapsed: 370s
+[2025-12-19 05:34:12] BFS[enc]: 560,000 nodes (1488/s), 6,113,161 unsolved, queue: 610,947, depth: 10, ~158MB, elapsed: 376s
+[2025-12-19 05:34:18] BFS[enc]: 570,000 nodes (1491/s), 6,191,015 unsolved, queue: 616,211, depth: 10, ~160MB, elapsed: 382s
+[2025-12-19 05:34:24] BFS[enc]: 580,000 nodes (1496/s), 6,277,795 unsolved, queue: 623,732, depth: 10, ~162MB, elapsed: 388s
+[2025-12-19 05:34:29] BFS[enc]: 590,000 nodes (1498/s), 6,374,604 unsolved, queue: 630,865, depth: 10, ~165MB, elapsed: 394s
+[2025-12-19 05:34:35] BFS[enc]: 600,000 nodes (1501/s), 6,458,167 unsolved, queue: 637,589, depth: 10, ~167MB, elapsed: 400s
+[2025-12-19 05:34:41] BFS[enc]: 610,000 nodes (1504/s), 6,535,918 unsolved, queue: 642,012, depth: 10, ~169MB, elapsed: 406s
+[2025-12-19 05:34:47] BFS[enc]: 620,000 nodes (1507/s), 6,620,397 unsolved, queue: 647,164, depth: 10, ~171MB, elapsed: 411s
+[2025-12-19 05:34:53] BFS[enc]: 630,000 nodes (1510/s), 6,720,093 unsolved, queue: 654,202, depth: 10, ~174MB, elapsed: 417s
+[2025-12-19 05:34:58] BFS[enc]: 640,000 nodes (1514/s), 6,813,314 unsolved, queue: 660,656, depth: 10, ~176MB, elapsed: 423s
+[2025-12-19 05:35:04] BFS[enc]: 650,000 nodes (1517/s), 6,912,713 unsolved, queue: 665,414, depth: 10, ~178MB, elapsed: 429s
+[2025-12-19 05:35:10] BFS[enc]: 660,000 nodes (1518/s), 7,012,842 unsolved, queue: 672,092, depth: 10, ~181MB, elapsed: 435s
+[2025-12-19 05:35:16] BFS[enc]: 670,000 nodes (1521/s), 7,098,545 unsolved, queue: 678,384, depth: 10, ~183MB, elapsed: 440s
+[2025-12-19 05:35:22] BFS[enc]: 680,000 nodes (1524/s), 7,191,038 unsolved, queue: 682,758, depth: 10, ~185MB, elapsed: 446s
+[2025-12-19 05:35:28] BFS[enc]: 690,000 nodes (1527/s), 7,276,387 unsolved, queue: 691,831, depth: 10, ~188MB, elapsed: 452s
+[2025-12-19 05:35:33] BFS[enc]: 700,000 nodes (1530/s), 7,351,868 unsolved, queue: 697,544, depth: 10, ~190MB, elapsed: 457s
+[2025-12-19 05:35:39] BFS[enc]: 710,000 nodes (1533/s), 7,444,603 unsolved, queue: 703,359, depth: 10, ~192MB, elapsed: 463s
+[2025-12-19 05:35:45] BFS[enc]: 720,000 nodes (1535/s), 7,533,859 unsolved, queue: 710,924, depth: 10, ~194MB, elapsed: 469s
+[2025-12-19 05:35:51] BFS[enc]: 730,000 nodes (1537/s), 7,622,422 unsolved, queue: 717,641, depth: 10, ~196MB, elapsed: 475s
+[2025-12-19 05:35:56] BFS[enc]: 740,000 nodes (1540/s), 7,700,550 unsolved, queue: 723,659, depth: 10, ~198MB, elapsed: 480s
+[2025-12-19 05:36:02] BFS[enc]: 750,000 nodes (1543/s), 7,778,260 unsolved, queue: 730,495, depth: 10, ~200MB, elapsed: 486s
+[2025-12-19 05:36:07] BFS[enc]: 760,000 nodes (1546/s), 7,862,702 unsolved, queue: 735,816, depth: 10, ~203MB, elapsed: 492s
+[2025-12-19 05:36:13] BFS[enc]: 770,000 nodes (1548/s), 7,951,339 unsolved, queue: 742,900, depth: 10, ~205MB, elapsed: 497s
+[2025-12-19 05:36:19] BFS[enc]: 780,000 nodes (1551/s), 8,036,632 unsolved, queue: 749,714, depth: 10, ~207MB, elapsed: 503s
+[2025-12-19 05:36:24] BFS[enc]: 790,000 nodes (1553/s), 8,126,424 unsolved, queue: 755,144, depth: 10, ~209MB, elapsed: 509s
+[2025-12-19 05:36:30] BFS[enc]: 800,000 nodes (1556/s), 8,205,796 unsolved, queue: 757,080, depth: 10, ~211MB, elapsed: 514s
+[2025-12-19 05:36:36] BFS[enc]: 810,000 nodes (1558/s), 8,283,055 unsolved, queue: 765,769, depth: 10, ~213MB, elapsed: 520s
+[2025-12-19 05:36:42] BFS[enc]: 820,000 nodes (1560/s), 8,382,343 unsolved, queue: 773,412, depth: 10, ~216MB, elapsed: 526s
+[2025-12-19 05:36:47] BFS[enc]: 830,000 nodes (1562/s), 8,474,481 unsolved, queue: 777,993, depth: 10, ~218MB, elapsed: 532s
+[2025-12-19 05:36:53] BFS[enc]: 840,000 nodes (1563/s), 8,560,174 unsolved, queue: 784,060, depth: 10, ~220MB, elapsed: 537s
+[2025-12-19 05:36:59] BFS[enc]: 850,000 nodes (1564/s), 8,653,878 unsolved, queue: 788,472, depth: 10, ~223MB, elapsed: 543s
+[2025-12-19 05:37:05] BFS[enc]: 860,000 nodes (1567/s), 8,745,118 unsolved, queue: 791,283, depth: 10, ~225MB, elapsed: 549s
+[2025-12-19 05:37:10] BFS[enc]: 870,000 nodes (1569/s), 8,834,217 unsolved, queue: 797,682, depth: 10, ~227MB, elapsed: 555s
+[2025-12-19 05:37:16] BFS[enc]: 880,000 nodes (1570/s), 8,924,346 unsolved, queue: 803,699, depth: 10, ~229MB, elapsed: 560s
+[2025-12-19 05:37:22] BFS[enc]: 890,000 nodes (1573/s), 9,008,576 unsolved, queue: 805,986, depth: 10, ~231MB, elapsed: 566s
+[2025-12-19 05:37:27] BFS[enc]: 900,000 nodes (1576/s), 9,084,323 unsolved, queue: 811,169, depth: 10, ~233MB, elapsed: 571s
+[2025-12-19 05:37:32] BFS[enc]: 910,000 nodes (1579/s), 9,168,356 unsolved, queue: 816,637, depth: 10, ~235MB, elapsed: 576s
+[2025-12-19 05:37:37] BFS[enc]: 920,000 nodes (1582/s), 9,255,819 unsolved, queue: 817,371, depth: 10, ~238MB, elapsed: 582s
+[2025-12-19 05:37:43] BFS[enc]: 930,000 nodes (1584/s), 9,346,106 unsolved, queue: 820,158, depth: 10, ~240MB, elapsed: 587s
+[2025-12-19 05:37:48] BFS[enc]: 940,000 nodes (1586/s), 9,433,322 unsolved, queue: 824,225, depth: 10, ~242MB, elapsed: 593s
+[2025-12-19 05:37:54] BFS[enc]: 950,000 nodes (1587/s), 9,515,769 unsolved, queue: 827,967, depth: 10, ~244MB, elapsed: 599s
+[2025-12-19 05:38:57] Checkpoint saved: 9,537,284 positions to solver/unsolved_frontier.json
+[2025-12-19 05:39:01] BFS[enc]: 960,000 nodes (1442/s), 9,601,540 unsolved, queue: 831,502, depth: 10, ~246MB, elapsed: 666s
+[2025-12-19 05:39:07] BFS[enc]: 970,000 nodes (1445/s), 9,688,826 unsolved, queue: 835,174, depth: 10, ~248MB, elapsed: 671s
+[2025-12-19 05:39:13] BFS[enc]: 980,000 nodes (1448/s), 9,773,543 unsolved, queue: 838,781, depth: 10, ~250MB, elapsed: 677s
+[2025-12-19 05:39:18] BFS[enc]: 990,000 nodes (1451/s), 9,858,759 unsolved, queue: 841,339, depth: 10, ~252MB, elapsed: 682s
+[2025-12-19 05:39:23] BFS[enc]: 1,000,000 nodes (1454/s), 9,945,082 unsolved, queue: 845,745, depth: 10, ~255MB, elapsed: 688s
+[2025-12-19 05:39:29] BFS[enc]: 1,010,000 nodes (1458/s), 10,022,591 unsolved, queue: 848,814, depth: 10, ~257MB, elapsed: 693s
+[2025-12-19 05:39:34] BFS[enc]: 1,020,000 nodes (1461/s), 10,108,011 unsolved, queue: 850,561, depth: 10, ~259MB, elapsed: 698s
+[2025-12-19 05:39:39] BFS[enc]: 1,030,000 nodes (1464/s), 10,192,805 unsolved, queue: 854,160, depth: 10, ~261MB, elapsed: 704s
+[2025-12-19 05:39:44] BFS[enc]: 1,040,000 nodes (1467/s), 10,270,444 unsolved, queue: 858,618, depth: 10, ~263MB, elapsed: 709s
+[2025-12-19 05:39:50] BFS[enc]: 1,050,000 nodes (1471/s), 10,347,161 unsolved, queue: 860,716, depth: 10, ~265MB, elapsed: 714s
+[2025-12-19 05:39:55] BFS[enc]: 1,060,000 nodes (1475/s), 10,417,437 unsolved, queue: 862,102, depth: 10, ~266MB, elapsed: 719s
+[2025-12-19 05:40:00] BFS[enc]: 1,070,000 nodes (1478/s), 10,492,780 unsolved, queue: 861,903, depth: 10, ~268MB, elapsed: 724s
+[2025-12-19 05:40:05] BFS[enc]: 1,080,000 nodes (1481/s), 10,570,808 unsolved, queue: 863,590, depth: 10, ~270MB, elapsed: 729s
+[2025-12-19 05:40:10] BFS[enc]: 1,090,000 nodes (1484/s), 10,663,057 unsolved, queue: 866,554, depth: 10, ~272MB, elapsed: 734s
+[2025-12-19 05:40:15] BFS[enc]: 1,100,000 nodes (1487/s), 10,753,579 unsolved, queue: 869,138, depth: 10, ~274MB, elapsed: 740s
+[2025-12-19 05:40:21] BFS[enc]: 1,110,000 nodes (1490/s), 10,836,541 unsolved, queue: 869,894, depth: 10, ~276MB, elapsed: 745s
+[2025-12-19 05:40:26] BFS[enc]: 1,120,000 nodes (1493/s), 10,920,397 unsolved, queue: 869,717, depth: 10, ~278MB, elapsed: 750s
+[2025-12-19 05:40:31] BFS[enc]: 1,130,000 nodes (1496/s), 11,002,433 unsolved, queue: 868,355, depth: 10, ~280MB, elapsed: 755s
+[2025-12-19 05:40:36] BFS[enc]: 1,140,000 nodes (1499/s), 11,090,831 unsolved, queue: 867,940, depth: 10, ~282MB, elapsed: 761s
+[2025-12-19 05:40:42] BFS[enc]: 1,150,000 nodes (1501/s), 11,178,369 unsolved, queue: 873,916, depth: 11, ~285MB, elapsed: 766s
+[2025-12-19 05:40:48] BFS[enc]: 1,160,000 nodes (1502/s), 11,259,272 unsolved, queue: 880,970, depth: 11, ~287MB, elapsed: 772s
+[2025-12-19 05:40:53] BFS[enc]: 1,170,000 nodes (1505/s), 11,328,703 unsolved, queue: 887,212, depth: 11, ~289MB, elapsed: 778s
+[2025-12-19 05:40:59] BFS[enc]: 1,180,000 nodes (1507/s), 11,400,129 unsolved, queue: 895,714, depth: 11, ~290MB, elapsed: 783s
+[2025-12-19 05:41:04] BFS[enc]: 1,190,000 nodes (1509/s), 11,472,421 unsolved, queue: 901,714, depth: 11, ~292MB, elapsed: 788s
+[2025-12-19 05:41:09] BFS[enc]: 1,200,000 nodes (1512/s), 11,541,346 unsolved, queue: 908,417, depth: 11, ~294MB, elapsed: 794s
+[2025-12-19 05:41:15] BFS[enc]: 1,210,000 nodes (1514/s), 11,622,614 unsolved, queue: 921,725, depth: 11, ~296MB, elapsed: 799s
+[2025-12-19 05:41:21] BFS[enc]: 1,220,000 nodes (1515/s), 11,710,140 unsolved, queue: 930,115, depth: 11, ~299MB, elapsed: 805s
+[2025-12-19 05:41:26] BFS[enc]: 1,230,000 nodes (1517/s), 11,777,721 unsolved, queue: 937,585, depth: 11, ~300MB, elapsed: 811s
+[2025-12-19 05:41:32] BFS[enc]: 1,240,000 nodes (1519/s), 11,863,098 unsolved, queue: 943,994, depth: 11, ~303MB, elapsed: 817s
+[2025-12-19 05:41:38] BFS[enc]: 1,250,000 nodes (1520/s), 11,949,437 unsolved, queue: 953,336, depth: 11, ~305MB, elapsed: 822s
+[2025-12-19 05:41:44] BFS[enc]: 1,260,000 nodes (1522/s), 12,028,914 unsolved, queue: 959,814, depth: 11, ~307MB, elapsed: 828s
+[2025-12-19 05:41:49] BFS[enc]: 1,270,000 nodes (1524/s), 12,106,760 unsolved, queue: 966,981, depth: 11, ~309MB, elapsed: 833s
+[2025-12-19 05:41:55] BFS[enc]: 1,280,000 nodes (1524/s), 12,195,789 unsolved, queue: 975,662, depth: 11, ~311MB, elapsed: 840s
+[2025-12-19 05:42:01] BFS[enc]: 1,290,000 nodes (1526/s), 12,283,537 unsolved, queue: 982,501, depth: 11, ~313MB, elapsed: 845s
+[2025-12-19 05:42:06] BFS[enc]: 1,300,000 nodes (1528/s), 12,363,009 unsolved, queue: 985,620, depth: 11, ~315MB, elapsed: 851s
+[2025-12-19 05:42:12] BFS[enc]: 1,310,000 nodes (1530/s), 12,441,025 unsolved, queue: 994,184, depth: 11, ~318MB, elapsed: 856s
+[2025-12-19 05:42:18] BFS[enc]: 1,320,000 nodes (1531/s), 12,521,414 unsolved, queue: 1,001,185, depth: 11, ~320MB, elapsed: 862s
+[2025-12-19 05:42:24] BFS[enc]: 1,330,000 nodes (1532/s), 12,601,621 unsolved, queue: 1,009,452, depth: 11, ~322MB, elapsed: 868s
+[2025-12-19 05:42:29] BFS[enc]: 1,340,000 nodes (1534/s), 12,680,753 unsolved, queue: 1,017,178, depth: 11, ~324MB, elapsed: 874s
+[2025-12-19 05:42:35] BFS[enc]: 1,350,000 nodes (1536/s), 12,755,789 unsolved, queue: 1,020,161, depth: 11, ~326MB, elapsed: 879s
+[2025-12-19 05:42:40] BFS[enc]: 1,360,000 nodes (1537/s), 12,833,654 unsolved, queue: 1,027,114, depth: 11, ~328MB, elapsed: 885s
+[2025-12-19 05:42:46] BFS[enc]: 1,370,000 nodes (1539/s), 12,919,282 unsolved, queue: 1,032,531, depth: 11, ~330MB, elapsed: 890s
+[2025-12-19 05:42:51] BFS[enc]: 1,380,000 nodes (1541/s), 12,997,972 unsolved, queue: 1,037,504, depth: 11, ~332MB, elapsed: 896s
+[2025-12-19 05:44:32] Checkpoint saved: 13,044,457 positions to solver/unsolved_frontier.json
+[2025-12-19 05:44:33] BFS[enc]: 1,390,000 nodes (1394/s), 13,059,724 unsolved, queue: 1,041,630, depth: 11, ~333MB, elapsed: 997s
+[2025-12-19 05:44:38] BFS[enc]: 1,400,000 nodes (1396/s), 13,136,292 unsolved, queue: 1,045,604, depth: 11, ~335MB, elapsed: 1003s
+[2025-12-19 05:44:44] BFS[enc]: 1,410,000 nodes (1399/s), 13,214,432 unsolved, queue: 1,054,517, depth: 11, ~337MB, elapsed: 1008s
+[2025-12-19 05:44:49] BFS[enc]: 1,420,000 nodes (1401/s), 13,290,626 unsolved, queue: 1,065,184, depth: 11, ~339MB, elapsed: 1013s
+[2025-12-19 05:44:55] BFS[enc]: 1,430,000 nodes (1404/s), 13,370,655 unsolved, queue: 1,073,329, depth: 11, ~342MB, elapsed: 1019s
+[2025-12-19 05:45:00] BFS[enc]: 1,440,000 nodes (1406/s), 13,450,150 unsolved, queue: 1,079,390, depth: 11, ~344MB, elapsed: 1024s
+[2025-12-19 05:45:05] BFS[enc]: 1,450,000 nodes (1408/s), 13,539,510 unsolved, queue: 1,083,396, depth: 11, ~346MB, elapsed: 1029s
+[2025-12-19 05:45:10] BFS[enc]: 1,460,000 nodes (1411/s), 13,614,307 unsolved, queue: 1,087,088, depth: 11, ~348MB, elapsed: 1035s
+[2025-12-19 05:45:15] BFS[enc]: 1,470,000 nodes (1414/s), 13,682,418 unsolved, queue: 1,093,208, depth: 11, ~349MB, elapsed: 1039s
+[2025-12-19 05:45:20] BFS[enc]: 1,480,000 nodes (1417/s), 13,761,489 unsolved, queue: 1,096,083, depth: 11, ~351MB, elapsed: 1045s
+[2025-12-19 05:45:26] BFS[enc]: 1,490,000 nodes (1419/s), 13,838,538 unsolved, queue: 1,100,180, depth: 11, ~353MB, elapsed: 1050s
+[2025-12-19 05:45:31] BFS[enc]: 1,500,000 nodes (1422/s), 13,920,368 unsolved, queue: 1,103,205, depth: 11, ~355MB, elapsed: 1055s
+[2025-12-19 05:45:36] BFS[enc]: 1,510,000 nodes (1424/s), 14,001,298 unsolved, queue: 1,105,032, depth: 11, ~357MB, elapsed: 1060s
+[2025-12-19 05:45:41] BFS[enc]: 1,520,000 nodes (1426/s), 14,081,955 unsolved, queue: 1,108,272, depth: 11, ~359MB, elapsed: 1066s
+[2025-12-19 05:45:47] BFS[enc]: 1,530,000 nodes (1429/s), 14,163,792 unsolved, queue: 1,109,684, depth: 11, ~361MB, elapsed: 1071s
+[2025-12-19 05:45:52] BFS[enc]: 1,540,000 nodes (1431/s), 14,235,050 unsolved, queue: 1,112,868, depth: 11, ~363MB, elapsed: 1076s
+[2025-12-19 05:45:57] BFS[enc]: 1,550,000 nodes (1434/s), 14,303,428 unsolved, queue: 1,118,765, depth: 11, ~365MB, elapsed: 1081s
+[2025-12-19 05:46:02] BFS[enc]: 1,560,000 nodes (1437/s), 14,374,148 unsolved, queue: 1,124,690, depth: 11, ~367MB, elapsed: 1086s
+[2025-12-19 05:46:07] BFS[enc]: 1,570,000 nodes (1439/s), 14,451,687 unsolved, queue: 1,130,915, depth: 11, ~369MB, elapsed: 1091s
+[2025-12-19 05:46:12] BFS[enc]: 1,580,000 nodes (1441/s), 14,521,318 unsolved, queue: 1,134,961, depth: 11, ~370MB, elapsed: 1096s
+[2025-12-19 05:46:17] BFS[enc]: 1,590,000 nodes (1444/s), 14,599,024 unsolved, queue: 1,144,913, depth: 11, ~372MB, elapsed: 1101s
+[2025-12-19 05:46:23] BFS[enc]: 1,600,000 nodes (1446/s), 14,682,344 unsolved, queue: 1,150,083, depth: 11, ~375MB, elapsed: 1107s
+[2025-12-19 05:46:28] BFS[enc]: 1,610,000 nodes (1448/s), 14,767,305 unsolved, queue: 1,155,264, depth: 11, ~377MB, elapsed: 1112s
+[2025-12-19 05:46:33] BFS[enc]: 1,620,000 nodes (1450/s), 14,838,052 unsolved, queue: 1,160,222, depth: 11, ~379MB, elapsed: 1117s
+[2025-12-19 05:46:38] BFS[enc]: 1,630,000 nodes (1452/s), 14,910,968 unsolved, queue: 1,171,319, depth: 11, ~381MB, elapsed: 1123s
+[2025-12-19 05:46:44] BFS[enc]: 1,640,000 nodes (1454/s), 14,988,619 unsolved, queue: 1,176,250, depth: 11, ~382MB, elapsed: 1128s
+[2025-12-19 05:46:49] BFS[enc]: 1,650,000 nodes (1456/s), 15,066,574 unsolved, queue: 1,183,201, depth: 11, ~385MB, elapsed: 1133s
+[2025-12-19 05:46:54] BFS[enc]: 1,660,000 nodes (1458/s), 15,143,578 unsolved, queue: 1,187,571, depth: 11, ~386MB, elapsed: 1138s
+[2025-12-19 05:46:59] BFS[enc]: 1,670,000 nodes (1461/s), 15,217,749 unsolved, queue: 1,191,206, depth: 11, ~388MB, elapsed: 1143s
+[2025-12-19 05:47:04] BFS[enc]: 1,680,000 nodes (1463/s), 15,289,845 unsolved, queue: 1,196,398, depth: 11, ~390MB, elapsed: 1148s
+[2025-12-19 05:47:09] BFS[enc]: 1,690,000 nodes (1466/s), 15,349,250 unsolved, queue: 1,203,299, depth: 11, ~392MB, elapsed: 1153s
+[2025-12-19 05:47:13] BFS[enc]: 1,700,000 nodes (1468/s), 15,419,307 unsolved, queue: 1,206,898, depth: 11, ~394MB, elapsed: 1158s
+[2025-12-19 05:47:19] BFS[enc]: 1,710,000 nodes (1471/s), 15,500,711 unsolved, queue: 1,207,682, depth: 11, ~395MB, elapsed: 1163s
+[2025-12-19 05:47:24] BFS[enc]: 1,720,000 nodes (1473/s), 15,581,274 unsolved, queue: 1,210,639, depth: 11, ~397MB, elapsed: 1168s
+[2025-12-19 05:47:29] BFS[enc]: 1,730,000 nodes (1475/s), 15,653,183 unsolved, queue: 1,216,592, depth: 11, ~399MB, elapsed: 1173s
+[2025-12-19 05:47:34] BFS[enc]: 1,740,000 nodes (1477/s), 15,723,786 unsolved, queue: 1,227,430, depth: 11, ~401MB, elapsed: 1178s
+[2025-12-19 05:47:39] BFS[enc]: 1,750,000 nodes (1479/s), 15,802,437 unsolved, queue: 1,228,653, depth: 11, ~403MB, elapsed: 1183s
+[2025-12-19 05:47:44] BFS[enc]: 1,760,000 nodes (1481/s), 15,875,429 unsolved, queue: 1,236,627, depth: 11, ~405MB, elapsed: 1188s
+[2025-12-19 05:47:49] BFS[enc]: 1,770,000 nodes (1483/s), 15,936,374 unsolved, queue: 1,239,908, depth: 11, ~407MB, elapsed: 1193s
+[2025-12-19 05:47:54] BFS[enc]: 1,780,000 nodes (1485/s), 16,008,164 unsolved, queue: 1,246,704, depth: 11, ~409MB, elapsed: 1198s
+[2025-12-19 05:50:03] Checkpoint saved: 16,028,535 positions to solver/unsolved_frontier.json
+[2025-12-19 05:50:06] BFS[enc]: 1,790,000 nodes (1346/s), 16,080,400 unsolved, queue: 1,250,707, depth: 11, ~410MB, elapsed: 1330s
+[2025-12-19 05:50:11] BFS[enc]: 1,800,000 nodes (1348/s), 16,148,182 unsolved, queue: 1,257,381, depth: 11, ~412MB, elapsed: 1336s
+[2025-12-19 05:50:17] BFS[enc]: 1,810,000 nodes (1350/s), 16,215,676 unsolved, queue: 1,264,159, depth: 11, ~414MB, elapsed: 1341s
+[2025-12-19 05:50:22] BFS[enc]: 1,820,000 nodes (1352/s), 16,293,757 unsolved, queue: 1,266,010, depth: 11, ~416MB, elapsed: 1346s
+[2025-12-19 05:50:27] BFS[enc]: 1,830,000 nodes (1354/s), 16,373,149 unsolved, queue: 1,267,615, depth: 11, ~418MB, elapsed: 1351s
+[2025-12-19 05:50:32] BFS[enc]: 1,840,000 nodes (1356/s), 16,447,241 unsolved, queue: 1,270,224, depth: 11, ~420MB, elapsed: 1356s
+[2025-12-19 05:50:37] BFS[enc]: 1,850,000 nodes (1359/s), 16,521,527 unsolved, queue: 1,273,783, depth: 11, ~421MB, elapsed: 1362s
+[2025-12-19 05:50:42] BFS[enc]: 1,860,000 nodes (1361/s), 16,588,009 unsolved, queue: 1,275,297, depth: 11, ~423MB, elapsed: 1367s
+[2025-12-19 05:50:47] BFS[enc]: 1,870,000 nodes (1363/s), 16,659,615 unsolved, queue: 1,278,318, depth: 11, ~425MB, elapsed: 1372s
+[2025-12-19 05:50:52] BFS[enc]: 1,880,000 nodes (1366/s), 16,731,785 unsolved, queue: 1,280,412, depth: 11, ~427MB, elapsed: 1377s
+[2025-12-19 05:50:57] BFS[enc]: 1,890,000 nodes (1368/s), 16,808,613 unsolved, queue: 1,282,987, depth: 11, ~429MB, elapsed: 1382s
+[2025-12-19 05:51:02] BFS[enc]: 1,900,000 nodes (1370/s), 16,865,772 unsolved, queue: 1,284,744, depth: 11, ~430MB, elapsed: 1387s
+[2025-12-19 05:51:07] BFS[enc]: 1,910,000 nodes (1372/s), 16,932,751 unsolved, queue: 1,288,402, depth: 11, ~432MB, elapsed: 1392s
+[2025-12-19 05:51:13] BFS[enc]: 1,920,000 nodes (1374/s), 16,993,770 unsolved, queue: 1,289,453, depth: 11, ~433MB, elapsed: 1397s
+[2025-12-19 05:51:18] BFS[enc]: 1,930,000 nodes (1376/s), 17,067,255 unsolved, queue: 1,289,453, depth: 11, ~435MB, elapsed: 1402s
+[2025-12-19 05:51:23] BFS[enc]: 1,940,000 nodes (1379/s), 17,133,485 unsolved, queue: 1,292,095, depth: 11, ~437MB, elapsed: 1407s
+[2025-12-19 05:51:28] BFS[enc]: 1,950,000 nodes (1381/s), 17,193,362 unsolved, queue: 1,299,717, depth: 11, ~438MB, elapsed: 1412s
+[2025-12-19 05:51:33] BFS[enc]: 1,960,000 nodes (1383/s), 17,266,956 unsolved, queue: 1,306,953, depth: 11, ~440MB, elapsed: 1417s
+[2025-12-19 05:51:37] BFS[enc]: 1,970,000 nodes (1386/s), 17,329,806 unsolved, queue: 1,313,715, depth: 11, ~442MB, elapsed: 1422s
+[2025-12-19 05:51:42] BFS[enc]: 1,980,000 nodes (1388/s), 17,396,276 unsolved, queue: 1,320,456, depth: 11, ~443MB, elapsed: 1427s
+[2025-12-19 05:51:47] BFS[enc]: 1,990,000 nodes (1390/s), 17,468,953 unsolved, queue: 1,324,759, depth: 11, ~445MB, elapsed: 1431s
+[2025-12-19 05:51:52] BFS[enc]: 2,000,000 nodes (1393/s), 17,540,612 unsolved, queue: 1,330,734, depth: 11, ~447MB, elapsed: 1436s
+[2025-12-19 05:51:57] BFS[enc]: 2,010,000 nodes (1395/s), 17,615,933 unsolved, queue: 1,334,694, depth: 11, ~449MB, elapsed: 1441s
+[2025-12-19 05:52:01] BFS[enc]: 2,020,000 nodes (1397/s), 17,672,261 unsolved, queue: 1,338,481, depth: 12, ~451MB, elapsed: 1446s
+[2025-12-19 05:52:06] BFS[enc]: 2,030,000 nodes (1400/s), 17,729,170 unsolved, queue: 1,343,051, depth: 12, ~452MB, elapsed: 1450s
+[2025-12-19 05:52:11] BFS[enc]: 2,040,000 nodes (1402/s), 17,783,300 unsolved, queue: 1,350,416, depth: 12, ~453MB, elapsed: 1455s
+[2025-12-19 05:52:16] BFS[enc]: 2,050,000 nodes (1404/s), 17,844,689 unsolved, queue: 1,361,483, depth: 12, ~455MB, elapsed: 1460s
+[2025-12-19 05:52:21] BFS[enc]: 2,060,000 nodes (1406/s), 17,887,213 unsolved, queue: 1,363,776, depth: 12, ~456MB, elapsed: 1465s
+[2025-12-19 05:52:25] BFS[enc]: 2,070,000 nodes (1409/s), 17,931,918 unsolved, queue: 1,365,653, depth: 12, ~457MB, elapsed: 1469s
+[2025-12-19 05:52:30] BFS[enc]: 2,080,000 nodes (1411/s), 17,980,309 unsolved, queue: 1,364,572, depth: 12, ~459MB, elapsed: 1474s
+[2025-12-19 05:52:34] BFS[enc]: 2,090,000 nodes (1413/s), 18,028,640 unsolved, queue: 1,368,391, depth: 12, ~460MB, elapsed: 1479s
+[2025-12-19 05:52:39] BFS[enc]: 2,100,000 nodes (1416/s), 18,076,402 unsolved, queue: 1,369,897, depth: 12, ~461MB, elapsed: 1483s
+[2025-12-19 05:52:44] BFS[enc]: 2,110,000 nodes (1418/s), 18,137,890 unsolved, queue: 1,370,669, depth: 12, ~463MB, elapsed: 1489s
+[2025-12-19 05:52:49] BFS[enc]: 2,120,000 nodes (1420/s), 18,190,191 unsolved, queue: 1,367,675, depth: 12, ~464MB, elapsed: 1493s
+[2025-12-19 05:52:54] BFS[enc]: 2,130,000 nodes (1422/s), 18,247,514 unsolved, queue: 1,369,294, depth: 12, ~465MB, elapsed: 1498s
+[2025-12-19 05:55:43] Checkpoint saved: 18,273,067 positions to solver/unsolved_frontier.json
+[2025-12-19 05:55:46] BFS[enc]: 2,140,000 nodes (1281/s), 18,305,275 unsolved, queue: 1,372,619, depth: 12, ~467MB, elapsed: 1670s
+[2025-12-19 05:55:51] BFS[enc]: 2,150,000 nodes (1284/s), 18,358,903 unsolved, queue: 1,376,063, depth: 12, ~468MB, elapsed: 1675s
+[2025-12-19 05:55:56] BFS[enc]: 2,160,000 nodes (1286/s), 18,402,109 unsolved, queue: 1,378,214, depth: 12, ~469MB, elapsed: 1680s
+[2025-12-19 05:56:00] BFS[enc]: 2,170,000 nodes (1288/s), 18,444,794 unsolved, queue: 1,378,449, depth: 12, ~470MB, elapsed: 1685s
+[2025-12-19 05:56:05] BFS[enc]: 2,180,000 nodes (1291/s), 18,492,617 unsolved, queue: 1,380,148, depth: 12, ~471MB, elapsed: 1689s
+[2025-12-19 05:56:10] BFS[enc]: 2,190,000 nodes (1293/s), 18,536,692 unsolved, queue: 1,382,872, depth: 12, ~473MB, elapsed: 1694s
+[2025-12-19 05:56:14] BFS[enc]: 2,200,000 nodes (1295/s), 18,580,641 unsolved, queue: 1,384,785, depth: 12, ~474MB, elapsed: 1698s
+[2025-12-19 05:56:19] BFS[enc]: 2,210,000 nodes (1297/s), 18,630,048 unsolved, queue: 1,384,110, depth: 12, ~475MB, elapsed: 1703s
+[2025-12-19 05:56:24] BFS[enc]: 2,220,000 nodes (1300/s), 18,677,002 unsolved, queue: 1,386,280, depth: 12, ~476MB, elapsed: 1708s
+[2025-12-19 05:56:28] BFS[enc]: 2,230,000 nodes (1302/s), 18,730,316 unsolved, queue: 1,387,299, depth: 12, ~477MB, elapsed: 1713s
+[2025-12-19 05:56:33] BFS[enc]: 2,240,000 nodes (1304/s), 18,783,357 unsolved, queue: 1,390,645, depth: 12, ~479MB, elapsed: 1717s
+[2025-12-19 05:56:38] BFS[enc]: 2,250,000 nodes (1306/s), 18,842,995 unsolved, queue: 1,390,834, depth: 12, ~480MB, elapsed: 1722s
+[2025-12-19 05:56:43] BFS[enc]: 2,260,000 nodes (1309/s), 18,897,768 unsolved, queue: 1,397,555, depth: 12, ~482MB, elapsed: 1727s
+[2025-12-19 05:56:47] BFS[enc]: 2,270,000 nodes (1311/s), 18,951,764 unsolved, queue: 1,396,143, depth: 12, ~483MB, elapsed: 1732s
+[2025-12-19 05:56:52] BFS[enc]: 2,280,000 nodes (1313/s), 19,005,404 unsolved, queue: 1,400,602, depth: 12, ~484MB, elapsed: 1736s
+[2025-12-19 05:56:56] BFS[enc]: 2,290,000 nodes (1316/s), 19,067,650 unsolved, queue: 1,401,418, depth: 12, ~486MB, elapsed: 1741s
+[2025-12-19 05:57:01] BFS[enc]: 2,300,000 nodes (1318/s), 19,119,561 unsolved, queue: 1,402,810, depth: 12, ~487MB, elapsed: 1745s
+[2025-12-19 05:57:06] BFS[enc]: 2,310,000 nodes (1320/s), 19,173,290 unsolved, queue: 1,403,474, depth: 12, ~489MB, elapsed: 1750s
+[2025-12-19 05:57:11] BFS[enc]: 2,320,000 nodes (1322/s), 19,227,924 unsolved, queue: 1,405,561, depth: 12, ~490MB, elapsed: 1755s
+[2025-12-19 05:57:15] BFS[enc]: 2,330,000 nodes (1324/s), 19,278,356 unsolved, queue: 1,407,224, depth: 12, ~491MB, elapsed: 1760s
+[2025-12-19 05:57:20] BFS[enc]: 2,340,000 nodes (1326/s), 19,331,686 unsolved, queue: 1,406,890, depth: 12, ~493MB, elapsed: 1764s
+[2025-12-19 05:57:25] BFS[enc]: 2,350,000 nodes (1328/s), 19,384,742 unsolved, queue: 1,407,783, depth: 12, ~494MB, elapsed: 1769s
+[2025-12-19 05:57:29] BFS[enc]: 2,360,000 nodes (1331/s), 19,438,111 unsolved, queue: 1,409,615, depth: 12, ~495MB, elapsed: 1774s
+[2025-12-19 05:57:34] BFS[enc]: 2,370,000 nodes (1333/s), 19,482,461 unsolved, queue: 1,414,062, depth: 12, ~496MB, elapsed: 1778s
+[2025-12-19 05:57:39] BFS[enc]: 2,380,000 nodes (1335/s), 19,536,233 unsolved, queue: 1,415,089, depth: 12, ~498MB, elapsed: 1783s
+[2025-12-19 05:57:43] BFS[enc]: 2,390,000 nodes (1337/s), 19,595,225 unsolved, queue: 1,412,502, depth: 12, ~499MB, elapsed: 1788s
+[2025-12-19 05:57:48] BFS[enc]: 2,400,000 nodes (1339/s), 19,648,966 unsolved, queue: 1,415,326, depth: 12, ~500MB, elapsed: 1792s
+[2025-12-19 05:57:53] BFS[enc]: 2,410,000 nodes (1341/s), 19,698,251 unsolved, queue: 1,420,489, depth: 12, ~502MB, elapsed: 1797s
+[2025-12-19 06:01:12] Checkpoint saved: 19,726,091 positions to solver/unsolved_frontier.json
+[2025-12-19 06:01:13] BFS[enc]: 2,420,000 nodes (1211/s), 19,736,133 unsolved, queue: 1,421,546, depth: 12, ~503MB, elapsed: 1998s
+[2025-12-19 06:01:18] BFS[enc]: 2,430,000 nodes (1214/s), 19,772,465 unsolved, queue: 1,421,996, depth: 12, ~504MB, elapsed: 2002s
+[2025-12-19 06:01:22] BFS[enc]: 2,440,000 nodes (1216/s), 19,821,070 unsolved, queue: 1,426,174, depth: 12, ~505MB, elapsed: 2007s
+[2025-12-19 06:01:27] BFS[enc]: 2,450,000 nodes (1218/s), 19,873,819 unsolved, queue: 1,429,979, depth: 12, ~506MB, elapsed: 2012s
+[2025-12-19 06:01:32] BFS[enc]: 2,460,000 nodes (1220/s), 19,924,256 unsolved, queue: 1,428,381, depth: 12, ~507MB, elapsed: 2016s
+[2025-12-19 06:01:37] BFS[enc]: 2,470,000 nodes (1222/s), 19,977,071 unsolved, queue: 1,427,879, depth: 12, ~509MB, elapsed: 2021s
+[2025-12-19 06:01:41] BFS[enc]: 2,480,000 nodes (1224/s), 20,024,959 unsolved, queue: 1,430,146, depth: 12, ~510MB, elapsed: 2026s
+[2025-12-19 06:01:46] BFS[enc]: 2,490,000 nodes (1226/s), 20,070,177 unsolved, queue: 1,432,563, depth: 12, ~511MB, elapsed: 2030s
+[2025-12-19 06:01:51] BFS[enc]: 2,500,000 nodes (1229/s), 20,116,166 unsolved, queue: 1,434,532, depth: 12, ~512MB, elapsed: 2035s
+[2025-12-19 06:01:55] BFS[enc]: 2,510,000 nodes (1231/s), 20,161,777 unsolved, queue: 1,437,388, depth: 12, ~514MB, elapsed: 2039s
+[2025-12-19 06:02:00] BFS[enc]: 2,520,000 nodes (1233/s), 20,217,478 unsolved, queue: 1,436,758, depth: 12, ~515MB, elapsed: 2044s
+[2025-12-19 06:02:04] BFS[enc]: 2,530,000 nodes (1235/s), 20,267,284 unsolved, queue: 1,443,587, depth: 12, ~516MB, elapsed: 2049s
+[2025-12-19 06:02:09] BFS[enc]: 2,540,000 nodes (1237/s), 20,311,280 unsolved, queue: 1,445,104, depth: 12, ~517MB, elapsed: 2053s
+[2025-12-19 06:02:14] BFS[enc]: 2,550,000 nodes (1239/s), 20,353,976 unsolved, queue: 1,444,086, depth: 12, ~518MB, elapsed: 2058s
+[2025-12-19 06:02:18] BFS[enc]: 2,560,000 nodes (1241/s), 20,404,069 unsolved, queue: 1,442,990, depth: 12, ~520MB, elapsed: 2062s
+[2025-12-19 06:02:23] BFS[enc]: 2,570,000 nodes (1243/s), 20,455,920 unsolved, queue: 1,446,625, depth: 12, ~521MB, elapsed: 2067s
+[2025-12-19 06:02:28] BFS[enc]: 2,580,000 nodes (1245/s), 20,510,524 unsolved, queue: 1,447,711, depth: 12, ~522MB, elapsed: 2072s
+[2025-12-19 06:02:32] BFS[enc]: 2,590,000 nodes (1247/s), 20,562,775 unsolved, queue: 1,449,713, depth: 12, ~524MB, elapsed: 2077s
+[2025-12-19 06:02:37] BFS[enc]: 2,600,000 nodes (1249/s), 20,620,036 unsolved, queue: 1,453,205, depth: 12, ~525MB, elapsed: 2081s
+[2025-12-19 06:02:42] BFS[enc]: 2,610,000 nodes (1251/s), 20,670,496 unsolved, queue: 1,455,732, depth: 12, ~526MB, elapsed: 2086s
+[2025-12-19 06:02:47] BFS[enc]: 2,620,000 nodes (1253/s), 20,730,523 unsolved, queue: 1,456,998, depth: 12, ~528MB, elapsed: 2091s
+[2025-12-19 06:02:51] BFS[enc]: 2,630,000 nodes (1255/s), 20,781,483 unsolved, queue: 1,456,741, depth: 12, ~529MB, elapsed: 2095s
+[2025-12-19 06:06:19] Checkpoint saved: 20,845,146 positions to solver/unsolved_frontier.json
+[2025-12-19 06:06:19] BFS[enc]: 2,640,000 nodes (1146/s), 20,845,685 unsolved, queue: 1,458,343, depth: 12, ~531MB, elapsed: 2303s
+[2025-12-19 06:06:24] BFS[enc]: 2,650,000 nodes (1148/s), 20,903,186 unsolved, queue: 1,459,066, depth: 12, ~532MB, elapsed: 2308s
+[2025-12-19 06:06:29] BFS[enc]: 2,660,000 nodes (1150/s), 20,964,746 unsolved, queue: 1,461,443, depth: 12, ~534MB, elapsed: 2313s
+[2025-12-19 06:06:33] BFS[enc]: 2,670,000 nodes (1152/s), 21,009,606 unsolved, queue: 1,458,961, depth: 12, ~535MB, elapsed: 2318s
+[2025-12-19 06:06:38] BFS[enc]: 2,680,000 nodes (1154/s), 21,063,816 unsolved, queue: 1,457,535, depth: 12, ~536MB, elapsed: 2323s
+[2025-12-19 06:06:43] BFS[enc]: 2,690,000 nodes (1156/s), 21,114,120 unsolved, queue: 1,461,668, depth: 12, ~537MB, elapsed: 2327s
+[2025-12-19 06:06:47] BFS[enc]: 2,700,000 nodes (1158/s), 21,156,117 unsolved, queue: 1,465,270, depth: 12, ~538MB, elapsed: 2332s
+[2025-12-19 06:06:52] BFS[enc]: 2,710,000 nodes (1160/s), 21,201,463 unsolved, queue: 1,468,360, depth: 12, ~540MB, elapsed: 2336s
+[2025-12-19 06:06:57] BFS[enc]: 2,720,000 nodes (1162/s), 21,255,233 unsolved, queue: 1,469,694, depth: 12, ~541MB, elapsed: 2341s
+[2025-12-19 06:07:01] BFS[enc]: 2,730,000 nodes (1164/s), 21,313,516 unsolved, queue: 1,468,697, depth: 12, ~542MB, elapsed: 2346s
+[2025-12-19 06:07:06] BFS[enc]: 2,740,000 nodes (1166/s), 21,372,076 unsolved, queue: 1,471,700, depth: 12, ~544MB, elapsed: 2350s
+[2025-12-19 06:07:11] BFS[enc]: 2,750,000 nodes (1168/s), 21,422,841 unsolved, queue: 1,474,391, depth: 12, ~545MB, elapsed: 2355s
+[2025-12-19 06:07:15] BFS[enc]: 2,760,000 nodes (1170/s), 21,481,195 unsolved, queue: 1,473,983, depth: 12, ~546MB, elapsed: 2359s
+[2025-12-19 06:07:20] BFS[enc]: 2,770,000 nodes (1172/s), 21,535,492 unsolved, queue: 1,476,216, depth: 12, ~548MB, elapsed: 2364s
+[2025-12-19 06:07:24] BFS[enc]: 2,780,000 nodes (1174/s), 21,576,284 unsolved, queue: 1,477,423, depth: 12, ~549MB, elapsed: 2369s
+[2025-12-19 06:07:29] BFS[enc]: 2,790,000 nodes (1176/s), 21,622,859 unsolved, queue: 1,475,762, depth: 12, ~550MB, elapsed: 2373s
+[2025-12-19 06:07:33] BFS[enc]: 2,800,000 nodes (1178/s), 21,670,395 unsolved, queue: 1,474,834, depth: 12, ~551MB, elapsed: 2378s
+[2025-12-19 06:07:38] BFS[enc]: 2,810,000 nodes (1180/s), 21,722,817 unsolved, queue: 1,475,299, depth: 12, ~552MB, elapsed: 2382s
+[2025-12-19 06:07:43] BFS[enc]: 2,820,000 nodes (1181/s), 21,769,401 unsolved, queue: 1,475,188, depth: 12, ~554MB, elapsed: 2387s
+[2025-12-19 06:07:47] BFS[enc]: 2,830,000 nodes (1183/s), 21,826,069 unsolved, queue: 1,472,226, depth: 12, ~555MB, elapsed: 2391s
+[2025-12-19 06:07:52] BFS[enc]: 2,840,000 nodes (1185/s), 21,873,302 unsolved, queue: 1,473,317, depth: 12, ~556MB, elapsed: 2396s
+[2025-12-19 06:11:43] Checkpoint saved: 21,924,381 positions to solver/unsolved_frontier.json
+[2025-12-19 06:11:44] BFS[enc]: 2,850,000 nodes (1084/s), 21,931,519 unsolved, queue: 1,474,076, depth: 12, ~557MB, elapsed: 2628s
+[2025-12-19 06:11:48] BFS[enc]: 2,860,000 nodes (1086/s), 21,983,912 unsolved, queue: 1,475,963, depth: 12, ~559MB, elapsed: 2633s
+[2025-12-19 06:11:53] BFS[enc]: 2,870,000 nodes (1088/s), 22,058,232 unsolved, queue: 1,476,177, depth: 12, ~561MB, elapsed: 2638s
+[2025-12-19 06:11:58] BFS[enc]: 2,880,000 nodes (1090/s), 22,104,126 unsolved, queue: 1,473,540, depth: 12, ~562MB, elapsed: 2642s
+[2025-12-19 06:12:03] BFS[enc]: 2,890,000 nodes (1092/s), 22,149,808 unsolved, queue: 1,471,699, depth: 12, ~563MB, elapsed: 2647s
+[2025-12-19 06:12:07] BFS[enc]: 2,900,000 nodes (1094/s), 22,203,414 unsolved, queue: 1,468,122, depth: 12, ~564MB, elapsed: 2652s
+[2025-12-19 06:12:12] BFS[enc]: 2,910,000 nodes (1096/s), 22,254,899 unsolved, queue: 1,468,660, depth: 12, ~565MB, elapsed: 2656s
+[2025-12-19 06:12:16] BFS[enc]: 2,920,000 nodes (1098/s), 22,308,086 unsolved, queue: 1,472,799, depth: 12, ~567MB, elapsed: 2660s
+[2025-12-19 06:12:21] BFS[enc]: 2,930,000 nodes (1099/s), 22,364,110 unsolved, queue: 1,474,159, depth: 12, ~568MB, elapsed: 2665s
+[2025-12-19 06:12:26] BFS[enc]: 2,940,000 nodes (1101/s), 22,419,903 unsolved, queue: 1,472,624, depth: 12, ~569MB, elapsed: 2670s
+[2025-12-19 06:12:31] BFS[enc]: 2,950,000 nodes (1103/s), 22,470,052 unsolved, queue: 1,472,772, depth: 12, ~571MB, elapsed: 2675s
+[2025-12-19 06:12:35] BFS[enc]: 2,960,000 nodes (1105/s), 22,523,260 unsolved, queue: 1,468,874, depth: 12, ~572MB, elapsed: 2679s
+[2025-12-19 06:12:40] BFS[enc]: 2,970,000 nodes (1107/s), 22,575,609 unsolved, queue: 1,466,978, depth: 12, ~573MB, elapsed: 2684s
+[2025-12-19 06:12:44] BFS[enc]: 2,980,000 nodes (1109/s), 22,630,382 unsolved, queue: 1,467,623, depth: 12, ~574MB, elapsed: 2688s
+[2025-12-19 06:12:49] BFS[enc]: 2,990,000 nodes (1110/s), 22,683,269 unsolved, queue: 1,466,926, depth: 12, ~576MB, elapsed: 2693s
+[2025-12-19 06:12:53] BFS[enc]: 3,000,000 nodes (1112/s), 22,725,951 unsolved, queue: 1,465,638, depth: 12, ~577MB, elapsed: 2697s
+[2025-12-19 06:16:56] Checkpoint saved: 22,748,202 positions to solver/unsolved_frontier.json
+[2025-12-19 06:16:58] BFS[enc]: 3,010,000 nodes (1023/s), 22,767,028 unsolved, queue: 1,465,742, depth: 12, ~578MB, elapsed: 2943s
+[2025-12-19 06:17:03] BFS[enc]: 3,020,000 nodes (1025/s), 22,817,822 unsolved, queue: 1,465,199, depth: 12, ~579MB, elapsed: 2947s
+[2025-12-19 06:17:07] BFS[enc]: 3,030,000 nodes (1027/s), 22,859,104 unsolved, queue: 1,460,462, depth: 12, ~580MB, elapsed: 2952s
+[2025-12-19 06:17:12] BFS[enc]: 3,040,000 nodes (1028/s), 22,909,479 unsolved, queue: 1,459,890, depth: 12, ~581MB, elapsed: 2956s
+[2025-12-19 06:17:17] BFS[enc]: 3,050,000 nodes (1030/s), 22,955,974 unsolved, queue: 1,459,902, depth: 12, ~582MB, elapsed: 2961s
+[2025-12-19 06:17:21] BFS[enc]: 3,060,000 nodes (1032/s), 23,004,001 unsolved, queue: 1,457,283, depth: 12, ~583MB, elapsed: 2965s
+[2025-12-19 06:17:26] BFS[enc]: 3,070,000 nodes (1034/s), 23,050,878 unsolved, queue: 1,452,934, depth: 12, ~584MB, elapsed: 2970s
+[2025-12-19 06:17:30] BFS[enc]: 3,080,000 nodes (1035/s), 23,096,096 unsolved, queue: 1,449,342, depth: 12, ~585MB, elapsed: 2975s
+[2025-12-19 06:17:35] BFS[enc]: 3,090,000 nodes (1037/s), 23,150,286 unsolved, queue: 1,452,819, depth: 12, ~587MB, elapsed: 2979s
+[2025-12-19 06:17:40] BFS[enc]: 3,100,000 nodes (1039/s), 23,207,360 unsolved, queue: 1,451,338, depth: 12, ~588MB, elapsed: 2984s
+[2025-12-19 06:17:44] BFS[enc]: 3,110,000 nodes (1041/s), 23,262,741 unsolved, queue: 1,452,713, depth: 12, ~589MB, elapsed: 2988s
+[2025-12-19 06:17:49] BFS[enc]: 3,120,000 nodes (1042/s), 23,319,203 unsolved, queue: 1,453,707, depth: 12, ~591MB, elapsed: 2993s
+[2025-12-19 06:17:53] BFS[enc]: 3,130,000 nodes (1044/s), 23,376,137 unsolved, queue: 1,452,504, depth: 12, ~592MB, elapsed: 2998s
+[2025-12-19 06:22:07] Checkpoint saved: 23,401,111 positions to solver/unsolved_frontier.json
+[2025-12-19 06:22:09] BFS[enc]: 3,140,000 nodes (965/s), 23,426,827 unsolved, queue: 1,449,241, depth: 12, ~593MB, elapsed: 3253s
+[2025-12-19 06:22:14] BFS[enc]: 3,150,000 nodes (967/s), 23,476,626 unsolved, queue: 1,449,476, depth: 12, ~595MB, elapsed: 3258s
+[2025-12-19 06:22:18] BFS[enc]: 3,160,000 nodes (969/s), 23,526,039 unsolved, queue: 1,448,298, depth: 12, ~596MB, elapsed: 3262s
+[2025-12-19 06:22:23] BFS[enc]: 3,170,000 nodes (970/s), 23,582,210 unsolved, queue: 1,447,219, depth: 12, ~597MB, elapsed: 3267s
+[2025-12-19 06:22:27] BFS[enc]: 3,180,000 nodes (972/s), 23,626,572 unsolved, queue: 1,444,485, depth: 12, ~598MB, elapsed: 3271s
+[2025-12-19 06:22:32] BFS[enc]: 3,190,000 nodes (974/s), 23,671,896 unsolved, queue: 1,441,627, depth: 12, ~599MB, elapsed: 3276s
+[2025-12-19 06:22:36] BFS[enc]: 3,200,000 nodes (976/s), 23,718,190 unsolved, queue: 1,437,716, depth: 12, ~600MB, elapsed: 3280s
+[2025-12-19 06:22:40] BFS[enc]: 3,210,000 nodes (977/s), 23,762,253 unsolved, queue: 1,433,410, depth: 12, ~601MB, elapsed: 3285s
+[2025-12-19 06:22:45] BFS[enc]: 3,220,000 nodes (979/s), 23,815,656 unsolved, queue: 1,431,313, depth: 12, ~602MB, elapsed: 3289s
+[2025-12-19 06:22:49] BFS[enc]: 3,230,000 nodes (981/s), 23,861,476 unsolved, queue: 1,431,020, depth: 12, ~604MB, elapsed: 3294s
+[2025-12-19 06:22:54] BFS[enc]: 3,240,000 nodes (982/s), 23,911,647 unsolved, queue: 1,427,588, depth: 12, ~605MB, elapsed: 3298s
+[2025-12-19 06:27:13] Checkpoint saved: 23,930,185 positions to solver/unsolved_frontier.json
+[2025-12-19 06:27:16] BFS[enc]: 3,250,000 nodes (913/s), 23,957,102 unsolved, queue: 1,423,850, depth: 12, ~606MB, elapsed: 3560s
+[2025-12-19 06:27:21] BFS[enc]: 3,260,000 nodes (914/s), 24,014,358 unsolved, queue: 1,422,686, depth: 12, ~607MB, elapsed: 3565s
+[2025-12-19 06:27:25] BFS[enc]: 3,270,000 nodes (916/s), 24,065,345 unsolved, queue: 1,421,126, depth: 12, ~608MB, elapsed: 3569s
+[2025-12-19 06:27:30] BFS[enc]: 3,280,000 nodes (918/s), 24,113,450 unsolved, queue: 1,417,217, depth: 12, ~609MB, elapsed: 3574s
+[2025-12-19 06:27:34] BFS[enc]: 3,290,000 nodes (919/s), 24,157,011 unsolved, queue: 1,412,557, depth: 12, ~610MB, elapsed: 3578s
+[2025-12-19 06:27:39] BFS[enc]: 3,300,000 nodes (921/s), 24,209,774 unsolved, queue: 1,408,552, depth: 12, ~612MB, elapsed: 3583s
+[2025-12-19 06:27:43] BFS[enc]: 3,310,000 nodes (923/s), 24,264,161 unsolved, queue: 1,405,914, depth: 12, ~613MB, elapsed: 3587s
+[2025-12-19 06:27:48] BFS[enc]: 3,320,000 nodes (924/s), 24,315,903 unsolved, queue: 1,400,869, depth: 12, ~614MB, elapsed: 3592s
+[2025-12-19 06:27:52] BFS[enc]: 3,330,000 nodes (926/s), 24,373,131 unsolved, queue: 1,397,050, depth: 12, ~615MB, elapsed: 3597s
+[2025-12-19 06:32:22] Checkpoint saved: 24,415,844 positions to solver/unsolved_frontier.json
+[2025-12-19 06:32:24] BFS[enc]: 3,340,000 nodes (864/s), 24,431,736 unsolved, queue: 1,393,893, depth: 12, ~617MB, elapsed: 3868s
+[2025-12-19 06:32:28] BFS[enc]: 3,350,000 nodes (865/s), 24,485,744 unsolved, queue: 1,391,196, depth: 13, ~618MB, elapsed: 3872s
+[2025-12-19 06:32:33] BFS[enc]: 3,360,000 nodes (867/s), 24,531,170 unsolved, queue: 1,389,363, depth: 13, ~619MB, elapsed: 3877s
+[2025-12-19 06:32:37] BFS[enc]: 3,370,000 nodes (868/s), 24,571,357 unsolved, queue: 1,387,452, depth: 13, ~620MB, elapsed: 3882s
+[2025-12-19 06:32:42] BFS[enc]: 3,380,000 nodes (870/s), 24,613,887 unsolved, queue: 1,386,483, depth: 13, ~621MB, elapsed: 3886s
+[2025-12-19 06:32:47] BFS[enc]: 3,390,000 nodes (871/s), 24,649,601 unsolved, queue: 1,384,481, depth: 13, ~622MB, elapsed: 3891s
+[2025-12-19 06:32:51] BFS[enc]: 3,400,000 nodes (873/s), 24,683,083 unsolved, queue: 1,383,591, depth: 13, ~623MB, elapsed: 3896s
+[2025-12-19 06:37:12] Checkpoint saved: 24,714,205 positions to solver/unsolved_frontier.json
+[2025-12-19 06:37:12] BFS[enc]: 3,410,000 nodes (820/s), 24,715,336 unsolved, queue: 1,382,458, depth: 13, ~623MB, elapsed: 4157s
+[2025-12-19 06:37:17] BFS[enc]: 3,420,000 nodes (822/s), 24,750,728 unsolved, queue: 1,379,783, depth: 13, ~624MB, elapsed: 4161s
+[2025-12-19 06:37:21] BFS[enc]: 3,430,000 nodes (823/s), 24,787,682 unsolved, queue: 1,377,899, depth: 13, ~625MB, elapsed: 4166s
+[2025-12-19 06:37:26] BFS[enc]: 3,440,000 nodes (825/s), 24,834,309 unsolved, queue: 1,374,788, depth: 13, ~626MB, elapsed: 4171s
+[2025-12-19 06:37:31] BFS[enc]: 3,450,000 nodes (826/s), 24,874,984 unsolved, queue: 1,371,942, depth: 13, ~627MB, elapsed: 4175s
+[2025-12-19 06:37:36] BFS[enc]: 3,460,000 nodes (828/s), 24,915,774 unsolved, queue: 1,367,774, depth: 13, ~628MB, elapsed: 4180s
+[2025-12-19 06:37:40] BFS[enc]: 3,470,000 nodes (829/s), 24,958,079 unsolved, queue: 1,366,944, depth: 13, ~629MB, elapsed: 4184s
+[2025-12-19 06:37:45] BFS[enc]: 3,480,000 nodes (831/s), 24,998,422 unsolved, queue: 1,370,850, depth: 13, ~630MB, elapsed: 4189s
+[2025-12-19 06:37:49] BFS[enc]: 3,490,000 nodes (832/s), 25,053,616 unsolved, queue: 1,373,945, depth: 13, ~632MB, elapsed: 4193s
+[2025-12-19 06:37:54] BFS[enc]: 3,500,000 nodes (834/s), 25,100,820 unsolved, queue: 1,372,849, depth: 13, ~633MB, elapsed: 4198s
+[2025-12-19 06:42:34] Checkpoint saved: 25,120,268 positions to solver/unsolved_frontier.json
+[2025-12-19 06:42:37] BFS[enc]: 3,510,000 nodes (783/s), 25,151,334 unsolved, queue: 1,371,303, depth: 13, ~634MB, elapsed: 4482s
+[2025-12-19 06:42:42] BFS[enc]: 3,520,000 nodes (785/s), 25,194,630 unsolved, queue: 1,370,196, depth: 13, ~635MB, elapsed: 4486s
+[2025-12-19 06:42:47] BFS[enc]: 3,530,000 nodes (786/s), 25,234,182 unsolved, queue: 1,368,744, depth: 13, ~636MB, elapsed: 4491s
+[2025-12-19 06:42:51] BFS[enc]: 3,540,000 nodes (787/s), 25,272,639 unsolved, queue: 1,366,023, depth: 13, ~637MB, elapsed: 4496s
+[2025-12-19 06:47:35] Checkpoint saved: 25,308,558 positions to solver/unsolved_frontier.json
+[2025-12-19 06:47:35] BFS[enc]: 3,550,000 nodes (743/s), 25,309,443 unsolved, queue: 1,362,605, depth: 13, ~638MB, elapsed: 4779s
+[2025-12-19 06:47:40] BFS[enc]: 3,560,000 nodes (744/s), 25,361,517 unsolved, queue: 1,359,459, depth: 13, ~639MB, elapsed: 4784s
+[2025-12-19 06:47:45] BFS[enc]: 3,570,000 nodes (745/s), 25,414,900 unsolved, queue: 1,354,955, depth: 13, ~640MB, elapsed: 4789s
+[2025-12-19 06:47:49] BFS[enc]: 3,580,000 nodes (747/s), 25,465,602 unsolved, queue: 1,351,959, depth: 13, ~641MB, elapsed: 4794s
+[2025-12-19 06:47:54] BFS[enc]: 3,590,000 nodes (748/s), 25,513,336 unsolved, queue: 1,348,719, depth: 13, ~642MB, elapsed: 4798s
+[2025-12-19 06:52:41] Checkpoint saved: 25,529,825 positions to solver/unsolved_frontier.json
+[2025-12-19 06:52:44] BFS[enc]: 3,600,000 nodes (708/s), 25,558,022 unsolved, queue: 1,346,038, depth: 13, ~643MB, elapsed: 5088s
+[2025-12-19 06:52:49] BFS[enc]: 3,610,000 nodes (709/s), 25,606,957 unsolved, queue: 1,342,910, depth: 13, ~644MB, elapsed: 5093s
+[2025-12-19 06:52:53] BFS[enc]: 3,620,000 nodes (710/s), 25,648,054 unsolved, queue: 1,342,790, depth: 13, ~645MB, elapsed: 5097s
+[2025-12-19 06:57:44] Checkpoint saved: 25,669,029 positions to solver/unsolved_frontier.json
+[2025-12-19 06:57:46] BFS[enc]: 3,630,000 nodes (673/s), 25,688,929 unsolved, queue: 1,343,919, depth: 13, ~646MB, elapsed: 5390s
+[2025-12-19 06:57:50] BFS[enc]: 3,640,000 nodes (675/s), 25,743,123 unsolved, queue: 1,344,086, depth: 13, ~648MB, elapsed: 5395s
+[2025-12-19 06:57:55] BFS[enc]: 3,650,000 nodes (676/s), 25,788,199 unsolved, queue: 1,342,672, depth: 13, ~649MB, elapsed: 5399s
+[2025-12-19 07:02:45] Checkpoint saved: 25,792,680 positions to solver/unsolved_frontier.json
+[2025-12-19 07:02:49] BFS[enc]: 3,660,000 nodes (643/s), 25,831,293 unsolved, queue: 1,340,913, depth: 13, ~650MB, elapsed: 5694s
+[2025-12-19 07:02:54] BFS[enc]: 3,670,000 nodes (644/s), 25,885,706 unsolved, queue: 1,342,269, depth: 13, ~651MB, elapsed: 5698s
+[2025-12-19 07:07:48] Checkpoint saved: 25,907,194 positions to solver/unsolved_frontier.json
+[2025-12-19 07:07:50] BFS[enc]: 3,680,000 nodes (614/s), 25,937,561 unsolved, queue: 1,337,583, depth: 13, ~652MB, elapsed: 5995s
+[2025-12-19 07:07:55] BFS[enc]: 3,690,000 nodes (615/s), 25,983,131 unsolved, queue: 1,338,432, depth: 13, ~653MB, elapsed: 5999s
+[2025-12-19 07:12:38] Checkpoint saved: 25,995,179 positions to solver/unsolved_frontier.json
+[2025-12-19 07:12:41] BFS[enc]: 3,700,000 nodes (589/s), 26,024,768 unsolved, queue: 1,338,135, depth: 13, ~655MB, elapsed: 6286s
+[2025-12-19 07:12:46] BFS[enc]: 3,710,000 nodes (590/s), 26,066,993 unsolved, queue: 1,338,139, depth: 13, ~656MB, elapsed: 6290s
+[2025-12-19 07:12:51] BFS[enc]: 3,720,000 nodes (591/s), 26,106,876 unsolved, queue: 1,334,877, depth: 13, ~656MB, elapsed: 6295s
+[2025-12-19 07:12:55] BFS[enc]: 3,730,000 nodes (592/s), 26,149,427 unsolved, queue: 1,335,697, depth: 13, ~658MB, elapsed: 6299s
+[2025-12-19 07:17:51] Checkpoint saved: 26,155,287 positions to solver/unsolved_frontier.json
+[2025-12-19 07:17:55] BFS[enc]: 3,740,000 nodes (567/s), 26,186,911 unsolved, queue: 1,333,565, depth: 13, ~658MB, elapsed: 6599s
+[2025-12-19 07:22:52] Checkpoint saved: 26,197,212 positions to solver/unsolved_frontier.json
+[2025-12-19 07:27:48] Checkpoint saved: 26,227,305 positions to solver/unsolved_frontier.json
+[2025-12-19 07:27:49] BFS[enc]: 3,750,000 nodes (521/s), 26,228,286 unsolved, queue: 1,331,417, depth: 13, ~659MB, elapsed: 7193s
+[2025-12-19 07:27:53] BFS[enc]: 3,760,000 nodes (522/s), 26,271,644 unsolved, queue: 1,330,997, depth: 13, ~660MB, elapsed: 7197s
+[2025-12-19 07:32:55] Checkpoint saved: 26,299,699 positions to solver/unsolved_frontier.json
+[2025-12-19 07:37:47] Checkpoint saved: 26,309,744 positions to solver/unsolved_frontier.json
+[2025-12-19 07:37:48] BFS[enc]: 3,770,000 nodes (484/s), 26,315,223 unsolved, queue: 1,328,060, depth: 13, ~661MB, elapsed: 7792s
+[2025-12-19 07:37:53] BFS[enc]: 3,780,000 nodes (485/s), 26,357,262 unsolved, queue: 1,322,899, depth: 13, ~662MB, elapsed: 7797s
+[2025-12-19 07:42:51] Checkpoint saved: 26,385,529 positions to solver/unsolved_frontier.json
+[2025-12-19 07:42:53] BFS[enc]: 3,790,000 nodes (468/s), 26,404,114 unsolved, queue: 1,320,272, depth: 13, ~663MB, elapsed: 8097s
+[2025-12-19 07:47:56] Checkpoint saved: 26,431,910 positions to solver/unsolved_frontier.json
+[2025-12-19 07:52:42] Checkpoint saved: 26,431,910 positions to solver/unsolved_frontier.json
+[2025-12-19 07:52:44] BFS[enc]: 3,800,000 nodes (437/s), 26,455,343 unsolved, queue: 1,320,870, depth: 13, ~665MB, elapsed: 8688s
+[2025-12-19 07:52:48] BFS[enc]: 3,810,000 nodes (438/s), 26,504,715 unsolved, queue: 1,319,763, depth: 13, ~666MB, elapsed: 8693s
+[2025-12-19 07:52:53] BFS[enc]: 3,820,000 nodes (439/s), 26,546,988 unsolved, queue: 1,316,956, depth: 13, ~667MB, elapsed: 8697s
+[2025-12-19 07:57:59] Checkpoint saved: 26,579,524 positions to solver/unsolved_frontier.json
+[2025-12-19 08:02:52] Checkpoint saved: 26,579,540 positions to solver/unsolved_frontier.json
+[2025-12-19 08:02:53] BFS[enc]: 3,830,000 nodes (412/s), 26,591,496 unsolved, queue: 1,313,725, depth: 13, ~668MB, elapsed: 9298s
+[2025-12-19 08:02:58] BFS[enc]: 3,840,000 nodes (413/s), 26,629,326 unsolved, queue: 1,307,815, depth: 13, ~669MB, elapsed: 9302s
+[2025-12-19 08:07:50] Checkpoint saved: 26,640,387 positions to solver/unsolved_frontier.json
+[2025-12-19 08:07:53] BFS[enc]: 3,850,000 nodes (401/s), 26,665,808 unsolved, queue: 1,302,611, depth: 13, ~670MB, elapsed: 9597s
+[2025-12-19 08:07:57] BFS[enc]: 3,860,000 nodes (402/s), 26,707,362 unsolved, queue: 1,297,402, depth: 13, ~670MB, elapsed: 9602s
+[2025-12-19 08:13:05] Checkpoint saved: 26,728,366 positions to solver/unsolved_frontier.json
+[2025-12-19 08:18:11] Checkpoint saved: 26,728,371 positions to solver/unsolved_frontier.json
+[2025-12-19 08:23:15] Checkpoint saved: 26,728,376 positions to solver/unsolved_frontier.json
+[2025-12-19 08:28:20] Checkpoint saved: 26,728,380 positions to solver/unsolved_frontier.json
+[2025-12-19 08:33:26] Checkpoint saved: 26,728,382 positions to solver/unsolved_frontier.json
+[2025-12-19 08:38:31] Checkpoint saved: 26,728,385 positions to solver/unsolved_frontier.json
+[2025-12-19 08:43:36] Checkpoint saved: 26,728,387 positions to solver/unsolved_frontier.json
+[2025-12-19 08:48:44] Checkpoint saved: 26,728,394 positions to solver/unsolved_frontier.json
+[2025-12-19 08:53:48] Checkpoint saved: 26,728,397 positions to solver/unsolved_frontier.json
+[2025-12-19 08:58:53] Checkpoint saved: 26,728,400 positions to solver/unsolved_frontier.json
+[2025-12-19 09:03:59] Checkpoint saved: 26,728,410 positions to solver/unsolved_frontier.json
+[2025-12-19 09:09:04] Checkpoint saved: 26,728,414 positions to solver/unsolved_frontier.json
+[2025-12-19 09:14:09] Checkpoint saved: 26,728,424 positions to solver/unsolved_frontier.json
+[2025-12-19 09:19:13] Checkpoint saved: 26,728,436 positions to solver/unsolved_frontier.json
+[2025-12-19 09:24:19] Checkpoint saved: 26,728,441 positions to solver/unsolved_frontier.json
+[2025-12-19 09:29:24] Checkpoint saved: 26,728,450 positions to solver/unsolved_frontier.json
+[2025-12-19 09:34:30] Checkpoint saved: 26,728,458 positions to solver/unsolved_frontier.json
+[2025-12-19 09:39:37] Checkpoint saved: 26,728,464 positions to solver/unsolved_frontier.json
+[2025-12-19 09:44:41] Checkpoint saved: 26,728,464 positions to solver/unsolved_frontier.json
+[2025-12-19 09:49:46] Checkpoint saved: 26,728,473 positions to solver/unsolved_frontier.json
+[2025-12-19 09:54:51] Checkpoint saved: 26,728,483 positions to solver/unsolved_frontier.json
+[2025-12-19 09:59:57] Checkpoint saved: 26,728,487 positions to solver/unsolved_frontier.json
+[2025-12-19 10:05:02] Checkpoint saved: 26,728,495 positions to solver/unsolved_frontier.json
+[2025-12-19 10:10:06] Checkpoint saved: 26,728,499 positions to solver/unsolved_frontier.json
+[2025-12-19 10:15:12] Checkpoint saved: 26,728,509 positions to solver/unsolved_frontier.json
+[2025-12-19 10:20:18] Checkpoint saved: 26,728,517 positions to solver/unsolved_frontier.json
+[2025-12-19 10:25:23] Checkpoint saved: 26,728,523 positions to solver/unsolved_frontier.json
+[2025-12-19 10:30:29] Checkpoint saved: 26,728,528 positions to solver/unsolved_frontier.json
+[2025-12-19 10:35:35] Checkpoint saved: 26,728,535 positions to solver/unsolved_frontier.json
+[2025-12-19 10:40:41] Checkpoint saved: 26,728,545 positions to solver/unsolved_frontier.json
+[2025-12-19 10:45:45] Checkpoint saved: 26,728,557 positions to solver/unsolved_frontier.json
+[2025-12-19 10:50:50] Checkpoint saved: 26,728,568 positions to solver/unsolved_frontier.json
+[2025-12-19 10:55:56] Checkpoint saved: 26,728,575 positions to solver/unsolved_frontier.json
+[2025-12-19 11:01:02] Checkpoint saved: 26,728,585 positions to solver/unsolved_frontier.json
+[2025-12-19 11:06:07] Checkpoint saved: 26,728,591 positions to solver/unsolved_frontier.json
+[2025-12-19 11:11:12] Checkpoint saved: 26,728,598 positions to solver/unsolved_frontier.json
+[2025-12-19 11:16:20] Checkpoint saved: 26,728,601 positions to solver/unsolved_frontier.json
+[2025-12-19 11:21:26] Checkpoint saved: 26,728,610 positions to solver/unsolved_frontier.json
+[2025-12-19 11:26:31] Checkpoint saved: 26,728,616 positions to solver/unsolved_frontier.json
+[2025-12-19 11:31:37] Checkpoint saved: 26,728,616 positions to solver/unsolved_frontier.json
+[2025-12-19 11:36:43] Checkpoint saved: 26,728,623 positions to solver/unsolved_frontier.json
+[2025-12-19 11:41:48] Checkpoint saved: 26,728,628 positions to solver/unsolved_frontier.json
+[2025-12-19 11:46:53] Checkpoint saved: 26,728,635 positions to solver/unsolved_frontier.json
+[2025-12-19 11:51:59] Checkpoint saved: 26,728,641 positions to solver/unsolved_frontier.json
+[2025-12-19 11:57:05] Checkpoint saved: 26,728,650 positions to solver/unsolved_frontier.json
+[2025-12-19 12:02:10] Checkpoint saved: 26,728,657 positions to solver/unsolved_frontier.json
+[2025-12-19 12:07:15] Checkpoint saved: 26,728,664 positions to solver/unsolved_frontier.json
+[2025-12-19 12:12:21] Checkpoint saved: 26,728,668 positions to solver/unsolved_frontier.json
+[2025-12-19 12:17:35] Checkpoint saved: 26,728,674 positions to solver/unsolved_frontier.json

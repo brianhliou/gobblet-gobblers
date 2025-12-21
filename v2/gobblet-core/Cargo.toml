@@ -1,0 +1,26 @@
+[package]
+name = "gobblet-core"
+version = "0.1.0"
+edition = "2021"
+description = "Gobblet Gobblers game logic with bit-based board representation"
+license = "MIT"
+
+[lib]
+crate-type = ["cdylib", "rlib"]
+
+[features]
+default = []
+wasm = ["wasm-bindgen", "serde-wasm-bindgen"]
+
+[dependencies]
+serde = { version = "1.0", features = ["derive"] }
+wasm-bindgen = { version = "0.2", optional = true }
+serde-wasm-bindgen = { version = "0.6", optional = true }
+
+[dev-dependencies]
+rand = "0.9"
+serde_json = "1.0"
+
+[profile.release]
+opt-level = "s"
+lto = true

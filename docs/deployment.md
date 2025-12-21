@@ -55,21 +55,18 @@ Sorted by canonical for binary search
 ### Without tablebase (game only)
 ```bash
 cd v2/frontend-wasm
+npm install
 npm run dev
 # Game works, evaluations show as unknown
 ```
 
-### With tablebase (requires local Rust API)
+### With tablebase (full experience)
 ```bash
-# Terminal 1: Run local tablebase API
-cd v2/gobblet-api
-cargo run --release
-# Serves on localhost:8000
-
-# Terminal 2: Run frontend
 cd v2/frontend-wasm
-# Set VITE_API_URL=http://localhost:8000 in .env.local
-npm run dev
+npm install
+vercel dev
+# Runs frontend + serverless function locally
+# Requires Vercel CLI: npm i -g vercel
 ```
 
 ## Deployment Steps

@@ -1,0 +1,2002 @@
+[2025-12-19 13:01:19] ============================================================
+[2025-12-19 13:01:19] SUBTREE SOLVER
+[2025-12-19 13:01:19] ============================================================
+[2025-12-19 13:01:19] Positions file: solver/depth_14_positions.json
+[2025-12-19 13:01:19] Checkpoint interval: 30.0s
+[2025-12-19 13:01:19] Log interval: 30.0s
+[2025-12-19 13:01:19] Loading positions file...
+[2025-12-19 13:01:19] Loaded 2,258,388 positions to solve
+[2025-12-19 13:01:19] Limited to first 1 positions
+[2025-12-19 13:01:19] Loading solver checkpoint...
+[2025-12-19 13:01:37] Loaded 19,972,877 solved positions from checkpoint
+[2025-12-19 13:01:37] Initial memory: 2494.6 MB
+[2025-12-19 13:01:37] Already solved: 0, remaining: 1
+[2025-12-19 13:01:37] 
+[2025-12-19 13:01:37] Starting subtree solves...
+[2025-12-19 13:01:37] [1/1] Solving position 11015379585...
+[2025-12-19 13:01:37]   [start] mem=2495MB, table_size=19,972,877
+[2025-12-19 13:01:41]   [progress] 100 eval, +10,759 new, 27/s, max_depth=7764, cache_hits=19,839, mem=3786MB
+[2025-12-19 13:01:41]   [progress] 101 eval, +10,769 new, 27/s, max_depth=7768, cache_hits=19,860, mem=3787MB
+[2025-12-19 13:01:41]   [progress] 102 eval, +10,815 new, 27/s, max_depth=7824, cache_hits=19,977, mem=3801MB
+[2025-12-19 13:01:41]   [progress] 103 eval, +10,818 new, 27/s, max_depth=7826, cache_hits=19,988, mem=3802MB
+[2025-12-19 13:01:41]   [progress] 104 eval, +10,840 new, 27/s, max_depth=7850, cache_hits=20,046, mem=3808MB
+[2025-12-19 13:01:41]   [progress] 105 eval, +10,850 new, 28/s, max_depth=7860, cache_hits=20,087, mem=3810MB
+[2025-12-19 13:01:41]   [progress] 106 eval, +10,876 new, 28/s, max_depth=7902, cache_hits=20,169, mem=3821MB
+[2025-12-19 13:01:41]   [progress] 107 eval, +10,888 new, 28/s, max_depth=7927, cache_hits=20,227, mem=3827MB
+[2025-12-19 13:01:41]   [progress] 108 eval, +10,889 new, 28/s, max_depth=7927, cache_hits=20,236, mem=3828MB
+[2025-12-19 13:01:41]   [progress] 109 eval, +10,931 new, 28/s, max_depth=7963, cache_hits=20,334, mem=3837MB
+[2025-12-19 13:01:41]   [progress] 110 eval, +10,932 new, 28/s, max_depth=7963, cache_hits=20,340, mem=3837MB
+[2025-12-19 13:01:41]   [progress] 111 eval, +10,937 new, 29/s, max_depth=7969, cache_hits=20,364, mem=3838MB
+[2025-12-19 13:01:41]   [progress] 112 eval, +10,938 new, 29/s, max_depth=7969, cache_hits=20,370, mem=3838MB
+[2025-12-19 13:01:41]   [progress] 113 eval, +10,941 new, 29/s, max_depth=7985, cache_hits=20,401, mem=3842MB
+[2025-12-19 13:01:41]   [progress] 114 eval, +10,942 new, 29/s, max_depth=7985, cache_hits=20,406, mem=3842MB
+[2025-12-19 13:01:41]   [progress] 115 eval, +10,973 new, 30/s, max_depth=8011, cache_hits=20,488, mem=3849MB
+[2025-12-19 13:01:41]   [progress] 116 eval, +10,976 new, 30/s, max_depth=8019, cache_hits=20,509, mem=3851MB
+[2025-12-19 13:01:41]   [progress] 117 eval, +10,979 new, 30/s, max_depth=8019, cache_hits=20,519, mem=3851MB
+[2025-12-19 13:01:41]   [progress] 118 eval, +10,993 new, 30/s, max_depth=8047, cache_hits=20,574, mem=3858MB
+[2025-12-19 13:01:41]   [progress] 119 eval, +10,994 new, 30/s, max_depth=8049, cache_hits=20,587, mem=3859MB
+[2025-12-19 13:01:41]   [progress] 120 eval, +10,995 new, 31/s, max_depth=8053, cache_hits=20,596, mem=3860MB
+[2025-12-19 13:01:41]   [progress] 121 eval, +11,001 new, 31/s, max_depth=8063, cache_hits=20,620, mem=3862MB
+[2025-12-19 13:01:41]   [progress] 122 eval, +11,006 new, 31/s, max_depth=8073, cache_hits=20,642, mem=3865MB
+[2025-12-19 13:01:41]   [progress] 123 eval, +11,011 new, 31/s, max_depth=8077, cache_hits=20,657, mem=3866MB
+[2025-12-19 13:01:41]   [progress] 124 eval, +11,054 new, 31/s, max_depth=8163, cache_hits=20,851, mem=3888MB
+[2025-12-19 13:01:41]   [progress] 125 eval, +11,055 new, 32/s, max_depth=8165, cache_hits=20,860, mem=3888MB
+[2025-12-19 13:01:41]   [progress] 126 eval, +11,057 new, 32/s, max_depth=8175, cache_hits=20,878, mem=3891MB
+[2025-12-19 13:01:41]   [progress] 127 eval, +11,062 new, 32/s, max_depth=8181, cache_hits=20,897, mem=3892MB
+[2025-12-19 13:01:41]   [progress] 128 eval, +11,066 new, 32/s, max_depth=8187, cache_hits=20,911, mem=3894MB
+[2025-12-19 13:01:41]   [progress] 129 eval, +11,073 new, 32/s, max_depth=8205, cache_hits=20,945, mem=3901MB
+[2025-12-19 13:01:41]   [progress] 130 eval, +11,074 new, 33/s, max_depth=8213, cache_hits=20,965, mem=3905MB
+[2025-12-19 13:01:41]   [progress] 131 eval, +11,077 new, 33/s, max_depth=8223, cache_hits=20,986, mem=3910MB
+[2025-12-19 13:01:41]   [progress] 132 eval, +11,082 new, 33/s, max_depth=8235, cache_hits=21,016, mem=3917MB
+[2025-12-19 13:01:41]   [progress] 133 eval, +11,083 new, 33/s, max_depth=8235, cache_hits=21,025, mem=3917MB
+[2025-12-19 13:01:41]   [progress] 134 eval, +11,088 new, 33/s, max_depth=8245, cache_hits=21,057, mem=3922MB
+[2025-12-19 13:01:41]   [progress] 135 eval, +11,090 new, 34/s, max_depth=8249, cache_hits=21,075, mem=3924MB
+[2025-12-19 13:01:41]   [progress] 136 eval, +11,094 new, 34/s, max_depth=8257, cache_hits=21,095, mem=3928MB
+[2025-12-19 13:01:41]   [progress] 137 eval, +11,095 new, 34/s, max_depth=8259, cache_hits=21,106, mem=3929MB
+[2025-12-19 13:01:41]   [progress] 138 eval, +11,140 new, 34/s, max_depth=8279, cache_hits=21,198, mem=3939MB
+[2025-12-19 13:01:41]   [progress] 139 eval, +11,284 new, 34/s, max_depth=8452, cache_hits=21,610, mem=4026MB
+[2025-12-19 13:01:41]   [progress] 140 eval, +11,394 new, 34/s, max_depth=8577, cache_hits=21,894, mem=4090MB
+[2025-12-19 13:01:41]   [progress] 141 eval, +11,395 new, 34/s, max_depth=8577, cache_hits=21,900, mem=4090MB
+[2025-12-19 13:01:41]   [progress] 142 eval, +11,398 new, 34/s, max_depth=8583, cache_hits=21,926, mem=4093MB
+[2025-12-19 13:01:41]   [progress] 143 eval, +11,399 new, 34/s, max_depth=8583, cache_hits=21,932, mem=4093MB
+[2025-12-19 13:01:41]   [progress] 144 eval, +11,424 new, 34/s, max_depth=8617, cache_hits=22,032, mem=4110MB
+[2025-12-19 13:01:41]   [progress] 145 eval, +11,465 new, 34/s, max_depth=8633, cache_hits=22,093, mem=4118MB
+[2025-12-19 13:01:41]   [progress] 146 eval, +11,466 new, 35/s, max_depth=8633, cache_hits=22,099, mem=4118MB
+[2025-12-19 13:01:41]   [progress] 147 eval, +11,467 new, 35/s, max_depth=8633, cache_hits=22,105, mem=4118MB
+[2025-12-19 13:01:42]   [progress] 148 eval, +11,483 new, 35/s, max_depth=8651, cache_hits=22,151, mem=4127MB
+[2025-12-19 13:01:42]   [progress] 149 eval, +11,576 new, 35/s, max_depth=8685, cache_hits=22,313, mem=4144MB
+[2025-12-19 13:01:42]   [progress] 150 eval, +11,673 new, 35/s, max_depth=8782, cache_hits=22,562, mem=4193MB
+[2025-12-19 13:01:42]   [progress] 151 eval, +11,711 new, 35/s, max_depth=8811, cache_hits=22,647, mem=4208MB
+[2025-12-19 13:01:42]   [progress] 152 eval, +11,786 new, 35/s, max_depth=8856, cache_hits=22,800, mem=4231MB
+[2025-12-19 13:01:42]   [progress] 153 eval, +11,834 new, 35/s, max_depth=8939, cache_hits=22,992, mem=4273MB
+[2025-12-19 13:01:42]   [progress] 154 eval, +11,851 new, 35/s, max_depth=8968, cache_hits=23,062, mem=4287MB
+[2025-12-19 13:01:42]   [progress] 155 eval, +11,926 new, 35/s, max_depth=9094, cache_hits=23,308, mem=4351MB
+[2025-12-19 13:01:42]   [progress] 156 eval, +11,991 new, 35/s, max_depth=9166, cache_hits=23,492, mem=4388MB
+[2025-12-19 13:01:42]   [progress] 157 eval, +11,993 new, 35/s, max_depth=9168, cache_hits=23,501, mem=4389MB
+[2025-12-19 13:01:42]   [progress] 158 eval, +11,995 new, 35/s, max_depth=9170, cache_hits=23,509, mem=4390MB
+[2025-12-19 13:01:42]   [progress] 159 eval, +11,999 new, 35/s, max_depth=9172, cache_hits=23,521, mem=4391MB
+[2025-12-19 13:01:42]   [progress] 160 eval, +12,000 new, 36/s, max_depth=9172, cache_hits=23,529, mem=4391MB
+[2025-12-19 13:01:42]   [progress] 161 eval, +12,023 new, 36/s, max_depth=9208, cache_hits=23,617, mem=4409MB
+[2025-12-19 13:01:42]   [progress] 162 eval, +12,024 new, 36/s, max_depth=9208, cache_hits=23,629, mem=4409MB
+[2025-12-19 13:01:42]   [progress] 163 eval, +12,467 new, 35/s, max_depth=9494, cache_hits=24,450, mem=4554MB
+[2025-12-19 13:01:42]   [progress] 164 eval, +12,567 new, 35/s, max_depth=9554, cache_hits=24,632, mem=4584MB
+[2025-12-19 13:01:42]   [progress] 165 eval, +12,592 new, 35/s, max_depth=9587, cache_hits=24,699, mem=4601MB
+[2025-12-19 13:01:42]   [progress] 166 eval, +12,655 new, 35/s, max_depth=9630, cache_hits=24,835, mem=4623MB
+[2025-12-19 13:01:42]   [progress] 167 eval, +12,662 new, 35/s, max_depth=9638, cache_hits=24,864, mem=4627MB
+[2025-12-19 13:01:42]   [progress] 168 eval, +12,666 new, 35/s, max_depth=9642, cache_hits=24,878, mem=4629MB
+[2025-12-19 13:01:42]   [progress] 169 eval, +13,536 new, 33/s, max_depth=10285, cache_hits=26,304, mem=4954MB
+[2025-12-19 13:01:42]   [progress] 170 eval, +13,718 new, 33/s, max_depth=10469, cache_hits=26,684, mem=5047MB
+[2025-12-19 13:01:43]   [progress] 171 eval, +13,996 new, 33/s, max_depth=10691, cache_hits=27,181, mem=5160MB
+[2025-12-19 13:01:43]   [progress] 172 eval, +13,997 new, 33/s, max_depth=10691, cache_hits=27,190, mem=5160MB
+[2025-12-19 13:01:43]   [progress] 173 eval, +13,999 new, 33/s, max_depth=10695, cache_hits=27,207, mem=5162MB
+[2025-12-19 13:01:43]   [progress] 174 eval, +14,130 new, 33/s, max_depth=10829, cache_hits=27,488, mem=5229MB
+[2025-12-19 13:01:43]   [progress] 175 eval, +14,164 new, 33/s, max_depth=10883, cache_hits=27,595, mem=5257MB
+[2025-12-19 13:01:43]   [progress] 176 eval, +14,166 new, 33/s, max_depth=10885, cache_hits=27,602, mem=5258MB
+[2025-12-19 13:01:43]   [progress] 177 eval, +14,189 new, 33/s, max_depth=10911, cache_hits=27,648, mem=5271MB
+[2025-12-19 13:01:43]   [progress] 178 eval, +14,198 new, 33/s, max_depth=10913, cache_hits=27,664, mem=5272MB
+[2025-12-19 13:01:43]   [progress] 179 eval, +14,252 new, 33/s, max_depth=10949, cache_hits=27,756, mem=5290MB
+[2025-12-19 13:01:43]   [progress] 180 eval, +15,126 new, 32/s, max_depth=11458, cache_hits=29,109, mem=5548MB
+[2025-12-19 13:01:43]   [progress] 181 eval, +15,185 new, 32/s, max_depth=11538, cache_hits=29,287, mem=5588MB
+[2025-12-19 13:01:43]   [progress] 182 eval, +15,186 new, 32/s, max_depth=11544, cache_hits=29,306, mem=5591MB
+[2025-12-19 13:01:43]   [progress] 183 eval, +15,187 new, 32/s, max_depth=11545, cache_hits=29,312, mem=5592MB
+[2025-12-19 13:01:43]   [progress] 184 eval, +15,195 new, 32/s, max_depth=11552, cache_hits=29,349, mem=5595MB
+[2025-12-19 13:01:43]   [progress] 185 eval, +15,203 new, 33/s, max_depth=11564, cache_hits=29,383, mem=5601MB
+[2025-12-19 13:01:43]   [progress] 186 eval, +15,208 new, 33/s, max_depth=11572, cache_hits=29,415, mem=5605MB
+[2025-12-19 13:01:43]   [progress] 187 eval, +15,246 new, 33/s, max_depth=11627, cache_hits=29,544, mem=5633MB
+[2025-12-19 13:01:43]   [progress] 188 eval, +15,249 new, 33/s, max_depth=11629, cache_hits=29,557, mem=5634MB
+[2025-12-19 13:01:43]   [progress] 189 eval, +15,253 new, 33/s, max_depth=11639, cache_hits=29,579, mem=5639MB
+[2025-12-19 13:01:43]   [progress] 190 eval, +15,281 new, 33/s, max_depth=11663, cache_hits=29,654, mem=5651MB
+[2025-12-19 13:01:43]   [progress] 191 eval, +15,283 new, 33/s, max_depth=11667, cache_hits=29,668, mem=5653MB
+[2025-12-19 13:01:43]   [progress] 192 eval, +15,284 new, 33/s, max_depth=11669, cache_hits=29,681, mem=5654MB
+[2025-12-19 13:01:43]   [progress] 193 eval, +16,368 new, 31/s, max_depth=12387, cache_hits=31,449, mem=6018MB
+[2025-12-19 13:01:43]   [progress] 194 eval, +16,369 new, 32/s, max_depth=12387, cache_hits=31,452, mem=6018MB
+[2025-12-19 13:01:43]   [progress] 195 eval, +16,370 new, 32/s, max_depth=12387, cache_hits=31,460, mem=6018MB
+[2025-12-19 13:01:44]   [progress] 196 eval, +17,131 new, 30/s, max_depth=12971, cache_hits=33,087, mem=6314MB
+[2025-12-19 13:01:44]   [progress] 197 eval, +17,455 new, 30/s, max_depth=13168, cache_hits=33,710, mem=6413MB
+[2025-12-19 13:01:44]   [progress] 198 eval, +17,466 new, 30/s, max_depth=13184, cache_hits=33,760, mem=6422MB
+[2025-12-19 13:01:44]   [progress] 199 eval, +17,467 new, 30/s, max_depth=13184, cache_hits=33,764, mem=6422MB
+[2025-12-19 13:01:44]   [progress] 200 eval, +17,471 new, 31/s, max_depth=13189, cache_hits=33,785, mem=6424MB
+[2025-12-19 13:01:44]   [progress] 201 eval, +17,594 new, 30/s, max_depth=13317, cache_hits=34,079, mem=6489MB
+[2025-12-19 13:01:44]   [progress] 202 eval, +17,595 new, 30/s, max_depth=13319, cache_hits=34,089, mem=6490MB
+[2025-12-19 13:01:44]   [progress] 203 eval, +17,617 new, 31/s, max_depth=13340, cache_hits=34,140, mem=6500MB
+[2025-12-19 13:01:44]   [progress] 204 eval, +17,774 new, 30/s, max_depth=13490, cache_hits=34,412, mem=6576MB
+[2025-12-19 13:01:44]   [progress] 205 eval, +17,817 new, 30/s, max_depth=13520, cache_hits=34,487, mem=6592MB
+[2025-12-19 13:01:44]   [progress] 206 eval, +18,137 new, 30/s, max_depth=13868, cache_hits=35,112, mem=6768MB
+[2025-12-19 13:01:44]   [progress] 207 eval, +18,160 new, 30/s, max_depth=13880, cache_hits=35,144, mem=6774MB
+[2025-12-19 13:01:44]   [progress] 208 eval, +18,167 new, 30/s, max_depth=13884, cache_hits=35,159, mem=6776MB
+[2025-12-19 13:01:44]   [progress] 209 eval, +18,539 new, 30/s, max_depth=14147, cache_hits=35,776, mem=6909MB
+[2025-12-19 13:01:44]   [progress] 210 eval, +18,569 new, 30/s, max_depth=14196, cache_hits=35,884, mem=6933MB
+[2025-12-19 13:01:44]   [progress] 211 eval, +18,578 new, 30/s, max_depth=14208, cache_hits=35,909, mem=6940MB
+[2025-12-19 13:01:44]   [progress] 212 eval, +18,656 new, 30/s, max_depth=14276, cache_hits=36,042, mem=6974MB
+[2025-12-19 13:01:44]   [progress] 213 eval, +18,663 new, 30/s, max_depth=14288, cache_hits=36,063, mem=6980MB
+[2025-12-19 13:01:44]   [progress] 214 eval, +18,691 new, 30/s, max_depth=14338, cache_hits=36,143, mem=7005MB
+[2025-12-19 13:01:44]   [progress] 215 eval, +18,695 new, 30/s, max_depth=14340, cache_hits=36,154, mem=7006MB
+[2025-12-19 13:01:44]   [progress] 216 eval, +18,787 new, 30/s, max_depth=14402, cache_hits=36,318, mem=7038MB
+[2025-12-19 13:01:45]   [progress] 217 eval, +19,220 new, 30/s, max_depth=14621, cache_hits=36,976, mem=7149MB
+[2025-12-19 13:01:45]   [progress] 218 eval, +19,479 new, 30/s, max_depth=14810, cache_hits=37,353, mem=7244MB
+[2025-12-19 13:01:45]   [progress] 219 eval, +19,481 new, 30/s, max_depth=14812, cache_hits=37,364, mem=7245MB
+[2025-12-19 13:01:45]   [progress] 220 eval, +19,547 new, 30/s, max_depth=14860, cache_hits=37,479, mem=7269MB
+[2025-12-19 13:01:45]   [progress] 221 eval, +19,626 new, 30/s, max_depth=14918, cache_hits=37,610, mem=7299MB
+[2025-12-19 13:01:45]   [progress] 222 eval, +19,633 new, 30/s, max_depth=14920, cache_hits=37,620, mem=7300MB
+[2025-12-19 13:01:45]   [progress] 223 eval, +19,683 new, 30/s, max_depth=14944, cache_hits=37,683, mem=7312MB
+[2025-12-19 13:01:45]   [progress] 224 eval, +19,740 new, 30/s, max_depth=15008, cache_hits=37,818, mem=7344MB
+[2025-12-19 13:01:45]   [progress] 225 eval, +19,889 new, 30/s, max_depth=15113, cache_hits=38,120, mem=7397MB
+[2025-12-19 13:01:45]   [progress] 226 eval, +19,890 new, 30/s, max_depth=15113, cache_hits=38,127, mem=7398MB
+[2025-12-19 13:01:45]   [progress] 227 eval, +19,892 new, 30/s, max_depth=15123, cache_hits=38,150, mem=7402MB
+[2025-12-19 13:01:45]   [progress] 228 eval, +20,067 new, 30/s, max_depth=15234, cache_hits=38,409, mem=7459MB
+[2025-12-19 13:01:45]   [progress] 229 eval, +20,123 new, 30/s, max_depth=15291, cache_hits=38,541, mem=7487MB
+[2025-12-19 13:01:45]   [progress] 230 eval, +20,129 new, 30/s, max_depth=15294, cache_hits=38,553, mem=7489MB
+[2025-12-19 13:01:45]   [progress] 231 eval, +20,137 new, 30/s, max_depth=15302, cache_hits=38,566, mem=7493MB
+[2025-12-19 13:01:45]   [progress] 232 eval, +20,144 new, 30/s, max_depth=15315, cache_hits=38,595, mem=7500MB
+[2025-12-19 13:01:45]   [progress] 233 eval, +20,381 new, 30/s, max_depth=15512, cache_hits=39,079, mem=7599MB
+[2025-12-19 13:01:45]   [progress] 234 eval, +20,390 new, 30/s, max_depth=15525, cache_hits=39,110, mem=7606MB
+[2025-12-19 13:01:45]   [progress] 235 eval, +20,393 new, 30/s, max_depth=15538, cache_hits=39,135, mem=7613MB
+[2025-12-19 13:01:45]   [progress] 236 eval, +20,394 new, 31/s, max_depth=15538, cache_hits=39,141, mem=7613MB
+[2025-12-19 13:01:45]   [progress] 237 eval, +20,398 new, 31/s, max_depth=15543, cache_hits=39,153, mem=7615MB
+[2025-12-19 13:01:45]   [progress] 238 eval, +20,400 new, 31/s, max_depth=15546, cache_hits=39,169, mem=7616MB
+[2025-12-19 13:01:45]   [progress] 239 eval, +20,401 new, 31/s, max_depth=15546, cache_hits=39,173, mem=7616MB
+[2025-12-19 13:01:45]   [progress] 240 eval, +20,408 new, 31/s, max_depth=15565, cache_hits=39,204, mem=7627MB
+[2025-12-19 13:01:45]   [progress] 241 eval, +20,414 new, 31/s, max_depth=15589, cache_hits=39,234, mem=7639MB
+[2025-12-19 13:01:45]   [progress] 242 eval, +20,426 new, 31/s, max_depth=15620, cache_hits=39,294, mem=7654MB
+[2025-12-19 13:01:45]   [progress] 243 eval, +20,479 new, 31/s, max_depth=15694, cache_hits=39,442, mem=7691MB
+[2025-12-19 13:01:45]   [progress] 244 eval, +20,493 new, 31/s, max_depth=15729, cache_hits=39,504, mem=7709MB
+[2025-12-19 13:01:45]   [progress] 245 eval, +20,494 new, 31/s, max_depth=15732, cache_hits=39,514, mem=7710MB
+[2025-12-19 13:01:45]   [progress] 246 eval, +20,511 new, 31/s, max_depth=15780, cache_hits=39,594, mem=7735MB
+[2025-12-19 13:01:45]   [progress] 247 eval, +20,534 new, 31/s, max_depth=15808, cache_hits=39,656, mem=7749MB
+[2025-12-19 13:01:45]   [progress] 248 eval, +20,563 new, 31/s, max_depth=15850, cache_hits=39,735, mem=7770MB
+[2025-12-19 13:01:45]   [progress] 249 eval, +20,572 new, 32/s, max_depth=15877, cache_hits=39,787, mem=7784MB
+[2025-12-19 13:01:45]   [progress] 250 eval, +20,623 new, 32/s, max_depth=15931, cache_hits=39,934, mem=7811MB
+[2025-12-19 13:01:45]   [progress] 251 eval, +20,624 new, 32/s, max_depth=15935, cache_hits=39,947, mem=7813MB
+[2025-12-19 13:01:45]   [progress] 252 eval, +20,629 new, 32/s, max_depth=15947, cache_hits=39,969, mem=7819MB
+[2025-12-19 13:01:45]   [progress] 253 eval, +20,791 new, 32/s, max_depth=16110, cache_hits=40,343, mem=7902MB
+[2025-12-19 13:01:45]   [progress] 254 eval, +20,880 new, 32/s, max_depth=16180, cache_hits=40,529, mem=7937MB
+[2025-12-19 13:01:45]   [progress] 255 eval, +20,905 new, 32/s, max_depth=16208, cache_hits=40,595, mem=7951MB
+[2025-12-19 13:01:45]   [progress] 256 eval, +20,906 new, 32/s, max_depth=16214, cache_hits=40,614, mem=7954MB
+[2025-12-19 13:01:45]   [progress] 257 eval, +20,907 new, 32/s, max_depth=16214, cache_hits=40,623, mem=7955MB
+[2025-12-19 13:01:45]   [progress] 258 eval, +20,908 new, 32/s, max_depth=16216, cache_hits=40,635, mem=7955MB
+[2025-12-19 13:01:45]   [progress] 259 eval, +20,927 new, 32/s, max_depth=16244, cache_hits=40,685, mem=7970MB
+[2025-12-19 13:01:45]   [progress] 260 eval, +20,957 new, 32/s, max_depth=16318, cache_hits=40,795, mem=8007MB
+[2025-12-19 13:01:45]   [progress] 261 eval, +20,960 new, 32/s, max_depth=16328, cache_hits=40,806, mem=8012MB
+[2025-12-19 13:01:45]   [progress] 262 eval, +21,120 new, 32/s, max_depth=16435, cache_hits=41,134, mem=8091MB
+[2025-12-19 13:01:45]   [progress] 263 eval, +21,124 new, 32/s, max_depth=16445, cache_hits=41,157, mem=8101MB
+[2025-12-19 13:01:46]   [progress] 264 eval, +21,143 new, 32/s, max_depth=16493, cache_hits=41,279, mem=8150MB
+[2025-12-19 13:01:46]   [progress] 265 eval, +21,233 new, 32/s, max_depth=16588, cache_hits=41,528, mem=8246MB
+[2025-12-19 13:01:46]   [progress] 266 eval, +21,238 new, 32/s, max_depth=16614, cache_hits=41,574, mem=8272MB
+[2025-12-19 13:01:46]   [progress] 267 eval, +21,240 new, 32/s, max_depth=16616, cache_hits=41,587, mem=8274MB
+[2025-12-19 13:01:46]   [progress] 268 eval, +21,241 new, 32/s, max_depth=16618, cache_hits=41,597, mem=8276MB
+[2025-12-19 13:01:46]   [progress] 269 eval, +21,242 new, 32/s, max_depth=16620, cache_hits=41,613, mem=8278MB
+[2025-12-19 13:01:46]   [progress] 270 eval, +21,320 new, 32/s, max_depth=16703, cache_hits=41,822, mem=8362MB
+[2025-12-19 13:01:46]   [progress] 271 eval, +21,322 new, 32/s, max_depth=16707, cache_hits=41,836, mem=8366MB
+[2025-12-19 13:01:46]   [progress] 272 eval, +21,327 new, 33/s, max_depth=16711, cache_hits=41,858, mem=8370MB
+[2025-12-19 13:01:46]   [progress] 273 eval, +21,923 new, 32/s, max_depth=17183, cache_hits=43,165, mem=8845MB
+[2025-12-19 13:01:46]   [progress] 274 eval, +22,437 new, 31/s, max_depth=17435, cache_hits=44,012, mem=9099MB
+[2025-12-19 13:01:46]   [progress] 275 eval, +22,485 new, 31/s, max_depth=17481, cache_hits=44,097, mem=9146MB
+[2025-12-19 13:01:46]   [progress] 276 eval, +22,624 new, 31/s, max_depth=17628, cache_hits=44,448, mem=9294MB
+[2025-12-19 13:01:46]   [progress] 277 eval, +22,712 new, 31/s, max_depth=17681, cache_hits=44,605, mem=9347MB
+[2025-12-19 13:01:46]   [progress] 278 eval, +22,713 new, 31/s, max_depth=17681, cache_hits=44,611, mem=9348MB
+[2025-12-19 13:01:46]   [progress] 279 eval, +22,714 new, 31/s, max_depth=17687, cache_hits=44,623, mem=9353MB
+[2025-12-19 13:01:46]   [progress] 280 eval, +22,720 new, 31/s, max_depth=17703, cache_hits=44,658, mem=9369MB
+[2025-12-19 13:01:46]   [progress] 281 eval, +22,733 new, 32/s, max_depth=17717, cache_hits=44,690, mem=9384MB
+[2025-12-19 13:01:46]   [progress] 282 eval, +22,743 new, 32/s, max_depth=17731, cache_hits=44,722, mem=9398MB
+[2025-12-19 13:01:46]   [progress] 283 eval, +22,744 new, 32/s, max_depth=17731, cache_hits=44,729, mem=9399MB
+[2025-12-19 13:01:46]   [progress] 284 eval, +22,748 new, 32/s, max_depth=17741, cache_hits=44,749, mem=9408MB
+[2025-12-19 13:01:46]   [progress] 285 eval, +22,788 new, 32/s, max_depth=17811, cache_hits=44,901, mem=9478MB
+[2025-12-19 13:01:46]   [progress] 286 eval, +23,141 new, 31/s, max_depth=18032, cache_hits=45,582, mem=9701MB
+[2025-12-19 13:01:46]   [progress] 287 eval, +23,142 new, 32/s, max_depth=18034, cache_hits=45,594, mem=9703MB
+[2025-12-19 13:01:46]   [progress] 288 eval, +23,147 new, 32/s, max_depth=18042, cache_hits=45,619, mem=9711MB
+[2025-12-19 13:01:46]   [progress] 289 eval, +23,295 new, 31/s, max_depth=18181, cache_hits=45,952, mem=9851MB
+[2025-12-19 13:01:47]   [progress] 290 eval, +23,532 new, 31/s, max_depth=18313, cache_hits=46,344, mem=9984MB
+[2025-12-19 13:01:47]   [progress] 291 eval, +23,655 new, 31/s, max_depth=18413, cache_hits=46,585, mem=10085MB
+[2025-12-19 13:01:47]   [WARNING] Memory usage high: 10085 MB
+[2025-12-19 13:01:47]   [progress] 292 eval, +23,658 new, 31/s, max_depth=18415, cache_hits=46,599, mem=10087MB
+[2025-12-19 13:01:47]   [WARNING] Memory usage high: 10087 MB
+[2025-12-19 13:01:47]   [progress] 293 eval, +23,663 new, 31/s, max_depth=18423, cache_hits=46,622, mem=10095MB
+[2025-12-19 13:01:47]   [WARNING] Memory usage high: 10095 MB
+[2025-12-19 13:01:47]   [progress] 294 eval, +23,681 new, 32/s, max_depth=18439, cache_hits=46,678, mem=10111MB
+[2025-12-19 13:01:47]   [WARNING] Memory usage high: 10111 MB
+[2025-12-19 13:01:47]   [progress] 295 eval, +23,704 new, 32/s, max_depth=18461, cache_hits=46,741, mem=10134MB
+[2025-12-19 13:01:47]   [WARNING] Memory usage high: 10134 MB
+[2025-12-19 13:01:47]   [progress] 296 eval, +23,732 new, 32/s, max_depth=18495, cache_hits=46,823, mem=10168MB
+[2025-12-19 13:01:47]   [WARNING] Memory usage high: 10168 MB
+[2025-12-19 13:01:47]   [progress] 297 eval, +24,690 new, 30/s, max_depth=19161, cache_hits=48,648, mem=10839MB
+[2025-12-19 13:01:47]   [WARNING] Memory usage high: 10839 MB
+[2025-12-19 13:01:47]   [progress] 298 eval, +24,733 new, 30/s, max_depth=19179, cache_hits=48,735, mem=10858MB
+[2025-12-19 13:01:47]   [WARNING] Memory usage high: 10858 MB
+[2025-12-19 13:01:47]   [progress] 299 eval, +25,019 new, 30/s, max_depth=19471, cache_hits=49,421, mem=11152MB
+[2025-12-19 13:01:47]   [WARNING] Memory usage high: 11152 MB
+[2025-12-19 13:01:47]   [progress] 300 eval, +25,178 new, 30/s, max_depth=19610, cache_hits=49,817, mem=11292MB
+[2025-12-19 13:01:47]   [WARNING] Memory usage high: 11292 MB
+[2025-12-19 13:01:47]   [progress] 301 eval, +25,182 new, 30/s, max_depth=19611, cache_hits=49,832, mem=11293MB
+[2025-12-19 13:01:47]   [WARNING] Memory usage high: 11293 MB
+[2025-12-19 13:01:47]   [progress] 302 eval, +25,184 new, 30/s, max_depth=19616, cache_hits=49,849, mem=11298MB
+[2025-12-19 13:01:47]   [WARNING] Memory usage high: 11298 MB
+[2025-12-19 13:01:47]   [progress] 303 eval, +25,196 new, 30/s, max_depth=19644, cache_hits=49,898, mem=11326MB
+[2025-12-19 13:01:47]   [WARNING] Memory usage high: 11326 MB
+[2025-12-19 13:01:47]   [progress] 304 eval, +25,197 new, 30/s, max_depth=19650, cache_hits=49,910, mem=11332MB
+[2025-12-19 13:01:47]   [WARNING] Memory usage high: 11332 MB
+[2025-12-19 13:01:47]   [progress] 305 eval, +25,199 new, 30/s, max_depth=19660, cache_hits=49,938, mem=11343MB
+[2025-12-19 13:01:47]   [WARNING] Memory usage high: 11343 MB
+[2025-12-19 13:01:47]   [progress] 306 eval, +25,212 new, 30/s, max_depth=19692, cache_hits=50,010, mem=11375MB
+[2025-12-19 13:01:47]   [WARNING] Memory usage high: 11375 MB
+[2025-12-19 13:01:47]   [progress] 307 eval, +25,214 new, 30/s, max_depth=19698, cache_hits=50,024, mem=11381MB
+[2025-12-19 13:01:47]   [WARNING] Memory usage high: 11381 MB
+[2025-12-19 13:01:47]   [progress] 308 eval, +25,400 new, 30/s, max_depth=19828, cache_hits=50,418, mem=11512MB
+[2025-12-19 13:01:47]   [WARNING] Memory usage high: 11512 MB
+[2025-12-19 13:01:48]   [progress] 309 eval, +26,285 new, 29/s, max_depth=20408, cache_hits=52,144, mem=12097MB
+[2025-12-19 13:01:48]   [WARNING] Memory usage high: 12097 MB
+[2025-12-19 13:01:48]   [progress] 310 eval, +26,347 new, 29/s, max_depth=20492, cache_hits=52,305, mem=12181MB
+[2025-12-19 13:01:48]   [WARNING] Memory usage high: 12181 MB
+[2025-12-19 13:01:48]   [progress] 311 eval, +26,397 new, 29/s, max_depth=20518, cache_hits=52,376, mem=12208MB
+[2025-12-19 13:01:48]   [WARNING] Memory usage high: 12208 MB
+[2025-12-19 13:01:48]   [progress] 312 eval, +26,442 new, 30/s, max_depth=20554, cache_hits=52,458, mem=12244MB
+[2025-12-19 13:01:48]   [WARNING] Memory usage high: 12244 MB
+[2025-12-19 13:01:48]   [progress] 313 eval, +26,470 new, 30/s, max_depth=20586, cache_hits=52,527, mem=12276MB
+[2025-12-19 13:01:48]   [WARNING] Memory usage high: 12276 MB
+[2025-12-19 13:01:48]   [progress] 314 eval, +26,481 new, 30/s, max_depth=20600, cache_hits=52,568, mem=12290MB
+[2025-12-19 13:01:48]   [WARNING] Memory usage high: 12290 MB
+[2025-12-19 13:01:48]   [progress] 315 eval, +26,484 new, 30/s, max_depth=20600, cache_hits=52,576, mem=12291MB
+[2025-12-19 13:01:48]   [WARNING] Memory usage high: 12291 MB
+[2025-12-19 13:01:48]   [progress] 316 eval, +26,491 new, 30/s, max_depth=20606, cache_hits=52,595, mem=12296MB
+[2025-12-19 13:01:48]   [WARNING] Memory usage high: 12296 MB
+[2025-12-19 13:01:48]   [progress] 317 eval, +26,494 new, 30/s, max_depth=20606, cache_hits=52,602, mem=12297MB
+[2025-12-19 13:01:48]   [WARNING] Memory usage high: 12297 MB
+[2025-12-19 13:01:48]   [progress] 318 eval, +26,497 new, 30/s, max_depth=20606, cache_hits=52,609, mem=12297MB
+[2025-12-19 13:01:48]   [WARNING] Memory usage high: 12297 MB
+[2025-12-19 13:01:48]   [progress] 319 eval, +26,504 new, 30/s, max_depth=20614, cache_hits=52,634, mem=12304MB
+[2025-12-19 13:01:48]   [WARNING] Memory usage high: 12304 MB
+[2025-12-19 13:01:48]   [progress] 320 eval, +26,527 new, 30/s, max_depth=20660, cache_hits=52,744, mem=12351MB
+[2025-12-19 13:01:48]   [WARNING] Memory usage high: 12351 MB
+[2025-12-19 13:01:48]   [progress] 321 eval, +26,533 new, 30/s, max_depth=20684, cache_hits=52,777, mem=12375MB
+[2025-12-19 13:01:48]   [WARNING] Memory usage high: 12375 MB
+[2025-12-19 13:01:48]   [progress] 322 eval, +26,534 new, 30/s, max_depth=20690, cache_hits=52,795, mem=12381MB
+[2025-12-19 13:01:48]   [WARNING] Memory usage high: 12381 MB
+[2025-12-19 13:01:48]   [progress] 323 eval, +26,537 new, 30/s, max_depth=20690, cache_hits=52,803, mem=12382MB
+[2025-12-19 13:01:48]   [WARNING] Memory usage high: 12382 MB
+[2025-12-19 13:01:48]   [progress] 324 eval, +26,559 new, 30/s, max_depth=20708, cache_hits=52,844, mem=12399MB
+[2025-12-19 13:01:48]   [WARNING] Memory usage high: 12399 MB
+[2025-12-19 13:01:48]   [progress] 325 eval, +26,676 new, 30/s, max_depth=20784, cache_hits=53,054, mem=12476MB
+[2025-12-19 13:01:48]   [WARNING] Memory usage high: 12476 MB
+[2025-12-19 13:01:48]   [progress] 326 eval, +26,718 new, 30/s, max_depth=20858, cache_hits=53,226, mem=12550MB
+[2025-12-19 13:01:48]   [WARNING] Memory usage high: 12550 MB
+[2025-12-19 13:01:48]   [progress] 327 eval, +26,784 new, 30/s, max_depth=20928, cache_hits=53,379, mem=12621MB
+[2025-12-19 13:01:48]   [WARNING] Memory usage high: 12621 MB
+[2025-12-19 13:01:48]   [progress] 328 eval, +26,788 new, 30/s, max_depth=20930, cache_hits=53,390, mem=12623MB
+[2025-12-19 13:01:48]   [WARNING] Memory usage high: 12623 MB
+[2025-12-19 13:01:48]   [progress] 329 eval, +26,829 new, 30/s, max_depth=20986, cache_hits=53,533, mem=12679MB
+[2025-12-19 13:01:48]   [WARNING] Memory usage high: 12679 MB
+[2025-12-19 13:01:48]   [progress] 330 eval, +26,830 new, 30/s, max_depth=20992, cache_hits=53,543, mem=12685MB
+[2025-12-19 13:01:48]   [WARNING] Memory usage high: 12685 MB
+[2025-12-19 13:01:48]   [progress] 331 eval, +26,833 new, 31/s, max_depth=21004, cache_hits=53,566, mem=12698MB
+[2025-12-19 13:01:48]   [WARNING] Memory usage high: 12698 MB
+[2025-12-19 13:01:48]   [progress] 332 eval, +26,845 new, 31/s, max_depth=21016, cache_hits=53,596, mem=12710MB
+[2025-12-19 13:01:48]   [WARNING] Memory usage high: 12710 MB
+[2025-12-19 13:01:48]   [progress] 333 eval, +26,917 new, 31/s, max_depth=21092, cache_hits=53,771, mem=12786MB
+[2025-12-19 13:01:48]   [WARNING] Memory usage high: 12786 MB
+[2025-12-19 13:01:48]   [progress] 334 eval, +26,954 new, 31/s, max_depth=21166, cache_hits=53,922, mem=12861MB
+[2025-12-19 13:01:48]   [WARNING] Memory usage high: 12861 MB
+[2025-12-19 13:01:48]   [progress] 335 eval, +26,955 new, 31/s, max_depth=21168, cache_hits=53,933, mem=12863MB
+[2025-12-19 13:01:48]   [WARNING] Memory usage high: 12863 MB
+[2025-12-19 13:01:48]   [progress] 336 eval, +27,451 new, 30/s, max_depth=21563, cache_hits=54,984, mem=13261MB
+[2025-12-19 13:01:48]   [WARNING] Memory usage high: 13261 MB
+[2025-12-19 13:01:48]   [progress] 337 eval, +27,554 new, 30/s, max_depth=21631, cache_hits=55,183, mem=13330MB
+[2025-12-19 13:01:48]   [WARNING] Memory usage high: 13330 MB
+[2025-12-19 13:01:49]   [progress] 338 eval, +27,922 new, 30/s, max_depth=22018, cache_hits=56,015, mem=13720MB
+[2025-12-19 13:01:49]   [WARNING] Memory usage high: 13720 MB
+[2025-12-19 13:01:49]   [progress] 339 eval, +27,923 new, 30/s, max_depth=22026, cache_hits=56,032, mem=13728MB
+[2025-12-19 13:01:49]   [WARNING] Memory usage high: 13728 MB
+[2025-12-19 13:01:49]   [progress] 340 eval, +27,926 new, 30/s, max_depth=22034, cache_hits=56,054, mem=13736MB
+[2025-12-19 13:01:49]   [WARNING] Memory usage high: 13736 MB
+[2025-12-19 13:01:49]   [progress] 341 eval, +28,051 new, 30/s, max_depth=22159, cache_hits=56,355, mem=13862MB
+[2025-12-19 13:01:49]   [WARNING] Memory usage high: 13862 MB
+[2025-12-19 13:01:49]   [progress] 342 eval, +28,056 new, 30/s, max_depth=22163, cache_hits=56,377, mem=13866MB
+[2025-12-19 13:01:49]   [WARNING] Memory usage high: 13866 MB
+[2025-12-19 13:01:49]   [progress] 343 eval, +28,100 new, 30/s, max_depth=22199, cache_hits=56,508, mem=13902MB
+[2025-12-19 13:01:49]   [WARNING] Memory usage high: 13902 MB
+[2025-12-19 13:01:49]   [progress] 344 eval, +28,106 new, 30/s, max_depth=22205, cache_hits=56,538, mem=13908MB
+[2025-12-19 13:01:49]   [WARNING] Memory usage high: 13908 MB
+[2025-12-19 13:01:49]   [progress] 345 eval, +28,111 new, 30/s, max_depth=22209, cache_hits=56,564, mem=13912MB
+[2025-12-19 13:01:49]   [WARNING] Memory usage high: 13912 MB
+[2025-12-19 13:01:49]   [progress] 346 eval, +28,124 new, 30/s, max_depth=22219, cache_hits=56,604, mem=13922MB
+[2025-12-19 13:01:49]   [WARNING] Memory usage high: 13922 MB
+[2025-12-19 13:01:49]   [progress] 347 eval, +28,134 new, 30/s, max_depth=22229, cache_hits=56,641, mem=13933MB
+[2025-12-19 13:01:49]   [WARNING] Memory usage high: 13933 MB
+[2025-12-19 13:01:49]   [progress] 348 eval, +28,932 new, 29/s, max_depth=22711, cache_hits=58,122, mem=14419MB
+[2025-12-19 13:01:49]   [WARNING] Memory usage high: 14419 MB
+[2025-12-19 13:01:49]   [progress] 349 eval, +28,990 new, 29/s, max_depth=22807, cache_hits=58,414, mem=14515MB
+[2025-12-19 13:01:49]   [WARNING] Memory usage high: 14515 MB
+[2025-12-19 13:01:49]   [progress] 350 eval, +29,004 new, 29/s, max_depth=22819, cache_hits=58,461, mem=14527MB
+[2025-12-19 13:01:49]   [WARNING] Memory usage high: 14527 MB
+[2025-12-19 13:01:49]   [progress] 351 eval, +29,010 new, 30/s, max_depth=22829, cache_hits=58,497, mem=14538MB
+[2025-12-19 13:01:49]   [WARNING] Memory usage high: 14538 MB
+[2025-12-19 13:01:49]   [progress] 352 eval, +29,367 new, 29/s, max_depth=23138, cache_hits=59,334, mem=14849MB
+[2025-12-19 13:01:49]   [WARNING] Memory usage high: 14849 MB
+[2025-12-19 13:01:49]   [progress] 353 eval, +29,400 new, 29/s, max_depth=23178, cache_hits=59,436, mem=14889MB
+[2025-12-19 13:01:49]   [WARNING] Memory usage high: 14889 MB
+[2025-12-19 13:01:49]   [progress] 354 eval, +29,540 new, 29/s, max_depth=23258, cache_hits=59,666, mem=14970MB
+[2025-12-19 13:01:49]   [WARNING] Memory usage high: 14970 MB
+[2025-12-19 13:01:49]   [progress] 355 eval, +29,572 new, 29/s, max_depth=23288, cache_hits=59,734, mem=15000MB
+[2025-12-19 13:01:49]   [WARNING] Memory usage high: 15000 MB
+[2025-12-19 13:01:49]   [progress] 356 eval, +29,596 new, 29/s, max_depth=23320, cache_hits=59,811, mem=15032MB
+[2025-12-19 13:01:49]   [WARNING] Memory usage high: 15032 MB
+[2025-12-19 13:01:49]   [progress] 357 eval, +29,600 new, 29/s, max_depth=23326, cache_hits=59,828, mem=15038MB
+[2025-12-19 13:01:49]   [WARNING] Memory usage high: 15038 MB
+[2025-12-19 13:01:50]   [progress] 358 eval, +29,722 new, 29/s, max_depth=23436, cache_hits=60,099, mem=15149MB
+[2025-12-19 13:01:50]   [WARNING] Memory usage high: 15149 MB
+[2025-12-19 13:01:50]   [progress] 359 eval, +29,808 new, 29/s, max_depth=23508, cache_hits=60,282, mem=15222MB
+[2025-12-19 13:01:50]   [WARNING] Memory usage high: 15222 MB
+[2025-12-19 13:01:50]   [progress] 360 eval, +29,873 new, 29/s, max_depth=23547, cache_hits=60,419, mem=15261MB
+[2025-12-19 13:01:50]   [WARNING] Memory usage high: 15261 MB
+[2025-12-19 13:01:50]   [progress] 361 eval, +29,907 new, 29/s, max_depth=23593, cache_hits=60,533, mem=15308MB
+[2025-12-19 13:01:50]   [WARNING] Memory usage high: 15308 MB
+[2025-12-19 13:01:50]   [progress] 362 eval, +29,908 new, 29/s, max_depth=23599, cache_hits=60,547, mem=15314MB
+[2025-12-19 13:01:50]   [WARNING] Memory usage high: 15314 MB
+[2025-12-19 13:01:50]   [progress] 363 eval, +30,234 new, 29/s, max_depth=23789, cache_hits=61,184, mem=15505MB
+[2025-12-19 13:01:50]   [WARNING] Memory usage high: 15505 MB
+[2025-12-19 13:01:50]   [progress] 364 eval, +31,161 new, 29/s, max_depth=24239, cache_hits=62,481, mem=15959MB
+[2025-12-19 13:01:50]   [WARNING] Memory usage high: 15959 MB
+[2025-12-19 13:01:50]   [progress] 365 eval, +31,162 new, 29/s, max_depth=24239, cache_hits=62,483, mem=15959MB
+[2025-12-19 13:01:50]   [WARNING] Memory usage high: 15959 MB
+[2025-12-19 13:01:50]   [progress] 366 eval, +31,457 new, 29/s, max_depth=24427, cache_hits=62,936, mem=16148MB
+[2025-12-19 13:01:50]   [WARNING] Memory usage high: 16148 MB
+[2025-12-19 13:01:50]   [progress] 367 eval, +31,467 new, 29/s, max_depth=24441, cache_hits=62,965, mem=16162MB
+[2025-12-19 13:01:50]   [WARNING] Memory usage high: 16162 MB
+[2025-12-19 13:01:50]   [progress] 368 eval, +31,483 new, 29/s, max_depth=24447, cache_hits=62,985, mem=16168MB
+[2025-12-19 13:01:50]   [WARNING] Memory usage high: 16168 MB
+[2025-12-19 13:01:50]   [progress] 369 eval, +32,479 new, 28/s, max_depth=25098, cache_hits=64,560, mem=16825MB
+[2025-12-19 13:01:50]   [WARNING] Memory usage high: 16825 MB
+[2025-12-19 13:01:50]   [progress] 370 eval, +32,530 new, 28/s, max_depth=25124, cache_hits=64,630, mem=16851MB
+[2025-12-19 13:01:50]   [WARNING] Memory usage high: 16851 MB
+[2025-12-19 13:01:51]   [progress] 371 eval, +32,764 new, 28/s, max_depth=25287, cache_hits=65,093, mem=17015MB
+[2025-12-19 13:01:51]   [WARNING] Memory usage high: 17015 MB
+[2025-12-19 13:01:51]   [progress] 372 eval, +32,767 new, 28/s, max_depth=25289, cache_hits=65,105, mem=17017MB
+[2025-12-19 13:01:51]   [WARNING] Memory usage high: 17017 MB
+[2025-12-19 13:01:51]   [progress] 373 eval, +33,023 new, 28/s, max_depth=25527, cache_hits=65,555, mem=17257MB
+[2025-12-19 13:01:51]   [WARNING] Memory usage high: 17257 MB
+[2025-12-19 13:01:51]   [progress] 374 eval, +33,755 new, 27/s, max_depth=25994, cache_hits=66,704, mem=17728MB
+[2025-12-19 13:01:51]   [WARNING] Memory usage high: 17728 MB
+[2025-12-19 13:01:51]   [progress] 375 eval, +33,761 new, 27/s, max_depth=26002, cache_hits=66,732, mem=17736MB
+[2025-12-19 13:01:51]   [WARNING] Memory usage high: 17736 MB
+[2025-12-19 13:01:51]   [progress] 376 eval, +33,899 new, 27/s, max_depth=26093, cache_hits=66,969, mem=17827MB
+[2025-12-19 13:01:51]   [WARNING] Memory usage high: 17827 MB
+[2025-12-19 13:01:51]   [progress] 377 eval, +34,150 new, 27/s, max_depth=26246, cache_hits=67,406, mem=17982MB
+[2025-12-19 13:01:51]   [WARNING] Memory usage high: 17982 MB
+[2025-12-19 13:01:51]   [progress] 378 eval, +34,338 new, 27/s, max_depth=26359, cache_hits=67,708, mem=18095MB
+[2025-12-19 13:01:51]   [WARNING] Memory usage high: 18095 MB
+[2025-12-19 13:01:51]   [progress] 379 eval, +34,719 new, 27/s, max_depth=26566, cache_hits=68,279, mem=18304MB
+[2025-12-19 13:01:51]   [WARNING] Memory usage high: 18304 MB
+[2025-12-19 13:01:51]   [progress] 380 eval, +34,734 new, 27/s, max_depth=26590, cache_hits=68,315, mem=18328MB
+[2025-12-19 13:01:51]   [WARNING] Memory usage high: 18328 MB
+[2025-12-19 13:01:51]   [progress] 381 eval, +34,743 new, 27/s, max_depth=26612, cache_hits=68,359, mem=18351MB
+[2025-12-19 13:01:51]   [WARNING] Memory usage high: 18351 MB
+[2025-12-19 13:01:51]   [progress] 382 eval, +34,744 new, 27/s, max_depth=26612, cache_hits=68,363, mem=18352MB
+[2025-12-19 13:01:51]   [WARNING] Memory usage high: 18352 MB
+[2025-12-19 13:01:51]   [progress] 383 eval, +34,745 new, 27/s, max_depth=26616, cache_hits=68,374, mem=18355MB
+[2025-12-19 13:01:51]   [WARNING] Memory usage high: 18355 MB
+[2025-12-19 13:01:51]   [progress] 384 eval, +34,746 new, 27/s, max_depth=26616, cache_hits=68,378, mem=18356MB
+[2025-12-19 13:01:51]   [WARNING] Memory usage high: 18356 MB
+[2025-12-19 13:01:51]   [progress] 385 eval, +34,750 new, 27/s, max_depth=26620, cache_hits=68,391, mem=18359MB
+[2025-12-19 13:01:51]   [WARNING] Memory usage high: 18359 MB
+[2025-12-19 13:01:51]   [progress] 386 eval, +34,763 new, 28/s, max_depth=26644, cache_hits=68,443, mem=18383MB
+[2025-12-19 13:01:51]   [WARNING] Memory usage high: 18383 MB
+[2025-12-19 13:01:51]   [progress] 387 eval, +34,768 new, 28/s, max_depth=26650, cache_hits=68,463, mem=18389MB
+[2025-12-19 13:01:51]   [WARNING] Memory usage high: 18389 MB
+[2025-12-19 13:01:51]   [progress] 388 eval, +34,772 new, 28/s, max_depth=26654, cache_hits=68,476, mem=18393MB
+[2025-12-19 13:01:51]   [WARNING] Memory usage high: 18393 MB
+[2025-12-19 13:01:51]   [progress] 389 eval, +34,773 new, 28/s, max_depth=26654, cache_hits=68,485, mem=18394MB
+[2025-12-19 13:01:51]   [WARNING] Memory usage high: 18394 MB
+[2025-12-19 13:01:51]   [progress] 390 eval, +34,780 new, 28/s, max_depth=26670, cache_hits=68,525, mem=18409MB
+[2025-12-19 13:01:51]   [WARNING] Memory usage high: 18409 MB
+[2025-12-19 13:01:51]   [progress] 391 eval, +34,784 new, 28/s, max_depth=26672, cache_hits=68,540, mem=18411MB
+[2025-12-19 13:01:51]   [WARNING] Memory usage high: 18411 MB
+[2025-12-19 13:01:51]   [progress] 392 eval, +34,785 new, 28/s, max_depth=26672, cache_hits=68,546, mem=18412MB
+[2025-12-19 13:01:51]   [WARNING] Memory usage high: 18412 MB
+[2025-12-19 13:01:51]   [progress] 393 eval, +34,788 new, 28/s, max_depth=26676, cache_hits=68,561, mem=18415MB
+[2025-12-19 13:01:51]   [WARNING] Memory usage high: 18415 MB
+[2025-12-19 13:01:51]   [progress] 394 eval, +34,792 new, 28/s, max_depth=26684, cache_hits=68,584, mem=18423MB
+[2025-12-19 13:01:51]   [WARNING] Memory usage high: 18423 MB
+[2025-12-19 13:01:51]   [progress] 395 eval, +34,794 new, 28/s, max_depth=26688, cache_hits=68,593, mem=18427MB
+[2025-12-19 13:01:51]   [WARNING] Memory usage high: 18427 MB
+[2025-12-19 13:01:52]   [progress] 396 eval, +35,195 new, 28/s, max_depth=26957, cache_hits=69,425, mem=18698MB
+[2025-12-19 13:01:52]   [WARNING] Memory usage high: 18698 MB
+[2025-12-19 13:01:52]   [progress] 397 eval, +35,197 new, 28/s, max_depth=26961, cache_hits=69,439, mem=18702MB
+[2025-12-19 13:01:52]   [WARNING] Memory usage high: 18702 MB
+[2025-12-19 13:01:52]   [progress] 398 eval, +35,205 new, 28/s, max_depth=26975, cache_hits=69,470, mem=18717MB
+[2025-12-19 13:01:52]   [WARNING] Memory usage high: 18717 MB
+[2025-12-19 13:01:52]   [progress] 399 eval, +35,258 new, 28/s, max_depth=27059, cache_hits=69,611, mem=18801MB
+[2025-12-19 13:01:52]   [WARNING] Memory usage high: 18801 MB
+[2025-12-19 13:01:52]   [progress] 400 eval, +35,358 new, 28/s, max_depth=27129, cache_hits=69,798, mem=18872MB
+[2025-12-19 13:01:52]   [WARNING] Memory usage high: 18872 MB
+[2025-12-19 13:01:52]   [progress] 401 eval, +35,380 new, 28/s, max_depth=27167, cache_hits=69,892, mem=18910MB
+[2025-12-19 13:01:52]   [WARNING] Memory usage high: 18910 MB
+[2025-12-19 13:01:52]   [progress] 402 eval, +35,382 new, 28/s, max_depth=27179, cache_hits=69,928, mem=18922MB
+[2025-12-19 13:01:52]   [WARNING] Memory usage high: 18922 MB
+[2025-12-19 13:01:52]   [progress] 403 eval, +35,489 new, 28/s, max_depth=27253, cache_hits=70,098, mem=18997MB
+[2025-12-19 13:01:52]   [WARNING] Memory usage high: 18997 MB
+[2025-12-19 13:01:52]   [progress] 404 eval, +35,503 new, 28/s, max_depth=27265, cache_hits=70,127, mem=19009MB
+[2025-12-19 13:01:52]   [WARNING] Memory usage high: 19009 MB
+[2025-12-19 13:01:52]   [progress] 405 eval, +35,506 new, 28/s, max_depth=27269, cache_hits=70,142, mem=19013MB
+[2025-12-19 13:01:52]   [WARNING] Memory usage high: 19013 MB
+[2025-12-19 13:01:52]   [progress] 406 eval, +35,507 new, 28/s, max_depth=27269, cache_hits=70,148, mem=19014MB
+[2025-12-19 13:01:52]   [WARNING] Memory usage high: 19014 MB
+[2025-12-19 13:01:52]   [progress] 407 eval, +35,508 new, 28/s, max_depth=27273, cache_hits=70,163, mem=19017MB
+[2025-12-19 13:01:52]   [WARNING] Memory usage high: 19017 MB
+[2025-12-19 13:01:52]   [progress] 408 eval, +35,517 new, 28/s, max_depth=27291, cache_hits=70,194, mem=19035MB
+[2025-12-19 13:01:52]   [WARNING] Memory usage high: 19035 MB
+[2025-12-19 13:01:52]   [progress] 409 eval, +35,518 new, 28/s, max_depth=27291, cache_hits=70,198, mem=19036MB
+[2025-12-19 13:01:52]   [WARNING] Memory usage high: 19036 MB
+[2025-12-19 13:01:52]   [progress] 410 eval, +35,521 new, 28/s, max_depth=27295, cache_hits=70,207, mem=19039MB
+[2025-12-19 13:01:52]   [WARNING] Memory usage high: 19039 MB
+[2025-12-19 13:01:52]   [progress] 411 eval, +35,523 new, 28/s, max_depth=27299, cache_hits=70,216, mem=19043MB
+[2025-12-19 13:01:52]   [WARNING] Memory usage high: 19043 MB
+[2025-12-19 13:01:52]   [progress] 412 eval, +35,526 new, 29/s, max_depth=27306, cache_hits=70,229, mem=19050MB
+[2025-12-19 13:01:52]   [WARNING] Memory usage high: 19050 MB
+[2025-12-19 13:01:52]   [progress] 413 eval, +35,618 new, 28/s, max_depth=27436, cache_hits=70,465, mem=19181MB
+[2025-12-19 13:01:52]   [WARNING] Memory usage high: 19181 MB
+[2025-12-19 13:01:52]   [progress] 414 eval, +35,634 new, 29/s, max_depth=27452, cache_hits=70,510, mem=19197MB
+[2025-12-19 13:01:52]   [WARNING] Memory usage high: 19197 MB
+[2025-12-19 13:01:52]   [progress] 415 eval, +35,643 new, 29/s, max_depth=27460, cache_hits=70,541, mem=19205MB
+[2025-12-19 13:01:52]   [WARNING] Memory usage high: 19205 MB
+[2025-12-19 13:01:52]   [progress] 416 eval, +35,649 new, 29/s, max_depth=27466, cache_hits=70,562, mem=19211MB
+[2025-12-19 13:01:52]   [WARNING] Memory usage high: 19211 MB
+[2025-12-19 13:01:52]   [progress] 417 eval, +35,689 new, 29/s, max_depth=27512, cache_hits=70,649, mem=19258MB
+[2025-12-19 13:01:52]   [WARNING] Memory usage high: 19258 MB
+[2025-12-19 13:01:52]   [progress] 418 eval, +35,828 new, 29/s, max_depth=27630, cache_hits=70,907, mem=19377MB
+[2025-12-19 13:01:52]   [WARNING] Memory usage high: 19377 MB
+[2025-12-19 13:01:52]   [progress] 419 eval, +35,910 new, 29/s, max_depth=27696, cache_hits=71,069, mem=19443MB
+[2025-12-19 13:01:52]   [WARNING] Memory usage high: 19443 MB
+[2025-12-19 13:01:52]   [progress] 420 eval, +35,956 new, 29/s, max_depth=27722, cache_hits=71,128, mem=19470MB
+[2025-12-19 13:01:52]   [WARNING] Memory usage high: 19470 MB
+[2025-12-19 13:01:52]   [progress] 421 eval, +36,027 new, 29/s, max_depth=27788, cache_hits=71,261, mem=19536MB
+[2025-12-19 13:01:52]   [WARNING] Memory usage high: 19536 MB
+[2025-12-19 13:01:52]   [progress] 422 eval, +36,035 new, 29/s, max_depth=27792, cache_hits=71,280, mem=19540MB
+[2025-12-19 13:01:52]   [WARNING] Memory usage high: 19540 MB
+[2025-12-19 13:01:52]   [progress] 423 eval, +36,052 new, 29/s, max_depth=27808, cache_hits=71,323, mem=19556MB
+[2025-12-19 13:01:52]   [WARNING] Memory usage high: 19556 MB
+[2025-12-19 13:01:52]   [progress] 424 eval, +36,053 new, 29/s, max_depth=27808, cache_hits=71,332, mem=19557MB
+[2025-12-19 13:01:52]   [WARNING] Memory usage high: 19557 MB
+[2025-12-19 13:01:52]   [progress] 425 eval, +36,141 new, 29/s, max_depth=27908, cache_hits=71,484, mem=19657MB
+[2025-12-19 13:01:52]   [WARNING] Memory usage high: 19657 MB
+[2025-12-19 13:01:52]   [progress] 426 eval, +36,166 new, 29/s, max_depth=27932, cache_hits=71,546, mem=19681MB
+[2025-12-19 13:01:52]   [WARNING] Memory usage high: 19681 MB
+[2025-12-19 13:01:52]   [progress] 427 eval, +36,182 new, 29/s, max_depth=27948, cache_hits=71,582, mem=19697MB
+[2025-12-19 13:01:52]   [WARNING] Memory usage high: 19697 MB
+[2025-12-19 13:01:52]   [progress] 428 eval, +36,185 new, 29/s, max_depth=27952, cache_hits=71,596, mem=19701MB
+[2025-12-19 13:01:52]   [WARNING] Memory usage high: 19701 MB
+[2025-12-19 13:01:52]   [progress] 429 eval, +36,228 new, 29/s, max_depth=28006, cache_hits=71,688, mem=19756MB
+[2025-12-19 13:01:52]   [WARNING] Memory usage high: 19756 MB
+[2025-12-19 13:01:52]   [progress] 430 eval, +36,438 new, 29/s, max_depth=28152, cache_hits=72,006, mem=19903MB
+[2025-12-19 13:01:52]   [WARNING] Memory usage high: 19903 MB
+[2025-12-19 13:01:52]   [progress] 431 eval, +36,590 new, 29/s, max_depth=28274, cache_hits=72,247, mem=20026MB
+[2025-12-19 13:01:52]   [WARNING] Memory usage high: 20026 MB
+[2025-12-19 13:01:52]   [progress] 432 eval, +36,611 new, 29/s, max_depth=28290, cache_hits=72,297, mem=20042MB
+[2025-12-19 13:01:52]   [WARNING] Memory usage high: 20042 MB
+[2025-12-19 13:01:52]   [progress] 433 eval, +36,638 new, 29/s, max_depth=28310, cache_hits=72,358, mem=20062MB
+[2025-12-19 13:01:52]   [WARNING] Memory usage high: 20062 MB
+[2025-12-19 13:01:52]   [progress] 434 eval, +36,695 new, 29/s, max_depth=28344, cache_hits=72,451, mem=20096MB
+[2025-12-19 13:01:52]   [WARNING] Memory usage high: 20096 MB
+[2025-12-19 13:01:52]   [progress] 435 eval, +37,070 new, 29/s, max_depth=28570, cache_hits=72,972, mem=20324MB
+[2025-12-19 13:01:52]   [WARNING] Memory usage high: 20324 MB
+[2025-12-19 13:01:52]   [progress] 436 eval, +37,097 new, 29/s, max_depth=28583, cache_hits=73,016, mem=20338MB
+[2025-12-19 13:01:52]   [WARNING] Memory usage high: 20338 MB
+[2025-12-19 13:01:53]   [progress] 437 eval, +37,662 new, 28/s, max_depth=29038, cache_hits=74,072, mem=20796MB
+[2025-12-19 13:01:53]   [WARNING] Memory usage high: 20796 MB
+[2025-12-19 13:01:53]   [progress] 438 eval, +37,667 new, 28/s, max_depth=29040, cache_hits=74,088, mem=20798MB
+[2025-12-19 13:01:53]   [WARNING] Memory usage high: 20798 MB
+[2025-12-19 13:01:53]   [progress] 439 eval, +37,668 new, 28/s, max_depth=29040, cache_hits=74,098, mem=20799MB
+[2025-12-19 13:01:53]   [WARNING] Memory usage high: 20799 MB
+[2025-12-19 13:01:53]   [progress] 440 eval, +37,825 new, 28/s, max_depth=29234, cache_hits=74,451, mem=20976MB
+[2025-12-19 13:01:53]   [WARNING] Memory usage high: 20976 MB
+[2025-12-19 13:01:53]   [progress] 441 eval, +37,876 new, 28/s, max_depth=29304, cache_hits=74,578, mem=20976MB
+[2025-12-19 13:01:53]   [WARNING] Memory usage high: 20976 MB
+[2025-12-19 13:01:53]   [progress] 442 eval, +37,894 new, 28/s, max_depth=29318, cache_hits=74,617, mem=20976MB
+[2025-12-19 13:01:53]   [WARNING] Memory usage high: 20976 MB
+[2025-12-19 13:01:53]   [progress] 443 eval, +37,922 new, 28/s, max_depth=29372, cache_hits=74,721, mem=20976MB
+[2025-12-19 13:01:53]   [WARNING] Memory usage high: 20976 MB
+[2025-12-19 13:01:53]   [progress] 444 eval, +37,941 new, 28/s, max_depth=29394, cache_hits=74,757, mem=20976MB
+[2025-12-19 13:01:53]   [WARNING] Memory usage high: 20976 MB
+[2025-12-19 13:01:53]   [progress] 445 eval, +37,945 new, 28/s, max_depth=29402, cache_hits=74,771, mem=20976MB
+[2025-12-19 13:01:53]   [WARNING] Memory usage high: 20976 MB
+[2025-12-19 13:01:53]   [progress] 446 eval, +37,960 new, 28/s, max_depth=29428, cache_hits=74,816, mem=20976MB
+[2025-12-19 13:01:53]   [WARNING] Memory usage high: 20976 MB
+[2025-12-19 13:01:53]   [progress] 447 eval, +37,961 new, 29/s, max_depth=29428, cache_hits=74,820, mem=20976MB
+[2025-12-19 13:01:53]   [WARNING] Memory usage high: 20976 MB
+[2025-12-19 13:01:53]   [progress] 448 eval, +38,018 new, 29/s, max_depth=29462, cache_hits=74,899, mem=20976MB
+[2025-12-19 13:01:53]   [WARNING] Memory usage high: 20976 MB
+[2025-12-19 13:01:53]   [progress] 449 eval, +38,054 new, 29/s, max_depth=29482, cache_hits=74,964, mem=20976MB
+[2025-12-19 13:01:53]   [WARNING] Memory usage high: 20976 MB
+[2025-12-19 13:01:53]   [progress] 450 eval, +38,078 new, 29/s, max_depth=29504, cache_hits=75,028, mem=20976MB
+[2025-12-19 13:01:53]   [WARNING] Memory usage high: 20976 MB
+[2025-12-19 13:01:53]   [progress] 451 eval, +38,079 new, 29/s, max_depth=29506, cache_hits=75,031, mem=20976MB
+[2025-12-19 13:01:53]   [WARNING] Memory usage high: 20976 MB
+[2025-12-19 13:01:53]   [progress] 452 eval, +38,342 new, 28/s, max_depth=29749, cache_hits=75,571, mem=20976MB
+[2025-12-19 13:01:53]   [WARNING] Memory usage high: 20976 MB
+[2025-12-19 13:01:53]   [progress] 453 eval, +38,344 new, 29/s, max_depth=29753, cache_hits=75,586, mem=20976MB
+[2025-12-19 13:01:53]   [WARNING] Memory usage high: 20976 MB
+[2025-12-19 13:01:53]   [progress] 454 eval, +38,359 new, 29/s, max_depth=29775, cache_hits=75,632, mem=20976MB
+[2025-12-19 13:01:53]   [WARNING] Memory usage high: 20976 MB
+[2025-12-19 13:01:53]   [progress] 455 eval, +38,363 new, 29/s, max_depth=29779, cache_hits=75,646, mem=20976MB
+[2025-12-19 13:01:53]   [WARNING] Memory usage high: 20976 MB
+[2025-12-19 13:01:53]   [progress] 456 eval, +38,427 new, 29/s, max_depth=29839, cache_hits=75,796, mem=20976MB
+[2025-12-19 13:01:53]   [WARNING] Memory usage high: 20976 MB
+[2025-12-19 13:01:53]   [progress] 457 eval, +38,437 new, 29/s, max_depth=29853, cache_hits=75,844, mem=20976MB
+[2025-12-19 13:01:53]   [WARNING] Memory usage high: 20976 MB
+[2025-12-19 13:01:53]   [progress] 458 eval, +38,746 new, 28/s, max_depth=30104, cache_hits=76,461, mem=20976MB
+[2025-12-19 13:01:53]   [WARNING] Memory usage high: 20976 MB
+[2025-12-19 13:01:53]   [progress] 459 eval, +38,824 new, 28/s, max_depth=30176, cache_hits=76,652, mem=20976MB
+[2025-12-19 13:01:53]   [WARNING] Memory usage high: 20976 MB
+[2025-12-19 13:01:54]   [progress] 460 eval, +41,065 new, 27/s, max_depth=31400, cache_hits=79,998, mem=20976MB
+[2025-12-19 13:01:54]   [WARNING] Memory usage high: 20976 MB
+[2025-12-19 13:01:54]   [progress] 461 eval, +41,312 new, 27/s, max_depth=31600, cache_hits=80,416, mem=20976MB
+[2025-12-19 13:01:54]   [WARNING] Memory usage high: 20976 MB
+[2025-12-19 13:01:54]   [progress] 462 eval, +41,313 new, 27/s, max_depth=31600, cache_hits=80,416, mem=20976MB
+[2025-12-19 13:01:54]   [WARNING] Memory usage high: 20976 MB
+[2025-12-19 13:01:54]   [progress] 463 eval, +41,428 new, 27/s, max_depth=31767, cache_hits=80,735, mem=20976MB
+[2025-12-19 13:01:54]   [WARNING] Memory usage high: 20976 MB
+[2025-12-19 13:01:55]   [progress] 464 eval, +41,586 new, 27/s, max_depth=31977, cache_hits=81,216, mem=20976MB
+[2025-12-19 13:01:55]   [WARNING] Memory usage high: 20976 MB
+[2025-12-19 13:01:55]   [progress] 465 eval, +41,786 new, 27/s, max_depth=32156, cache_hits=81,626, mem=20976MB
+[2025-12-19 13:01:55]   [WARNING] Memory usage high: 20976 MB
+[2025-12-19 13:01:55]   [progress] 466 eval, +42,697 new, 26/s, max_depth=32696, cache_hits=83,043, mem=20976MB
+[2025-12-19 13:01:55]   [WARNING] Memory usage high: 20976 MB
+[2025-12-19 13:01:55]   [progress] 467 eval, +43,134 new, 26/s, max_depth=33066, cache_hits=83,880, mem=20976MB
+[2025-12-19 13:01:55]   [WARNING] Memory usage high: 20976 MB
+[2025-12-19 13:01:55]   [progress] 468 eval, +43,213 new, 26/s, max_depth=33164, cache_hits=84,118, mem=20976MB
+[2025-12-19 13:01:55]   [WARNING] Memory usage high: 20976 MB
+[2025-12-19 13:01:56]   [progress] 469 eval, +43,516 new, 26/s, max_depth=33480, cache_hits=84,892, mem=20976MB
+[2025-12-19 13:01:56]   [WARNING] Memory usage high: 20976 MB
+[2025-12-19 13:01:56]   [progress] 470 eval, +43,533 new, 26/s, max_depth=33502, cache_hits=84,923, mem=20976MB
+[2025-12-19 13:01:56]   [WARNING] Memory usage high: 20976 MB
+[2025-12-19 13:01:56]   [progress] 471 eval, +43,557 new, 26/s, max_depth=33518, cache_hits=84,967, mem=20976MB
+[2025-12-19 13:01:56]   [WARNING] Memory usage high: 20976 MB
+[2025-12-19 13:01:56]   [progress] 472 eval, +43,559 new, 26/s, max_depth=33522, cache_hits=84,984, mem=20976MB
+[2025-12-19 13:01:56]   [WARNING] Memory usage high: 20976 MB
+[2025-12-19 13:01:56]   [progress] 473 eval, +43,641 new, 26/s, max_depth=33608, cache_hits=85,171, mem=20976MB
+[2025-12-19 13:01:56]   [WARNING] Memory usage high: 20976 MB
+[2025-12-19 13:01:57]   [progress] 474 eval, +46,728 new, 24/s, max_depth=35184, cache_hits=89,771, mem=20976MB
+[2025-12-19 13:01:57]   [WARNING] Memory usage high: 20976 MB
+[2025-12-19 13:01:57]   [progress] 475 eval, +47,105 new, 24/s, max_depth=35454, cache_hits=90,575, mem=20976MB
+[2025-12-19 13:01:57]   [WARNING] Memory usage high: 20976 MB
+[2025-12-19 13:01:57]   [progress] 476 eval, +47,136 new, 24/s, max_depth=35513, cache_hits=90,733, mem=20976MB
+[2025-12-19 13:01:57]   [WARNING] Memory usage high: 20976 MB
+[2025-12-19 13:01:57]   [progress] 477 eval, +47,363 new, 24/s, max_depth=35749, cache_hits=91,344, mem=20976MB
+[2025-12-19 13:01:57]   [WARNING] Memory usage high: 20976 MB
+[2025-12-19 13:01:57]   [progress] 478 eval, +47,365 new, 24/s, max_depth=35751, cache_hits=91,352, mem=20976MB
+[2025-12-19 13:01:57]   [WARNING] Memory usage high: 20976 MB
+[2025-12-19 13:01:57]   [progress] 479 eval, +47,368 new, 24/s, max_depth=35753, cache_hits=91,365, mem=20976MB
+[2025-12-19 13:01:57]   [WARNING] Memory usage high: 20976 MB
+[2025-12-19 13:01:57]   [progress] 480 eval, +47,369 new, 24/s, max_depth=35753, cache_hits=91,371, mem=20976MB
+[2025-12-19 13:01:57]   [WARNING] Memory usage high: 20976 MB
+[2025-12-19 13:01:57]   [progress] 481 eval, +47,375 new, 24/s, max_depth=35763, cache_hits=91,402, mem=20976MB
+[2025-12-19 13:01:57]   [WARNING] Memory usage high: 20976 MB
+[2025-12-19 13:01:57]   [progress] 482 eval, +47,422 new, 24/s, max_depth=35807, cache_hits=91,515, mem=20976MB
+[2025-12-19 13:01:57]   [WARNING] Memory usage high: 20976 MB
+[2025-12-19 13:01:57]   [progress] 483 eval, +47,450 new, 24/s, max_depth=35853, cache_hits=91,600, mem=20976MB
+[2025-12-19 13:01:57]   [WARNING] Memory usage high: 20976 MB
+[2025-12-19 13:01:57]   [progress] 484 eval, +47,457 new, 24/s, max_depth=35862, cache_hits=91,631, mem=20976MB
+[2025-12-19 13:01:57]   [WARNING] Memory usage high: 20976 MB
+[2025-12-19 13:01:57]   [progress] 485 eval, +47,459 new, 24/s, max_depth=35864, cache_hits=91,643, mem=20976MB
+[2025-12-19 13:01:57]   [WARNING] Memory usage high: 20976 MB
+[2025-12-19 13:01:57]   [progress] 486 eval, +47,504 new, 24/s, max_depth=35890, cache_hits=91,714, mem=20976MB
+[2025-12-19 13:01:57]   [WARNING] Memory usage high: 20976 MB
+[2025-12-19 13:01:57]   [progress] 487 eval, +47,507 new, 24/s, max_depth=35892, cache_hits=91,722, mem=20976MB
+[2025-12-19 13:01:57]   [WARNING] Memory usage high: 20976 MB
+[2025-12-19 13:01:57]   [progress] 488 eval, +47,538 new, 24/s, max_depth=35928, cache_hits=91,799, mem=20976MB
+[2025-12-19 13:01:57]   [WARNING] Memory usage high: 20976 MB
+[2025-12-19 13:01:57]   [progress] 489 eval, +47,587 new, 24/s, max_depth=35970, cache_hits=91,890, mem=20976MB
+[2025-12-19 13:01:57]   [WARNING] Memory usage high: 20976 MB
+[2025-12-19 13:01:57]   [progress] 490 eval, +47,592 new, 24/s, max_depth=35976, cache_hits=91,911, mem=20976MB
+[2025-12-19 13:01:57]   [WARNING] Memory usage high: 20976 MB
+[2025-12-19 13:01:57]   [progress] 491 eval, +47,593 new, 24/s, max_depth=35978, cache_hits=91,922, mem=20976MB
+[2025-12-19 13:01:57]   [WARNING] Memory usage high: 20976 MB
+[2025-12-19 13:01:57]   [progress] 492 eval, +47,598 new, 24/s, max_depth=35980, cache_hits=91,937, mem=20976MB
+[2025-12-19 13:01:57]   [WARNING] Memory usage high: 20976 MB
+[2025-12-19 13:01:57]   [progress] 493 eval, +47,602 new, 24/s, max_depth=35984, cache_hits=91,950, mem=20976MB
+[2025-12-19 13:01:57]   [WARNING] Memory usage high: 20976 MB
+[2025-12-19 13:01:58]   [progress] 494 eval, +47,664 new, 24/s, max_depth=36032, cache_hits=92,067, mem=20976MB
+[2025-12-19 13:01:58]   [WARNING] Memory usage high: 20976 MB
+[2025-12-19 13:01:58]   [progress] 495 eval, +47,676 new, 24/s, max_depth=36038, cache_hits=92,084, mem=20976MB
+[2025-12-19 13:01:58]   [WARNING] Memory usage high: 20976 MB
+[2025-12-19 13:01:58]   [progress] 496 eval, +47,680 new, 24/s, max_depth=36046, cache_hits=92,103, mem=20976MB
+[2025-12-19 13:01:58]   [WARNING] Memory usage high: 20976 MB
+[2025-12-19 13:01:58]   [progress] 497 eval, +47,688 new, 25/s, max_depth=36058, cache_hits=92,138, mem=20976MB
+[2025-12-19 13:01:58]   [WARNING] Memory usage high: 20976 MB
+[2025-12-19 13:01:58]   [progress] 498 eval, +47,738 new, 25/s, max_depth=36140, cache_hits=92,297, mem=20976MB
+[2025-12-19 13:01:58]   [WARNING] Memory usage high: 20976 MB
+[2025-12-19 13:01:58]   [progress] 499 eval, +47,739 new, 25/s, max_depth=36152, cache_hits=92,317, mem=20976MB
+[2025-12-19 13:01:58]   [WARNING] Memory usage high: 20976 MB
+[2025-12-19 13:01:58]   [progress] 500 eval, +47,786 new, 25/s, max_depth=36205, cache_hits=92,465, mem=20976MB
+[2025-12-19 13:01:58]   [WARNING] Memory usage high: 20976 MB
+[2025-12-19 13:01:58]   [progress] 501 eval, +47,870 new, 25/s, max_depth=36278, cache_hits=92,657, mem=20976MB
+[2025-12-19 13:01:58]   [WARNING] Memory usage high: 20976 MB
+[2025-12-19 13:01:58]   [progress] 502 eval, +48,449 new, 24/s, max_depth=36862, cache_hits=93,851, mem=20976MB
+[2025-12-19 13:01:58]   [WARNING] Memory usage high: 20976 MB
+[2025-12-19 13:01:58]   [progress] 503 eval, +48,625 new, 24/s, max_depth=36953, cache_hits=94,106, mem=20976MB
+[2025-12-19 13:01:58]   [WARNING] Memory usage high: 20976 MB
+[2025-12-19 13:01:58]   [progress] 504 eval, +48,718 new, 24/s, max_depth=37002, cache_hits=94,235, mem=20976MB
+[2025-12-19 13:01:58]   [WARNING] Memory usage high: 20976 MB
+[2025-12-19 13:01:58]   [progress] 505 eval, +48,766 new, 24/s, max_depth=37042, cache_hits=94,342, mem=20976MB
+[2025-12-19 13:01:58]   [WARNING] Memory usage high: 20976 MB
+[2025-12-19 13:01:58]   [progress] 506 eval, +48,768 new, 24/s, max_depth=37044, cache_hits=94,354, mem=20976MB
+[2025-12-19 13:01:58]   [WARNING] Memory usage high: 20976 MB
+[2025-12-19 13:01:58]   [progress] 507 eval, +49,112 new, 24/s, max_depth=37242, cache_hits=94,968, mem=20976MB
+[2025-12-19 13:01:58]   [WARNING] Memory usage high: 20976 MB
+[2025-12-19 13:01:58]   [progress] 508 eval, +49,116 new, 24/s, max_depth=37254, cache_hits=95,001, mem=20976MB
+[2025-12-19 13:01:58]   [WARNING] Memory usage high: 20976 MB
+[2025-12-19 13:01:58]   [progress] 509 eval, +49,158 new, 24/s, max_depth=37312, cache_hits=95,142, mem=20976MB
+[2025-12-19 13:01:58]   [WARNING] Memory usage high: 20976 MB
+[2025-12-19 13:01:58]   [progress] 510 eval, +49,163 new, 24/s, max_depth=37318, cache_hits=95,167, mem=20976MB
+[2025-12-19 13:01:58]   [WARNING] Memory usage high: 20976 MB
+[2025-12-19 13:01:58]   [progress] 511 eval, +49,164 new, 24/s, max_depth=37318, cache_hits=95,173, mem=20976MB
+[2025-12-19 13:01:58]   [WARNING] Memory usage high: 20976 MB
+[2025-12-19 13:01:58]   [progress] 512 eval, +49,168 new, 24/s, max_depth=37324, cache_hits=95,194, mem=20976MB
+[2025-12-19 13:01:58]   [WARNING] Memory usage high: 20976 MB
+[2025-12-19 13:01:58]   [progress] 513 eval, +49,169 new, 24/s, max_depth=37324, cache_hits=95,200, mem=20976MB
+[2025-12-19 13:01:58]   [WARNING] Memory usage high: 20976 MB
+[2025-12-19 13:01:59]   [progress] 514 eval, +49,276 new, 24/s, max_depth=37382, cache_hits=95,382, mem=20976MB
+[2025-12-19 13:01:59]   [WARNING] Memory usage high: 20976 MB
+[2025-12-19 13:01:59]   [progress] 515 eval, +49,329 new, 24/s, max_depth=37436, cache_hits=95,516, mem=20976MB
+[2025-12-19 13:01:59]   [WARNING] Memory usage high: 20976 MB
+[2025-12-19 13:01:59]   [progress] 516 eval, +49,349 new, 24/s, max_depth=37474, cache_hits=95,612, mem=20976MB
+[2025-12-19 13:01:59]   [WARNING] Memory usage high: 20976 MB
+[2025-12-19 13:01:59]   [progress] 517 eval, +49,350 new, 24/s, max_depth=37476, cache_hits=95,621, mem=20976MB
+[2025-12-19 13:01:59]   [WARNING] Memory usage high: 20976 MB
+[2025-12-19 13:01:59]   [progress] 518 eval, +49,355 new, 24/s, max_depth=37478, cache_hits=95,633, mem=20976MB
+[2025-12-19 13:01:59]   [WARNING] Memory usage high: 20976 MB
+[2025-12-19 13:01:59]   [progress] 519 eval, +49,374 new, 24/s, max_depth=37484, cache_hits=95,658, mem=20976MB
+[2025-12-19 13:01:59]   [WARNING] Memory usage high: 20976 MB
+[2025-12-19 13:01:59]   [progress] 520 eval, +49,377 new, 24/s, max_depth=37484, cache_hits=95,666, mem=20976MB
+[2025-12-19 13:01:59]   [WARNING] Memory usage high: 20976 MB
+[2025-12-19 13:01:59]   [progress] 521 eval, +49,381 new, 24/s, max_depth=37486, cache_hits=95,675, mem=20976MB
+[2025-12-19 13:01:59]   [WARNING] Memory usage high: 20976 MB
+[2025-12-19 13:01:59]   [progress] 522 eval, +49,386 new, 24/s, max_depth=37488, cache_hits=95,689, mem=20976MB
+[2025-12-19 13:01:59]   [WARNING] Memory usage high: 20976 MB
+[2025-12-19 13:01:59]   [progress] 523 eval, +49,393 new, 25/s, max_depth=37498, cache_hits=95,712, mem=20976MB
+[2025-12-19 13:01:59]   [WARNING] Memory usage high: 20976 MB
+[2025-12-19 13:01:59]   [progress] 524 eval, +49,448 new, 25/s, max_depth=37544, cache_hits=95,807, mem=20976MB
+[2025-12-19 13:01:59]   [WARNING] Memory usage high: 20976 MB
+[2025-12-19 13:01:59]   [progress] 525 eval, +49,449 new, 25/s, max_depth=37546, cache_hits=95,817, mem=20976MB
+[2025-12-19 13:01:59]   [WARNING] Memory usage high: 20976 MB
+[2025-12-19 13:01:59]   [progress] 526 eval, +49,452 new, 25/s, max_depth=37546, cache_hits=95,824, mem=20976MB
+[2025-12-19 13:01:59]   [WARNING] Memory usage high: 20976 MB
+[2025-12-19 13:01:59]   [progress] 527 eval, +49,460 new, 25/s, max_depth=37554, cache_hits=95,845, mem=20976MB
+[2025-12-19 13:01:59]   [WARNING] Memory usage high: 20976 MB
+[2025-12-19 13:01:59]   [progress] 528 eval, +49,464 new, 25/s, max_depth=37556, cache_hits=95,858, mem=20976MB
+[2025-12-19 13:01:59]   [WARNING] Memory usage high: 20976 MB
+[2025-12-19 13:01:59]   [progress] 529 eval, +49,472 new, 25/s, max_depth=37564, cache_hits=95,877, mem=20976MB
+[2025-12-19 13:01:59]   [WARNING] Memory usage high: 20976 MB
+[2025-12-19 13:01:59]   [progress] 530 eval, +49,477 new, 25/s, max_depth=37566, cache_hits=95,889, mem=20976MB
+[2025-12-19 13:01:59]   [WARNING] Memory usage high: 20976 MB
+[2025-12-19 13:01:59]   [progress] 531 eval, +49,566 new, 25/s, max_depth=37622, cache_hits=96,040, mem=20976MB
+[2025-12-19 13:01:59]   [WARNING] Memory usage high: 20976 MB
+[2025-12-19 13:01:59]   [progress] 532 eval, +49,568 new, 25/s, max_depth=37624, cache_hits=96,050, mem=20976MB
+[2025-12-19 13:01:59]   [WARNING] Memory usage high: 20976 MB
+[2025-12-19 13:01:59]   [progress] 533 eval, +49,573 new, 25/s, max_depth=37626, cache_hits=96,062, mem=20976MB
+[2025-12-19 13:01:59]   [WARNING] Memory usage high: 20976 MB
+[2025-12-19 13:01:59]   [progress] 534 eval, +49,574 new, 25/s, max_depth=37626, cache_hits=96,068, mem=20976MB
+[2025-12-19 13:01:59]   [WARNING] Memory usage high: 20976 MB
+[2025-12-19 13:01:59]   [progress] 535 eval, +49,580 new, 25/s, max_depth=37632, cache_hits=96,090, mem=20976MB
+[2025-12-19 13:01:59]   [WARNING] Memory usage high: 20976 MB
+[2025-12-19 13:01:59]   [progress] 536 eval, +49,585 new, 25/s, max_depth=37640, cache_hits=96,110, mem=20976MB
+[2025-12-19 13:01:59]   [WARNING] Memory usage high: 20976 MB
+[2025-12-19 13:01:59]   [progress] 537 eval, +49,603 new, 25/s, max_depth=37666, cache_hits=96,167, mem=20976MB
+[2025-12-19 13:01:59]   [WARNING] Memory usage high: 20976 MB
+[2025-12-19 13:01:59]   [progress] 538 eval, +49,629 new, 25/s, max_depth=37676, cache_hits=96,205, mem=20976MB
+[2025-12-19 13:01:59]   [WARNING] Memory usage high: 20976 MB
+[2025-12-19 13:01:59]   [progress] 539 eval, +49,638 new, 25/s, max_depth=37682, cache_hits=96,227, mem=20976MB
+[2025-12-19 13:01:59]   [WARNING] Memory usage high: 20976 MB
+[2025-12-19 13:01:59]   [progress] 540 eval, +49,663 new, 25/s, max_depth=37700, cache_hits=96,281, mem=20976MB
+[2025-12-19 13:01:59]   [WARNING] Memory usage high: 20976 MB
+[2025-12-19 13:01:59]   [progress] 541 eval, +49,706 new, 25/s, max_depth=37738, cache_hits=96,380, mem=20976MB
+[2025-12-19 13:01:59]   [WARNING] Memory usage high: 20976 MB
+[2025-12-19 13:01:59]   [progress] 542 eval, +49,708 new, 25/s, max_depth=37740, cache_hits=96,389, mem=20976MB
+[2025-12-19 13:01:59]   [WARNING] Memory usage high: 20976 MB
+[2025-12-19 13:01:59]   [progress] 543 eval, +49,715 new, 25/s, max_depth=37756, cache_hits=96,427, mem=20976MB
+[2025-12-19 13:01:59]   [WARNING] Memory usage high: 20976 MB
+[2025-12-19 13:01:59]   [progress] 544 eval, +49,752 new, 25/s, max_depth=37816, cache_hits=96,561, mem=20976MB
+[2025-12-19 13:01:59]   [WARNING] Memory usage high: 20976 MB
+[2025-12-19 13:01:59]   [progress] 545 eval, +49,755 new, 25/s, max_depth=37822, cache_hits=96,578, mem=20976MB
+[2025-12-19 13:01:59]   [WARNING] Memory usage high: 20976 MB
+[2025-12-19 13:01:59]   [progress] 546 eval, +49,756 new, 25/s, max_depth=37822, cache_hits=96,583, mem=20976MB
+[2025-12-19 13:01:59]   [WARNING] Memory usage high: 20976 MB
+[2025-12-19 13:01:59]   [progress] 547 eval, +49,767 new, 25/s, max_depth=37840, cache_hits=96,635, mem=20976MB
+[2025-12-19 13:01:59]   [WARNING] Memory usage high: 20976 MB
+[2025-12-19 13:01:59]   [progress] 548 eval, +49,768 new, 25/s, max_depth=37840, cache_hits=96,640, mem=20976MB
+[2025-12-19 13:01:59]   [WARNING] Memory usage high: 20976 MB
+[2025-12-19 13:01:59]   [progress] 549 eval, +49,790 new, 25/s, max_depth=37862, cache_hits=96,685, mem=20976MB
+[2025-12-19 13:01:59]   [WARNING] Memory usage high: 20976 MB
+[2025-12-19 13:01:59]   [progress] 550 eval, +49,793 new, 25/s, max_depth=37866, cache_hits=96,698, mem=20976MB
+[2025-12-19 13:01:59]   [WARNING] Memory usage high: 20976 MB
+[2025-12-19 13:01:59]   [progress] 551 eval, +49,807 new, 25/s, max_depth=37894, cache_hits=96,746, mem=20976MB
+[2025-12-19 13:01:59]   [WARNING] Memory usage high: 20976 MB
+[2025-12-19 13:01:59]   [progress] 552 eval, +49,824 new, 26/s, max_depth=37904, cache_hits=96,778, mem=20976MB
+[2025-12-19 13:01:59]   [WARNING] Memory usage high: 20976 MB
+[2025-12-19 13:01:59]   [progress] 553 eval, +49,830 new, 26/s, max_depth=37906, cache_hits=96,792, mem=20976MB
+[2025-12-19 13:01:59]   [WARNING] Memory usage high: 20976 MB
+[2025-12-19 13:01:59]   [progress] 554 eval, +49,852 new, 26/s, max_depth=37928, cache_hits=96,857, mem=20976MB
+[2025-12-19 13:01:59]   [WARNING] Memory usage high: 20976 MB
+[2025-12-19 13:01:59]   [progress] 555 eval, +49,891 new, 26/s, max_depth=37964, cache_hits=96,978, mem=20976MB
+[2025-12-19 13:01:59]   [WARNING] Memory usage high: 20976 MB
+[2025-12-19 13:01:59]   [progress] 556 eval, +49,961 new, 26/s, max_depth=38054, cache_hits=97,169, mem=20976MB
+[2025-12-19 13:01:59]   [WARNING] Memory usage high: 20976 MB
+[2025-12-19 13:01:59]   [progress] 557 eval, +50,042 new, 26/s, max_depth=38128, cache_hits=97,371, mem=20976MB
+[2025-12-19 13:01:59]   [WARNING] Memory usage high: 20976 MB
+[2025-12-19 13:01:59]   [progress] 558 eval, +50,045 new, 26/s, max_depth=38130, cache_hits=97,381, mem=20976MB
+[2025-12-19 13:01:59]   [WARNING] Memory usage high: 20976 MB
+[2025-12-19 13:01:59]   [progress] 559 eval, +50,046 new, 26/s, max_depth=38130, cache_hits=97,386, mem=20976MB
+[2025-12-19 13:01:59]   [WARNING] Memory usage high: 20976 MB
+[2025-12-19 13:01:59]   [progress] 560 eval, +50,050 new, 26/s, max_depth=38132, cache_hits=97,397, mem=20976MB
+[2025-12-19 13:01:59]   [WARNING] Memory usage high: 20976 MB
+[2025-12-19 13:01:59]   [progress] 561 eval, +50,060 new, 26/s, max_depth=38146, cache_hits=97,429, mem=20976MB
+[2025-12-19 13:01:59]   [WARNING] Memory usage high: 20976 MB
+[2025-12-19 13:01:59]   [progress] 562 eval, +50,079 new, 26/s, max_depth=38166, cache_hits=97,488, mem=20976MB
+[2025-12-19 13:01:59]   [WARNING] Memory usage high: 20976 MB
+[2025-12-19 13:01:59]   [progress] 563 eval, +50,085 new, 26/s, max_depth=38168, cache_hits=97,504, mem=20976MB
+[2025-12-19 13:01:59]   [WARNING] Memory usage high: 20976 MB
+[2025-12-19 13:01:59]   [progress] 564 eval, +50,139 new, 26/s, max_depth=38271, cache_hits=97,710, mem=20976MB
+[2025-12-19 13:01:59]   [WARNING] Memory usage high: 20976 MB
+[2025-12-19 13:01:59]   [progress] 565 eval, +50,143 new, 26/s, max_depth=38275, cache_hits=97,729, mem=20976MB
+[2025-12-19 13:01:59]   [WARNING] Memory usage high: 20976 MB
+[2025-12-19 13:01:59]   [progress] 566 eval, +50,145 new, 26/s, max_depth=38277, cache_hits=97,745, mem=20976MB
+[2025-12-19 13:01:59]   [WARNING] Memory usage high: 20976 MB
+[2025-12-19 13:01:59]   [progress] 567 eval, +50,149 new, 26/s, max_depth=38285, cache_hits=97,769, mem=20976MB
+[2025-12-19 13:01:59]   [WARNING] Memory usage high: 20976 MB
+[2025-12-19 13:01:59]   [progress] 568 eval, +50,153 new, 26/s, max_depth=38289, cache_hits=97,788, mem=20976MB
+[2025-12-19 13:01:59]   [WARNING] Memory usage high: 20976 MB
+[2025-12-19 13:01:59]   [progress] 569 eval, +50,270 new, 26/s, max_depth=38421, cache_hits=98,103, mem=20976MB
+[2025-12-19 13:01:59]   [WARNING] Memory usage high: 20976 MB
+[2025-12-19 13:02:00]   [progress] 570 eval, +50,751 new, 26/s, max_depth=38742, cache_hits=98,899, mem=20976MB
+[2025-12-19 13:02:00]   [WARNING] Memory usage high: 20976 MB
+[2025-12-19 13:02:00]   [progress] 571 eval, +50,769 new, 26/s, max_depth=38762, cache_hits=98,947, mem=20976MB
+[2025-12-19 13:02:00]   [WARNING] Memory usage high: 20976 MB
+[2025-12-19 13:02:00]   [progress] 572 eval, +50,808 new, 26/s, max_depth=38794, cache_hits=99,035, mem=20976MB
+[2025-12-19 13:02:00]   [WARNING] Memory usage high: 20976 MB
+[2025-12-19 13:02:00]   [progress] 573 eval, +50,809 new, 26/s, max_depth=38794, cache_hits=99,041, mem=20976MB
+[2025-12-19 13:02:00]   [WARNING] Memory usage high: 20976 MB
+[2025-12-19 13:02:00]   [progress] 574 eval, +50,810 new, 26/s, max_depth=38794, cache_hits=99,047, mem=20976MB
+[2025-12-19 13:02:00]   [WARNING] Memory usage high: 20976 MB
+[2025-12-19 13:02:00]   [progress] 575 eval, +50,899 new, 26/s, max_depth=38919, cache_hits=99,304, mem=20976MB
+[2025-12-19 13:02:00]   [WARNING] Memory usage high: 20976 MB
+[2025-12-19 13:02:00]   [progress] 576 eval, +51,045 new, 26/s, max_depth=39087, cache_hits=99,667, mem=20976MB
+[2025-12-19 13:02:00]   [WARNING] Memory usage high: 20976 MB
+[2025-12-19 13:02:00]   [progress] 577 eval, +51,046 new, 26/s, max_depth=39091, cache_hits=99,684, mem=20976MB
+[2025-12-19 13:02:00]   [WARNING] Memory usage high: 20976 MB
+[2025-12-19 13:02:00]   [progress] 578 eval, +51,047 new, 26/s, max_depth=39091, cache_hits=99,694, mem=20976MB
+[2025-12-19 13:02:00]   [WARNING] Memory usage high: 20976 MB
+[2025-12-19 13:02:00]   [progress] 579 eval, +51,192 new, 26/s, max_depth=39276, cache_hits=100,155, mem=20976MB
+[2025-12-19 13:02:00]   [WARNING] Memory usage high: 20976 MB
+[2025-12-19 13:02:00]   [progress] 580 eval, +51,193 new, 26/s, max_depth=39280, cache_hits=100,169, mem=20976MB
+[2025-12-19 13:02:00]   [WARNING] Memory usage high: 20976 MB
+[2025-12-19 13:02:00]   [progress] 581 eval, +51,200 new, 26/s, max_depth=39302, cache_hits=100,220, mem=20976MB
+[2025-12-19 13:02:00]   [WARNING] Memory usage high: 20976 MB
+[2025-12-19 13:02:00]   [progress] 582 eval, +51,207 new, 26/s, max_depth=39315, cache_hits=100,255, mem=20976MB
+[2025-12-19 13:02:00]   [WARNING] Memory usage high: 20976 MB
+[2025-12-19 13:02:00]   [progress] 583 eval, +51,236 new, 26/s, max_depth=39362, cache_hits=100,388, mem=20976MB
+[2025-12-19 13:02:00]   [WARNING] Memory usage high: 20976 MB
+[2025-12-19 13:02:00]   [progress] 584 eval, +51,239 new, 26/s, max_depth=39364, cache_hits=100,399, mem=20976MB
+[2025-12-19 13:02:00]   [WARNING] Memory usage high: 20976 MB
+[2025-12-19 13:02:00]   [progress] 585 eval, +51,379 new, 26/s, max_depth=39514, cache_hits=100,744, mem=20976MB
+[2025-12-19 13:02:00]   [WARNING] Memory usage high: 20976 MB
+[2025-12-19 13:02:00]   [progress] 586 eval, +51,400 new, 26/s, max_depth=39540, cache_hits=100,808, mem=20976MB
+[2025-12-19 13:02:00]   [WARNING] Memory usage high: 20976 MB
+[2025-12-19 13:02:00]   [progress] 587 eval, +51,479 new, 26/s, max_depth=39606, cache_hits=100,971, mem=20976MB
+[2025-12-19 13:02:00]   [WARNING] Memory usage high: 20976 MB
+[2025-12-19 13:02:00]   [progress] 588 eval, +51,481 new, 26/s, max_depth=39608, cache_hits=100,983, mem=20976MB
+[2025-12-19 13:02:00]   [WARNING] Memory usage high: 20976 MB
+[2025-12-19 13:02:00]   [progress] 589 eval, +51,491 new, 26/s, max_depth=39620, cache_hits=101,014, mem=20976MB
+[2025-12-19 13:02:00]   [WARNING] Memory usage high: 20976 MB
+[2025-12-19 13:02:00]   [progress] 590 eval, +51,494 new, 26/s, max_depth=39620, cache_hits=101,021, mem=20976MB
+[2025-12-19 13:02:00]   [WARNING] Memory usage high: 20976 MB
+[2025-12-19 13:02:00]   [progress] 591 eval, +51,547 new, 26/s, max_depth=39678, cache_hits=101,159, mem=20976MB
+[2025-12-19 13:02:00]   [WARNING] Memory usage high: 20976 MB
+[2025-12-19 13:02:00]   [progress] 592 eval, +51,550 new, 26/s, max_depth=39678, cache_hits=101,166, mem=20976MB
+[2025-12-19 13:02:00]   [WARNING] Memory usage high: 20976 MB
+[2025-12-19 13:02:00]   [progress] 593 eval, +51,571 new, 26/s, max_depth=39694, cache_hits=101,225, mem=20976MB
+[2025-12-19 13:02:00]   [WARNING] Memory usage high: 20976 MB
+[2025-12-19 13:02:00]   [progress] 594 eval, +51,643 new, 26/s, max_depth=39778, cache_hits=101,426, mem=20976MB
+[2025-12-19 13:02:00]   [WARNING] Memory usage high: 20976 MB
+[2025-12-19 13:02:00]   [progress] 595 eval, +51,644 new, 26/s, max_depth=39779, cache_hits=101,435, mem=20976MB
+[2025-12-19 13:02:00]   [WARNING] Memory usage high: 20976 MB
+[2025-12-19 13:02:01]   [progress] 596 eval, +52,028 new, 26/s, max_depth=40033, cache_hits=102,107, mem=20976MB
+[2025-12-19 13:02:01]   [WARNING] Memory usage high: 20976 MB
+[2025-12-19 13:02:01]   [progress] 597 eval, +52,608 new, 25/s, max_depth=40406, cache_hits=103,232, mem=20976MB
+[2025-12-19 13:02:01]   [WARNING] Memory usage high: 20976 MB
+[2025-12-19 13:02:01]   [progress] 598 eval, +52,623 new, 25/s, max_depth=40422, cache_hits=103,270, mem=20976MB
+[2025-12-19 13:02:01]   [WARNING] Memory usage high: 20976 MB
+[2025-12-19 13:02:01]   [progress] 599 eval, +52,632 new, 25/s, max_depth=40426, cache_hits=103,284, mem=20976MB
+[2025-12-19 13:02:01]   [WARNING] Memory usage high: 20976 MB
+[2025-12-19 13:02:01]   [progress] 600 eval, +52,705 new, 25/s, max_depth=40476, cache_hits=103,408, mem=20976MB
+[2025-12-19 13:02:01]   [WARNING] Memory usage high: 20976 MB
+[2025-12-19 13:02:01]   [progress] 601 eval, +53,093 new, 25/s, max_depth=40936, cache_hits=104,312, mem=20976MB
+[2025-12-19 13:02:01]   [WARNING] Memory usage high: 20976 MB
+[2025-12-19 13:02:02]   [progress] 602 eval, +54,187 new, 25/s, max_depth=41618, cache_hits=105,980, mem=20976MB
+[2025-12-19 13:02:02]   [WARNING] Memory usage high: 20976 MB
+[2025-12-19 13:02:02]   [progress] 603 eval, +54,255 new, 25/s, max_depth=41664, cache_hits=106,096, mem=20976MB
+[2025-12-19 13:02:02]   [WARNING] Memory usage high: 20976 MB
+[2025-12-19 13:02:02]   [progress] 604 eval, +54,824 new, 24/s, max_depth=42068, cache_hits=107,226, mem=20976MB
+[2025-12-19 13:02:02]   [WARNING] Memory usage high: 20976 MB
+[2025-12-19 13:02:02]   [progress] 605 eval, +55,183 new, 24/s, max_depth=42419, cache_hits=108,129, mem=20976MB
+[2025-12-19 13:02:02]   [WARNING] Memory usage high: 20976 MB
+[2025-12-19 13:02:02]   [progress] 606 eval, +55,224 new, 24/s, max_depth=42473, cache_hits=108,253, mem=20976MB
+[2025-12-19 13:02:02]   [WARNING] Memory usage high: 20976 MB
+[2025-12-19 13:02:02]   [progress] 607 eval, +55,229 new, 24/s, max_depth=42485, cache_hits=108,285, mem=20976MB
+[2025-12-19 13:02:02]   [WARNING] Memory usage high: 20976 MB
+[2025-12-19 13:02:02]   [progress] 608 eval, +55,230 new, 24/s, max_depth=42485, cache_hits=108,295, mem=20976MB
+[2025-12-19 13:02:02]   [WARNING] Memory usage high: 20976 MB
+[2025-12-19 13:02:02]   [progress] 609 eval, +55,312 new, 24/s, max_depth=42581, cache_hits=108,525, mem=20976MB
+[2025-12-19 13:02:02]   [WARNING] Memory usage high: 20976 MB
+[2025-12-19 13:02:02]   [progress] 610 eval, +55,318 new, 24/s, max_depth=42590, cache_hits=108,553, mem=20976MB
+[2025-12-19 13:02:02]   [WARNING] Memory usage high: 20976 MB
+[2025-12-19 13:02:02]   [progress] 611 eval, +55,328 new, 24/s, max_depth=42603, cache_hits=108,586, mem=20976MB
+[2025-12-19 13:02:02]   [WARNING] Memory usage high: 20976 MB
+[2025-12-19 13:02:03]   [progress] 612 eval, +55,404 new, 24/s, max_depth=42673, cache_hits=108,761, mem=20976MB
+[2025-12-19 13:02:03]   [WARNING] Memory usage high: 20976 MB
+[2025-12-19 13:02:03]   [progress] 613 eval, +55,459 new, 24/s, max_depth=42715, cache_hits=108,886, mem=20976MB
+[2025-12-19 13:02:03]   [WARNING] Memory usage high: 20976 MB
+[2025-12-19 13:02:03]   [progress] 614 eval, +55,507 new, 24/s, max_depth=42759, cache_hits=109,000, mem=20976MB
+[2025-12-19 13:02:03]   [WARNING] Memory usage high: 20976 MB
+[2025-12-19 13:02:03]   [progress] 615 eval, +55,508 new, 24/s, max_depth=42759, cache_hits=109,005, mem=20976MB
+[2025-12-19 13:02:03]   [WARNING] Memory usage high: 20976 MB
+[2025-12-19 13:02:03]   [progress] 616 eval, +55,511 new, 24/s, max_depth=42761, cache_hits=109,015, mem=20976MB
+[2025-12-19 13:02:03]   [WARNING] Memory usage high: 20976 MB
+[2025-12-19 13:02:03]   [progress] 617 eval, +55,512 new, 24/s, max_depth=42761, cache_hits=109,023, mem=20976MB
+[2025-12-19 13:02:03]   [WARNING] Memory usage high: 20976 MB
+[2025-12-19 13:02:03]   [progress] 618 eval, +55,513 new, 24/s, max_depth=42761, cache_hits=109,028, mem=20976MB
+[2025-12-19 13:02:03]   [WARNING] Memory usage high: 20976 MB
+[2025-12-19 13:02:03]   [progress] 619 eval, +55,531 new, 24/s, max_depth=42779, cache_hits=109,074, mem=20976MB
+[2025-12-19 13:02:03]   [WARNING] Memory usage high: 20976 MB
+[2025-12-19 13:02:03]   [progress] 620 eval, +55,536 new, 24/s, max_depth=42787, cache_hits=109,094, mem=20976MB
+[2025-12-19 13:02:03]   [WARNING] Memory usage high: 20976 MB
+[2025-12-19 13:02:03]   [progress] 621 eval, +55,541 new, 24/s, max_depth=42805, cache_hits=109,129, mem=20976MB
+[2025-12-19 13:02:03]   [WARNING] Memory usage high: 20976 MB
+[2025-12-19 13:02:03]   [progress] 622 eval, +55,542 new, 25/s, max_depth=42809, cache_hits=109,142, mem=20976MB
+[2025-12-19 13:02:03]   [WARNING] Memory usage high: 20976 MB
+[2025-12-19 13:02:03]   [progress] 623 eval, +55,561 new, 25/s, max_depth=42845, cache_hits=109,228, mem=20976MB
+[2025-12-19 13:02:03]   [WARNING] Memory usage high: 20976 MB
+[2025-12-19 13:02:03]   [progress] 624 eval, +55,570 new, 25/s, max_depth=42851, cache_hits=109,252, mem=20976MB
+[2025-12-19 13:02:03]   [WARNING] Memory usage high: 20976 MB
+[2025-12-19 13:02:03]   [progress] 625 eval, +55,582 new, 25/s, max_depth=42889, cache_hits=109,342, mem=20976MB
+[2025-12-19 13:02:03]   [WARNING] Memory usage high: 20976 MB
+[2025-12-19 13:02:03]   [progress] 626 eval, +55,585 new, 25/s, max_depth=42897, cache_hits=109,371, mem=20976MB
+[2025-12-19 13:02:03]   [WARNING] Memory usage high: 20976 MB
+[2025-12-19 13:02:03]   [progress] 627 eval, +55,815 new, 25/s, max_depth=43096, cache_hits=109,896, mem=20976MB
+[2025-12-19 13:02:03]   [WARNING] Memory usage high: 20976 MB
+[2025-12-19 13:02:03]   [progress] 628 eval, +55,816 new, 25/s, max_depth=43096, cache_hits=109,902, mem=20976MB
+[2025-12-19 13:02:03]   [WARNING] Memory usage high: 20976 MB
+[2025-12-19 13:02:03]   [progress] 629 eval, +55,817 new, 25/s, max_depth=43098, cache_hits=109,916, mem=20976MB
+[2025-12-19 13:02:03]   [WARNING] Memory usage high: 20976 MB
+[2025-12-19 13:02:03]   [progress] 630 eval, +55,827 new, 25/s, max_depth=43108, cache_hits=109,953, mem=20976MB
+[2025-12-19 13:02:03]   [WARNING] Memory usage high: 20976 MB
+[2025-12-19 13:02:03]   [progress] 631 eval, +55,877 new, 25/s, max_depth=43148, cache_hits=110,071, mem=20976MB
+[2025-12-19 13:02:03]   [WARNING] Memory usage high: 20976 MB
+[2025-12-19 13:02:03]   [progress] 632 eval, +55,924 new, 25/s, max_depth=43175, cache_hits=110,166, mem=20976MB
+[2025-12-19 13:02:03]   [WARNING] Memory usage high: 20976 MB
+[2025-12-19 13:02:03]   [progress] 633 eval, +56,121 new, 25/s, max_depth=43327, cache_hits=110,605, mem=20976MB
+[2025-12-19 13:02:03]   [WARNING] Memory usage high: 20976 MB
+[2025-12-19 13:02:03]   [progress] 634 eval, +56,127 new, 25/s, max_depth=43331, cache_hits=110,625, mem=20976MB
+[2025-12-19 13:02:03]   [WARNING] Memory usage high: 20976 MB
+[2025-12-19 13:02:03]   [progress] 635 eval, +56,132 new, 25/s, max_depth=43343, cache_hits=110,666, mem=20976MB
+[2025-12-19 13:02:03]   [WARNING] Memory usage high: 20976 MB
+[2025-12-19 13:02:03]   [progress] 636 eval, +56,137 new, 25/s, max_depth=43357, cache_hits=110,712, mem=20976MB
+[2025-12-19 13:02:03]   [WARNING] Memory usage high: 20976 MB
+[2025-12-19 13:02:03]   [progress] 637 eval, +56,139 new, 25/s, max_depth=43361, cache_hits=110,728, mem=20976MB
+[2025-12-19 13:02:03]   [WARNING] Memory usage high: 20976 MB
+[2025-12-19 13:02:03]   [progress] 638 eval, +56,142 new, 25/s, max_depth=43365, cache_hits=110,746, mem=20976MB
+[2025-12-19 13:02:03]   [WARNING] Memory usage high: 20976 MB
+[2025-12-19 13:02:03]   [progress] 639 eval, +56,143 new, 25/s, max_depth=43369, cache_hits=110,764, mem=20976MB
+[2025-12-19 13:02:03]   [WARNING] Memory usage high: 20976 MB
+[2025-12-19 13:02:03]   [progress] 640 eval, +56,145 new, 25/s, max_depth=43373, cache_hits=110,781, mem=20976MB
+[2025-12-19 13:02:03]   [WARNING] Memory usage high: 20976 MB
+[2025-12-19 13:02:03]   [progress] 641 eval, +56,151 new, 25/s, max_depth=43379, cache_hits=110,796, mem=20976MB
+[2025-12-19 13:02:03]   [WARNING] Memory usage high: 20976 MB
+[2025-12-19 13:02:03]   [progress] 642 eval, +56,481 new, 25/s, max_depth=43650, cache_hits=111,532, mem=20976MB
+[2025-12-19 13:02:03]   [WARNING] Memory usage high: 20976 MB
+[2025-12-19 13:02:03]   [progress] 643 eval, +56,499 new, 25/s, max_depth=43672, cache_hits=111,598, mem=20976MB
+[2025-12-19 13:02:03]   [WARNING] Memory usage high: 20976 MB
+[2025-12-19 13:02:03]   [progress] 644 eval, +56,539 new, 25/s, max_depth=43725, cache_hits=111,727, mem=20976MB
+[2025-12-19 13:02:03]   [WARNING] Memory usage high: 20976 MB
+[2025-12-19 13:02:03]   [progress] 645 eval, +56,587 new, 25/s, max_depth=43781, cache_hits=111,845, mem=20976MB
+[2025-12-19 13:02:03]   [WARNING] Memory usage high: 20976 MB
+[2025-12-19 13:02:03]   [progress] 646 eval, +56,600 new, 25/s, max_depth=43802, cache_hits=111,901, mem=20976MB
+[2025-12-19 13:02:03]   [WARNING] Memory usage high: 20976 MB
+[2025-12-19 13:02:03]   [progress] 647 eval, +56,601 new, 25/s, max_depth=43802, cache_hits=111,904, mem=20976MB
+[2025-12-19 13:02:03]   [WARNING] Memory usage high: 20976 MB
+[2025-12-19 13:02:03]   [progress] 648 eval, +56,603 new, 25/s, max_depth=43804, cache_hits=111,920, mem=20976MB
+[2025-12-19 13:02:03]   [WARNING] Memory usage high: 20976 MB
+[2025-12-19 13:02:03]   [progress] 649 eval, +56,605 new, 25/s, max_depth=43804, cache_hits=111,930, mem=20976MB
+[2025-12-19 13:02:03]   [WARNING] Memory usage high: 20976 MB
+[2025-12-19 13:02:04]   [progress] 650 eval, +56,772 new, 25/s, max_depth=44007, cache_hits=112,406, mem=20976MB
+[2025-12-19 13:02:04]   [WARNING] Memory usage high: 20976 MB
+[2025-12-19 13:02:04]   [progress] 651 eval, +57,302 new, 24/s, max_depth=44447, cache_hits=113,457, mem=20976MB
+[2025-12-19 13:02:04]   [WARNING] Memory usage high: 20976 MB
+[2025-12-19 13:02:04]   [progress] 652 eval, +57,318 new, 24/s, max_depth=44455, cache_hits=113,490, mem=20976MB
+[2025-12-19 13:02:04]   [WARNING] Memory usage high: 20976 MB
+[2025-12-19 13:02:04]   [progress] 653 eval, +57,320 new, 25/s, max_depth=44455, cache_hits=113,497, mem=20976MB
+[2025-12-19 13:02:04]   [WARNING] Memory usage high: 20976 MB
+[2025-12-19 13:02:04]   [progress] 654 eval, +57,419 new, 24/s, max_depth=44526, cache_hits=113,706, mem=20976MB
+[2025-12-19 13:02:04]   [WARNING] Memory usage high: 20976 MB
+[2025-12-19 13:02:04]   [progress] 655 eval, +57,512 new, 24/s, max_depth=44629, cache_hits=114,006, mem=20976MB
+[2025-12-19 13:02:04]   [WARNING] Memory usage high: 20976 MB
+[2025-12-19 13:02:04]   [progress] 656 eval, +57,519 new, 24/s, max_depth=44643, cache_hits=114,043, mem=20976MB
+[2025-12-19 13:02:04]   [WARNING] Memory usage high: 20976 MB
+[2025-12-19 13:02:04]   [progress] 657 eval, +57,708 new, 24/s, max_depth=44841, cache_hits=114,515, mem=20976MB
+[2025-12-19 13:02:04]   [WARNING] Memory usage high: 20976 MB
+[2025-12-19 13:02:04]   [progress] 658 eval, +57,709 new, 24/s, max_depth=44841, cache_hits=114,520, mem=20976MB
+[2025-12-19 13:02:04]   [WARNING] Memory usage high: 20976 MB
+[2025-12-19 13:02:04]   [progress] 659 eval, +57,749 new, 24/s, max_depth=44911, cache_hits=114,661, mem=20976MB
+[2025-12-19 13:02:04]   [WARNING] Memory usage high: 20976 MB
+[2025-12-19 13:02:04]   [progress] 660 eval, +57,853 new, 24/s, max_depth=45063, cache_hits=114,971, mem=20976MB
+[2025-12-19 13:02:04]   [WARNING] Memory usage high: 20976 MB
+[2025-12-19 13:02:04]   [progress] 661 eval, +57,857 new, 24/s, max_depth=45071, cache_hits=114,995, mem=20976MB
+[2025-12-19 13:02:04]   [WARNING] Memory usage high: 20976 MB
+[2025-12-19 13:02:04]   [progress] 662 eval, +57,865 new, 24/s, max_depth=45091, cache_hits=115,036, mem=20976MB
+[2025-12-19 13:02:04]   [WARNING] Memory usage high: 20976 MB
+[2025-12-19 13:02:04]   [progress] 663 eval, +57,868 new, 24/s, max_depth=45097, cache_hits=115,059, mem=20976MB
+[2025-12-19 13:02:04]   [WARNING] Memory usage high: 20976 MB
+[2025-12-19 13:02:04]   [progress] 664 eval, +57,906 new, 24/s, max_depth=45147, cache_hits=115,159, mem=20976MB
+[2025-12-19 13:02:04]   [WARNING] Memory usage high: 20976 MB
+[2025-12-19 13:02:04]   [progress] 665 eval, +57,909 new, 24/s, max_depth=45152, cache_hits=115,175, mem=20976MB
+[2025-12-19 13:02:04]   [WARNING] Memory usage high: 20976 MB
+[2025-12-19 13:02:04]   [progress] 666 eval, +57,910 new, 25/s, max_depth=45156, cache_hits=115,186, mem=20976MB
+[2025-12-19 13:02:04]   [WARNING] Memory usage high: 20976 MB
+[2025-12-19 13:02:04]   [progress] 667 eval, +57,912 new, 25/s, max_depth=45159, cache_hits=115,191, mem=20976MB
+[2025-12-19 13:02:04]   [WARNING] Memory usage high: 20976 MB
+[2025-12-19 13:02:04]   [progress] 668 eval, +57,917 new, 25/s, max_depth=45165, cache_hits=115,205, mem=20976MB
+[2025-12-19 13:02:04]   [WARNING] Memory usage high: 20976 MB
+[2025-12-19 13:02:04]   [progress] 669 eval, +57,953 new, 25/s, max_depth=45195, cache_hits=115,290, mem=20976MB
+[2025-12-19 13:02:04]   [WARNING] Memory usage high: 20976 MB
+[2025-12-19 13:02:05]   [progress] 670 eval, +58,069 new, 25/s, max_depth=45319, cache_hits=115,548, mem=20976MB
+[2025-12-19 13:02:05]   [WARNING] Memory usage high: 20976 MB
+[2025-12-19 13:02:05]   [progress] 671 eval, +58,091 new, 25/s, max_depth=45331, cache_hits=115,583, mem=20976MB
+[2025-12-19 13:02:05]   [WARNING] Memory usage high: 20976 MB
+[2025-12-19 13:02:05]   [progress] 672 eval, +58,113 new, 25/s, max_depth=45347, cache_hits=115,625, mem=20976MB
+[2025-12-19 13:02:05]   [WARNING] Memory usage high: 20976 MB
+[2025-12-19 13:02:05]   [progress] 673 eval, +58,182 new, 25/s, max_depth=45409, cache_hits=115,806, mem=20976MB
+[2025-12-19 13:02:05]   [WARNING] Memory usage high: 20976 MB
+[2025-12-19 13:02:05]   [progress] 674 eval, +58,187 new, 25/s, max_depth=45411, cache_hits=115,813, mem=20976MB
+[2025-12-19 13:02:05]   [WARNING] Memory usage high: 20976 MB
+[2025-12-19 13:02:05]   [progress] 675 eval, +58,216 new, 25/s, max_depth=45457, cache_hits=115,904, mem=20976MB
+[2025-12-19 13:02:05]   [WARNING] Memory usage high: 20976 MB
+[2025-12-19 13:02:05]   [progress] 676 eval, +58,809 new, 24/s, max_depth=45765, cache_hits=116,849, mem=20976MB
+[2025-12-19 13:02:05]   [WARNING] Memory usage high: 20976 MB
+[2025-12-19 13:02:05]   [progress] 677 eval, +58,883 new, 24/s, max_depth=45837, cache_hits=117,058, mem=20976MB
+[2025-12-19 13:02:05]   [WARNING] Memory usage high: 20976 MB
+[2025-12-19 13:02:05]   [progress] 678 eval, +58,890 new, 24/s, max_depth=45857, cache_hits=117,136, mem=20976MB
+[2025-12-19 13:02:05]   [WARNING] Memory usage high: 20976 MB
+[2025-12-19 13:02:05]   [progress] 679 eval, +58,904 new, 24/s, max_depth=45905, cache_hits=117,223, mem=20976MB
+[2025-12-19 13:02:05]   [WARNING] Memory usage high: 20976 MB
+[2025-12-19 13:02:05]   [progress] 680 eval, +58,907 new, 24/s, max_depth=45909, cache_hits=117,236, mem=20976MB
+[2025-12-19 13:02:05]   [WARNING] Memory usage high: 20976 MB
+[2025-12-19 13:02:05]   [progress] 681 eval, +58,913 new, 25/s, max_depth=45927, cache_hits=117,271, mem=20976MB
+[2025-12-19 13:02:05]   [WARNING] Memory usage high: 20976 MB
+[2025-12-19 13:02:05]   [progress] 682 eval, +58,921 new, 25/s, max_depth=45939, cache_hits=117,300, mem=20976MB
+[2025-12-19 13:02:05]   [WARNING] Memory usage high: 20976 MB
+[2025-12-19 13:02:05]   [progress] 683 eval, +58,931 new, 25/s, max_depth=45967, cache_hits=117,384, mem=20976MB
+[2025-12-19 13:02:05]   [WARNING] Memory usage high: 20976 MB
+[2025-12-19 13:02:05]   [progress] 684 eval, +58,972 new, 25/s, max_depth=46011, cache_hits=117,505, mem=20976MB
+[2025-12-19 13:02:05]   [WARNING] Memory usage high: 20976 MB
+[2025-12-19 13:02:05]   [progress] 685 eval, +59,115 new, 24/s, max_depth=46171, cache_hits=117,886, mem=20976MB
+[2025-12-19 13:02:05]   [WARNING] Memory usage high: 20976 MB
+[2025-12-19 13:02:05]   [progress] 686 eval, +59,116 new, 25/s, max_depth=46173, cache_hits=117,898, mem=20976MB
+[2025-12-19 13:02:05]   [WARNING] Memory usage high: 20976 MB
+[2025-12-19 13:02:05]   [progress] 687 eval, +59,117 new, 25/s, max_depth=46177, cache_hits=117,915, mem=20976MB
+[2025-12-19 13:02:05]   [WARNING] Memory usage high: 20976 MB
+[2025-12-19 13:02:05]   [progress] 688 eval, +59,118 new, 25/s, max_depth=46177, cache_hits=117,925, mem=20976MB
+[2025-12-19 13:02:05]   [WARNING] Memory usage high: 20976 MB
+[2025-12-19 13:02:05]   [progress] 689 eval, +59,147 new, 25/s, max_depth=46209, cache_hits=118,022, mem=20976MB
+[2025-12-19 13:02:05]   [WARNING] Memory usage high: 20976 MB
+[2025-12-19 13:02:05]   [progress] 690 eval, +59,148 new, 25/s, max_depth=46211, cache_hits=118,035, mem=20976MB
+[2025-12-19 13:02:05]   [WARNING] Memory usage high: 20976 MB
+[2025-12-19 13:02:05]   [progress] 691 eval, +59,150 new, 25/s, max_depth=46213, cache_hits=118,049, mem=20976MB
+[2025-12-19 13:02:05]   [WARNING] Memory usage high: 20976 MB
+[2025-12-19 13:02:05]   [progress] 692 eval, +59,151 new, 25/s, max_depth=46215, cache_hits=118,062, mem=20976MB
+[2025-12-19 13:02:05]   [WARNING] Memory usage high: 20976 MB
+[2025-12-19 13:02:05]   [progress] 693 eval, +59,169 new, 25/s, max_depth=46247, cache_hits=118,147, mem=20976MB
+[2025-12-19 13:02:05]   [WARNING] Memory usage high: 20976 MB
+[2025-12-19 13:02:05]   [progress] 694 eval, +59,170 new, 25/s, max_depth=46248, cache_hits=118,158, mem=20976MB
+[2025-12-19 13:02:05]   [WARNING] Memory usage high: 20976 MB
+[2025-12-19 13:02:05]   [progress] 695 eval, +59,172 new, 25/s, max_depth=46250, cache_hits=118,168, mem=20976MB
+[2025-12-19 13:02:05]   [WARNING] Memory usage high: 20976 MB
+[2025-12-19 13:02:05]   [progress] 696 eval, +59,174 new, 25/s, max_depth=46259, cache_hits=118,202, mem=20976MB
+[2025-12-19 13:02:05]   [WARNING] Memory usage high: 20976 MB
+[2025-12-19 13:02:05]   [progress] 697 eval, +59,175 new, 25/s, max_depth=46271, cache_hits=118,231, mem=20976MB
+[2025-12-19 13:02:05]   [WARNING] Memory usage high: 20976 MB
+[2025-12-19 13:02:05]   [progress] 698 eval, +59,177 new, 25/s, max_depth=46275, cache_hits=118,254, mem=20976MB
+[2025-12-19 13:02:05]   [WARNING] Memory usage high: 20976 MB
+[2025-12-19 13:02:05]   [progress] 699 eval, +59,179 new, 25/s, max_depth=46281, cache_hits=118,274, mem=20976MB
+[2025-12-19 13:02:05]   [WARNING] Memory usage high: 20976 MB
+[2025-12-19 13:02:05]   [progress] 700 eval, +59,270 new, 25/s, max_depth=46434, cache_hits=118,630, mem=20976MB
+[2025-12-19 13:02:05]   [WARNING] Memory usage high: 20976 MB
+[2025-12-19 13:02:06]   [progress] 701 eval, +59,321 new, 25/s, max_depth=46518, cache_hits=118,845, mem=20976MB
+[2025-12-19 13:02:06]   [WARNING] Memory usage high: 20976 MB
+[2025-12-19 13:02:06]   [progress] 702 eval, +59,419 new, 25/s, max_depth=46631, cache_hits=119,141, mem=20976MB
+[2025-12-19 13:02:06]   [WARNING] Memory usage high: 20976 MB
+[2025-12-19 13:02:06]   [progress] 703 eval, +59,423 new, 25/s, max_depth=46633, cache_hits=119,157, mem=20976MB
+[2025-12-19 13:02:06]   [WARNING] Memory usage high: 20976 MB
+[2025-12-19 13:02:06]   [progress] 704 eval, +59,424 new, 25/s, max_depth=46633, cache_hits=119,167, mem=20976MB
+[2025-12-19 13:02:06]   [WARNING] Memory usage high: 20976 MB
+[2025-12-19 13:02:06]   [progress] 705 eval, +59,426 new, 25/s, max_depth=46637, cache_hits=119,183, mem=20976MB
+[2025-12-19 13:02:06]   [WARNING] Memory usage high: 20976 MB
+[2025-12-19 13:02:06]   [progress] 706 eval, +59,432 new, 25/s, max_depth=46647, cache_hits=119,216, mem=20976MB
+[2025-12-19 13:02:06]   [WARNING] Memory usage high: 20976 MB
+[2025-12-19 13:02:06]   [progress] 707 eval, +59,433 new, 25/s, max_depth=46647, cache_hits=119,226, mem=20976MB
+[2025-12-19 13:02:06]   [WARNING] Memory usage high: 20976 MB
+[2025-12-19 13:02:06]   [progress] 708 eval, +59,447 new, 25/s, max_depth=46697, cache_hits=119,335, mem=20976MB
+[2025-12-19 13:02:06]   [WARNING] Memory usage high: 20976 MB
+[2025-12-19 13:02:06]   [progress] 709 eval, +59,448 new, 25/s, max_depth=46697, cache_hits=119,341, mem=20976MB
+[2025-12-19 13:02:06]   [WARNING] Memory usage high: 20976 MB
+[2025-12-19 13:02:06]   [progress] 710 eval, +59,627 new, 25/s, max_depth=46899, cache_hits=119,865, mem=20976MB
+[2025-12-19 13:02:06]   [WARNING] Memory usage high: 20976 MB
+[2025-12-19 13:02:06]   [progress] 711 eval, +59,636 new, 25/s, max_depth=46903, cache_hits=119,882, mem=20976MB
+[2025-12-19 13:02:06]   [WARNING] Memory usage high: 20976 MB
+[2025-12-19 13:02:06]   [progress] 712 eval, +59,860 new, 25/s, max_depth=47017, cache_hits=120,183, mem=20976MB
+[2025-12-19 13:02:06]   [WARNING] Memory usage high: 20976 MB
+[2025-12-19 13:02:06]   [progress] 713 eval, +59,887 new, 25/s, max_depth=47039, cache_hits=120,248, mem=20976MB
+[2025-12-19 13:02:06]   [WARNING] Memory usage high: 20976 MB
+[2025-12-19 13:02:06]   [progress] 714 eval, +60,204 new, 25/s, max_depth=47230, cache_hits=120,771, mem=20976MB
+[2025-12-19 13:02:06]   [WARNING] Memory usage high: 20976 MB
+[2025-12-19 13:02:06]   [progress] 715 eval, +60,279 new, 25/s, max_depth=47311, cache_hits=120,958, mem=20976MB
+[2025-12-19 13:02:06]   [WARNING] Memory usage high: 20976 MB
+[2025-12-19 13:02:07]   [progress] 716 eval, +60,854 new, 24/s, max_depth=47803, cache_hits=122,104, mem=20976MB
+[2025-12-19 13:02:07]   [WARNING] Memory usage high: 20976 MB
+[2025-12-19 13:02:07]   [progress] 717 eval, +60,952 new, 24/s, max_depth=47903, cache_hits=122,340, mem=20976MB
+[2025-12-19 13:02:07]   [WARNING] Memory usage high: 20976 MB
+[2025-12-19 13:02:07]   [progress] 718 eval, +60,997 new, 24/s, max_depth=47955, cache_hits=122,463, mem=20976MB
+[2025-12-19 13:02:07]   [WARNING] Memory usage high: 20976 MB
+[2025-12-19 13:02:07]   [progress] 719 eval, +61,065 new, 24/s, max_depth=48056, cache_hits=122,706, mem=20976MB
+[2025-12-19 13:02:07]   [WARNING] Memory usage high: 20976 MB
+[2025-12-19 13:02:07]   [progress] 720 eval, +61,123 new, 24/s, max_depth=48103, cache_hits=122,842, mem=20976MB
+[2025-12-19 13:02:07]   [WARNING] Memory usage high: 20976 MB
+[2025-12-19 13:02:07]   [progress] 721 eval, +61,133 new, 24/s, max_depth=48107, cache_hits=122,863, mem=20976MB
+[2025-12-19 13:02:07]   [WARNING] Memory usage high: 20976 MB
+[2025-12-19 13:02:07]   [progress] 722 eval, +61,409 new, 24/s, max_depth=48264, cache_hits=123,343, mem=20976MB
+[2025-12-19 13:02:07]   [WARNING] Memory usage high: 20976 MB
+[2025-12-19 13:02:07]   [progress] 723 eval, +61,555 new, 24/s, max_depth=48365, cache_hits=123,647, mem=20976MB
+[2025-12-19 13:02:07]   [WARNING] Memory usage high: 20976 MB
+[2025-12-19 13:02:07]   [progress] 724 eval, +61,559 new, 24/s, max_depth=48369, cache_hits=123,661, mem=20976MB
+[2025-12-19 13:02:07]   [WARNING] Memory usage high: 20976 MB
+[2025-12-19 13:02:07]   [progress] 725 eval, +62,062 new, 24/s, max_depth=48758, cache_hits=124,673, mem=20976MB
+[2025-12-19 13:02:07]   [WARNING] Memory usage high: 20976 MB
+[2025-12-19 13:02:13]   [checkpoint] Saved 62,062 positions mid-solve
+[2025-12-19 13:02:13]   [progress] 726 eval, +62,064 new, 20/s, max_depth=48760, cache_hits=124,684, mem=20976MB
+[2025-12-19 13:02:13]   [WARNING] Memory usage high: 20976 MB
+[2025-12-19 13:02:13]   [progress] 727 eval, +62,066 new, 21/s, max_depth=48762, cache_hits=124,696, mem=20976MB
+[2025-12-19 13:02:13]   [WARNING] Memory usage high: 20976 MB
+[2025-12-19 13:02:13]   [progress] 728 eval, +62,286 new, 20/s, max_depth=48963, cache_hits=125,168, mem=20976MB
+[2025-12-19 13:02:13]   [WARNING] Memory usage high: 20976 MB
+[2025-12-19 13:02:13]   [progress] 729 eval, +62,305 new, 20/s, max_depth=48990, cache_hits=125,240, mem=20976MB
+[2025-12-19 13:02:13]   [WARNING] Memory usage high: 20976 MB
+[2025-12-19 13:02:13]   [progress] 730 eval, +62,309 new, 21/s, max_depth=48997, cache_hits=125,257, mem=20976MB
+[2025-12-19 13:02:13]   [WARNING] Memory usage high: 20976 MB
+[2025-12-19 13:02:13]   [progress] 731 eval, +62,310 new, 21/s, max_depth=49000, cache_hits=125,267, mem=20976MB
+[2025-12-19 13:02:13]   [WARNING] Memory usage high: 20976 MB
+[2025-12-19 13:02:13]   [progress] 732 eval, +62,341 new, 21/s, max_depth=49032, cache_hits=125,344, mem=20976MB
+[2025-12-19 13:02:13]   [WARNING] Memory usage high: 20976 MB
+[2025-12-19 13:02:13]   [progress] 733 eval, +62,357 new, 21/s, max_depth=49046, cache_hits=125,388, mem=20976MB
+[2025-12-19 13:02:13]   [WARNING] Memory usage high: 20976 MB
+[2025-12-19 13:02:13]   [progress] 734 eval, +62,360 new, 21/s, max_depth=49048, cache_hits=125,396, mem=20976MB
+[2025-12-19 13:02:13]   [WARNING] Memory usage high: 20976 MB
+[2025-12-19 13:02:13]   [progress] 735 eval, +62,382 new, 21/s, max_depth=49075, cache_hits=125,464, mem=20976MB
+[2025-12-19 13:02:13]   [WARNING] Memory usage high: 20976 MB
+[2025-12-19 13:02:13]   [progress] 736 eval, +62,471 new, 21/s, max_depth=49164, cache_hits=125,687, mem=20976MB
+[2025-12-19 13:02:13]   [WARNING] Memory usage high: 20976 MB
+[2025-12-19 13:02:13]   [progress] 737 eval, +62,681 new, 21/s, max_depth=49359, cache_hits=126,190, mem=20976MB
+[2025-12-19 13:02:13]   [WARNING] Memory usage high: 20976 MB
+[2025-12-19 13:02:13]   [progress] 738 eval, +62,794 new, 20/s, max_depth=49567, cache_hits=126,536, mem=20976MB
+[2025-12-19 13:02:13]   [WARNING] Memory usage high: 20976 MB
+[2025-12-19 13:02:13]   [progress] 739 eval, +62,798 new, 20/s, max_depth=49571, cache_hits=126,554, mem=20976MB
+[2025-12-19 13:02:13]   [WARNING] Memory usage high: 20976 MB
+[2025-12-19 13:02:13]   [progress] 740 eval, +62,801 new, 21/s, max_depth=49573, cache_hits=126,564, mem=20976MB
+[2025-12-19 13:02:13]   [WARNING] Memory usage high: 20976 MB
+[2025-12-19 13:02:13]   [progress] 741 eval, +62,866 new, 21/s, max_depth=49659, cache_hits=126,752, mem=20976MB
+[2025-12-19 13:02:13]   [WARNING] Memory usage high: 20976 MB
+[2025-12-19 13:02:13]   [progress] 742 eval, +62,922 new, 21/s, max_depth=49709, cache_hits=126,878, mem=20976MB
+[2025-12-19 13:02:13]   [WARNING] Memory usage high: 20976 MB
+[2025-12-19 13:02:13]   [progress] 743 eval, +62,926 new, 21/s, max_depth=49713, cache_hits=126,895, mem=20976MB
+[2025-12-19 13:02:13]   [WARNING] Memory usage high: 20976 MB
+[2025-12-19 13:02:13]   [progress] 744 eval, +62,943 new, 21/s, max_depth=49727, cache_hits=126,930, mem=20976MB
+[2025-12-19 13:02:13]   [WARNING] Memory usage high: 20976 MB
+[2025-12-19 13:02:13]   [progress] 745 eval, +62,963 new, 21/s, max_depth=49755, cache_hits=126,982, mem=20976MB
+[2025-12-19 13:02:13]   [WARNING] Memory usage high: 20976 MB
+[2025-12-19 13:02:14]   [progress] 746 eval, +63,038 new, 21/s, max_depth=49812, cache_hits=127,148, mem=20976MB
+[2025-12-19 13:02:14]   [WARNING] Memory usage high: 20976 MB
+[2025-12-19 13:02:14]   [progress] 747 eval, +63,078 new, 21/s, max_depth=49877, cache_hits=127,272, mem=20976MB
+[2025-12-19 13:02:14]   [WARNING] Memory usage high: 20976 MB
+[2025-12-19 13:02:14]   [progress] 748 eval, +63,099 new, 21/s, max_depth=49897, cache_hits=127,313, mem=20976MB
+[2025-12-19 13:02:14]   [WARNING] Memory usage high: 20976 MB
+[2025-12-19 13:02:14]   [progress] 749 eval, +63,116 new, 21/s, max_depth=49923, cache_hits=127,364, mem=20976MB
+[2025-12-19 13:02:14]   [WARNING] Memory usage high: 20976 MB
+[2025-12-19 13:02:14]   [progress] 750 eval, +63,134 new, 21/s, max_depth=49945, cache_hits=127,411, mem=20976MB
+[2025-12-19 13:02:14]   [WARNING] Memory usage high: 20976 MB
+[2025-12-19 13:02:14]   [progress] 751 eval, +63,222 new, 21/s, max_depth=50015, cache_hits=127,582, mem=20976MB
+[2025-12-19 13:02:14]   [WARNING] Memory usage high: 20976 MB
+[2025-12-19 13:02:14]   [progress] 752 eval, +63,223 new, 21/s, max_depth=50017, cache_hits=127,592, mem=20976MB
+[2025-12-19 13:02:14]   [WARNING] Memory usage high: 20976 MB
+[2025-12-19 13:02:14]   [progress] 753 eval, +63,226 new, 21/s, max_depth=50023, cache_hits=127,600, mem=20976MB
+[2025-12-19 13:02:14]   [WARNING] Memory usage high: 20976 MB
+[2025-12-19 13:02:14]   [progress] 754 eval, +63,230 new, 21/s, max_depth=50025, cache_hits=127,608, mem=20976MB
+[2025-12-19 13:02:14]   [WARNING] Memory usage high: 20976 MB
+[2025-12-19 13:02:14]   [progress] 755 eval, +63,231 new, 21/s, max_depth=50027, cache_hits=127,618, mem=20976MB
+[2025-12-19 13:02:14]   [WARNING] Memory usage high: 20976 MB
+[2025-12-19 13:02:14]   [progress] 756 eval, +63,249 new, 21/s, max_depth=50056, cache_hits=127,680, mem=20976MB
+[2025-12-19 13:02:14]   [WARNING] Memory usage high: 20976 MB
+[2025-12-19 13:02:14]   [progress] 757 eval, +63,250 new, 21/s, max_depth=50061, cache_hits=127,703, mem=20976MB
+[2025-12-19 13:02:14]   [WARNING] Memory usage high: 20976 MB
+[2025-12-19 13:02:14]   [progress] 758 eval, +63,253 new, 21/s, max_depth=50062, cache_hits=127,715, mem=20976MB
+[2025-12-19 13:02:14]   [WARNING] Memory usage high: 20976 MB
+[2025-12-19 13:02:14]   [progress] 759 eval, +63,264 new, 21/s, max_depth=50082, cache_hits=127,765, mem=20976MB
+[2025-12-19 13:02:14]   [WARNING] Memory usage high: 20976 MB
+[2025-12-19 13:02:14]   [progress] 760 eval, +63,272 new, 21/s, max_depth=50098, cache_hits=127,800, mem=20976MB
+[2025-12-19 13:02:14]   [WARNING] Memory usage high: 20976 MB
+[2025-12-19 13:02:14]   [progress] 761 eval, +63,282 new, 21/s, max_depth=50120, cache_hits=127,849, mem=20976MB
+[2025-12-19 13:02:14]   [WARNING] Memory usage high: 20976 MB
+[2025-12-19 13:02:14]   [progress] 762 eval, +63,296 new, 21/s, max_depth=50157, cache_hits=127,938, mem=20976MB
+[2025-12-19 13:02:14]   [WARNING] Memory usage high: 20976 MB
+[2025-12-19 13:02:14]   [progress] 763 eval, +63,299 new, 21/s, max_depth=50161, cache_hits=127,957, mem=20976MB
+[2025-12-19 13:02:14]   [WARNING] Memory usage high: 20976 MB
+[2025-12-19 13:02:14]   [progress] 764 eval, +63,302 new, 21/s, max_depth=50163, cache_hits=127,973, mem=20976MB
+[2025-12-19 13:02:14]   [WARNING] Memory usage high: 20976 MB
+[2025-12-19 13:02:14]   [progress] 765 eval, +63,305 new, 21/s, max_depth=50173, cache_hits=128,001, mem=20976MB
+[2025-12-19 13:02:14]   [WARNING] Memory usage high: 20976 MB
+[2025-12-19 13:02:14]   [progress] 766 eval, +63,308 new, 21/s, max_depth=50181, cache_hits=128,030, mem=20976MB
+[2025-12-19 13:02:14]   [WARNING] Memory usage high: 20976 MB
+[2025-12-19 13:02:14]   [progress] 767 eval, +63,309 new, 21/s, max_depth=50185, cache_hits=128,045, mem=20976MB
+[2025-12-19 13:02:14]   [WARNING] Memory usage high: 20976 MB
+[2025-12-19 13:02:14]   [progress] 768 eval, +63,311 new, 21/s, max_depth=50189, cache_hits=128,063, mem=20976MB
+[2025-12-19 13:02:14]   [WARNING] Memory usage high: 20976 MB
+[2025-12-19 13:02:14]   [progress] 769 eval, +63,312 new, 21/s, max_depth=50191, cache_hits=128,070, mem=20976MB
+[2025-12-19 13:02:14]   [WARNING] Memory usage high: 20976 MB
+[2025-12-19 13:02:14]   [progress] 770 eval, +63,313 new, 21/s, max_depth=50193, cache_hits=128,083, mem=20976MB
+[2025-12-19 13:02:14]   [WARNING] Memory usage high: 20976 MB
+[2025-12-19 13:02:14]   [progress] 771 eval, +63,314 new, 21/s, max_depth=50193, cache_hits=128,091, mem=20976MB
+[2025-12-19 13:02:14]   [WARNING] Memory usage high: 20976 MB
+[2025-12-19 13:02:14]   [progress] 772 eval, +63,510 new, 21/s, max_depth=50435, cache_hits=128,600, mem=20976MB
+[2025-12-19 13:02:14]   [WARNING] Memory usage high: 20976 MB
+[2025-12-19 13:02:14]   [progress] 773 eval, +63,525 new, 21/s, max_depth=50455, cache_hits=128,643, mem=20976MB
+[2025-12-19 13:02:14]   [WARNING] Memory usage high: 20976 MB
+[2025-12-19 13:02:14]   [progress] 774 eval, +63,555 new, 21/s, max_depth=50483, cache_hits=128,725, mem=20976MB
+[2025-12-19 13:02:14]   [WARNING] Memory usage high: 20976 MB
+[2025-12-19 13:02:14]   [progress] 775 eval, +63,612 new, 21/s, max_depth=50513, cache_hits=128,817, mem=20976MB
+[2025-12-19 13:02:14]   [WARNING] Memory usage high: 20976 MB
+[2025-12-19 13:02:14]   [progress] 776 eval, +63,640 new, 21/s, max_depth=50543, cache_hits=128,892, mem=20976MB
+[2025-12-19 13:02:14]   [WARNING] Memory usage high: 20976 MB
+[2025-12-19 13:02:14]   [progress] 777 eval, +63,661 new, 21/s, max_depth=50561, cache_hits=128,940, mem=20976MB
+[2025-12-19 13:02:14]   [WARNING] Memory usage high: 20976 MB
+[2025-12-19 13:02:14]   [progress] 778 eval, +63,675 new, 21/s, max_depth=50585, cache_hits=128,979, mem=20976MB
+[2025-12-19 13:02:14]   [WARNING] Memory usage high: 20976 MB
+[2025-12-19 13:02:14]   [progress] 779 eval, +63,680 new, 21/s, max_depth=50589, cache_hits=128,992, mem=20976MB
+[2025-12-19 13:02:14]   [WARNING] Memory usage high: 20976 MB
+[2025-12-19 13:02:14]   [progress] 780 eval, +63,686 new, 21/s, max_depth=50595, cache_hits=129,011, mem=20976MB
+[2025-12-19 13:02:14]   [WARNING] Memory usage high: 20976 MB
+[2025-12-19 13:02:14]   [progress] 781 eval, +63,703 new, 21/s, max_depth=50621, cache_hits=129,061, mem=20976MB
+[2025-12-19 13:02:14]   [WARNING] Memory usage high: 20976 MB
+[2025-12-19 13:02:14]   [progress] 782 eval, +63,708 new, 21/s, max_depth=50625, cache_hits=129,076, mem=20976MB
+[2025-12-19 13:02:14]   [WARNING] Memory usage high: 20976 MB
+[2025-12-19 13:02:14]   [progress] 783 eval, +63,746 new, 21/s, max_depth=50690, cache_hits=129,191, mem=20976MB
+[2025-12-19 13:02:14]   [WARNING] Memory usage high: 20976 MB
+[2025-12-19 13:02:14]   [progress] 784 eval, +63,758 new, 21/s, max_depth=50695, cache_hits=129,220, mem=20976MB
+[2025-12-19 13:02:14]   [WARNING] Memory usage high: 20976 MB
+[2025-12-19 13:02:15]   [progress] 785 eval, +64,635 new, 21/s, max_depth=51417, cache_hits=130,882, mem=20976MB
+[2025-12-19 13:02:15]   [WARNING] Memory usage high: 20976 MB
+[2025-12-19 13:02:15]   [progress] 786 eval, +65,173 new, 21/s, max_depth=51822, cache_hits=131,915, mem=20976MB
+[2025-12-19 13:02:15]   [WARNING] Memory usage high: 20976 MB
+[2025-12-19 13:02:15]   [progress] 787 eval, +65,174 new, 21/s, max_depth=51822, cache_hits=131,926, mem=20976MB
+[2025-12-19 13:02:15]   [WARNING] Memory usage high: 20976 MB
+[2025-12-19 13:02:15]   [progress] 788 eval, +65,176 new, 21/s, max_depth=51822, cache_hits=131,935, mem=20976MB
+[2025-12-19 13:02:15]   [WARNING] Memory usage high: 20976 MB
+[2025-12-19 13:02:15]   [progress] 789 eval, +65,188 new, 21/s, max_depth=51837, cache_hits=131,970, mem=20976MB
+[2025-12-19 13:02:15]   [WARNING] Memory usage high: 20976 MB
+[2025-12-19 13:02:15]   [progress] 790 eval, +65,214 new, 21/s, max_depth=51872, cache_hits=132,048, mem=20976MB
+[2025-12-19 13:02:15]   [WARNING] Memory usage high: 20976 MB
+[2025-12-19 13:02:15]   [progress] 791 eval, +65,229 new, 21/s, max_depth=51905, cache_hits=132,137, mem=20976MB
+[2025-12-19 13:02:15]   [WARNING] Memory usage high: 20976 MB
+[2025-12-19 13:02:15]   [progress] 792 eval, +65,230 new, 21/s, max_depth=51905, cache_hits=132,140, mem=20976MB
+[2025-12-19 13:02:15]   [WARNING] Memory usage high: 20976 MB
+[2025-12-19 13:02:15]   [progress] 793 eval, +65,231 new, 21/s, max_depth=51907, cache_hits=132,151, mem=20976MB
+[2025-12-19 13:02:15]   [WARNING] Memory usage high: 20976 MB
+[2025-12-19 13:02:15]   [progress] 794 eval, +65,232 new, 21/s, max_depth=51907, cache_hits=132,154, mem=20976MB
+[2025-12-19 13:02:15]   [WARNING] Memory usage high: 20976 MB
+[2025-12-19 13:02:15]   [progress] 795 eval, +65,234 new, 21/s, max_depth=51909, cache_hits=132,159, mem=20976MB
+[2025-12-19 13:02:15]   [WARNING] Memory usage high: 20976 MB
+[2025-12-19 13:02:15]   [progress] 796 eval, +65,235 new, 21/s, max_depth=51909, cache_hits=132,167, mem=20976MB
+[2025-12-19 13:02:15]   [WARNING] Memory usage high: 20976 MB
+[2025-12-19 13:02:15]   [progress] 797 eval, +65,251 new, 21/s, max_depth=51931, cache_hits=132,225, mem=20976MB
+[2025-12-19 13:02:15]   [WARNING] Memory usage high: 20976 MB
+[2025-12-19 13:02:15]   [progress] 798 eval, +65,255 new, 21/s, max_depth=51943, cache_hits=132,252, mem=20976MB
+[2025-12-19 13:02:15]   [WARNING] Memory usage high: 20976 MB
+[2025-12-19 13:02:15]   [progress] 799 eval, +65,402 new, 21/s, max_depth=52155, cache_hits=132,673, mem=20976MB
+[2025-12-19 13:02:15]   [WARNING] Memory usage high: 20976 MB
+[2025-12-19 13:02:16]   [progress] 800 eval, +65,528 new, 21/s, max_depth=52299, cache_hits=132,986, mem=20976MB
+[2025-12-19 13:02:16]   [WARNING] Memory usage high: 20976 MB
+[2025-12-19 13:02:16]   [progress] 801 eval, +65,530 new, 21/s, max_depth=52303, cache_hits=133,001, mem=20976MB
+[2025-12-19 13:02:16]   [WARNING] Memory usage high: 20976 MB
+[2025-12-19 13:02:16]   [progress] 802 eval, +65,532 new, 21/s, max_depth=52307, cache_hits=133,013, mem=20976MB
+[2025-12-19 13:02:16]   [WARNING] Memory usage high: 20976 MB
+[2025-12-19 13:02:16]   [progress] 803 eval, +65,533 new, 21/s, max_depth=52307, cache_hits=133,020, mem=20976MB
+[2025-12-19 13:02:16]   [WARNING] Memory usage high: 20976 MB
+[2025-12-19 13:02:16]   [progress] 804 eval, +65,534 new, 21/s, max_depth=52316, cache_hits=133,043, mem=20976MB
+[2025-12-19 13:02:16]   [WARNING] Memory usage high: 20976 MB
+[2025-12-19 13:02:16]   [progress] 805 eval, +65,539 new, 21/s, max_depth=52331, cache_hits=133,072, mem=20976MB
+[2025-12-19 13:02:16]   [WARNING] Memory usage high: 20976 MB
+[2025-12-19 13:02:16]   [progress] 806 eval, +65,642 new, 21/s, max_depth=52457, cache_hits=133,437, mem=20976MB
+[2025-12-19 13:02:16]   [WARNING] Memory usage high: 20976 MB
+[2025-12-19 13:02:16]   [progress] 807 eval, +65,719 new, 21/s, max_depth=52520, cache_hits=133,617, mem=20976MB
+[2025-12-19 13:02:16]   [WARNING] Memory usage high: 20976 MB
+[2025-12-19 13:02:16]   [progress] 808 eval, +66,005 new, 21/s, max_depth=52731, cache_hits=134,223, mem=20976MB
+[2025-12-19 13:02:16]   [WARNING] Memory usage high: 20976 MB
+[2025-12-19 13:02:16]   [progress] 809 eval, +66,007 new, 21/s, max_depth=52732, cache_hits=134,226, mem=20976MB
+[2025-12-19 13:02:16]   [WARNING] Memory usage high: 20976 MB
+[2025-12-19 13:02:16]   [progress] 810 eval, +66,199 new, 21/s, max_depth=52922, cache_hits=134,611, mem=20976MB
+[2025-12-19 13:02:16]   [WARNING] Memory usage high: 20976 MB
+[2025-12-19 13:02:16]   [progress] 811 eval, +66,200 new, 21/s, max_depth=52922, cache_hits=134,620, mem=20976MB
+[2025-12-19 13:02:16]   [WARNING] Memory usage high: 20976 MB
+[2025-12-19 13:02:16]   [progress] 812 eval, +66,295 new, 21/s, max_depth=53023, cache_hits=134,877, mem=20976MB
+[2025-12-19 13:02:16]   [WARNING] Memory usage high: 20976 MB
+[2025-12-19 13:02:17]   [progress] 813 eval, +66,942 new, 21/s, max_depth=53533, cache_hits=136,058, mem=20976MB
+[2025-12-19 13:02:17]   [WARNING] Memory usage high: 20976 MB
+[2025-12-19 13:02:17]   [progress] 814 eval, +67,141 new, 21/s, max_depth=53656, cache_hits=136,397, mem=20976MB
+[2025-12-19 13:02:17]   [WARNING] Memory usage high: 20976 MB
+[2025-12-19 13:02:17]   [progress] 815 eval, +68,287 new, 20/s, max_depth=54279, cache_hits=138,033, mem=20976MB
+[2025-12-19 13:02:17]   [WARNING] Memory usage high: 20976 MB
+[2025-12-19 13:02:17]   [progress] 816 eval, +68,621 new, 20/s, max_depth=54503, cache_hits=138,590, mem=20976MB
+[2025-12-19 13:02:17]   [WARNING] Memory usage high: 20976 MB
+[2025-12-19 13:02:18]   [progress] 817 eval, +68,734 new, 20/s, max_depth=54644, cache_hits=138,897, mem=20976MB
+[2025-12-19 13:02:18]   [WARNING] Memory usage high: 20976 MB
+[2025-12-19 13:02:18]   [progress] 818 eval, +69,564 new, 20/s, max_depth=55192, cache_hits=140,228, mem=20976MB
+[2025-12-19 13:02:18]   [WARNING] Memory usage high: 20976 MB
+[2025-12-19 13:02:18]   [progress] 819 eval, +69,566 new, 20/s, max_depth=55196, cache_hits=140,244, mem=20976MB
+[2025-12-19 13:02:18]   [WARNING] Memory usage high: 20976 MB
+[2025-12-19 13:02:18]   [progress] 820 eval, +69,568 new, 20/s, max_depth=55204, cache_hits=140,269, mem=20976MB
+[2025-12-19 13:02:18]   [WARNING] Memory usage high: 20976 MB
+[2025-12-19 13:02:18]   [progress] 821 eval, +69,599 new, 20/s, max_depth=55258, cache_hits=140,377, mem=20976MB
+[2025-12-19 13:02:18]   [WARNING] Memory usage high: 20976 MB
+[2025-12-19 13:02:18]   [progress] 822 eval, +69,601 new, 20/s, max_depth=55268, cache_hits=140,397, mem=20976MB
+[2025-12-19 13:02:18]   [WARNING] Memory usage high: 20976 MB
+[2025-12-19 13:02:18]   [progress] 823 eval, +69,604 new, 20/s, max_depth=55270, cache_hits=140,411, mem=20976MB
+[2025-12-19 13:02:18]   [WARNING] Memory usage high: 20976 MB
+[2025-12-19 13:02:18]   [progress] 824 eval, +69,606 new, 20/s, max_depth=55274, cache_hits=140,428, mem=20976MB
+[2025-12-19 13:02:18]   [WARNING] Memory usage high: 20976 MB
+[2025-12-19 13:02:18]   [progress] 825 eval, +69,607 new, 20/s, max_depth=55276, cache_hits=140,436, mem=20976MB
+[2025-12-19 13:02:18]   [WARNING] Memory usage high: 20976 MB
+[2025-12-19 13:02:18]   [progress] 826 eval, +69,608 new, 20/s, max_depth=55278, cache_hits=140,445, mem=20976MB
+[2025-12-19 13:02:18]   [WARNING] Memory usage high: 20976 MB
+[2025-12-19 13:02:18]   [progress] 827 eval, +69,617 new, 20/s, max_depth=55290, cache_hits=140,479, mem=20976MB
+[2025-12-19 13:02:18]   [WARNING] Memory usage high: 20976 MB
+[2025-12-19 13:02:18]   [progress] 828 eval, +69,622 new, 20/s, max_depth=55294, cache_hits=140,497, mem=20976MB
+[2025-12-19 13:02:18]   [WARNING] Memory usage high: 20976 MB
+[2025-12-19 13:02:18]   [progress] 829 eval, +69,636 new, 20/s, max_depth=55304, cache_hits=140,520, mem=20976MB
+[2025-12-19 13:02:18]   [WARNING] Memory usage high: 20976 MB
+[2025-12-19 13:02:18]   [progress] 830 eval, +69,637 new, 20/s, max_depth=55306, cache_hits=140,523, mem=20976MB
+[2025-12-19 13:02:18]   [WARNING] Memory usage high: 20976 MB
+[2025-12-19 13:02:18]   [progress] 831 eval, +69,699 new, 20/s, max_depth=55398, cache_hits=140,665, mem=20976MB
+[2025-12-19 13:02:18]   [WARNING] Memory usage high: 20976 MB
+[2025-12-19 13:02:18]   [progress] 832 eval, +69,715 new, 20/s, max_depth=55410, cache_hits=140,696, mem=20976MB
+[2025-12-19 13:02:18]   [WARNING] Memory usage high: 20976 MB
+[2025-12-19 13:02:18]   [progress] 833 eval, +69,716 new, 20/s, max_depth=55410, cache_hits=140,697, mem=20976MB
+[2025-12-19 13:02:18]   [WARNING] Memory usage high: 20976 MB
+[2025-12-19 13:02:18]   [progress] 834 eval, +69,758 new, 20/s, max_depth=55444, cache_hits=140,783, mem=20976MB
+[2025-12-19 13:02:18]   [WARNING] Memory usage high: 20976 MB
+[2025-12-19 13:02:18]   [progress] 835 eval, +69,839 new, 20/s, max_depth=55518, cache_hits=140,926, mem=20976MB
+[2025-12-19 13:02:18]   [WARNING] Memory usage high: 20976 MB
+[2025-12-19 13:02:18]   [progress] 836 eval, +69,841 new, 20/s, max_depth=55520, cache_hits=140,937, mem=20976MB
+[2025-12-19 13:02:18]   [WARNING] Memory usage high: 20976 MB
+[2025-12-19 13:02:18]   [progress] 837 eval, +69,845 new, 20/s, max_depth=55524, cache_hits=140,952, mem=20976MB
+[2025-12-19 13:02:18]   [WARNING] Memory usage high: 20976 MB
+[2025-12-19 13:02:18]   [progress] 838 eval, +69,850 new, 20/s, max_depth=55532, cache_hits=140,981, mem=20976MB
+[2025-12-19 13:02:18]   [WARNING] Memory usage high: 20976 MB
+[2025-12-19 13:02:18]   [progress] 839 eval, +69,865 new, 20/s, max_depth=55540, cache_hits=141,006, mem=20976MB
+[2025-12-19 13:02:18]   [WARNING] Memory usage high: 20976 MB
+[2025-12-19 13:02:18]   [progress] 840 eval, +69,871 new, 20/s, max_depth=55546, cache_hits=141,023, mem=20976MB
+[2025-12-19 13:02:18]   [WARNING] Memory usage high: 20976 MB
+[2025-12-19 13:02:18]   [progress] 841 eval, +69,882 new, 21/s, max_depth=55550, cache_hits=141,045, mem=20976MB
+[2025-12-19 13:02:18]   [WARNING] Memory usage high: 20976 MB
+[2025-12-19 13:02:18]   [progress] 842 eval, +69,943 new, 21/s, max_depth=55612, cache_hits=141,189, mem=20976MB
+[2025-12-19 13:02:18]   [WARNING] Memory usage high: 20976 MB
+[2025-12-19 13:02:18]   [progress] 843 eval, +69,948 new, 21/s, max_depth=55618, cache_hits=141,205, mem=20976MB
+[2025-12-19 13:02:18]   [WARNING] Memory usage high: 20976 MB
+[2025-12-19 13:02:18]   [progress] 844 eval, +69,950 new, 21/s, max_depth=55621, cache_hits=141,211, mem=20976MB
+[2025-12-19 13:02:18]   [WARNING] Memory usage high: 20976 MB
+[2025-12-19 13:02:18]   [progress] 845 eval, +69,951 new, 21/s, max_depth=55621, cache_hits=141,212, mem=20976MB
+[2025-12-19 13:02:18]   [WARNING] Memory usage high: 20976 MB
+[2025-12-19 13:02:18]   [progress] 846 eval, +69,959 new, 21/s, max_depth=55634, cache_hits=141,244, mem=20976MB
+[2025-12-19 13:02:18]   [WARNING] Memory usage high: 20976 MB
+[2025-12-19 13:02:18]   [progress] 847 eval, +70,006 new, 21/s, max_depth=55679, cache_hits=141,336, mem=20976MB
+[2025-12-19 13:02:18]   [WARNING] Memory usage high: 20976 MB
+[2025-12-19 13:02:19]   [progress] 848 eval, +70,495 new, 20/s, max_depth=56300, cache_hits=142,547, mem=20976MB
+[2025-12-19 13:02:19]   [WARNING] Memory usage high: 20976 MB
+[2025-12-19 13:02:19]   [progress] 849 eval, +70,851 new, 20/s, max_depth=56543, cache_hits=143,203, mem=20976MB
+[2025-12-19 13:02:19]   [WARNING] Memory usage high: 20976 MB
+[2025-12-19 13:02:19]   [progress] 850 eval, +70,854 new, 20/s, max_depth=56545, cache_hits=143,217, mem=20976MB
+[2025-12-19 13:02:19]   [WARNING] Memory usage high: 20976 MB
+[2025-12-19 13:02:19]   [progress] 851 eval, +70,856 new, 20/s, max_depth=56547, cache_hits=143,236, mem=20976MB
+[2025-12-19 13:02:19]   [WARNING] Memory usage high: 20976 MB
+[2025-12-19 13:02:19]   [progress] 852 eval, +70,858 new, 20/s, max_depth=56551, cache_hits=143,254, mem=20976MB
+[2025-12-19 13:02:19]   [WARNING] Memory usage high: 20976 MB
+[2025-12-19 13:02:19]   [progress] 853 eval, +70,863 new, 20/s, max_depth=56555, cache_hits=143,276, mem=20976MB
+[2025-12-19 13:02:19]   [WARNING] Memory usage high: 20976 MB
+[2025-12-19 13:02:19]   [progress] 854 eval, +70,864 new, 20/s, max_depth=56557, cache_hits=143,294, mem=20976MB
+[2025-12-19 13:02:19]   [WARNING] Memory usage high: 20976 MB
+[2025-12-19 13:02:19]   [progress] 855 eval, +70,866 new, 20/s, max_depth=56561, cache_hits=143,314, mem=20976MB
+[2025-12-19 13:02:19]   [WARNING] Memory usage high: 20976 MB
+[2025-12-19 13:02:19]   [progress] 856 eval, +70,868 new, 20/s, max_depth=56563, cache_hits=143,328, mem=20976MB
+[2025-12-19 13:02:19]   [WARNING] Memory usage high: 20976 MB
+[2025-12-19 13:02:20]   [progress] 857 eval, +72,672 new, 20/s, max_depth=57798, cache_hits=146,153, mem=20976MB
+[2025-12-19 13:02:20]   [WARNING] Memory usage high: 20976 MB
+[2025-12-19 13:02:20]   [progress] 858 eval, +72,906 new, 20/s, max_depth=57953, cache_hits=146,583, mem=20976MB
+[2025-12-19 13:02:20]   [WARNING] Memory usage high: 20976 MB
+[2025-12-19 13:02:20]   [progress] 859 eval, +72,924 new, 20/s, max_depth=57982, cache_hits=146,633, mem=20976MB
+[2025-12-19 13:02:20]   [WARNING] Memory usage high: 20976 MB
+[2025-12-19 13:02:20]   [progress] 860 eval, +72,927 new, 20/s, max_depth=57986, cache_hits=146,646, mem=20976MB
+[2025-12-19 13:02:20]   [WARNING] Memory usage high: 20976 MB
+[2025-12-19 13:02:21]   [progress] 861 eval, +73,112 new, 20/s, max_depth=58256, cache_hits=147,113, mem=20976MB
+[2025-12-19 13:02:21]   [WARNING] Memory usage high: 20976 MB
+[2025-12-19 13:02:21]   [progress] 862 eval, +73,118 new, 20/s, max_depth=58266, cache_hits=147,137, mem=20976MB
+[2025-12-19 13:02:21]   [WARNING] Memory usage high: 20976 MB
+[2025-12-19 13:02:21]   [progress] 863 eval, +73,125 new, 20/s, max_depth=58284, cache_hits=147,175, mem=20976MB
+[2025-12-19 13:02:21]   [WARNING] Memory usage high: 20976 MB
+[2025-12-19 13:02:21]   [progress] 864 eval, +73,126 new, 20/s, max_depth=58284, cache_hits=147,179, mem=20976MB
+[2025-12-19 13:02:21]   [WARNING] Memory usage high: 20976 MB
+[2025-12-19 13:02:21]   [progress] 865 eval, +73,128 new, 20/s, max_depth=58286, cache_hits=147,186, mem=20976MB
+[2025-12-19 13:02:21]   [WARNING] Memory usage high: 20976 MB
+[2025-12-19 13:02:21]   [progress] 866 eval, +73,284 new, 20/s, max_depth=58424, cache_hits=147,450, mem=20976MB
+[2025-12-19 13:02:21]   [WARNING] Memory usage high: 20976 MB
+[2025-12-19 13:02:21]   [progress] 867 eval, +73,681 new, 20/s, max_depth=58752, cache_hits=148,087, mem=20976MB
+[2025-12-19 13:02:21]   [WARNING] Memory usage high: 20976 MB
+[2025-12-19 13:02:21]   [progress] 868 eval, +73,741 new, 20/s, max_depth=58798, cache_hits=148,201, mem=20976MB
+[2025-12-19 13:02:21]   [WARNING] Memory usage high: 20976 MB
+[2025-12-19 13:02:21]   [progress] 869 eval, +74,030 new, 20/s, max_depth=59022, cache_hits=148,806, mem=20976MB
+[2025-12-19 13:02:21]   [WARNING] Memory usage high: 20976 MB
+[2025-12-19 13:02:21]   [progress] 870 eval, +74,039 new, 20/s, max_depth=59028, cache_hits=148,823, mem=20976MB
+[2025-12-19 13:02:21]   [WARNING] Memory usage high: 20976 MB
+[2025-12-19 13:02:21]   [progress] 871 eval, +74,099 new, 20/s, max_depth=59078, cache_hits=148,918, mem=20976MB
+[2025-12-19 13:02:21]   [WARNING] Memory usage high: 20976 MB
+[2025-12-19 13:02:21]   [progress] 872 eval, +74,175 new, 20/s, max_depth=59144, cache_hits=149,076, mem=20976MB
+[2025-12-19 13:02:21]   [WARNING] Memory usage high: 20976 MB
+[2025-12-19 13:02:21]   [progress] 873 eval, +74,185 new, 20/s, max_depth=59150, cache_hits=149,095, mem=20976MB
+[2025-12-19 13:02:21]   [WARNING] Memory usage high: 20976 MB
+[2025-12-19 13:02:21]   [progress] 874 eval, +74,192 new, 20/s, max_depth=59158, cache_hits=149,121, mem=20976MB
+[2025-12-19 13:02:21]   [WARNING] Memory usage high: 20976 MB
+[2025-12-19 13:02:21]   [progress] 875 eval, +74,201 new, 20/s, max_depth=59168, cache_hits=149,140, mem=20976MB
+[2025-12-19 13:02:21]   [WARNING] Memory usage high: 20976 MB
+[2025-12-19 13:02:21]   [progress] 876 eval, +74,269 new, 20/s, max_depth=59252, cache_hits=149,301, mem=20976MB
+[2025-12-19 13:02:21]   [WARNING] Memory usage high: 20976 MB
+[2025-12-19 13:02:21]   [progress] 877 eval, +74,273 new, 20/s, max_depth=59262, cache_hits=149,336, mem=20976MB
+[2025-12-19 13:02:21]   [WARNING] Memory usage high: 20976 MB
+[2025-12-19 13:02:21]   [progress] 878 eval, +74,404 new, 20/s, max_depth=59378, cache_hits=149,608, mem=20976MB
+[2025-12-19 13:02:21]   [WARNING] Memory usage high: 20976 MB
+[2025-12-19 13:02:22]   [progress] 879 eval, +74,421 new, 20/s, max_depth=59394, cache_hits=149,654, mem=20976MB
+[2025-12-19 13:02:22]   [WARNING] Memory usage high: 20976 MB
+[2025-12-19 13:02:22]   [progress] 880 eval, +74,445 new, 20/s, max_depth=59418, cache_hits=149,718, mem=20976MB
+[2025-12-19 13:02:22]   [WARNING] Memory usage high: 20976 MB
+[2025-12-19 13:02:22]   [progress] 881 eval, +75,099 new, 20/s, max_depth=59841, cache_hits=150,691, mem=20976MB
+[2025-12-19 13:02:22]   [WARNING] Memory usage high: 20976 MB
+[2025-12-19 13:02:22]   [progress] 882 eval, +75,161 new, 20/s, max_depth=59888, cache_hits=150,816, mem=20976MB
+[2025-12-19 13:02:22]   [WARNING] Memory usage high: 20976 MB
+[2025-12-19 13:02:22]   [progress] 883 eval, +75,196 new, 20/s, max_depth=59925, cache_hits=150,880, mem=20976MB
+[2025-12-19 13:02:22]   [WARNING] Memory usage high: 20976 MB
+[2025-12-19 13:02:22]   [progress] 884 eval, +75,197 new, 20/s, max_depth=59925, cache_hits=150,885, mem=20976MB
+[2025-12-19 13:02:22]   [WARNING] Memory usage high: 20976 MB
+[2025-12-19 13:02:22]   [progress] 885 eval, +75,198 new, 20/s, max_depth=59925, cache_hits=150,889, mem=20976MB
+[2025-12-19 13:02:22]   [WARNING] Memory usage high: 20976 MB
+[2025-12-19 13:02:22]   [progress] 886 eval, +75,237 new, 20/s, max_depth=59975, cache_hits=150,965, mem=20976MB
+[2025-12-19 13:02:22]   [WARNING] Memory usage high: 20976 MB
+[2025-12-19 13:02:22]   [progress] 887 eval, +75,257 new, 20/s, max_depth=59997, cache_hits=151,002, mem=20976MB
+[2025-12-19 13:02:22]   [WARNING] Memory usage high: 20976 MB
+[2025-12-19 13:02:22]   [progress] 888 eval, +75,263 new, 20/s, max_depth=59999, cache_hits=151,014, mem=20976MB
+[2025-12-19 13:02:22]   [WARNING] Memory usage high: 20976 MB
+[2025-12-19 13:02:22]   [progress] 889 eval, +75,271 new, 20/s, max_depth=60001, cache_hits=151,030, mem=20976MB
+[2025-12-19 13:02:22]   [WARNING] Memory usage high: 20976 MB
+[2025-12-19 13:02:22]   [progress] 890 eval, +75,290 new, 20/s, max_depth=60029, cache_hits=151,071, mem=20976MB
+[2025-12-19 13:02:22]   [WARNING] Memory usage high: 20976 MB
+[2025-12-19 13:02:22]   [progress] 891 eval, +75,291 new, 20/s, max_depth=60031, cache_hits=151,076, mem=20976MB
+[2025-12-19 13:02:22]   [WARNING] Memory usage high: 20976 MB
+[2025-12-19 13:02:22]   [progress] 892 eval, +75,301 new, 20/s, max_depth=60041, cache_hits=151,098, mem=20976MB
+[2025-12-19 13:02:22]   [WARNING] Memory usage high: 20976 MB
+[2025-12-19 13:02:22]   [progress] 893 eval, +75,361 new, 20/s, max_depth=60133, cache_hits=151,239, mem=20976MB
+[2025-12-19 13:02:22]   [WARNING] Memory usage high: 20976 MB
+[2025-12-19 13:02:22]   [progress] 894 eval, +75,380 new, 20/s, max_depth=60197, cache_hits=151,333, mem=20976MB
+[2025-12-19 13:02:22]   [WARNING] Memory usage high: 20976 MB
+[2025-12-19 13:02:22]   [progress] 895 eval, +75,470 new, 20/s, max_depth=60294, cache_hits=151,545, mem=20976MB
+[2025-12-19 13:02:22]   [WARNING] Memory usage high: 20976 MB
+[2025-12-19 13:02:22]   [progress] 896 eval, +75,471 new, 20/s, max_depth=60298, cache_hits=151,554, mem=20976MB
+[2025-12-19 13:02:22]   [WARNING] Memory usage high: 20976 MB
+[2025-12-19 13:02:22]   [progress] 897 eval, +75,473 new, 20/s, max_depth=60318, cache_hits=151,581, mem=20976MB
+[2025-12-19 13:02:22]   [WARNING] Memory usage high: 20976 MB
+[2025-12-19 13:02:22]   [progress] 898 eval, +75,493 new, 20/s, max_depth=60346, cache_hits=151,631, mem=20976MB
+[2025-12-19 13:02:22]   [WARNING] Memory usage high: 20976 MB
+[2025-12-19 13:02:22]   [progress] 899 eval, +75,497 new, 20/s, max_depth=60350, cache_hits=151,642, mem=20976MB
+[2025-12-19 13:02:22]   [WARNING] Memory usage high: 20976 MB
+[2025-12-19 13:02:22]   [progress] 900 eval, +75,509 new, 20/s, max_depth=60376, cache_hits=151,700, mem=20976MB
+[2025-12-19 13:02:22]   [WARNING] Memory usage high: 20976 MB
+[2025-12-19 13:02:22]   [progress] 901 eval, +75,521 new, 20/s, max_depth=60383, cache_hits=151,730, mem=20976MB
+[2025-12-19 13:02:22]   [WARNING] Memory usage high: 20976 MB
+[2025-12-19 13:02:22]   [progress] 902 eval, +75,582 new, 20/s, max_depth=60433, cache_hits=151,837, mem=20976MB
+[2025-12-19 13:02:22]   [WARNING] Memory usage high: 20976 MB
+[2025-12-19 13:02:22]   [progress] 903 eval, +75,646 new, 20/s, max_depth=60512, cache_hits=152,005, mem=20976MB
+[2025-12-19 13:02:22]   [WARNING] Memory usage high: 20976 MB
+[2025-12-19 13:02:23]   [progress] 904 eval, +75,698 new, 20/s, max_depth=60571, cache_hits=152,132, mem=20976MB
+[2025-12-19 13:02:23]   [WARNING] Memory usage high: 20976 MB
+[2025-12-19 13:02:23]   [progress] 905 eval, +75,759 new, 20/s, max_depth=60626, cache_hits=152,290, mem=20976MB
+[2025-12-19 13:02:23]   [WARNING] Memory usage high: 20976 MB
+[2025-12-19 13:02:23]   [progress] 906 eval, +75,770 new, 20/s, max_depth=60641, cache_hits=152,336, mem=20976MB
+[2025-12-19 13:02:23]   [WARNING] Memory usage high: 20976 MB
+[2025-12-19 13:02:23]   [progress] 907 eval, +75,776 new, 20/s, max_depth=60645, cache_hits=152,355, mem=20976MB
+[2025-12-19 13:02:23]   [WARNING] Memory usage high: 20976 MB
+[2025-12-19 13:02:23]   [progress] 908 eval, +75,803 new, 20/s, max_depth=60695, cache_hits=152,489, mem=20976MB
+[2025-12-19 13:02:23]   [WARNING] Memory usage high: 20976 MB
+[2025-12-19 13:02:23]   [progress] 909 eval, +75,805 new, 20/s, max_depth=60709, cache_hits=152,515, mem=20976MB
+[2025-12-19 13:02:23]   [WARNING] Memory usage high: 20976 MB
+[2025-12-19 13:02:23]   [progress] 910 eval, +75,806 new, 20/s, max_depth=60709, cache_hits=152,521, mem=20976MB
+[2025-12-19 13:02:23]   [WARNING] Memory usage high: 20976 MB
+[2025-12-19 13:02:23]   [progress] 911 eval, +75,807 new, 20/s, max_depth=60709, cache_hits=152,525, mem=20976MB
+[2025-12-19 13:02:23]   [WARNING] Memory usage high: 20976 MB
+[2025-12-19 13:02:23]   [progress] 912 eval, +75,808 new, 20/s, max_depth=60709, cache_hits=152,533, mem=20976MB
+[2025-12-19 13:02:23]   [WARNING] Memory usage high: 20976 MB
+[2025-12-19 13:02:23]   [progress] 913 eval, +75,952 new, 20/s, max_depth=60841, cache_hits=152,892, mem=20976MB
+[2025-12-19 13:02:23]   [WARNING] Memory usage high: 20976 MB
+[2025-12-19 13:02:23]   [progress] 914 eval, +76,028 new, 20/s, max_depth=60965, cache_hits=153,171, mem=20976MB
+[2025-12-19 13:02:23]   [WARNING] Memory usage high: 20976 MB
+[2025-12-19 13:02:23]   [progress] 915 eval, +76,082 new, 20/s, max_depth=61035, cache_hits=153,306, mem=20976MB
+[2025-12-19 13:02:23]   [WARNING] Memory usage high: 20976 MB
+[2025-12-19 13:02:23]   [progress] 916 eval, +76,083 new, 20/s, max_depth=61035, cache_hits=153,311, mem=20976MB
+[2025-12-19 13:02:23]   [WARNING] Memory usage high: 20976 MB
+[2025-12-19 13:02:23]   [progress] 917 eval, +76,086 new, 20/s, max_depth=61035, cache_hits=153,317, mem=20976MB
+[2025-12-19 13:02:23]   [WARNING] Memory usage high: 20976 MB
+[2025-12-19 13:02:23]   [progress] 918 eval, +76,089 new, 20/s, max_depth=61047, cache_hits=153,348, mem=20976MB
+[2025-12-19 13:02:23]   [WARNING] Memory usage high: 20976 MB
+[2025-12-19 13:02:23]   [progress] 919 eval, +76,090 new, 20/s, max_depth=61047, cache_hits=153,353, mem=20976MB
+[2025-12-19 13:02:23]   [WARNING] Memory usage high: 20976 MB
+[2025-12-19 13:02:23]   [progress] 920 eval, +76,091 new, 20/s, max_depth=61051, cache_hits=153,368, mem=20976MB
+[2025-12-19 13:02:23]   [WARNING] Memory usage high: 20976 MB
+[2025-12-19 13:02:23]   [progress] 921 eval, +76,092 new, 20/s, max_depth=61051, cache_hits=153,373, mem=20976MB
+[2025-12-19 13:02:23]   [WARNING] Memory usage high: 20976 MB
+[2025-12-19 13:02:23]   [progress] 922 eval, +76,093 new, 20/s, max_depth=61051, cache_hits=153,378, mem=20976MB
+[2025-12-19 13:02:23]   [WARNING] Memory usage high: 20976 MB
+[2025-12-19 13:02:23]   [progress] 923 eval, +76,096 new, 20/s, max_depth=61053, cache_hits=153,388, mem=20976MB
+[2025-12-19 13:02:23]   [WARNING] Memory usage high: 20976 MB
+[2025-12-19 13:02:23]   [progress] 924 eval, +76,116 new, 20/s, max_depth=61083, cache_hits=153,465, mem=20976MB
+[2025-12-19 13:02:23]   [WARNING] Memory usage high: 20976 MB
+[2025-12-19 13:02:23]   [progress] 925 eval, +76,122 new, 20/s, max_depth=61089, cache_hits=153,491, mem=20976MB
+[2025-12-19 13:02:23]   [WARNING] Memory usage high: 20976 MB
+[2025-12-19 13:02:23]   [progress] 926 eval, +76,131 new, 20/s, max_depth=61103, cache_hits=153,540, mem=20976MB
+[2025-12-19 13:02:23]   [WARNING] Memory usage high: 20976 MB
+[2025-12-19 13:02:24]   [progress] 927 eval, +76,804 new, 20/s, max_depth=61720, cache_hits=155,145, mem=20976MB
+[2025-12-19 13:02:24]   [WARNING] Memory usage high: 20976 MB
+[2025-12-19 13:02:24]   [progress] 928 eval, +76,807 new, 20/s, max_depth=61723, cache_hits=155,164, mem=20976MB
+[2025-12-19 13:02:24]   [WARNING] Memory usage high: 20976 MB
+[2025-12-19 13:02:24]   [progress] 929 eval, +76,874 new, 20/s, max_depth=61774, cache_hits=155,316, mem=20976MB
+[2025-12-19 13:02:24]   [WARNING] Memory usage high: 20976 MB
+[2025-12-19 13:02:24]   [progress] 930 eval, +76,878 new, 20/s, max_depth=61774, cache_hits=155,325, mem=20976MB
+[2025-12-19 13:02:24]   [WARNING] Memory usage high: 20976 MB
+[2025-12-19 13:02:24]   [progress] 931 eval, +77,022 new, 20/s, max_depth=61966, cache_hits=155,763, mem=20976MB
+[2025-12-19 13:02:24]   [WARNING] Memory usage high: 20976 MB
+[2025-12-19 13:02:24]   [progress] 932 eval, +77,531 new, 20/s, max_depth=62339, cache_hits=156,621, mem=20976MB
+[2025-12-19 13:02:24]   [WARNING] Memory usage high: 20976 MB
+[2025-12-19 13:02:24]   [progress] 933 eval, +77,536 new, 20/s, max_depth=62347, cache_hits=156,643, mem=20976MB
+[2025-12-19 13:02:24]   [WARNING] Memory usage high: 20976 MB
+[2025-12-19 13:02:24]   [progress] 934 eval, +77,581 new, 20/s, max_depth=62389, cache_hits=156,756, mem=20976MB
+[2025-12-19 13:02:24]   [WARNING] Memory usage high: 20976 MB
+[2025-12-19 13:02:25]   [progress] 935 eval, +78,191 new, 20/s, max_depth=62944, cache_hits=158,077, mem=20976MB
+[2025-12-19 13:02:25]   [WARNING] Memory usage high: 20976 MB
+[2025-12-19 13:02:25]   [progress] 936 eval, +78,312 new, 20/s, max_depth=63061, cache_hits=158,344, mem=20976MB
+[2025-12-19 13:02:25]   [WARNING] Memory usage high: 20976 MB
+[2025-12-19 13:02:25]   [progress] 937 eval, +78,585 new, 20/s, max_depth=63367, cache_hits=158,978, mem=20976MB
+[2025-12-19 13:02:25]   [WARNING] Memory usage high: 20976 MB
+[2025-12-19 13:02:25]   [progress] 938 eval, +78,596 new, 20/s, max_depth=63405, cache_hits=159,057, mem=20976MB
+[2025-12-19 13:02:25]   [WARNING] Memory usage high: 20976 MB
+[2025-12-19 13:02:25]   [progress] 939 eval, +78,599 new, 20/s, max_depth=63411, cache_hits=159,075, mem=20976MB
+[2025-12-19 13:02:25]   [WARNING] Memory usage high: 20976 MB
+[2025-12-19 13:02:25]   [progress] 940 eval, +78,622 new, 20/s, max_depth=63439, cache_hits=159,145, mem=20976MB
+[2025-12-19 13:02:25]   [WARNING] Memory usage high: 20976 MB
+[2025-12-19 13:02:26]   [progress] 941 eval, +80,136 new, 19/s, max_depth=64239, cache_hits=161,564, mem=20976MB
+[2025-12-19 13:02:26]   [WARNING] Memory usage high: 20976 MB
+[2025-12-19 13:02:26]   [progress] 942 eval, +80,137 new, 19/s, max_depth=64239, cache_hits=161,569, mem=20976MB
+[2025-12-19 13:02:26]   [WARNING] Memory usage high: 20976 MB
+[2025-12-19 13:02:26]   [progress] 943 eval, +81,221 new, 19/s, max_depth=65007, cache_hits=163,463, mem=20976MB
+[2025-12-19 13:02:26]   [WARNING] Memory usage high: 20976 MB
+[2025-12-19 13:02:26]   [progress] 944 eval, +81,248 new, 19/s, max_depth=65023, cache_hits=163,510, mem=20976MB
+[2025-12-19 13:02:26]   [WARNING] Memory usage high: 20976 MB
+[2025-12-19 13:02:27]   [progress] 945 eval, +81,387 new, 19/s, max_depth=65140, cache_hits=163,771, mem=20976MB
+[2025-12-19 13:02:27]   [WARNING] Memory usage high: 20976 MB
+[2025-12-19 13:02:27]   [progress] 946 eval, +81,576 new, 19/s, max_depth=65246, cache_hits=164,079, mem=20976MB
+[2025-12-19 13:02:27]   [WARNING] Memory usage high: 20976 MB
+[2025-12-19 13:02:27]   [progress] 947 eval, +81,968 new, 19/s, max_depth=65584, cache_hits=164,876, mem=20976MB
+[2025-12-19 13:02:27]   [WARNING] Memory usage high: 20976 MB
+[2025-12-19 13:02:27]   [progress] 948 eval, +81,971 new, 19/s, max_depth=65588, cache_hits=164,888, mem=20976MB
+[2025-12-19 13:02:27]   [WARNING] Memory usage high: 20976 MB
+[2025-12-19 13:02:27]   [progress] 949 eval, +81,973 new, 19/s, max_depth=65590, cache_hits=164,897, mem=20976MB
+[2025-12-19 13:02:27]   [WARNING] Memory usage high: 20976 MB
+[2025-12-19 13:02:27]   [progress] 950 eval, +81,980 new, 19/s, max_depth=65614, cache_hits=164,935, mem=20976MB
+[2025-12-19 13:02:27]   [WARNING] Memory usage high: 20976 MB
+[2025-12-19 13:02:27]   [progress] 951 eval, +81,991 new, 19/s, max_depth=65630, cache_hits=164,971, mem=20976MB
+[2025-12-19 13:02:27]   [WARNING] Memory usage high: 20976 MB
+[2025-12-19 13:02:27]   [progress] 952 eval, +81,995 new, 19/s, max_depth=65634, cache_hits=164,984, mem=20976MB
+[2025-12-19 13:02:27]   [WARNING] Memory usage high: 20976 MB
+[2025-12-19 13:02:27]   [progress] 953 eval, +81,998 new, 19/s, max_depth=65636, cache_hits=164,994, mem=20976MB
+[2025-12-19 13:02:27]   [WARNING] Memory usage high: 20976 MB
+[2025-12-19 13:02:27]   [progress] 954 eval, +82,031 new, 19/s, max_depth=65682, cache_hits=165,097, mem=20976MB
+[2025-12-19 13:02:27]   [WARNING] Memory usage high: 20976 MB
+[2025-12-19 13:02:27]   [progress] 955 eval, +82,032 new, 19/s, max_depth=65682, cache_hits=165,103, mem=20976MB
+[2025-12-19 13:02:27]   [WARNING] Memory usage high: 20976 MB
+[2025-12-19 13:02:27]   [progress] 956 eval, +82,292 new, 19/s, max_depth=65837, cache_hits=165,556, mem=20976MB
+[2025-12-19 13:02:27]   [WARNING] Memory usage high: 20976 MB
+[2025-12-19 13:02:27]   [progress] 957 eval, +82,362 new, 19/s, max_depth=65901, cache_hits=165,745, mem=20976MB
+[2025-12-19 13:02:27]   [WARNING] Memory usage high: 20976 MB
+[2025-12-19 13:02:28]   [progress] 958 eval, +82,704 new, 19/s, max_depth=66162, cache_hits=166,560, mem=20976MB
+[2025-12-19 13:02:28]   [WARNING] Memory usage high: 20976 MB
+[2025-12-19 13:02:28]   [progress] 959 eval, +82,788 new, 19/s, max_depth=66232, cache_hits=166,784, mem=20976MB
+[2025-12-19 13:02:28]   [WARNING] Memory usage high: 20976 MB
+[2025-12-19 13:02:28]   [progress] 960 eval, +82,897 new, 19/s, max_depth=66381, cache_hits=167,139, mem=20976MB
+[2025-12-19 13:02:28]   [WARNING] Memory usage high: 20976 MB
+[2025-12-19 13:02:28]   [progress] 961 eval, +82,901 new, 19/s, max_depth=66393, cache_hits=167,175, mem=20976MB
+[2025-12-19 13:02:28]   [WARNING] Memory usage high: 20976 MB
+[2025-12-19 13:02:28]   [progress] 962 eval, +82,902 new, 19/s, max_depth=66397, cache_hits=167,192, mem=20976MB
+[2025-12-19 13:02:28]   [WARNING] Memory usage high: 20976 MB
+[2025-12-19 13:02:28]   [progress] 963 eval, +82,955 new, 19/s, max_depth=66469, cache_hits=167,395, mem=20976MB
+[2025-12-19 13:02:28]   [WARNING] Memory usage high: 20976 MB
+[2025-12-19 13:02:28]   [progress] 964 eval, +82,987 new, 19/s, max_depth=66504, cache_hits=167,478, mem=20976MB
+[2025-12-19 13:02:28]   [WARNING] Memory usage high: 20976 MB
+[2025-12-19 13:02:28]   [progress] 965 eval, +82,991 new, 19/s, max_depth=66512, cache_hits=167,505, mem=20976MB
+[2025-12-19 13:02:28]   [WARNING] Memory usage high: 20976 MB
+[2025-12-19 13:02:28]   [progress] 966 eval, +83,001 new, 19/s, max_depth=66528, cache_hits=167,543, mem=20976MB
+[2025-12-19 13:02:28]   [WARNING] Memory usage high: 20976 MB
+[2025-12-19 13:02:28]   [progress] 967 eval, +83,007 new, 19/s, max_depth=66550, cache_hits=167,575, mem=20976MB
+[2025-12-19 13:02:28]   [WARNING] Memory usage high: 20976 MB
+[2025-12-19 13:02:28]   [progress] 968 eval, +83,008 new, 19/s, max_depth=66550, cache_hits=167,585, mem=20976MB
+[2025-12-19 13:02:28]   [WARNING] Memory usage high: 20976 MB
+[2025-12-19 13:02:28]   [progress] 969 eval, +83,012 new, 19/s, max_depth=66556, cache_hits=167,607, mem=20976MB
+[2025-12-19 13:02:28]   [WARNING] Memory usage high: 20976 MB
+[2025-12-19 13:02:28]   [progress] 970 eval, +83,061 new, 19/s, max_depth=66600, cache_hits=167,744, mem=20976MB
+[2025-12-19 13:02:28]   [WARNING] Memory usage high: 20976 MB
+[2025-12-19 13:02:28]   [progress] 971 eval, +83,100 new, 19/s, max_depth=66636, cache_hits=167,849, mem=20976MB
+[2025-12-19 13:02:28]   [WARNING] Memory usage high: 20976 MB
+[2025-12-19 13:02:29]   [progress] 972 eval, +84,253 new, 19/s, max_depth=67204, cache_hits=169,616, mem=20976MB
+[2025-12-19 13:02:29]   [WARNING] Memory usage high: 20976 MB
+[2025-12-19 13:02:29]   [progress] 973 eval, +84,414 new, 19/s, max_depth=67395, cache_hits=169,951, mem=20976MB
+[2025-12-19 13:02:29]   [WARNING] Memory usage high: 20976 MB
+[2025-12-19 13:02:30]   [progress] 974 eval, +85,138 new, 19/s, max_depth=67752, cache_hits=170,995, mem=20976MB
+[2025-12-19 13:02:30]   [WARNING] Memory usage high: 20976 MB
+[2025-12-19 13:02:30]   [progress] 975 eval, +85,139 new, 19/s, max_depth=67752, cache_hits=171,001, mem=20976MB
+[2025-12-19 13:02:30]   [WARNING] Memory usage high: 20976 MB
+[2025-12-19 13:02:30]   [progress] 976 eval, +85,154 new, 19/s, max_depth=67772, cache_hits=171,067, mem=20976MB
+[2025-12-19 13:02:30]   [WARNING] Memory usage high: 20976 MB
+[2025-12-19 13:02:30]   [progress] 977 eval, +85,415 new, 19/s, max_depth=67978, cache_hits=171,601, mem=20976MB
+[2025-12-19 13:02:30]   [WARNING] Memory usage high: 20976 MB
+[2025-12-19 13:02:30]   [progress] 978 eval, +85,436 new, 19/s, max_depth=68003, cache_hits=171,664, mem=20976MB
+[2025-12-19 13:02:30]   [WARNING] Memory usage high: 20976 MB
+[2025-12-19 13:02:30]   [progress] 979 eval, +85,458 new, 19/s, max_depth=68066, cache_hits=171,782, mem=20976MB
+[2025-12-19 13:02:30]   [WARNING] Memory usage high: 20976 MB
+[2025-12-19 13:02:30]   [progress] 980 eval, +85,464 new, 19/s, max_depth=68074, cache_hits=171,797, mem=20976MB
+[2025-12-19 13:02:30]   [WARNING] Memory usage high: 20976 MB
+[2025-12-19 13:02:30]   [progress] 981 eval, +85,485 new, 19/s, max_depth=68105, cache_hits=171,875, mem=20976MB
+[2025-12-19 13:02:30]   [WARNING] Memory usage high: 20976 MB
+[2025-12-19 13:02:30]   [progress] 982 eval, +85,489 new, 19/s, max_depth=68111, cache_hits=171,897, mem=20976MB
+[2025-12-19 13:02:30]   [WARNING] Memory usage high: 20976 MB
+[2025-12-19 13:02:30]   [progress] 983 eval, +85,573 new, 19/s, max_depth=68196, cache_hits=172,143, mem=20976MB
+[2025-12-19 13:02:30]   [WARNING] Memory usage high: 20976 MB
+[2025-12-19 13:02:31]   [progress] 984 eval, +86,116 new, 18/s, max_depth=68602, cache_hits=173,303, mem=20976MB
+[2025-12-19 13:02:31]   [WARNING] Memory usage high: 20976 MB
+[2025-12-19 13:02:31]   [progress] 985 eval, +86,138 new, 18/s, max_depth=68633, cache_hits=173,370, mem=20976MB
+[2025-12-19 13:02:31]   [WARNING] Memory usage high: 20976 MB
+[2025-12-19 13:02:31]   [progress] 986 eval, +86,182 new, 18/s, max_depth=68688, cache_hits=173,483, mem=20976MB
+[2025-12-19 13:02:31]   [WARNING] Memory usage high: 20976 MB
+[2025-12-19 13:02:31]   [progress] 987 eval, +86,185 new, 18/s, max_depth=68690, cache_hits=173,495, mem=20976MB
+[2025-12-19 13:02:31]   [WARNING] Memory usage high: 20976 MB
+[2025-12-19 13:02:31]   [progress] 988 eval, +86,252 new, 18/s, max_depth=68767, cache_hits=173,697, mem=20976MB
+[2025-12-19 13:02:31]   [WARNING] Memory usage high: 20976 MB
+[2025-12-19 13:02:31]   [progress] 989 eval, +86,254 new, 18/s, max_depth=68769, cache_hits=173,709, mem=20976MB
+[2025-12-19 13:02:31]   [WARNING] Memory usage high: 20976 MB
+[2025-12-19 13:02:31]   [progress] 990 eval, +86,559 new, 18/s, max_depth=68977, cache_hits=174,243, mem=20976MB
+[2025-12-19 13:02:31]   [WARNING] Memory usage high: 20976 MB
+[2025-12-19 13:02:32]   [progress] 991 eval, +86,914 new, 18/s, max_depth=69263, cache_hits=174,943, mem=20976MB
+[2025-12-19 13:02:32]   [WARNING] Memory usage high: 20976 MB
+[2025-12-19 13:02:32]   [progress] 992 eval, +86,919 new, 18/s, max_depth=69279, cache_hits=174,976, mem=20976MB
+[2025-12-19 13:02:32]   [WARNING] Memory usage high: 20976 MB
+[2025-12-19 13:02:32]   [progress] 993 eval, +86,920 new, 18/s, max_depth=69281, cache_hits=174,987, mem=20976MB
+[2025-12-19 13:02:32]   [WARNING] Memory usage high: 20976 MB
+[2025-12-19 13:02:32]   [progress] 994 eval, +86,921 new, 18/s, max_depth=69285, cache_hits=175,001, mem=20976MB
+[2025-12-19 13:02:32]   [WARNING] Memory usage high: 20976 MB
+[2025-12-19 13:02:32]   [progress] 995 eval, +86,922 new, 18/s, max_depth=69287, cache_hits=175,014, mem=20976MB
+[2025-12-19 13:02:32]   [WARNING] Memory usage high: 20976 MB
+[2025-12-19 13:02:32]   [progress] 996 eval, +86,923 new, 18/s, max_depth=69289, cache_hits=175,026, mem=20976MB
+[2025-12-19 13:02:32]   [WARNING] Memory usage high: 20976 MB
+[2025-12-19 13:02:32]   [progress] 997 eval, +86,924 new, 18/s, max_depth=69289, cache_hits=175,036, mem=20976MB
+[2025-12-19 13:02:32]   [WARNING] Memory usage high: 20976 MB
+[2025-12-19 13:02:32]   [progress] 998 eval, +86,927 new, 18/s, max_depth=69308, cache_hits=175,095, mem=20976MB
+[2025-12-19 13:02:32]   [WARNING] Memory usage high: 20976 MB
+[2025-12-19 13:02:32]   [progress] 999 eval, +86,929 new, 18/s, max_depth=69315, cache_hits=175,126, mem=20976MB
+[2025-12-19 13:02:32]   [WARNING] Memory usage high: 20976 MB
+[2025-12-19 13:02:32]   [progress] 1,000 eval, +86,930 new, 18/s, max_depth=69315, cache_hits=175,130, mem=20976MB
+[2025-12-19 13:02:32]   [WARNING] Memory usage high: 20976 MB
+[2025-12-19 13:02:32]   [progress] 1,001 eval, +86,937 new, 18/s, max_depth=69340, cache_hits=175,197, mem=20976MB
+[2025-12-19 13:02:32]   [WARNING] Memory usage high: 20976 MB
+[2025-12-19 13:02:33]   [progress] 1,002 eval, +88,309 new, 18/s, max_depth=70273, cache_hits=177,608, mem=20976MB
+[2025-12-19 13:02:33]   [WARNING] Memory usage high: 20976 MB
+[2025-12-19 13:02:33]   [progress] 1,003 eval, +88,344 new, 18/s, max_depth=70322, cache_hits=177,721, mem=20976MB
+[2025-12-19 13:02:33]   [WARNING] Memory usage high: 20976 MB
+[2025-12-19 13:02:33]   [progress] 1,004 eval, +88,348 new, 18/s, max_depth=70337, cache_hits=177,763, mem=20976MB
+[2025-12-19 13:02:33]   [WARNING] Memory usage high: 20976 MB
+[2025-12-19 13:02:33]   [progress] 1,005 eval, +88,364 new, 18/s, max_depth=70384, cache_hits=177,862, mem=20976MB
+[2025-12-19 13:02:33]   [WARNING] Memory usage high: 20976 MB
+[2025-12-19 13:02:33]   [progress] 1,006 eval, +88,365 new, 18/s, max_depth=70388, cache_hits=177,880, mem=20976MB
+[2025-12-19 13:02:33]   [WARNING] Memory usage high: 20976 MB
+[2025-12-19 13:02:33]   [progress] 1,007 eval, +88,372 new, 18/s, max_depth=70414, cache_hits=177,927, mem=20976MB
+[2025-12-19 13:02:33]   [WARNING] Memory usage high: 20976 MB
+[2025-12-19 13:02:33]   [progress] 1,008 eval, +88,377 new, 18/s, max_depth=70424, cache_hits=177,953, mem=20976MB
+[2025-12-19 13:02:33]   [WARNING] Memory usage high: 20976 MB
+[2025-12-19 13:02:34]   [progress] 1,009 eval, +88,576 new, 18/s, max_depth=70619, cache_hits=178,406, mem=20976MB
+[2025-12-19 13:02:34]   [WARNING] Memory usage high: 20976 MB
+[2025-12-19 13:02:34]   [progress] 1,010 eval, +88,577 new, 18/s, max_depth=70619, cache_hits=178,414, mem=20976MB
+[2025-12-19 13:02:34]   [WARNING] Memory usage high: 20976 MB
+[2025-12-19 13:02:34]   [progress] 1,011 eval, +88,580 new, 18/s, max_depth=70623, cache_hits=178,423, mem=20976MB
+[2025-12-19 13:02:34]   [WARNING] Memory usage high: 20976 MB
+[2025-12-19 13:02:34]   [progress] 1,012 eval, +88,581 new, 18/s, max_depth=70625, cache_hits=178,431, mem=20976MB
+[2025-12-19 13:02:34]   [WARNING] Memory usage high: 20976 MB
+[2025-12-19 13:02:34]   [progress] 1,013 eval, +88,648 new, 18/s, max_depth=70674, cache_hits=178,581, mem=20976MB
+[2025-12-19 13:02:34]   [WARNING] Memory usage high: 20976 MB
+[2025-12-19 13:02:34]   [progress] 1,014 eval, +88,650 new, 18/s, max_depth=70678, cache_hits=178,600, mem=20976MB
+[2025-12-19 13:02:34]   [WARNING] Memory usage high: 20976 MB
+[2025-12-19 13:02:34]   [progress] 1,015 eval, +88,692 new, 18/s, max_depth=70737, cache_hits=178,735, mem=20976MB
+[2025-12-19 13:02:34]   [WARNING] Memory usage high: 20976 MB
+[2025-12-19 13:02:34]   [progress] 1,016 eval, +88,720 new, 18/s, max_depth=70745, cache_hits=178,773, mem=20976MB
+[2025-12-19 13:02:34]   [WARNING] Memory usage high: 20976 MB
+[2025-12-19 13:02:34]   [progress] 1,017 eval, +88,797 new, 18/s, max_depth=70780, cache_hits=178,873, mem=20976MB
+[2025-12-19 13:02:34]   [WARNING] Memory usage high: 20976 MB
+[2025-12-19 13:02:34]   [progress] 1,018 eval, +88,822 new, 18/s, max_depth=70798, cache_hits=178,918, mem=20976MB
+[2025-12-19 13:02:34]   [WARNING] Memory usage high: 20976 MB
+[2025-12-19 13:02:34]   [progress] 1,019 eval, +88,824 new, 18/s, max_depth=70800, cache_hits=178,926, mem=20976MB
+[2025-12-19 13:02:34]   [WARNING] Memory usage high: 20976 MB
+[2025-12-19 13:02:34]   [progress] 1,020 eval, +88,832 new, 18/s, max_depth=70804, cache_hits=178,948, mem=20976MB
+[2025-12-19 13:02:34]   [WARNING] Memory usage high: 20976 MB
+[2025-12-19 13:02:34]   [progress] 1,021 eval, +88,833 new, 18/s, max_depth=70804, cache_hits=178,954, mem=20976MB
+[2025-12-19 13:02:34]   [WARNING] Memory usage high: 20976 MB
+[2025-12-19 13:02:34]   [progress] 1,022 eval, +88,834 new, 18/s, max_depth=70808, cache_hits=178,961, mem=20976MB
+[2025-12-19 13:02:34]   [WARNING] Memory usage high: 20976 MB
+[2025-12-19 13:02:34]   [progress] 1,023 eval, +88,837 new, 18/s, max_depth=70808, cache_hits=178,968, mem=20976MB
+[2025-12-19 13:02:34]   [WARNING] Memory usage high: 20976 MB
+[2025-12-19 13:02:34]   [progress] 1,024 eval, +88,838 new, 18/s, max_depth=70810, cache_hits=178,978, mem=20976MB
+[2025-12-19 13:02:34]   [WARNING] Memory usage high: 20976 MB
+[2025-12-19 13:02:34]   [progress] 1,025 eval, +89,000 new, 18/s, max_depth=70944, cache_hits=179,254, mem=20976MB
+[2025-12-19 13:02:34]   [WARNING] Memory usage high: 20976 MB
+[2025-12-19 13:02:34]   [progress] 1,026 eval, +89,122 new, 18/s, max_depth=71064, cache_hits=179,527, mem=20976MB
+[2025-12-19 13:02:34]   [WARNING] Memory usage high: 20976 MB
+[2025-12-19 13:02:34]   [progress] 1,027 eval, +89,124 new, 18/s, max_depth=71074, cache_hits=179,550, mem=20976MB
+[2025-12-19 13:02:34]   [WARNING] Memory usage high: 20976 MB
+[2025-12-19 13:02:34]   [progress] 1,028 eval, +89,128 new, 18/s, max_depth=71078, cache_hits=179,565, mem=20976MB
+[2025-12-19 13:02:34]   [WARNING] Memory usage high: 20976 MB
+[2025-12-19 13:02:34]   [progress] 1,029 eval, +89,155 new, 18/s, max_depth=71104, cache_hits=179,635, mem=20976MB
+[2025-12-19 13:02:34]   [WARNING] Memory usage high: 20976 MB
+[2025-12-19 13:02:34]   [progress] 1,030 eval, +89,156 new, 18/s, max_depth=71104, cache_hits=179,638, mem=20976MB
+[2025-12-19 13:02:34]   [WARNING] Memory usage high: 20976 MB
+[2025-12-19 13:02:34]   [progress] 1,031 eval, +89,183 new, 18/s, max_depth=71132, cache_hits=179,703, mem=20976MB
+[2025-12-19 13:02:34]   [WARNING] Memory usage high: 20976 MB
+[2025-12-19 13:02:34]   [progress] 1,032 eval, +89,185 new, 18/s, max_depth=71134, cache_hits=179,713, mem=20976MB
+[2025-12-19 13:02:34]   [WARNING] Memory usage high: 20976 MB
+[2025-12-19 13:02:34]   [progress] 1,033 eval, +89,227 new, 18/s, max_depth=71190, cache_hits=179,827, mem=20976MB
+[2025-12-19 13:02:34]   [WARNING] Memory usage high: 20976 MB
+[2025-12-19 13:02:34]   [progress] 1,034 eval, +89,232 new, 18/s, max_depth=71205, cache_hits=179,849, mem=20976MB
+[2025-12-19 13:02:34]   [WARNING] Memory usage high: 20976 MB
+[2025-12-19 13:02:34]   [progress] 1,035 eval, +89,233 new, 18/s, max_depth=71205, cache_hits=179,853, mem=20976MB
+[2025-12-19 13:02:34]   [WARNING] Memory usage high: 20976 MB
+[2025-12-19 13:02:35]   [progress] 1,036 eval, +89,302 new, 18/s, max_depth=71272, cache_hits=179,993, mem=20976MB
+[2025-12-19 13:02:35]   [WARNING] Memory usage high: 20976 MB
+[2025-12-19 13:02:35]   [progress] 1,037 eval, +89,401 new, 18/s, max_depth=71340, cache_hits=180,132, mem=20976MB
+[2025-12-19 13:02:35]   [WARNING] Memory usage high: 20976 MB
+[2025-12-19 13:02:35]   [progress] 1,038 eval, +89,802 new, 18/s, max_depth=71625, cache_hits=180,804, mem=20976MB
+[2025-12-19 13:02:35]   [WARNING] Memory usage high: 20976 MB
+[2025-12-19 13:02:36]   [progress] 1,039 eval, +90,833 new, 18/s, max_depth=72266, cache_hits=182,502, mem=20976MB
+[2025-12-19 13:02:36]   [WARNING] Memory usage high: 20976 MB
+[2025-12-19 13:02:36]   [progress] 1,040 eval, +90,967 new, 18/s, max_depth=72380, cache_hits=182,799, mem=20976MB
+[2025-12-19 13:02:36]   [WARNING] Memory usage high: 20976 MB
+[2025-12-19 13:02:36]   [progress] 1,041 eval, +90,968 new, 18/s, max_depth=72380, cache_hits=182,801, mem=20976MB
+[2025-12-19 13:02:36]   [WARNING] Memory usage high: 20976 MB
+[2025-12-19 13:02:36]   [progress] 1,042 eval, +90,972 new, 18/s, max_depth=72393, cache_hits=182,843, mem=20976MB
+[2025-12-19 13:02:36]   [WARNING] Memory usage high: 20976 MB
+[2025-12-19 13:02:36]   [progress] 1,043 eval, +90,978 new, 18/s, max_depth=72414, cache_hits=182,895, mem=20976MB
+[2025-12-19 13:02:36]   [WARNING] Memory usage high: 20976 MB
+[2025-12-19 13:02:36]   [progress] 1,044 eval, +91,049 new, 18/s, max_depth=72527, cache_hits=183,156, mem=20976MB
+[2025-12-19 13:02:36]   [WARNING] Memory usage high: 20976 MB
+[2025-12-19 13:02:36]   [progress] 1,045 eval, +91,156 new, 18/s, max_depth=72583, cache_hits=183,338, mem=20976MB
+[2025-12-19 13:02:36]   [WARNING] Memory usage high: 20976 MB
+[2025-12-19 13:02:36]   [progress] 1,046 eval, +91,167 new, 18/s, max_depth=72597, cache_hits=183,371, mem=20976MB
+[2025-12-19 13:02:36]   [WARNING] Memory usage high: 20976 MB
+[2025-12-19 13:02:36]   [progress] 1,047 eval, +91,173 new, 18/s, max_depth=72599, cache_hits=183,386, mem=20976MB
+[2025-12-19 13:02:36]   [WARNING] Memory usage high: 20976 MB
+[2025-12-19 13:02:37]   [progress] 1,048 eval, +91,779 new, 18/s, max_depth=73050, cache_hits=184,464, mem=20976MB
+[2025-12-19 13:02:37]   [WARNING] Memory usage high: 20976 MB
+[2025-12-19 13:02:37]   [progress] 1,049 eval, +91,826 new, 18/s, max_depth=73106, cache_hits=184,577, mem=20976MB
+[2025-12-19 13:02:37]   [WARNING] Memory usage high: 20976 MB
+[2025-12-19 13:02:37]   [progress] 1,050 eval, +91,997 new, 18/s, max_depth=73188, cache_hits=184,827, mem=20976MB
+[2025-12-19 13:02:37]   [WARNING] Memory usage high: 20976 MB
+[2025-12-19 13:02:37]   [progress] 1,051 eval, +92,397 new, 17/s, max_depth=73452, cache_hits=185,518, mem=20976MB
+[2025-12-19 13:02:37]   [WARNING] Memory usage high: 20976 MB
+[2025-12-19 13:02:38]   [progress] 1,052 eval, +92,420 new, 17/s, max_depth=73484, cache_hits=185,571, mem=20976MB
+[2025-12-19 13:02:38]   [WARNING] Memory usage high: 20976 MB
+[2025-12-19 13:02:38]   [progress] 1,053 eval, +92,449 new, 17/s, max_depth=73538, cache_hits=185,658, mem=20976MB
+[2025-12-19 13:02:38]   [WARNING] Memory usage high: 20976 MB
+[2025-12-19 13:02:38]   [progress] 1,054 eval, +92,468 new, 17/s, max_depth=73564, cache_hits=185,710, mem=20976MB
+[2025-12-19 13:02:38]   [WARNING] Memory usage high: 20976 MB
+[2025-12-19 13:02:38]   [progress] 1,055 eval, +92,483 new, 17/s, max_depth=73576, cache_hits=185,755, mem=20976MB
+[2025-12-19 13:02:38]   [WARNING] Memory usage high: 20976 MB
+[2025-12-19 13:02:38]   [progress] 1,056 eval, +92,497 new, 17/s, max_depth=73588, cache_hits=185,792, mem=20976MB
+[2025-12-19 13:02:38]   [WARNING] Memory usage high: 20976 MB
+[2025-12-19 13:02:38]   [progress] 1,057 eval, +92,668 new, 17/s, max_depth=73732, cache_hits=186,156, mem=20976MB
+[2025-12-19 13:02:38]   [WARNING] Memory usage high: 20976 MB
+[2025-12-19 13:02:38]   [progress] 1,058 eval, +92,669 new, 17/s, max_depth=73732, cache_hits=186,159, mem=20976MB
+[2025-12-19 13:02:38]   [WARNING] Memory usage high: 20976 MB
+[2025-12-19 13:02:38]   [progress] 1,059 eval, +92,675 new, 17/s, max_depth=73738, cache_hits=186,182, mem=20976MB
+[2025-12-19 13:02:38]   [WARNING] Memory usage high: 20976 MB
+[2025-12-19 13:02:38]   [progress] 1,060 eval, +93,149 new, 17/s, max_depth=74075, cache_hits=186,965, mem=20976MB
+[2025-12-19 13:02:38]   [WARNING] Memory usage high: 20976 MB
+[2025-12-19 13:02:38]   [progress] 1,061 eval, +93,158 new, 17/s, max_depth=74083, cache_hits=186,992, mem=20976MB
+[2025-12-19 13:02:38]   [WARNING] Memory usage high: 20976 MB
+[2025-12-19 13:02:38]   [progress] 1,062 eval, +93,193 new, 17/s, max_depth=74114, cache_hits=187,087, mem=20976MB
+[2025-12-19 13:02:38]   [WARNING] Memory usage high: 20976 MB
+[2025-12-19 13:02:38]   [progress] 1,063 eval, +93,200 new, 17/s, max_depth=74134, cache_hits=187,146, mem=20976MB
+[2025-12-19 13:02:38]   [WARNING] Memory usage high: 20976 MB
+[2025-12-19 13:02:39]   [progress] 1,064 eval, +93,290 new, 17/s, max_depth=74278, cache_hits=187,489, mem=20976MB
+[2025-12-19 13:02:39]   [WARNING] Memory usage high: 20976 MB
+[2025-12-19 13:02:40]   [progress] 1,065 eval, +94,099 new, 17/s, max_depth=74942, cache_hits=189,096, mem=20976MB
+[2025-12-19 13:02:40]   [WARNING] Memory usage high: 20976 MB
+[2025-12-19 13:02:40]   [progress] 1,066 eval, +94,101 new, 17/s, max_depth=74944, cache_hits=189,107, mem=20976MB
+[2025-12-19 13:02:40]   [WARNING] Memory usage high: 20976 MB
+[2025-12-19 13:02:40]   [progress] 1,067 eval, +94,161 new, 17/s, max_depth=75008, cache_hits=189,210, mem=20976MB
+[2025-12-19 13:02:40]   [WARNING] Memory usage high: 20976 MB
+[2025-12-19 13:02:40]   [progress] 1,068 eval, +94,372 new, 17/s, max_depth=75211, cache_hits=189,595, mem=20976MB
+[2025-12-19 13:02:40]   [WARNING] Memory usage high: 20976 MB
+[2025-12-19 13:02:40]   [progress] 1,069 eval, +94,414 new, 17/s, max_depth=75245, cache_hits=189,685, mem=20976MB
+[2025-12-19 13:02:40]   [WARNING] Memory usage high: 20976 MB
+[2025-12-19 13:02:40]   [progress] 1,070 eval, +94,513 new, 17/s, max_depth=75343, cache_hits=189,932, mem=20976MB
+[2025-12-19 13:02:40]   [WARNING] Memory usage high: 20976 MB
+[2025-12-19 13:02:40]   [progress] 1,071 eval, +94,521 new, 17/s, max_depth=75351, cache_hits=189,963, mem=20976MB
+[2025-12-19 13:02:40]   [WARNING] Memory usage high: 20976 MB
+[2025-12-19 13:02:41]   [progress] 1,072 eval, +95,215 new, 17/s, max_depth=75850, cache_hits=191,099, mem=20976MB
+[2025-12-19 13:02:41]   [WARNING] Memory usage high: 20976 MB
+[2025-12-19 13:02:41]   [progress] 1,073 eval, +95,239 new, 17/s, max_depth=75868, cache_hits=191,137, mem=20976MB
+[2025-12-19 13:02:41]   [WARNING] Memory usage high: 20976 MB
+[2025-12-19 13:02:41]   [progress] 1,074 eval, +95,293 new, 17/s, max_depth=75918, cache_hits=191,241, mem=20976MB
+[2025-12-19 13:02:41]   [WARNING] Memory usage high: 20976 MB
+[2025-12-19 13:02:41]   [progress] 1,075 eval, +95,356 new, 17/s, max_depth=75985, cache_hits=191,362, mem=20976MB
+[2025-12-19 13:02:41]   [WARNING] Memory usage high: 20976 MB
+[2025-12-19 13:02:42]   [progress] 1,076 eval, +96,419 new, 17/s, max_depth=76764, cache_hits=193,233, mem=20976MB
+[2025-12-19 13:02:42]   [WARNING] Memory usage high: 20976 MB
+[2025-12-19 13:02:42]   [progress] 1,077 eval, +96,429 new, 17/s, max_depth=76782, cache_hits=193,262, mem=20976MB
+[2025-12-19 13:02:42]   [WARNING] Memory usage high: 20976 MB
+[2025-12-19 13:02:42]   [progress] 1,078 eval, +96,436 new, 17/s, max_depth=76802, cache_hits=193,303, mem=20976MB
+[2025-12-19 13:02:42]   [WARNING] Memory usage high: 20976 MB
+[2025-12-19 13:02:42]   [progress] 1,079 eval, +96,438 new, 17/s, max_depth=76806, cache_hits=193,319, mem=20976MB
+[2025-12-19 13:02:42]   [WARNING] Memory usage high: 20976 MB
+[2025-12-19 13:02:42]   [progress] 1,080 eval, +96,546 new, 17/s, max_depth=76926, cache_hits=193,566, mem=20976MB
+[2025-12-19 13:02:42]   [WARNING] Memory usage high: 20976 MB
+[2025-12-19 13:02:43]   [progress] 1,081 eval, +96,728 new, 17/s, max_depth=77094, cache_hits=193,924, mem=20976MB
+[2025-12-19 13:02:43]   [WARNING] Memory usage high: 20976 MB
+[2025-12-19 13:02:43]   [progress] 1,082 eval, +96,729 new, 17/s, max_depth=77096, cache_hits=193,935, mem=20976MB
+[2025-12-19 13:02:43]   [WARNING] Memory usage high: 20976 MB
+[2025-12-19 13:02:43]   [progress] 1,083 eval, +96,879 new, 17/s, max_depth=77204, cache_hits=194,222, mem=20976MB
+[2025-12-19 13:02:43]   [WARNING] Memory usage high: 20976 MB
+[2025-12-19 13:02:48]   [checkpoint] Saved 34,817 positions mid-solve
+[2025-12-19 13:02:49]   [progress] 1,084 eval, +97,161 new, 15/s, max_depth=77421, cache_hits=194,796, mem=20976MB
+[2025-12-19 13:02:49]   [WARNING] Memory usage high: 20976 MB
+[2025-12-19 13:02:49]   [progress] 1,085 eval, +97,309 new, 15/s, max_depth=77525, cache_hits=195,088, mem=20976MB
+[2025-12-19 13:02:49]   [WARNING] Memory usage high: 20976 MB
+[2025-12-19 13:02:49]   [progress] 1,086 eval, +97,477 new, 15/s, max_depth=77591, cache_hits=195,338, mem=20976MB
+[2025-12-19 13:02:49]   [WARNING] Memory usage high: 20976 MB
+[2025-12-19 13:02:49]   [progress] 1,087 eval, +97,498 new, 15/s, max_depth=77601, cache_hits=195,392, mem=20976MB
+[2025-12-19 13:02:49]   [WARNING] Memory usage high: 20976 MB
+[2025-12-19 13:02:49]   [progress] 1,088 eval, +97,672 new, 15/s, max_depth=77721, cache_hits=195,777, mem=20976MB
+[2025-12-19 13:02:49]   [WARNING] Memory usage high: 20976 MB
+[2025-12-19 13:02:49]   [progress] 1,089 eval, +97,737 new, 15/s, max_depth=77792, cache_hits=195,990, mem=20976MB
+[2025-12-19 13:02:49]   [WARNING] Memory usage high: 20976 MB
+[2025-12-19 13:02:49]   [progress] 1,090 eval, +97,919 new, 15/s, max_depth=77965, cache_hits=196,413, mem=20976MB
+[2025-12-19 13:02:49]   [WARNING] Memory usage high: 20976 MB
+[2025-12-19 13:02:50]   [progress] 1,091 eval, +98,123 new, 15/s, max_depth=78120, cache_hits=196,808, mem=20976MB
+[2025-12-19 13:02:50]   [WARNING] Memory usage high: 20976 MB
+[2025-12-19 13:02:50]   [progress] 1,092 eval, +98,140 new, 15/s, max_depth=78130, cache_hits=196,845, mem=20976MB
+[2025-12-19 13:02:50]   [WARNING] Memory usage high: 20976 MB
+[2025-12-19 13:02:51]   [progress] 1,093 eval, +99,504 new, 15/s, max_depth=79022, cache_hits=199,103, mem=20976MB
+[2025-12-19 13:02:51]   [WARNING] Memory usage high: 20976 MB
+[2025-12-19 13:02:51]   [progress] 1,094 eval, +99,505 new, 15/s, max_depth=79022, cache_hits=199,112, mem=20976MB
+[2025-12-19 13:02:51]   [WARNING] Memory usage high: 20976 MB
+[2025-12-19 13:02:52]   [progress] 1,095 eval, +100,208 new, 15/s, max_depth=79589, cache_hits=200,668, mem=20976MB
+[2025-12-19 13:02:52]   [WARNING] Memory usage high: 20976 MB
+[2025-12-19 13:02:52]   [progress] 1,096 eval, +100,219 new, 15/s, max_depth=79611, cache_hits=200,732, mem=20976MB
+[2025-12-19 13:02:52]   [WARNING] Memory usage high: 20976 MB
+[2025-12-19 13:02:52]   [progress] 1,097 eval, +100,221 new, 15/s, max_depth=79616, cache_hits=200,743, mem=20976MB
+[2025-12-19 13:02:52]   [WARNING] Memory usage high: 20976 MB
+[2025-12-19 13:02:52]   [progress] 1,098 eval, +100,305 new, 15/s, max_depth=79724, cache_hits=200,982, mem=20976MB
+[2025-12-19 13:02:52]   [WARNING] Memory usage high: 20976 MB
+[2025-12-19 13:02:52]   [progress] 1,099 eval, +100,332 new, 15/s, max_depth=79749, cache_hits=201,057, mem=20976MB
+[2025-12-19 13:02:52]   [WARNING] Memory usage high: 20976 MB
+[2025-12-19 13:02:52]   [progress] 1,100 eval, +100,365 new, 15/s, max_depth=79790, cache_hits=201,163, mem=20976MB
+[2025-12-19 13:02:52]   [WARNING] Memory usage high: 20976 MB
+[2025-12-19 13:02:52]   [progress] 1,101 eval, +100,370 new, 15/s, max_depth=79792, cache_hits=201,175, mem=20976MB
+[2025-12-19 13:02:52]   [WARNING] Memory usage high: 20976 MB
+[2025-12-19 13:02:52]   [progress] 1,102 eval, +100,375 new, 15/s, max_depth=79798, cache_hits=201,195, mem=20976MB
+[2025-12-19 13:02:52]   [WARNING] Memory usage high: 20976 MB
+[2025-12-19 13:02:52]   [progress] 1,103 eval, +100,473 new, 15/s, max_depth=79856, cache_hits=201,357, mem=20976MB
+[2025-12-19 13:02:52]   [WARNING] Memory usage high: 20976 MB
+[2025-12-19 13:02:52]   [progress] 1,104 eval, +100,493 new, 15/s, max_depth=79868, cache_hits=201,396, mem=20976MB
+[2025-12-19 13:02:52]   [WARNING] Memory usage high: 20976 MB
+[2025-12-19 13:02:52]   [progress] 1,105 eval, +100,498 new, 15/s, max_depth=79870, cache_hits=201,411, mem=20976MB
+[2025-12-19 13:02:52]   [WARNING] Memory usage high: 20976 MB
+[2025-12-19 13:02:52]   [progress] 1,106 eval, +100,526 new, 15/s, max_depth=79888, cache_hits=201,457, mem=20976MB
+[2025-12-19 13:02:52]   [WARNING] Memory usage high: 20976 MB
+[2025-12-19 13:02:52]   [progress] 1,107 eval, +100,664 new, 15/s, max_depth=79960, cache_hits=201,673, mem=20976MB
+[2025-12-19 13:02:52]   [WARNING] Memory usage high: 20976 MB
+[2025-12-19 13:02:52]   [progress] 1,108 eval, +100,665 new, 15/s, max_depth=79960, cache_hits=201,673, mem=20976MB
+[2025-12-19 13:02:52]   [WARNING] Memory usage high: 20976 MB
+[2025-12-19 13:02:53]   [progress] 1,109 eval, +101,333 new, 15/s, max_depth=80364, cache_hits=202,808, mem=20976MB
+[2025-12-19 13:02:53]   [WARNING] Memory usage high: 20976 MB
+[2025-12-19 13:02:53]   [progress] 1,110 eval, +101,336 new, 15/s, max_depth=80366, cache_hits=202,819, mem=20976MB
+[2025-12-19 13:02:53]   [WARNING] Memory usage high: 20976 MB
+[2025-12-19 13:02:53]   [progress] 1,111 eval, +101,429 new, 15/s, max_depth=80446, cache_hits=202,978, mem=20976MB
+[2025-12-19 13:02:53]   [WARNING] Memory usage high: 20976 MB
+[2025-12-19 13:02:53]   [progress] 1,112 eval, +101,473 new, 15/s, max_depth=80484, cache_hits=203,089, mem=20976MB
+[2025-12-19 13:02:53]   [WARNING] Memory usage high: 20976 MB
+[2025-12-19 13:02:53]   [progress] 1,113 eval, +101,476 new, 15/s, max_depth=80488, cache_hits=203,101, mem=20976MB
+[2025-12-19 13:02:53]   [WARNING] Memory usage high: 20976 MB
+[2025-12-19 13:02:53]   [progress] 1,114 eval, +101,495 new, 15/s, max_depth=80530, cache_hits=203,191, mem=20976MB
+[2025-12-19 13:02:53]   [WARNING] Memory usage high: 20976 MB
+[2025-12-19 13:02:53]   [progress] 1,115 eval, +101,504 new, 15/s, max_depth=80542, cache_hits=203,216, mem=20976MB
+[2025-12-19 13:02:53]   [WARNING] Memory usage high: 20976 MB
+[2025-12-19 13:02:53]   [progress] 1,116 eval, +101,516 new, 15/s, max_depth=80564, cache_hits=203,276, mem=20976MB
+[2025-12-19 13:02:53]   [WARNING] Memory usage high: 20976 MB
+[2025-12-19 13:02:53]   [progress] 1,117 eval, +101,523 new, 15/s, max_depth=80580, cache_hits=203,298, mem=20976MB
+[2025-12-19 13:02:53]   [WARNING] Memory usage high: 20976 MB
+[2025-12-19 13:02:53]   [progress] 1,118 eval, +101,542 new, 15/s, max_depth=80610, cache_hits=203,351, mem=20976MB
+[2025-12-19 13:02:53]   [WARNING] Memory usage high: 20976 MB
+[2025-12-19 13:02:53]   [progress] 1,119 eval, +101,546 new, 15/s, max_depth=80612, cache_hits=203,364, mem=20976MB
+[2025-12-19 13:02:53]   [WARNING] Memory usage high: 20976 MB
+[2025-12-19 13:02:53]   [progress] 1,120 eval, +101,551 new, 15/s, max_depth=80618, cache_hits=203,379, mem=20976MB
+[2025-12-19 13:02:53]   [WARNING] Memory usage high: 20976 MB
+[2025-12-19 13:02:54]   [progress] 1,121 eval, +102,355 new, 15/s, max_depth=81276, cache_hits=204,858, mem=20976MB
+[2025-12-19 13:02:54]   [WARNING] Memory usage high: 20976 MB
+[2025-12-19 13:02:54]   [progress] 1,122 eval, +102,361 new, 15/s, max_depth=81291, cache_hits=204,886, mem=20976MB
+[2025-12-19 13:02:54]   [WARNING] Memory usage high: 20976 MB
+[2025-12-19 13:02:54]   [progress] 1,123 eval, +102,386 new, 15/s, max_depth=81347, cache_hits=204,976, mem=20976MB
+[2025-12-19 13:02:54]   [WARNING] Memory usage high: 20976 MB
+[2025-12-19 13:02:54]   [progress] 1,124 eval, +102,387 new, 15/s, max_depth=81349, cache_hits=204,986, mem=20976MB
+[2025-12-19 13:02:54]   [WARNING] Memory usage high: 20976 MB
+[2025-12-19 13:02:54]   [progress] 1,125 eval, +102,390 new, 15/s, max_depth=81349, cache_hits=204,994, mem=20976MB
+[2025-12-19 13:02:54]   [WARNING] Memory usage high: 20976 MB
+[2025-12-19 13:02:54]   [progress] 1,126 eval, +102,420 new, 15/s, max_depth=81398, cache_hits=205,064, mem=20976MB
+[2025-12-19 13:02:54]   [WARNING] Memory usage high: 20976 MB
+[2025-12-19 13:02:54]   [progress] 1,127 eval, +102,455 new, 15/s, max_depth=81442, cache_hits=205,160, mem=20976MB
+[2025-12-19 13:02:54]   [WARNING] Memory usage high: 20976 MB
+[2025-12-19 13:02:54]   [progress] 1,128 eval, +102,499 new, 15/s, max_depth=81482, cache_hits=205,243, mem=20976MB
+[2025-12-19 13:02:54]   [WARNING] Memory usage high: 20976 MB
+[2025-12-19 13:02:54]   [progress] 1,129 eval, +102,547 new, 15/s, max_depth=81552, cache_hits=205,372, mem=20976MB
+[2025-12-19 13:02:54]   [WARNING] Memory usage high: 20976 MB
+[2025-12-19 13:02:55]   [progress] 1,130 eval, +102,587 new, 15/s, max_depth=81639, cache_hits=205,515, mem=20976MB
+[2025-12-19 13:02:55]   [WARNING] Memory usage high: 20976 MB
+[2025-12-19 13:02:55]   [progress] 1,131 eval, +102,597 new, 15/s, max_depth=81657, cache_hits=205,544, mem=20976MB
+[2025-12-19 13:02:55]   [WARNING] Memory usage high: 20976 MB
+[2025-12-19 13:02:55]   [progress] 1,132 eval, +102,601 new, 15/s, max_depth=81691, cache_hits=205,603, mem=20976MB
+[2025-12-19 13:02:55]   [WARNING] Memory usage high: 20976 MB
+[2025-12-19 13:02:55]   [progress] 1,133 eval, +102,602 new, 15/s, max_depth=81691, cache_hits=205,608, mem=20976MB
+[2025-12-19 13:02:55]   [WARNING] Memory usage high: 20976 MB
+[2025-12-19 13:02:55]   [progress] 1,134 eval, +102,678 new, 15/s, max_depth=81762, cache_hits=205,786, mem=20976MB
+[2025-12-19 13:02:55]   [WARNING] Memory usage high: 20976 MB
+[2025-12-19 13:02:55]   [progress] 1,135 eval, +102,820 new, 15/s, max_depth=81874, cache_hits=206,108, mem=20976MB
+[2025-12-19 13:02:55]   [WARNING] Memory usage high: 20976 MB
+[2025-12-19 13:02:55]   [progress] 1,136 eval, +102,825 new, 15/s, max_depth=81878, cache_hits=206,122, mem=20976MB
+[2025-12-19 13:02:55]   [WARNING] Memory usage high: 20976 MB
+[2025-12-19 13:02:55]   [progress] 1,137 eval, +103,359 new, 15/s, max_depth=82121, cache_hits=207,107, mem=20976MB
+[2025-12-19 13:02:55]   [WARNING] Memory usage high: 20976 MB
+[2025-12-19 13:02:55]   [progress] 1,138 eval, +103,365 new, 15/s, max_depth=82127, cache_hits=207,125, mem=20976MB
+[2025-12-19 13:02:55]   [WARNING] Memory usage high: 20976 MB
+[2025-12-19 13:02:55]   [progress] 1,139 eval, +103,375 new, 15/s, max_depth=82139, cache_hits=207,162, mem=20976MB
+[2025-12-19 13:02:55]   [WARNING] Memory usage high: 20976 MB
+[2025-12-19 13:02:55]   [progress] 1,140 eval, +103,428 new, 15/s, max_depth=82171, cache_hits=207,280, mem=20976MB
+[2025-12-19 13:02:55]   [WARNING] Memory usage high: 20976 MB
+[2025-12-19 13:02:56]   [progress] 1,141 eval, +103,947 new, 15/s, max_depth=82588, cache_hits=208,424, mem=20976MB
+[2025-12-19 13:02:56]   [WARNING] Memory usage high: 20976 MB
+[2025-12-19 13:02:57]   [progress] 1,142 eval, +105,038 new, 14/s, max_depth=83304, cache_hits=210,365, mem=20976MB
+[2025-12-19 13:02:57]   [WARNING] Memory usage high: 20976 MB
+[2025-12-19 13:02:57]   [progress] 1,143 eval, +105,090 new, 14/s, max_depth=83346, cache_hits=210,468, mem=20976MB
+[2025-12-19 13:02:57]   [WARNING] Memory usage high: 20976 MB
+[2025-12-19 13:02:57]   [progress] 1,144 eval, +105,091 new, 14/s, max_depth=83348, cache_hits=210,482, mem=20976MB
+[2025-12-19 13:02:57]   [WARNING] Memory usage high: 20976 MB
+[2025-12-19 13:02:57]   [progress] 1,145 eval, +105,096 new, 14/s, max_depth=83354, cache_hits=210,501, mem=20976MB
+[2025-12-19 13:02:57]   [WARNING] Memory usage high: 20976 MB
+[2025-12-19 13:02:57]   [progress] 1,146 eval, +105,099 new, 14/s, max_depth=83358, cache_hits=210,519, mem=20976MB
+[2025-12-19 13:02:57]   [WARNING] Memory usage high: 20976 MB
+[2025-12-19 13:02:57]   [progress] 1,147 eval, +105,171 new, 14/s, max_depth=83414, cache_hits=210,674, mem=20976MB
+[2025-12-19 13:02:57]   [WARNING] Memory usage high: 20976 MB
+[2025-12-19 13:02:57]   [progress] 1,148 eval, +105,258 new, 14/s, max_depth=83520, cache_hits=210,887, mem=20976MB
+[2025-12-19 13:02:57]   [WARNING] Memory usage high: 20976 MB
+[2025-12-19 13:02:57]   [progress] 1,149 eval, +105,261 new, 14/s, max_depth=83528, cache_hits=210,911, mem=20976MB
+[2025-12-19 13:02:57]   [WARNING] Memory usage high: 20976 MB
+[2025-12-19 13:02:58]   [progress] 1,150 eval, +105,396 new, 14/s, max_depth=83672, cache_hits=211,191, mem=20976MB
+[2025-12-19 13:02:58]   [WARNING] Memory usage high: 20976 MB
+[2025-12-19 13:02:58]   [progress] 1,151 eval, +105,397 new, 14/s, max_depth=83674, cache_hits=211,201, mem=20976MB
+[2025-12-19 13:02:58]   [WARNING] Memory usage high: 20976 MB
+[2025-12-19 13:02:58]   [progress] 1,152 eval, +105,487 new, 14/s, max_depth=83772, cache_hits=211,416, mem=20976MB
+[2025-12-19 13:02:58]   [WARNING] Memory usage high: 20976 MB
+[2025-12-19 13:02:58]   [progress] 1,153 eval, +105,528 new, 14/s, max_depth=83820, cache_hits=211,516, mem=20976MB
+[2025-12-19 13:02:58]   [WARNING] Memory usage high: 20976 MB
+[2025-12-19 13:02:58]   [progress] 1,154 eval, +105,534 new, 14/s, max_depth=83826, cache_hits=211,535, mem=20976MB
+[2025-12-19 13:02:58]   [WARNING] Memory usage high: 20976 MB
+[2025-12-19 13:02:58]   [progress] 1,155 eval, +105,541 new, 14/s, max_depth=83834, cache_hits=211,564, mem=20976MB
+[2025-12-19 13:02:58]   [WARNING] Memory usage high: 20976 MB
+[2025-12-19 13:02:58]   [progress] 1,156 eval, +105,547 new, 14/s, max_depth=83848, cache_hits=211,607, mem=20976MB
+[2025-12-19 13:02:58]   [WARNING] Memory usage high: 20976 MB
+[2025-12-19 13:02:58]   [progress] 1,157 eval, +105,549 new, 14/s, max_depth=83858, cache_hits=211,638, mem=20976MB
+[2025-12-19 13:02:58]   [WARNING] Memory usage high: 20976 MB
+[2025-12-19 13:02:58]   [progress] 1,158 eval, +105,559 new, 14/s, max_depth=83868, cache_hits=211,671, mem=20976MB
+[2025-12-19 13:02:58]   [WARNING] Memory usage high: 20976 MB
+[2025-12-19 13:02:58]   [progress] 1,159 eval, +105,560 new, 14/s, max_depth=83868, cache_hits=211,678, mem=20976MB
+[2025-12-19 13:02:58]   [WARNING] Memory usage high: 20976 MB
+[2025-12-19 13:02:58]   [progress] 1,160 eval, +105,590 new, 14/s, max_depth=83906, cache_hits=211,768, mem=20976MB
+[2025-12-19 13:02:58]   [WARNING] Memory usage high: 20976 MB
+[2025-12-19 13:02:58]   [progress] 1,161 eval, +105,609 new, 14/s, max_depth=83916, cache_hits=211,804, mem=20976MB
+[2025-12-19 13:02:58]   [WARNING] Memory usage high: 20976 MB
+[2025-12-19 13:02:58]   [progress] 1,162 eval, +105,628 new, 14/s, max_depth=83922, cache_hits=211,833, mem=20976MB
+[2025-12-19 13:02:58]   [WARNING] Memory usage high: 20976 MB
+[2025-12-19 13:02:58]   [progress] 1,163 eval, +105,703 new, 14/s, max_depth=84002, cache_hits=212,049, mem=20976MB
+[2025-12-19 13:02:58]   [WARNING] Memory usage high: 20976 MB
+[2025-12-19 13:02:58]   [progress] 1,164 eval, +105,737 new, 14/s, max_depth=84026, cache_hits=212,124, mem=20976MB
+[2025-12-19 13:02:58]   [WARNING] Memory usage high: 20976 MB
+[2025-12-19 13:02:58]   [progress] 1,165 eval, +105,780 new, 14/s, max_depth=84085, cache_hits=212,241, mem=20976MB
+[2025-12-19 13:02:58]   [WARNING] Memory usage high: 20976 MB
+[2025-12-19 13:02:58]   [progress] 1,166 eval, +106,085 new, 14/s, max_depth=84323, cache_hits=212,822, mem=20976MB
+[2025-12-19 13:02:58]   [WARNING] Memory usage high: 20976 MB
+[2025-12-19 13:02:59]   [progress] 1,167 eval, +106,109 new, 14/s, max_depth=84358, cache_hits=212,897, mem=20976MB
+[2025-12-19 13:02:59]   [WARNING] Memory usage high: 20976 MB
+[2025-12-19 13:02:59]   [progress] 1,168 eval, +106,128 new, 14/s, max_depth=84392, cache_hits=212,980, mem=20976MB
+[2025-12-19 13:02:59]   [WARNING] Memory usage high: 20976 MB
+[2025-12-19 13:02:59]   [progress] 1,169 eval, +106,131 new, 14/s, max_depth=84394, cache_hits=212,989, mem=20976MB
+[2025-12-19 13:02:59]   [WARNING] Memory usage high: 20976 MB
+[2025-12-19 13:02:59]   [progress] 1,170 eval, +106,161 new, 14/s, max_depth=84412, cache_hits=213,041, mem=20976MB
+[2025-12-19 13:02:59]   [WARNING] Memory usage high: 20976 MB
+[2025-12-19 13:02:59]   [progress] 1,171 eval, +106,166 new, 14/s, max_depth=84414, cache_hits=213,051, mem=20976MB
+[2025-12-19 13:02:59]   [WARNING] Memory usage high: 20976 MB
+[2025-12-19 13:02:59]   [progress] 1,172 eval, +106,175 new, 14/s, max_depth=84424, cache_hits=213,081, mem=20976MB
+[2025-12-19 13:02:59]   [WARNING] Memory usage high: 20976 MB
+[2025-12-19 13:02:59]   [progress] 1,173 eval, +106,183 new, 14/s, max_depth=84428, cache_hits=213,101, mem=20976MB
+[2025-12-19 13:02:59]   [WARNING] Memory usage high: 20976 MB
+[2025-12-19 13:02:59]   [progress] 1,174 eval, +106,184 new, 14/s, max_depth=84428, cache_hits=213,110, mem=20976MB
+[2025-12-19 13:02:59]   [WARNING] Memory usage high: 20976 MB
+[2025-12-19 13:02:59]   [progress] 1,175 eval, +106,190 new, 14/s, max_depth=84434, cache_hits=213,133, mem=20976MB
+[2025-12-19 13:02:59]   [WARNING] Memory usage high: 20976 MB
+[2025-12-19 13:02:59]   [progress] 1,176 eval, +106,246 new, 14/s, max_depth=84504, cache_hits=213,296, mem=20976MB
+[2025-12-19 13:02:59]   [WARNING] Memory usage high: 20976 MB
+[2025-12-19 13:02:59]   [progress] 1,177 eval, +106,315 new, 14/s, max_depth=84566, cache_hits=213,460, mem=20976MB
+[2025-12-19 13:02:59]   [WARNING] Memory usage high: 20976 MB
+[2025-12-19 13:02:59]   [progress] 1,178 eval, +106,404 new, 14/s, max_depth=84666, cache_hits=213,691, mem=20976MB
+[2025-12-19 13:02:59]   [WARNING] Memory usage high: 20976 MB
+[2025-12-19 13:02:59]   [progress] 1,179 eval, +106,412 new, 14/s, max_depth=84680, cache_hits=213,726, mem=20976MB
+[2025-12-19 13:02:59]   [WARNING] Memory usage high: 20976 MB
+[2025-12-19 13:02:59]   [progress] 1,180 eval, +106,421 new, 14/s, max_depth=84688, cache_hits=213,757, mem=20976MB
+[2025-12-19 13:02:59]   [WARNING] Memory usage high: 20976 MB
+[2025-12-19 13:02:59]   [progress] 1,181 eval, +106,429 new, 14/s, max_depth=84696, cache_hits=213,787, mem=20976MB
+[2025-12-19 13:02:59]   [WARNING] Memory usage high: 20976 MB
+[2025-12-19 13:03:01]   [progress] 1,182 eval, +106,518 new, 14/s, max_depth=84766, cache_hits=214,005, mem=20976MB
+[2025-12-19 13:03:01]   [WARNING] Memory usage high: 20976 MB
+[2025-12-19 13:03:01]   [progress] 1,183 eval, +106,522 new, 14/s, max_depth=84768, cache_hits=214,021, mem=20976MB
+[2025-12-19 13:03:01]   [WARNING] Memory usage high: 20976 MB
+[2025-12-19 13:03:01]   [progress] 1,184 eval, +106,529 new, 14/s, max_depth=84772, cache_hits=214,041, mem=20976MB
+[2025-12-19 13:03:01]   [WARNING] Memory usage high: 20976 MB
+[2025-12-19 13:03:12]   [progress] 1,185 eval, +106,589 new, 12/s, max_depth=84804, cache_hits=214,167, mem=20976MB
+[2025-12-19 13:03:12]   [WARNING] Memory usage high: 20976 MB
+[2025-12-19 13:03:12]   [progress] 1,186 eval, +106,604 new, 12/s, max_depth=84808, cache_hits=214,194, mem=20976MB
+[2025-12-19 13:03:12]   [WARNING] Memory usage high: 20976 MB

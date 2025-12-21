@@ -1,0 +1,23 @@
+[package]
+name = "gobblet-solver"
+version = "0.1.0"
+edition = "2021"
+
+[[bin]]
+name = "solver"
+path = "src/main.rs"
+
+[[bin]]
+name = "count_tree"
+path = "src/bin/count_tree.rs"
+
+[[bin]]
+name = "export_sqlite"
+path = "src/bin/export_sqlite.rs"
+
+[dependencies]
+gobblet-core = { path = "../gobblet-core" }
+ctrlc = "3.4"        # SIGINT handling
+xxhash-rust = { version = "0.8", features = ["xxh64"] }  # Fast checksums
+libc = "0.2"         # For memory stats on macOS
+rusqlite = { version = "0.32", features = ["bundled"] }  # SQLite for tablebase

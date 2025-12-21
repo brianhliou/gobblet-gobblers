@@ -1,0 +1,232 @@
+Starting FAST (undo-based) solver with checkpointing
+Progress saved every 100k positions to solver/gobblet_solver.db
+Press Ctrl+C to stop gracefully
+
+
+Progress: 50,000 positions, 139,249 unique, 51,450 cache hits, depth 473
+Progress: 100,000 positions, 266,261 unique, 110,674 cache hits, depth 480
+  [Checkpoint saved: 266,261 unique positions]
+Progress: 150,000 positions, 405,417 unique, 163,768 cache hits, depth 480
+Progress: 200,000 positions, 538,854 unique, 217,561 cache hits, depth 480
+  [Checkpoint saved: 538,854 unique positions]
+Progress: 250,000 positions, 678,321 unique, 269,424 cache hits, depth 480
+Progress: 300,000 positions, 816,147 unique, 323,741 cache hits, depth 480
+  [Checkpoint saved: 816,147 unique positions]
+Progress: 350,000 positions, 955,033 unique, 379,645 cache hits, depth 480
+Progress: 400,000 positions, 1,085,997 unique, 437,463 cache hits, depth 480
+  [Checkpoint saved: 1,085,997 unique positions]
+Progress: 450,000 positions, 1,232,896 unique, 490,403 cache hits, depth 480
+Progress: 500,000 positions, 1,374,469 unique, 545,430 cache hits, depth 480
+  [Checkpoint saved: 1,374,469 unique positions]
+Progress: 550,000 positions, 1,509,653 unique, 599,331 cache hits, depth 480
+Progress: 600,000 positions, 1,649,906 unique, 652,480 cache hits, depth 480
+  [Checkpoint saved: 1,649,906 unique positions]
+Progress: 650,000 positions, 1,801,398 unique, 704,757 cache hits, depth 480
+Progress: 700,000 positions, 1,929,771 unique, 763,987 cache hits, depth 480
+  [Checkpoint saved: 1,929,771 unique positions]
+Progress: 750,000 positions, 2,072,958 unique, 817,629 cache hits, depth 480
+Progress: 800,000 positions, 2,215,847 unique, 872,068 cache hits, depth 480
+  [Checkpoint saved: 2,215,847 unique positions]
+Progress: 850,000 positions, 2,355,524 unique, 929,759 cache hits, depth 480
+Progress: 900,000 positions, 2,489,200 unique, 985,232 cache hits, depth 480
+  [Checkpoint saved: 2,489,200 unique positions]
+Progress: 950,000 positions, 2,632,968 unique, 1,039,151 cache hits, depth 480
+Progress: 1,000,000 positions, 2,777,771 unique, 1,093,357 cache hits, depth 480
+  [Checkpoint saved: 2,777,771 unique positions]
+Progress: 1,050,000 positions, 2,929,228 unique, 1,147,051 cache hits, depth 480
+Progress: 1,100,000 positions, 3,081,123 unique, 1,199,503 cache hits, depth 480
+  [Checkpoint saved: 3,081,123 unique positions]
+Progress: 1,150,000 positions, 3,220,018 unique, 1,255,451 cache hits, depth 480
+Progress: 1,200,000 positions, 3,360,171 unique, 1,310,043 cache hits, depth 480
+  [Checkpoint saved: 3,360,171 unique positions]
+Progress: 1,250,000 positions, 3,497,431 unique, 1,366,671 cache hits, depth 480
+Progress: 1,300,000 positions, 3,629,371 unique, 1,423,759 cache hits, depth 480
+  [Checkpoint saved: 3,629,371 unique positions]
+Progress: 1,350,000 positions, 3,775,627 unique, 1,477,565 cache hits, depth 480
+Progress: 1,400,000 positions, 3,909,107 unique, 1,534,738 cache hits, depth 480
+  [Checkpoint saved: 3,909,107 unique positions]
+Progress: 1,450,000 positions, 4,050,713 unique, 1,589,466 cache hits, depth 480
+Progress: 1,500,000 positions, 4,199,402 unique, 1,643,242 cache hits, depth 480
+  [Checkpoint saved: 4,199,402 unique positions]
+Progress: 1,550,000 positions, 4,347,755 unique, 1,697,598 cache hits, depth 480
+Progress: 1,600,000 positions, 4,495,228 unique, 1,750,425 cache hits, depth 480
+  [Checkpoint saved: 4,495,228 unique positions]
+Progress: 1,650,000 positions, 4,635,737 unique, 1,805,592 cache hits, depth 480
+Progress: 1,700,000 positions, 4,775,336 unique, 1,863,392 cache hits, depth 480
+  [Checkpoint saved: 4,775,336 unique positions]
+Progress: 1,750,000 positions, 4,912,892 unique, 1,919,132 cache hits, depth 480
+Progress: 1,800,000 positions, 5,058,465 unique, 1,972,892 cache hits, depth 480
+  [Checkpoint saved: 5,058,465 unique positions]
+Progress: 1,850,000 positions, 5,199,464 unique, 2,027,401 cache hits, depth 480
+Progress: 1,900,000 positions, 5,349,248 unique, 2,079,813 cache hits, depth 480
+  [Checkpoint saved: 5,349,248 unique positions]
+Progress: 1,950,000 positions, 5,492,511 unique, 2,134,743 cache hits, depth 480
+Progress: 2,000,000 positions, 5,634,540 unique, 2,189,039 cache hits, depth 480
+  [Checkpoint saved: 5,634,540 unique positions]
+Progress: 2,050,000 positions, 5,774,154 unique, 2,244,254 cache hits, depth 480
+Progress: 2,100,000 positions, 5,911,253 unique, 2,300,280 cache hits, depth 480
+  [Checkpoint saved: 5,911,253 unique positions]
+Progress: 2,150,000 positions, 6,048,713 unique, 2,355,214 cache hits, depth 480
+Progress: 2,200,000 positions, 6,184,553 unique, 2,410,008 cache hits, depth 480
+  [Checkpoint saved: 6,184,553 unique positions]
+Progress: 2,250,000 positions, 6,316,446 unique, 2,466,695 cache hits, depth 480
+Progress: 2,300,000 positions, 6,451,613 unique, 2,523,325 cache hits, depth 480
+  [Checkpoint saved: 6,451,613 unique positions]
+Progress: 2,350,000 positions, 6,596,367 unique, 2,576,942 cache hits, depth 480
+Progress: 2,400,000 positions, 6,746,934 unique, 2,629,829 cache hits, depth 480
+  [Checkpoint saved: 6,746,934 unique positions]
+Progress: 2,450,000 positions, 6,891,559 unique, 2,684,007 cache hits, depth 480
+Progress: 2,500,000 positions, 7,036,701 unique, 2,738,247 cache hits, depth 480
+  [Checkpoint saved: 7,036,701 unique positions]
+Progress: 2,550,000 positions, 7,181,325 unique, 2,793,008 cache hits, depth 480
+Progress: 2,600,000 positions, 7,332,104 unique, 2,845,190 cache hits, depth 480
+  [Checkpoint saved: 7,332,104 unique positions]
+Progress: 2,650,000 positions, 7,470,913 unique, 2,899,431 cache hits, depth 480
+Progress: 2,700,000 positions, 7,618,019 unique, 2,954,633 cache hits, depth 480
+  [Checkpoint saved: 7,618,019 unique positions]
+Progress: 2,750,000 positions, 7,765,800 unique, 3,008,633 cache hits, depth 480
+Progress: 2,800,000 positions, 7,917,671 unique, 3,062,437 cache hits, depth 480
+  [Checkpoint saved: 7,917,671 unique positions]
+Progress: 2,850,000 positions, 8,052,319 unique, 3,118,289 cache hits, depth 480
+Progress: 2,900,000 positions, 8,198,878 unique, 3,171,777 cache hits, depth 480
+  [Checkpoint saved: 8,198,878 unique positions]
+Progress: 2,950,000 positions, 8,343,212 unique, 3,225,145 cache hits, depth 480
+Progress: 3,000,000 positions, 8,480,356 unique, 3,281,017 cache hits, depth 480
+  [Checkpoint saved: 8,480,356 unique positions]
+Progress: 3,050,000 positions, 8,624,704 unique, 3,335,543 cache hits, depth 480
+Progress: 3,100,000 positions, 8,762,586 unique, 3,390,295 cache hits, depth 480
+  [Checkpoint saved: 8,762,586 unique positions]
+Progress: 3,150,000 positions, 8,902,718 unique, 3,446,364 cache hits, depth 480
+Progress: 3,200,000 positions, 9,035,753 unique, 3,504,259 cache hits, depth 480
+  [Checkpoint saved: 9,035,753 unique positions]
+Progress: 3,250,000 positions, 9,171,918 unique, 3,560,937 cache hits, depth 480
+Progress: 3,300,000 positions, 9,313,045 unique, 3,616,876 cache hits, depth 480
+  [Checkpoint saved: 9,313,045 unique positions]
+Progress: 3,350,000 positions, 9,450,789 unique, 3,671,330 cache hits, depth 480
+Progress: 3,400,000 positions, 9,596,737 unique, 3,727,039 cache hits, depth 480
+  [Checkpoint saved: 9,596,737 unique positions]
+Progress: 3,450,000 positions, 9,737,850 unique, 3,782,883 cache hits, depth 480
+Progress: 3,500,000 positions, 9,880,038 unique, 3,836,965 cache hits, depth 480
+  [Checkpoint saved: 9,880,038 unique positions]
+Progress: 3,550,000 positions, 10,014,789 unique, 3,891,616 cache hits, depth 480
+Progress: 3,600,000 positions, 10,158,763 unique, 3,947,498 cache hits, depth 480
+  [Checkpoint saved: 10,158,763 unique positions]
+Progress: 3,650,000 positions, 10,292,892 unique, 4,004,253 cache hits, depth 480
+Progress: 3,700,000 positions, 10,427,808 unique, 4,062,703 cache hits, depth 480
+  [Checkpoint saved: 10,427,808 unique positions]
+Progress: 3,750,000 positions, 10,569,340 unique, 4,119,542 cache hits, depth 480
+Progress: 3,800,000 positions, 10,712,804 unique, 4,173,237 cache hits, depth 480
+  [Checkpoint saved: 10,712,804 unique positions]
+Progress: 3,850,000 positions, 10,856,390 unique, 4,227,174 cache hits, depth 480
+Progress: 3,900,000 positions, 10,994,109 unique, 4,282,982 cache hits, depth 480
+  [Checkpoint saved: 10,994,109 unique positions]
+Progress: 3,950,000 positions, 11,121,503 unique, 4,342,204 cache hits, depth 480
+Progress: 4,000,000 positions, 11,247,926 unique, 4,399,368 cache hits, depth 480
+  [Checkpoint saved: 11,247,926 unique positions]
+Progress: 4,050,000 positions, 11,391,209 unique, 4,452,424 cache hits, depth 480
+Progress: 4,100,000 positions, 11,527,407 unique, 4,504,596 cache hits, depth 480
+  [Checkpoint saved: 11,527,407 unique positions]
+Progress: 4,150,000 positions, 11,667,469 unique, 4,557,140 cache hits, depth 480
+Progress: 4,200,000 positions, 11,815,917 unique, 4,610,217 cache hits, depth 480
+  [Checkpoint saved: 11,815,917 unique positions]
+Progress: 4,250,000 positions, 11,945,820 unique, 4,666,391 cache hits, depth 480
+Progress: 4,300,000 positions, 12,071,954 unique, 4,726,686 cache hits, depth 480
+  [Checkpoint saved: 12,071,954 unique positions]
+Progress: 4,350,000 positions, 12,206,470 unique, 4,782,871 cache hits, depth 480
+Progress: 4,400,000 positions, 12,340,483 unique, 4,839,797 cache hits, depth 480
+  [Checkpoint saved: 12,340,483 unique positions]
+Progress: 4,450,000 positions, 12,469,573 unique, 4,896,292 cache hits, depth 480
+Progress: 4,500,000 positions, 12,608,099 unique, 4,951,897 cache hits, depth 480
+  [Checkpoint saved: 12,608,099 unique positions]
+Progress: 4,550,000 positions, 12,740,607 unique, 5,009,041 cache hits, depth 480
+Progress: 4,600,000 positions, 12,874,207 unique, 5,065,389 cache hits, depth 480
+  [Checkpoint saved: 12,874,207 unique positions]
+Progress: 4,650,000 positions, 13,019,796 unique, 5,120,049 cache hits, depth 480
+Progress: 4,700,000 positions, 13,154,510 unique, 5,177,114 cache hits, depth 480
+  [Checkpoint saved: 13,154,510 unique positions]
+Progress: 4,750,000 positions, 13,290,002 unique, 5,231,286 cache hits, depth 480
+Progress: 4,800,000 positions, 13,417,725 unique, 5,287,778 cache hits, depth 480
+  [Checkpoint saved: 13,417,725 unique positions]
+Progress: 4,850,000 positions, 13,562,545 unique, 5,339,713 cache hits, depth 480
+Progress: 4,900,000 positions, 13,697,839 unique, 5,395,536 cache hits, depth 480
+  [Checkpoint saved: 13,697,839 unique positions]
+Progress: 4,950,000 positions, 13,838,912 unique, 5,449,738 cache hits, depth 480
+Progress: 5,000,000 positions, 13,982,046 unique, 5,504,425 cache hits, depth 480
+  [Checkpoint saved: 13,982,046 unique positions]
+Progress: 5,050,000 positions, 14,120,579 unique, 5,560,593 cache hits, depth 480
+Progress: 5,100,000 positions, 14,259,425 unique, 5,614,969 cache hits, depth 480
+  [Checkpoint saved: 14,259,425 unique positions]
+Progress: 5,150,000 positions, 14,401,455 unique, 5,669,627 cache hits, depth 480
+Progress: 5,200,000 positions, 14,543,915 unique, 5,724,839 cache hits, depth 480
+  [Checkpoint saved: 14,543,915 unique positions]
+Progress: 5,250,000 positions, 14,693,306 unique, 5,779,572 cache hits, depth 480
+Progress: 5,300,000 positions, 14,849,632 unique, 5,832,121 cache hits, depth 480
+  [Checkpoint saved: 14,849,632 unique positions]
+Progress: 5,350,000 positions, 14,994,997 unique, 5,885,069 cache hits, depth 480
+Progress: 5,400,000 positions, 15,145,271 unique, 5,938,360 cache hits, depth 480
+  [Checkpoint saved: 15,145,271 unique positions]
+Progress: 5,450,000 positions, 15,285,678 unique, 5,993,843 cache hits, depth 480
+Progress: 5,500,000 positions, 15,436,712 unique, 6,045,960 cache hits, depth 480
+  [Checkpoint saved: 15,436,712 unique positions]
+Progress: 5,550,000 positions, 15,590,979 unique, 6,099,115 cache hits, depth 480
+Progress: 5,600,000 positions, 15,731,819 unique, 6,154,788 cache hits, depth 480
+  [Checkpoint saved: 15,731,819 unique positions]
+Progress: 5,650,000 positions, 15,874,158 unique, 6,210,056 cache hits, depth 480
+Progress: 5,700,000 positions, 16,018,546 unique, 6,263,168 cache hits, depth 480
+  [Checkpoint saved: 16,018,546 unique positions]
+Progress: 5,750,000 positions, 16,154,287 unique, 6,317,391 cache hits, depth 480
+Progress: 5,800,000 positions, 16,292,194 unique, 6,372,513 cache hits, depth 480
+  [Checkpoint saved: 16,292,194 unique positions]
+Progress: 5,850,000 positions, 16,448,210 unique, 6,425,137 cache hits, depth 480
+Progress: 5,900,000 positions, 16,585,685 unique, 6,480,060 cache hits, depth 480
+  [Checkpoint saved: 16,585,685 unique positions]
+Progress: 5,950,000 positions, 16,725,357 unique, 6,536,335 cache hits, depth 480
+Progress: 6,000,000 positions, 16,866,114 unique, 6,591,368 cache hits, depth 480
+  [Checkpoint saved: 16,866,114 unique positions]
+Progress: 6,050,000 positions, 16,998,819 unique, 6,647,682 cache hits, depth 480
+Progress: 6,100,000 positions, 17,152,539 unique, 6,701,505 cache hits, depth 480
+  [Checkpoint saved: 17,152,539 unique positions]
+Progress: 6,150,000 positions, 17,297,298 unique, 6,756,268 cache hits, depth 480
+Progress: 6,200,000 positions, 17,438,543 unique, 6,811,933 cache hits, depth 480
+  [Checkpoint saved: 17,438,543 unique positions]
+Progress: 6,250,000 positions, 17,584,463 unique, 6,866,495 cache hits, depth 480
+Progress: 6,300,000 positions, 17,711,778 unique, 6,923,843 cache hits, depth 480
+  [Checkpoint saved: 17,711,778 unique positions]
+Progress: 6,350,000 positions, 17,863,294 unique, 6,976,739 cache hits, depth 480
+Progress: 6,400,000 positions, 18,004,432 unique, 7,031,103 cache hits, depth 480
+  [Checkpoint saved: 18,004,432 unique positions]
+Progress: 6,450,000 positions, 18,142,834 unique, 7,087,070 cache hits, depth 480
+Progress: 6,500,000 positions, 18,269,001 unique, 7,145,791 cache hits, depth 480
+  [Checkpoint saved: 18,269,001 unique positions]
+Progress: 6,550,000 positions, 18,400,564 unique, 7,204,088 cache hits, depth 480
+Progress: 6,600,000 positions, 18,539,563 unique, 7,260,822 cache hits, depth 480
+  [Checkpoint saved: 18,539,563 unique positions]
+Progress: 6,650,000 positions, 18,669,364 unique, 7,315,621 cache hits, depth 480
+Progress: 6,700,000 positions, 18,796,571 unique, 7,374,164 cache hits, depth 480
+  [Checkpoint saved: 18,796,571 unique positions]
+Progress: 6,750,000 positions, 18,924,211 unique, 7,430,960 cache hits, depth 480
+Progress: 6,800,000 positions, 19,052,995 unique, 7,488,532 cache hits, depth 480
+  [Checkpoint saved: 19,052,995 unique positions]
+Progress: 6,850,000 positions, 19,186,402 unique, 7,542,934 cache hits, depth 480
+Progress: 6,900,000 positions, 19,315,993 unique, 7,599,076 cache hits, depth 480
+  [Checkpoint saved: 19,315,993 unique positions]
+Progress: 6,950,000 positions, 19,447,444 unique, 7,654,593 cache hits, depth 480
+Progress: 7,000,000 positions, 19,581,841 unique, 7,709,850 cache hits, depth 480
+  [Checkpoint saved: 19,581,841 unique positions]
+Progress: 7,050,000 positions, 19,714,468 unique, 7,766,186 cache hits, depth 480
+Progress: 7,100,000 positions, 19,847,674 unique, 7,823,707 cache hits, depth 480
+  [Checkpoint saved: 19,847,674 unique positions]
+
+============================================================
+SOLVING COMPLETE!
+============================================================
+Outcome: WIN_P1
+Time: 1.50 hours
+Positions evaluated: 7,130,462
+Unique positions: 19,931,991
+Cache hits: 7,857,505
+Terminal positions: 20,020,364
+Cycle draws: 18,867
+Max depth: 480
+
+Final checkpoint saved.

@@ -1,8 +1,8 @@
 // Tablebase API client
 // This is the only backend call needed - everything else is handled by WASM
 
-// In production: use relative /api path (Vercel Edge Function)
-// In development: use VITE_API_URL (defaults to local gobblet-api)
+// Uses /api path for Vercel serverless function (reads from tablebase.bin)
+// For local dev with API: run `vercel dev` instead of `npm run dev`
 const API_BASE = import.meta.env.VITE_API_URL ?? "/api";
 
 /**

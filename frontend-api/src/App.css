@@ -1,0 +1,170 @@
+.app {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+  background: #1a1a1a;
+  color: #eee;
+  box-sizing: border-box;
+  overflow: hidden;
+}
+
+.app.loading,
+.app.error {
+  justify-content: center;
+}
+
+.app h1 {
+  margin: 0 0 24px 0;
+  font-size: 28px;
+  color: #fff;
+}
+
+.game-layout {
+  display: flex;
+  gap: 32px;
+  align-items: flex-start;
+}
+
+.left-column {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 16px;
+}
+
+.center-column {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 16px;
+}
+
+.reserves-row {
+  display: flex;
+  gap: 16px;
+}
+
+.reserves-stack {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.result-banner {
+  background: linear-gradient(135deg, #4a4a4a, #3a3a3a);
+  padding: 12px 24px;
+  border-radius: 12px;
+  font-size: 18px;
+  font-weight: bold;
+  text-align: center;
+}
+
+button {
+  background: #4a4a4a;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 14px;
+  transition: background 0.15s ease;
+}
+
+button:hover {
+  background: #5a5a5a;
+}
+
+.selection-hint {
+  margin-top: 16px;
+  padding: 8px 16px;
+  background: #2a2a2a;
+  border-radius: 8px;
+  font-size: 13px;
+  color: #aaa;
+}
+
+.error p {
+  color: #e74c3c;
+  margin-bottom: 16px;
+}
+
+.modal-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.7);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 100;
+}
+
+.modal {
+  background: #2a2a2a;
+  border-radius: 12px;
+  padding: 24px;
+  min-width: 400px;
+  max-width: 90%;
+}
+
+.modal-header {
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 16px;
+}
+
+.notation-input {
+  width: 100%;
+  padding: 12px;
+  border-radius: 8px;
+  border: 1px solid #4a4a4a;
+  background: #1a1a1a;
+  color: #fff;
+  font-family: monospace;
+  font-size: 14px;
+  resize: vertical;
+  box-sizing: border-box;
+}
+
+.notation-input:focus {
+  outline: none;
+  border-color: #4a9eff;
+}
+
+.modal-tabs {
+  display: flex;
+  gap: 8px;
+  margin-bottom: 16px;
+}
+
+.modal-tabs .tab {
+  flex: 1;
+  padding: 8px 16px;
+  background: #3a3a3a;
+  border-radius: 6px;
+}
+
+.modal-tabs .tab.active {
+  background: #4a9eff;
+}
+
+.modal-tabs .tab:hover:not(.active) {
+  background: #4a4a4a;
+}
+
+.modal-description {
+  font-size: 12px;
+  color: #888;
+  margin-bottom: 8px;
+}
+
+.modal-buttons {
+  display: flex;
+  gap: 12px;
+  margin-top: 16px;
+  justify-content: flex-end;
+}

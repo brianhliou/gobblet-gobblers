@@ -1,0 +1,12 @@
+============================================================
+UNPRUNED EXPLORATION
+============================================================
+
+This will explore ALL positions, including those that were
+skipped by alpha-beta pruning in the original solve.
+
+Loaded 19,931,991 positions from checkpoint
+
+Starting unpruned exploration...
+(Most positions will be cache hits from the original solve)
+

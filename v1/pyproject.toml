@@ -1,0 +1,40 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "gobblet-gobblers"
+version = "0.1.0"
+description = "Gobblet Gobblers game implementation and solver"
+requires-python = ">=3.11"
+dependencies = [
+    "fastapi>=0.104.0",
+    "uvicorn[standard]>=0.24.0",
+    "pydantic>=2.0.0",
+]
+
+[project.optional-dependencies]
+dev = [
+    "pytest>=7.4.0",
+    "pytest-cov>=4.1.0",
+    "ruff>=0.1.0",
+    "mypy>=1.6.0",
+]
+
+[tool.setuptools.packages.find]
+where = ["."]
+include = ["gobblet*", "solver*", "api*"]
+
+[tool.ruff]
+line-length = 100
+target-version = "py311"
+
+[tool.ruff.lint]
+select = ["E", "F", "I", "N", "W", "UP"]
+
+[tool.mypy]
+python_version = "3.11"
+strict = true
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
