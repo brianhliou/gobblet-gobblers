@@ -52,7 +52,7 @@ export function Reserves({
           return (
             <div
               key={size}
-              className={`reserve-piece ${canSelect ? "selectable" : ""} ${isSelected(size) ? "selected" : ""} ${isHoverSource(size) ? "hover-source" : ""}`}
+              className={`reserve-piece ${canSelect ? "selectable" : ""} ${isSelected(size) ? "selected" : ""} ${isHoverSource(size) ? "hover-source" : ""} ${count === 0 ? "depleted" : ""}`}
               onClick={() => canSelect && onSelect(size)}
             >
               <div className="piece-preview-wrapper">

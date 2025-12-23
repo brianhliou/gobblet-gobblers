@@ -108,3 +108,11 @@
   font-size: 12px;
   color: #888;
 }
+
+.reserve-piece.depleted .piece-preview {
+  opacity: 0.3;
+}
+
+.reserve-piece.depleted .piece-count {
+  color: #555;
+}
