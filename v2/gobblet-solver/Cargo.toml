@@ -15,6 +15,14 @@ path = "src/bin/count_tree.rs"
 name = "export_sqlite"
 path = "src/bin/export_sqlite.rs"
 
+[[bin]]
+name = "stats"
+path = "src/bin/stats.rs"
+
+[[bin]]
+name = "render"
+path = "src/bin/render.rs"
+
 [dependencies]
 gobblet-core = { path = "../gobblet-core" }
 ctrlc = "3.4"        # SIGINT handling
