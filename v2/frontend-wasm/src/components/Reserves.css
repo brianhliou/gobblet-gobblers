@@ -116,3 +116,41 @@
 .reserve-piece.depleted .piece-count {
   color: #555;
 }
+
+@media (max-width: 480px) {
+  .reserves {
+    width: auto;
+    flex: 1;
+    min-width: 0;
+  }
+
+  .reserves-pieces {
+    gap: 2px;
+  }
+
+  .reserve-piece {
+    width: auto;
+    flex: 1;
+    height: 70px;
+    padding: 2px;
+  }
+
+  .piece-preview.size-1 {
+    width: 14px;
+    height: 14px;
+  }
+
+  .piece-preview.size-2 {
+    width: 24px;
+    height: 24px;
+  }
+
+  .piece-preview.size-3 {
+    width: 36px;
+    height: 36px;
+  }
+
+  .piece-count {
+    font-size: 11px;
+  }
+}

@@ -5,6 +5,17 @@
   "rewrites": [
     { "source": "/api/:path*", "destination": "/api/:path*" }
   ],
+  "headers": [
+    {
+      "source": "/(.*)",
+      "headers": [
+        {
+          "key": "Content-Security-Policy",
+          "value": "frame-ancestors 'self' https://brianhliou.com https://www.brianhliou.com http://localhost:4000"
+        }
+      ]
+    }
+  ],
   "functions": {
     "api/lookup/batch.ts": {
       "includeFiles": "api/tablebase.bin"
