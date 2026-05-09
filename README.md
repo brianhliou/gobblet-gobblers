@@ -2,7 +2,7 @@
 
 A solved implementation of the Gobblet Gobblers board game with optimal play visualization.
 
-**[Play the live demo](https://gobblet-gobblers-tablebase.vercel.app/)**
+**[Play the live demo](https://gobblet.brianhliou.com/)**
 
 ![Gobblet Gobblers Tablebase](docs/screenshot.png)
 
