@@ -17,7 +17,7 @@ export function Header({ onHowItWorksClick }: HeaderProps) {
             ? How it Works
           </button>
           <a
-            href="https://brianhliou.github.io/"
+            href="https://brianhliou.com/"
             target="_blank"
             rel="noopener noreferrer"
             className="header-link"
@@ -25,7 +25,7 @@ export function Header({ onHowItWorksClick }: HeaderProps) {
             Brian Liou
           </a>
           <a
-            href="https://github.com/brianhliou"
+            href="https://github.com/brianhliou/gobblet-gobblers"
             target="_blank"
             rel="noopener noreferrer"
             className="header-link"
