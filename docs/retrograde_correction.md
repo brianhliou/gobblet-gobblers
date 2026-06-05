@@ -4,8 +4,14 @@
 > **A1 (DTM solver), A2 (gobblet.ctb = 531 MB), and Phase B CODE (probe + Dockerfile + abuse
 > guards, tested locally) all DONE.** Rules-mismatch question **RESOLVED** (non-terminal-missing
 > = 0). Fingerprint **skipped** (viewer always in-set; risk is resource-abuse, not wrong-answers).
-> Remaining: **deploy** (publish .ctb to a Release → Railway → repoint `VITE_API_URL` → Cloudflare
-> in front of gobblet + dobutsu), then C (LFS cleanup) and D (writing).
+> **DEPLOYED:** `gobblet.ctb` published as Release `tb-v1`; Railway service `gobblet-gobblers`
+> (project `44b22ad1-9a81-4073-bd37-2a4b530f91b0`) built from `v2/Dockerfile` via `railway up` and
+> LIVE at **https://gobblet-gobblers-production.up.railway.app** — `/health` ok, `/lookup/batch`
+> returns correct evals + DTM (init → P1-win DTM 13), oversized batch → 400. **Vercel repointed:
+> `gobblet.brianhliou.com` now has the Railway URL baked into its bundle — the public viewer
+> serves the corrected tablebase (the 23,943 wrong entries are gone). FIX SHIPPED.** Remaining
+> (cleanup): merge PR #11; tighten `CORS_ORIGIN` → `https://gobblet.brianhliou.com`; Cloudflare in
+> front of gobblet + dobutsu; C (LFS cleanup, retire Vercel fn); D (writing).
 
 ## Why we revisited
 
