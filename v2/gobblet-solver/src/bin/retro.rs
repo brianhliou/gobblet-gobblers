@@ -319,15 +319,17 @@ fn solve_reachable(
     Some(Solved { table, values })
 }
 
-/// Counterfactual solve: identical to `solve_reachable` but uses the no-reveal
-/// move set (`legal_moves_simple`). Tests how much of the game's depth comes from
-/// the reveal rule. Slower (Vec alloc per position) but this is a one-off.
-fn solve_reachable_simple(
+/// Counterfactual solve: like `solve_reachable` but with a pluggable move set,
+/// so we can drop the reveal rule (`legal_moves_simple`) or covering
+/// (`moves_nostack`) and measure what each rule contributes. Slower (Vec alloc
+/// per position) but these are one-offs.
+fn solve_reachable_with<G: Fn(&Board) -> Vec<Move> + Sync>(
     init: Board,
     est: usize,
     max_positions: Option<usize>,
     verbose: bool,
     t0: Instant,
+    gen_moves: G,
 ) -> Option<Solved> {
     let seed = init.canonical();
     let mut table = KeyMap::with_capacity(est);
@@ -337,7 +339,7 @@ fn solve_reachable_simple(
 
     while let Some(k) = q.pop_front() {
         let b = Board::from_u64(k);
-        for m in b.legal_moves_simple() {
+        for m in gen_moves(&b) {
             let c = child_of(&b, m);
             if c.check_winner().is_some() {
                 continue;
@@ -368,7 +370,7 @@ fn solve_reachable_simple(
     let mut unknown: Vec<u64> = Vec::new();
     table.for_each(|key, id| {
         let b = Board::from_u64(key);
-        if b.legal_moves_simple().is_empty() {
+        if gen_moves(&b).is_empty() {
             values[id as usize] = -1;
         } else {
             unknown.push(key);
@@ -386,7 +388,7 @@ fn solve_reachable_simple(
                 let mut best_win: Option<i16> = None;
                 let mut worst_loss: i16 = -1;
                 let mut any_unknown = false;
-                for m in b.legal_moves_simple() {
+                for m in gen_moves(&b) {
                     let c = child_of(&b, m);
                     match c.check_winner() {
                         Some(w) if w == b.current_player() => {
@@ -434,6 +436,22 @@ fn solve_reachable_simple(
         }
     }
     Some(Solved { table, values })
+}
+
+/// No-covering move set: placements and slides whose destination is an empty
+/// cell. With covering disabled the board never stacks, so this is the full
+/// legal set for the no-stack counterfactual.
+fn moves_nostack(b: &Board) -> Vec<Move> {
+    b.legal_moves_simple()
+        .into_iter()
+        .filter(|m| {
+            let to = match m {
+                Move::Place { to, .. } => *to,
+                Move::Slide { to, .. } => *to,
+            };
+            b.top_piece(to).is_none()
+        })
+        .collect()
 }
 
 /// Mine the solved (true-game) instance for notable findings.
@@ -844,7 +862,7 @@ fn main() {
         let est = flag_value(&args, "--est").and_then(|s| s.parse::<usize>().ok()).unwrap_or(700_000_000);
         let init = Board::new();
         eprintln!("[{:?}] solving counterfactual (no reveal rule, est {est})...", t0.elapsed());
-        let cf = solve_reachable_simple(init, est, None, true, t0).expect("counterfactual solve failed");
+        let cf = solve_reachable_with(init, est, None, true, t0, |b| b.legal_moves_simple()).expect("counterfactual solve failed");
         let n2 = cf.table.len();
         let (mut p1, mut p2, mut dr) = (0u64, 0u64, 0u64);
         let mut max_win2 = 0i16;
@@ -873,6 +891,43 @@ fn main() {
         );
         println!("deepest_win_DTM {max_win2}");
         println!("[{:?}] counterfactual done", t0.elapsed());
+        return;
+    }
+
+    // Counterfactual: re-solve with covering disabled (no stacking at all).
+    if args.iter().any(|a| a == "--no-stack") {
+        let est = flag_value(&args, "--est").and_then(|s| s.parse::<usize>().ok()).unwrap_or(20_000_000);
+        let init = Board::new();
+        eprintln!("[{:?}] solving counterfactual (no covering, est {est})...", t0.elapsed());
+        let cf = solve_reachable_with(init, est, None, true, t0, moves_nostack).expect("no-stack solve failed");
+        let n2 = cf.table.len();
+        let (mut p1, mut p2, mut dr) = (0u64, 0u64, 0u64);
+        let mut max_win2 = 0i16;
+        cf.table.for_each(|key, id| {
+            let v = cf.values[id as usize];
+            if v > max_win2 {
+                max_win2 = v;
+            }
+            match to_abs(&Board::from_u64(key), v) {
+                1 => p1 += 1,
+                -1 => p2 += 1,
+                _ => dr += 1,
+            }
+        });
+        let rv = cf.values[cf.table.get(init.canonical()).unwrap() as usize];
+        println!("=== COUNTERFACTUAL (no covering / no stacking) ===");
+        println!("non-terminal positions {n2}");
+        println!("absolute: P1-win {p1}  P2-win {p2}  draw {dr}");
+        println!(
+            "start: {} DTM {rv}",
+            match to_abs(&init, rv) {
+                1 => "P1 wins",
+                -1 => "P2 wins",
+                _ => "draw",
+            }
+        );
+        println!("deepest_win_DTM {max_win2}");
+        println!("[{:?}] no-stack done", t0.elapsed());
         return;
     }
 
