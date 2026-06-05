@@ -166,7 +166,19 @@ function App() {
   useEffect(() => {
     if (!wasmReady) return;
 
-    const board = new WasmBoard();
+    // Optional deep-link: ?state=<u64 board encoding> opens that position.
+    let board = new WasmBoard();
+    try {
+      const stateParam = new URLSearchParams(window.location.search).get("state");
+      if (stateParam) {
+        const fromUrl = WasmBoard.fromU64(BigInt(stateParam));
+        board.free();
+        board = fromUrl;
+      }
+    } catch {
+      // malformed ?state= — fall back to the empty board
+    }
+
     boardRef.current = board;
     setBoardHistory([board.toU64()]);
     setMoveHistory([]);
