@@ -33,6 +33,8 @@ export interface LegalMove {
   size: number | null;
   /** Tablebase evaluation: 1 = P1 wins, 0 = draw, -1 = P2 wins, undefined = unknown */
   evaluation?: number;
+  /** Plies to the end of the game if this move is played (decisive moves only) */
+  dtm?: number;
 }
 
 export interface HistoryEntry {

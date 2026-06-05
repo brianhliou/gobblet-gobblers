@@ -8,21 +8,24 @@ export function Header({ onHowItWorksClick }: HeaderProps) {
   return (
     <header className="site-header">
       <div className="header-content">
-        <div className="header-spacer" />
-
-        <h1 className="header-title">Gobblet Gobblers Tablebase</h1>
+        <div className="header-brand">
+          <span className="header-title">Gobblet Gobblers, solved</span>
+          <span className="header-tagline">
+            A 3×3 children's game, played to the last move.
+          </span>
+        </div>
 
         <nav className="header-nav">
-          <button onClick={onHowItWorksClick} className="header-button">
-            ? How it Works
+          <button onClick={onHowItWorksClick} className="header-navbtn">
+            How it works
           </button>
           <a
-            href="https://brianhliou.com/"
+            href="https://brianhliou.com/posts/gobblet-gobblers/"
             target="_blank"
             rel="noopener noreferrer"
             className="header-link"
           >
-            Brian Liou
+            Write-up
           </a>
           <a
             href="https://github.com/brianhliou/gobblet-gobblers"
@@ -31,6 +34,14 @@ export function Header({ onHowItWorksClick }: HeaderProps) {
             className="header-link"
           >
             GitHub
+          </a>
+          <a
+            href="https://brianhliou.com/"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="header-link"
+          >
+            Brian Liou
           </a>
         </nav>
       </div>

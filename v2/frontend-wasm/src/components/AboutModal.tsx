@@ -68,8 +68,10 @@ export function AboutModal({ isOpen, onClose }: AboutModalProps) {
               <span className="draw">draw</span> with perfect play.
             </p>
             <p>
-              This tablebase contains <strong>19.8 million positions</strong>,
-              computed using minimax search with alpha-beta pruning.
+              This tablebase covers every position reachable from the start,{" "}
+              <strong>over 531 million</strong> of them, solved exactly with
+              retrograde analysis. Each position also stores its distance to the
+              result.
             </p>
           </section>
 
@@ -81,26 +83,21 @@ export function AboutModal({ isOpen, onClose }: AboutModalProps) {
             </p>
             <ul>
               <li>
-                <span className="win">Green</span> = Winning move (leads to your
-                victory)
+                <span className="win">Green</span> = winning move. The number is
+                how many plies until you win (W13 = win in 13).
               </li>
               <li>
-                <span className="draw">Yellow</span> = Drawing move
+                <span className="draw">Yellow</span> = drawing move
               </li>
               <li>
-                <span className="loss">Red</span> = Losing move (opponent wins
-                with perfect play)
+                <span className="loss">Red</span> = losing move. The number is
+                how many plies until you lose.
               </li>
               <li>
-                <span className="unknown">Gray (?)</span> = Unknown (pruned
-                during solving)
+                <span className="unknown">Gray (?)</span> = couldn't reach the
+                tablebase
               </li>
             </ul>
-            <p>
-              Some positions show "?" because alpha-beta pruning skips branches
-              that can't affect the final result. These positions only arise
-              from suboptimal play.
-            </p>
           </section>
 
           <section>
@@ -128,9 +125,11 @@ export function AboutModal({ isOpen, onClose }: AboutModalProps) {
           <section>
             <h3>How It Was Built</h3>
             <p>
-              The solver uses minimax with alpha-beta pruning, a classic game AI
-              algorithm. It explores the game tree, pruning branches that can't
-              affect the outcome, and stores results in a transposition table.
+              The game was solved with <strong>retrograde analysis</strong>:
+              enumerate every reachable position, then work backward from
+              finished games to label each one a win, loss, or draw plus its
+              distance to the result. Draws are the positions where neither side
+              can force a win and best play only repeats.
             </p>
             <p>
               The game logic runs in your browser via WebAssembly (compiled from

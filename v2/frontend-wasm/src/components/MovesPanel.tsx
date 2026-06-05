@@ -29,15 +29,17 @@ function getMoveType(move: LegalMove): string {
   }
 }
 
-/** Get evaluation display info for a move */
-function getEvalInfo(evaluation: number | undefined, currentPlayer: 1 | 2): { label: string; className: string; title: string } {
+/** Get evaluation display info for a move, including distance-to-result when known */
+function getEvalInfo(
+  evaluation: number | undefined,
+  dtm: number | undefined,
+  currentPlayer: 1 | 2
+): { label: string; className: string; title: string } {
   if (evaluation === undefined) {
     return { label: "?", className: "eval-unknown", title: "Position not in tablebase" };
   }
 
-  // Evaluation is from the perspective of who's in the resulting position
-  // If current player is P1 and eval is 1 (P1 wins), that's good for P1
-  // If current player is P2 and eval is -1 (P2 wins), that's good for P2
+  // Evaluation is absolute (1 = P1 wins, -1 = P2 wins); compare to who's to move.
   const isWinForCurrent =
     (currentPlayer === 1 && evaluation === 1) ||
     (currentPlayer === 2 && evaluation === -1);
@@ -46,9 +48,17 @@ function getEvalInfo(evaluation: number | undefined, currentPlayer: 1 | 2): { la
     (currentPlayer === 2 && evaluation === 1);
 
   if (isWinForCurrent) {
-    return { label: "W", className: "eval-win", title: "Winning move" };
+    return {
+      label: dtm != null ? `W${dtm}` : "W",
+      className: "eval-win",
+      title: dtm != null ? `Winning move (wins in ${dtm})` : "Winning move",
+    };
   } else if (isLossForCurrent) {
-    return { label: "L", className: "eval-loss", title: "Losing move" };
+    return {
+      label: dtm != null ? `L${dtm}` : "L",
+      className: "eval-loss",
+      title: dtm != null ? `Losing move (loses in ${dtm})` : "Losing move",
+    };
   } else {
     return { label: "D", className: "eval-draw", title: "Drawing move" };
   }
@@ -102,7 +112,7 @@ export function MovesPanel({ moves, currentPlayer, onMoveClick, onMoveHover, res
                   <div className="section-header">From Reserve ({reserveMoves.length})</div>
                   <div className="moves-list">
                     {reserveMoves.map((move, idx) => {
-                      const evalInfo = getEvalInfo(move.evaluation, currentPlayer);
+                      const evalInfo = getEvalInfo(move.evaluation, move.dtm, currentPlayer);
                       return (
                         <div
                           key={`reserve-${idx}`}
@@ -126,7 +136,7 @@ export function MovesPanel({ moves, currentPlayer, onMoveClick, onMoveHover, res
                   <div className="section-header">From Board ({boardMoves.length})</div>
                   <div className="moves-list">
                     {boardMoves.map((move, idx) => {
-                      const evalInfo = getEvalInfo(move.evaluation, currentPlayer);
+                      const evalInfo = getEvalInfo(move.evaluation, move.dtm, currentPlayer);
                       return (
                         <div
                           key={`board-${idx}`}

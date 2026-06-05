@@ -1,11 +1,31 @@
 :root {
-  font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
+  font-family: -apple-system, "Segoe UI", system-ui, Helvetica, Arial, sans-serif;
   line-height: 1.5;
   font-weight: 400;
 
-  color-scheme: light dark;
-  color: rgba(255, 255, 255, 0.87);
-  background-color: #242424;
+  /* Palette aligned with dobutsu.brianhliou.com */
+  --bg: #ffffff;
+  --surface: #faf7ef;     /* panels (cream) */
+  --surface-2: #f1f0ec;   /* cells / nested */
+  --surface-3: #efe9da;   /* hover */
+  --border: #e6e2d6;
+  --border-strong: #d8d2c2;
+  --ink: #1f2328;
+  --muted: #6b7280;
+  --accent: #d98a2b;
+  --accent-hover: #c2781f;
+  --accent-soft: rgba(217, 138, 43, 0.16);
+  --win: #2e7d32;
+  --winbg: #eaf4ea;
+  --loss: #c0392b;
+  --lossbg: #fbecea;
+  --draw: #6b7280;
+  --drawbg: #f1f2f4;
+  --p1: #e0533f;          /* player 1 */
+  --p2: #2f80c8;          /* player 2 */
+
+  color: var(--ink);
+  background-color: var(--bg);
 
   font-synthesis: none;
   text-rendering: optimizeLegibility;
@@ -15,11 +35,11 @@
 
 a {
   font-weight: 500;
-  color: #646cff;
-  text-decoration: inherit;
+  color: var(--accent);
+  text-decoration: none;
 }
 a:hover {
-  color: #535bf2;
+  color: var(--accent-hover);
 }
 
 html, body {
@@ -28,6 +48,7 @@ html, body {
   min-width: 320px;
   height: 100%;
   overflow: hidden;
+  background: var(--bg);
 }
 
 #root {
@@ -41,32 +62,22 @@ h1 {
 
 button {
   border-radius: 8px;
-  border: 1px solid transparent;
+  border: 1px solid var(--border-strong);
   padding: 0.6em 1.2em;
   font-size: 1em;
   font-weight: 500;
   font-family: inherit;
-  background-color: #1a1a1a;
+  background-color: #fff;
+  color: var(--ink);
   cursor: pointer;
-  transition: border-color 0.25s;
+  transition: background 0.15s ease, border-color 0.15s ease;
 }
 button:hover {
-  border-color: #646cff;
+  background: #f3f1ea;
+  border-color: var(--accent);
 }
 button:focus,
 button:focus-visible {
-  outline: 4px auto -webkit-focus-ring-color;
-}
-
-@media (prefers-color-scheme: light) {
-  :root {
-    color: #213547;
-    background-color: #ffffff;
-  }
-  a:hover {
-    color: #747bff;
-  }
-  button {
-    background-color: #f9f9f9;
-  }
+  outline: 2px solid var(--accent);
+  outline-offset: 1px;
 }
