@@ -33,6 +33,10 @@ v2/frontend-wasm/node_modules/
 v2/frontend-wasm/dist/
 v2/gobblet-solver/data/
 
+# Tablebases — built artifacts served from GitHub Releases (never committed)
+*.ctb
+*.tb.bin
+
 # IDE
 .idea/
 .vscode/
