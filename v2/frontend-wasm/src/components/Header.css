@@ -1,78 +1,75 @@
 .site-header {
-  position: sticky;
-  top: 0;
-  z-index: 100;
-  background: #1a1a1a;
-  border-bottom: 1px solid #333;
-  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.3);
+  background: transparent;
 }
 
 .header-content {
-  max-width: 1200px;
+  max-width: 1100px;
   margin: 0 auto;
-  padding: 0 24px;
-  height: 56px;
+  padding: 14px 24px 0;
   display: flex;
-  align-items: center;
+  align-items: baseline;
   justify-content: space-between;
+  gap: 16px;
+  flex-wrap: wrap;
 }
 
-.header-spacer {
-  flex: 1;
+.header-brand {
+  display: flex;
+  align-items: baseline;
+  gap: 10px;
+  min-width: 0;
 }
 
 .header-title {
-  flex: 1;
-  margin: 0;
-  font-size: 20px;
-  font-weight: 600;
-  color: #fff;
-  text-align: center;
+  font-size: 18px;
+  font-weight: 700;
+  color: var(--ink);
   white-space: nowrap;
 }
 
+.header-tagline {
+  font-size: 13px;
+  color: var(--muted);
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
 .header-nav {
-  flex: 1;
   display: flex;
   align-items: center;
-  justify-content: flex-end;
-  gap: 16px;
+  gap: 18px;
+  flex: 0 0 auto;
 }
 
-.header-button {
-  padding: 6px 14px;
-  font-size: 14px;
-  font-weight: 500;
-  color: #4a9eff;
-  background: transparent;
-  border: 1px solid #4a9eff;
-  border-radius: 6px;
-  cursor: pointer;
-  transition: all 0.15s ease;
-}
-
-.header-button:hover {
-  background: rgba(74, 158, 255, 0.1);
-  color: #6ab0ff;
-  border-color: #6ab0ff;
-}
-
+.header-navbtn,
 .header-link {
   font-size: 14px;
-  font-weight: 500;
-  color: #aaa;
+  font-weight: 600;
+  color: var(--accent);
   text-decoration: none;
-  transition: color 0.15s ease;
+  background: none;
+  border: none;
+  padding: 0;
+  cursor: pointer;
+  font-family: inherit;
 }
 
+.header-navbtn:hover,
 .header-link:hover {
-  color: #fff;
+  color: var(--accent-hover);
+  text-decoration: underline;
 }
 
 @media (max-width: 700px) {
   .header-content {
-    padding: 0 16px;
-    height: 48px;
+    padding: 10px 16px;
+    flex-wrap: wrap;
+    gap: 8px 14px;
+  }
+
+  .header-tagline {
+    display: none;
   }
 
   .header-title {
@@ -80,15 +77,11 @@
   }
 
   .header-nav {
-    gap: 12px;
+    gap: 14px;
   }
 
-  .header-button {
-    padding: 4px 10px;
-    font-size: 12px;
-  }
-
+  .header-navbtn,
   .header-link {
-    font-size: 12px;
+    font-size: 13px;
   }
 }

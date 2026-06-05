@@ -2,7 +2,7 @@
   position: fixed;
   inset: 0;
   z-index: 200;
-  background: rgba(0, 0, 0, 0.7);
+  background: rgba(20, 22, 26, 0.5);
   backdrop-filter: blur(4px);
   display: flex;
   align-items: center;
@@ -11,14 +11,15 @@
 }
 
 .about-modal {
-  background: #2a2a2a;
+  background: #fff;
+  border: 1px solid var(--border);
   border-radius: 12px;
   max-width: 600px;
   width: 100%;
   max-height: 85vh;
   display: flex;
   flex-direction: column;
-  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.5);
+  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.18);
 }
 
 .about-header {
@@ -26,14 +27,14 @@
   align-items: center;
   justify-content: space-between;
   padding: 20px 24px;
-  border-bottom: 1px solid #3a3a3a;
+  border-bottom: 1px solid var(--border);
 }
 
 .about-header h2 {
   margin: 0;
   font-size: 20px;
   font-weight: 600;
-  color: #fff;
+  color: var(--ink);
 }
 
 .about-close {
@@ -42,7 +43,7 @@
   padding: 0;
   font-size: 24px;
   line-height: 1;
-  color: #888;
+  color: var(--muted);
   background: transparent;
   border: none;
   border-radius: 6px;
@@ -51,8 +52,8 @@
 }
 
 .about-close:hover {
-  color: #fff;
-  background: #3a3a3a;
+  color: var(--ink);
+  background: var(--surface-3);
 }
 
 .about-content {
@@ -73,14 +74,14 @@
   margin: 0 0 12px 0;
   font-size: 16px;
   font-weight: 600;
-  color: #fff;
+  color: var(--ink);
 }
 
 .about-content p {
   margin: 0 0 12px 0;
   font-size: 14px;
   line-height: 1.6;
-  color: #bbb;
+  color: var(--ink);
 }
 
 .about-content p:last-child {
@@ -88,11 +89,12 @@
 }
 
 .about-content a {
-  color: #4a9eff;
+  color: var(--accent);
   text-decoration: none;
 }
 
 .about-content a:hover {
+  color: var(--accent-hover);
   text-decoration: underline;
 }
 
@@ -100,7 +102,7 @@
 .about-content ol {
   margin: 0 0 12px 0;
   padding-left: 24px;
-  color: #bbb;
+  color: var(--ink);
 }
 
 .about-content li {
@@ -110,28 +112,28 @@
 }
 
 .about-content .win {
-  color: #4ade80;
-  font-weight: 500;
+  color: var(--win);
+  font-weight: 600;
 }
 
 .about-content .loss {
-  color: #f87171;
-  font-weight: 500;
+  color: var(--loss);
+  font-weight: 600;
 }
 
 .about-content .draw {
-  color: #fbbf24;
-  font-weight: 500;
+  color: var(--muted);
+  font-weight: 600;
 }
 
 .about-content .unknown {
-  color: #9ca3af;
-  font-weight: 500;
+  color: var(--muted);
+  font-weight: 600;
 }
 
 .about-footer {
   padding: 16px 24px;
-  border-top: 1px solid #3a3a3a;
+  border-top: 1px solid var(--border);
   display: flex;
   justify-content: flex-end;
 }
@@ -139,9 +141,9 @@
 .about-close-button {
   padding: 10px 24px;
   font-size: 14px;
-  font-weight: 500;
+  font-weight: 600;
   color: #fff;
-  background: #4a9eff;
+  background: var(--accent);
   border: none;
   border-radius: 6px;
   cursor: pointer;
@@ -149,7 +151,7 @@
 }
 
 .about-close-button:hover {
-  background: #3b8ee6;
+  background: var(--accent-hover);
 }
 
 @media (max-width: 600px) {

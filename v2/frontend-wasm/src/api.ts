@@ -1,16 +1,21 @@
 // Tablebase API client
 // This is the only backend call needed - everything else is handled by WASM
-
-// Uses /api path for Vercel serverless function (reads from tablebase.bin)
-// For local dev with API: run `vercel dev` instead of `npm run dev`
+// VITE_API_URL points at the Railway tablebase probe (falls back to /api for local dev).
 const API_BASE = import.meta.env.VITE_API_URL ?? "/api";
 
+export interface PositionEval {
+  /** 1 = P1 wins, 0 = draw, -1 = P2 wins, null = not found */
+  evaluation: number | null;
+  /** Plies to the result from this position (0 for terminal/draw), null = not found */
+  dtm: number | null;
+}
+
 /**
- * Batch lookup for position evaluations from tablebase
+ * Batch lookup for position evaluations + distance-to-result from the tablebase.
  * @param positions - Array of canonical position encodings
- * @returns Array of evaluations (1 = P1 wins, 0 = draw, -1 = P2 wins, null = not found)
  */
-export async function lookupPositions(positions: bigint[]): Promise<(number | null)[]> {
+export async function lookupPositions(positions: bigint[]): Promise<PositionEval[]> {
+  const empty = (): PositionEval[] => positions.map(() => ({ evaluation: null, dtm: null }));
   if (positions.length === 0) return [];
 
   try {
@@ -19,10 +24,15 @@ export async function lookupPositions(positions: bigint[]): Promise<(number | nu
       headers: { "Content-Type": "application/json" },
       body: JSON.stringify({ positions: positions.map(p => p.toString()) }),
     });
-    if (!res.ok) return positions.map(() => null);
+    if (!res.ok) return empty();
     const data = await res.json();
-    return data.evaluations ?? positions.map(() => null);
+    const evals: (number | null)[] = data.evaluations ?? [];
+    const dtms: (number | null)[] = data.dtm ?? [];
+    return positions.map((_, i) => ({
+      evaluation: evals[i] ?? null,
+      dtm: dtms[i] ?? null,
+    }));
   } catch {
-    return positions.map(() => null);
+    return empty();
   }
 }

@@ -2,9 +2,10 @@
   width: 217px; /* (450px board - 16px gap) / 2 */
   padding: 10px;
   box-sizing: border-box;
-  background: #2a2a2a;
+  background: var(--surface);
+  border: 1px solid var(--border);
   border-radius: 10px;
-  opacity: 0.6;
+  opacity: 0.65;
   transition: opacity 0.2s ease;
 }
 
@@ -13,11 +14,11 @@
 }
 
 .reserves.player-1 .reserves-header {
-  color: #e74c3c;
+  color: var(--p1);
 }
 
 .reserves.player-2 .reserves-header {
-  color: #3498db;
+  color: var(--p2);
 }
 
 .reserves-header {
@@ -48,23 +49,23 @@
 
 .reserve-piece.selectable {
   cursor: pointer;
-  border-color: #444;
+  border-color: var(--border);
 }
 
 .reserve-piece.selectable:hover {
-  background: #3a3a3a;
-  border-color: #666;
+  background: var(--surface-3);
+  border-color: var(--border-strong);
 }
 
 .reserve-piece.selected {
-  background: #3a4a5a;
-  border-color: #4a9eff;
+  background: var(--accent-soft);
+  border-color: var(--accent);
 }
 
 .reserve-piece.hover-source {
-  background: #5a4a3a;
-  border-color: #f39c12;
-  box-shadow: 0 0 12px rgba(243, 156, 18, 0.4);
+  background: #fbf0dd;
+  border-color: var(--accent);
+  box-shadow: 0 0 12px rgba(217, 138, 43, 0.3);
 }
 
 .piece-preview-wrapper {
@@ -76,7 +77,7 @@
 
 .piece-preview {
   border-radius: 50%;
-  border: 2px solid rgba(0, 0, 0, 0.2);
+  border: 2px solid rgba(0, 0, 0, 0.18);
 }
 
 .piece-preview.size-1 {
@@ -95,18 +96,18 @@
 }
 
 .piece-preview.player-1 {
-  background: linear-gradient(135deg, #e74c3c, #c0392b);
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
+  background: linear-gradient(135deg, #e0533f, #c0392b);
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.22);
 }
 
 .piece-preview.player-2 {
-  background: linear-gradient(135deg, #3498db, #2980b9);
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
+  background: linear-gradient(135deg, #3a93d6, #2f80c8);
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.22);
 }
 
 .piece-count {
   font-size: 12px;
-  color: #888;
+  color: var(--muted);
 }
 
 .reserve-piece.depleted .piece-preview {
@@ -114,7 +115,7 @@
 }
 
 .reserve-piece.depleted .piece-count {
-  color: #555;
+  color: var(--border-strong);
 }
 
 @media (max-width: 480px) {

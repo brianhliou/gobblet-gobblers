@@ -216,16 +216,23 @@ function App() {
         return canonical;
       });
 
-      const evaluations = await lookupPositions(childPositions);
+      const results = await lookupPositions(childPositions);
 
       // Only update if we're still on the same position (avoid stale updates)
       const boardNow = boardRef.current;
       if (boardNow && boardNow.canonical() === currentCanonical) {
-        // Attach evaluations to moves
-        const movesWithEval = moves.map((move, i) => ({
-          ...move,
-          evaluation: evaluations[i] ?? undefined,
-        }));
+        // Attach evaluation + distance to each move. The probe returns the
+        // resulting position's plies-to-result; add 1 for this move so it reads
+        // as "distance from here". Distance is only meaningful for decisive moves.
+        const movesWithEval = moves.map((move, i) => {
+          const evaluation = results[i]?.evaluation ?? undefined;
+          const childDtm = results[i]?.dtm ?? undefined;
+          const dtm =
+            evaluation !== undefined && evaluation !== 0 && childDtm !== undefined
+              ? childDtm + 1
+              : undefined;
+          return { ...move, evaluation, dtm };
+        });
         setLegalMoves(movesWithEval);
       }
     } else {
