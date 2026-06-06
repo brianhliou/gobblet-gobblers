@@ -1,155 +1,87 @@
 # Deployment Architecture
 
-## Overview
-
-The production deployment uses a WASM-based frontend with an embedded tablebase for position lookups.
+The live system is two independently deployed pieces: a static **explorer**
+(Vercel) that runs all gameplay in the browser via WASM, and an always-on
+**tablebase probe** (`gobblet-api` on Railway) that answers position lookups out
+of RAM.
 
 ```
-┌─────────────────────┐     ┌──────────────────────────────────┐
-│  Browser            │────▶│  Vercel                          │
-│  - React UI         │     │  - Static files (dist/)          │
-│  - WASM game logic  │     │  - Serverless Function           │
-└─────────────────────┘     │    - tablebase.bin (170MB)       │
-      ~33KB WASM            │    - Binary search lookups       │
-                            └──────────────────────────────────┘
-                                    <1ms lookup latency
+┌──────────────────────────────┐        ┌─────────────────────────────────────┐
+│  Browser  (Vercel static)    │        │  Railway  (always-on container)     │
+│  explorer/ — React UI        │  POST  │  gobblet-api (Rust / axum)          │
+│  gobblet-core WASM (~32 KB)  │ ─────▶ │  loads gobblet.ctb (~531 MB) → RAM  │
+│  all moves run client-side   │ /lookup│  MPH lookup → signed DTM            │
+└──────────────────────────────┘ /batch └─────────────────────────────────────┘
+        no round-trip for gameplay                 ~µs per position
 ```
+
+Gameplay is fully client-side — the API is consulted only to color moves by their
+game-theoretic value (win / draw / loss + distance-to-mate).
 
 ## Components
 
-### Frontend (Vercel Static)
-- **Location:** `v2/frontend-wasm/`
+### Explorer (`explorer/`, Vercel static)
 - **Build:** `npm run build` → `dist/`
-- **Size:** ~255KB total (32KB WASM, 67KB JS gzipped)
-- **Game logic:** Runs entirely in browser via `gobblet-core` WASM package
+- **Game logic:** `gobblet-core` compiled to WASM, imported as the `gobblet-core`
+  package (`file:./wasm-pkg`). No server needed to play.
+- **API base URL:** `VITE_API_URL` (points at the Railway service).
+- **Vercel project setting:** *Root Directory* = `explorer`.
 
-### Tablebase API (Vercel Serverless Function)
-- **Endpoint:** `POST /api/lookup/batch` with `{positions: string[]}`
-- **Runtime:** Node.js (for file system access)
-- **Data:** `tablebase.bin` (170MB, 19.8M positions)
-- **Format:** Sorted array of (canonical: u64, outcome: i8) pairs
-- **Lookup:** Binary search, O(log n) = ~24 comparisons per position
+### Tablebase probe (`api/`, Railway)
+- **Endpoint:** `POST /lookup/batch` (alias `/api/lookup/batch`), plus `GET /health`.
+  - request:  `{ "positions": ["<canonical-u64-decimal>", ...] }`
+  - response: `{ "evaluations": [1|0|-1|null, ...], "dtm": [n|null, ...] }`
+  - `evaluations`: 1 = P1 win, −1 = P2 win, 0 = draw, null = not found.
+  - `dtm`: plies to result (`|distance-to-mate|`); 0 for draw/terminal; null if not found.
+- **Lookup:** terminals resolved by `check_winner`; everything else via the MPH
+  → one signed-DTM byte. The board is rejected if it isn't its own canonical key.
+- **Env:** `CTB_PATH` (default `gobblet.ctb`), `PORT` (default 8080),
+  `CORS_ORIGIN` (comma-separated allow-list; `*` or unset = any).
+- **Image:** the repo-root `Dockerfile` builds `gobblet-api` and `ADD`s the `.ctb`
+  from a GitHub Release at build time (`--build-arg CTB_URL=...`).
+- **Railway project setting:** *Root Directory* = repo root, *Dockerfile path* = `Dockerfile`.
 
-### Tablebase Binary Format
+### Tablebase (`gobblet.ctb`)
+A minimal perfect hash over the canonical keys of every **non-terminal** position,
+plus one signed-DTM byte per position in MPH-slot order. Terminals are not stored
+(the winner is on the board). It is **git-ignored** and distributed as a GitHub
+Release asset, never committed.
+
 ```
-┌────────────────────────────────────────┐
-│ Entry 0: canonical (8 bytes LE) + outcome (1 byte) │
-│ Entry 1: canonical (8 bytes LE) + outcome (1 byte) │
-│ ...                                                 │
-│ Entry 19,836,039: ...                               │
-└────────────────────────────────────────┘
-Total: 178,524,360 bytes (170MB)
-Sorted by canonical for binary search
+[ MAGIC "GOBCTB01" : 8B ][ n : u64 LE ][ mph_len : u64 LE ][ mph : bincode ][ values : n × i8 ]
 ```
 
-## Performance
+`n` ≈ 370.9 M non-terminal positions → ~531 MB total (values + MPH).
 
-| Metric | Value |
-|--------|-------|
-| Cold start | ~300-500ms (read 170MB from disk) |
-| Warm lookup (batch of 27) | <1ms |
-| Memory usage | ~170MB per function instance |
+## Local development
 
-## Local Development
-
-### Without tablebase (game only)
 ```bash
-cd v2/frontend-wasm
+# Explorer (gameplay only; evaluations need an API to point at)
+cd explorer
 npm install
-npm run dev
-# Game works, evaluations show as unknown
+npm run dev                       # http://localhost:5173
+
+# Full stack: run the probe locally and point the explorer at it
+cd ../api
+CTB_PATH=/path/to/gobblet.ctb cargo run --release    # listens on :8080
+# then start the explorer with VITE_API_URL=http://localhost:8080
 ```
 
-### With tablebase (full experience)
-```bash
-cd v2/frontend-wasm
-npm install
-vercel dev
-# Runs frontend + serverless function locally
-# Requires Vercel CLI: npm i -g vercel
-```
+## Regenerating the tablebase
 
-## Deployment Steps
-
-### 1. Generate tablebase binary (if needed)
-```bash
-cd v2/gobblet-solver
-sqlite3 data/tablebase.db "SELECT canonical, outcome FROM positions ORDER BY canonical;" | \
-python3 -c "
-import sys, struct
-data = bytearray()
-for line in sys.stdin:
-    c, o = line.strip().split('|')
-    data.extend(struct.pack('<qb', int(c), int(o)))
-with open('data/tablebase.bin', 'wb') as f:
-    f.write(data)
-"
-cp data/tablebase.bin ../frontend-wasm/api/
-```
-
-### 2. Deploy to Vercel
-```bash
-cd v2/frontend-wasm
-git add -A
-git commit -m "Deploy with embedded tablebase"
-git push origin main
-# Vercel auto-deploys from git
-```
-
-## Cost Estimate
-
-| Service | Free Tier | Our Usage | Cost |
-|---------|-----------|-----------|------|
-| Vercel (hosting) | 100GB bandwidth | Minimal | $0 |
-| Vercel (Serverless) | 100GB-hrs | Minimal | $0 |
-
-**Total: $0/month** for reasonable traffic.
-
-## Architecture Decisions
-
-### Why WASM instead of backend game logic?
-- No server to maintain for game state
-- Game works offline
-- Lower latency (no round-trip for moves)
-- Rust code already exists and is tested
-
-### Why embedded binary instead of external database?
-- **Sub-millisecond lookups** vs 500ms+ with external DB
-- No network latency to external service
-- Simpler architecture (no database to manage)
-- Vercel replicates to all regions automatically
-- 170MB fits within Vercel's deployment limits
-
-### Why Serverless instead of Edge Functions?
-- Edge Functions can't read files from disk
-- Serverless Functions have file system access
-- Cold start (~300ms) is acceptable for tablebase loading
-
-## Regenerating the Tablebase
-
-If the solver produces a new tablebase:
+The solver is the source of truth; the `.ctb` is a build artifact.
 
 ```bash
-# 1. Export from SQLite to binary
-cd v2/gobblet-solver
-sqlite3 data/tablebase.db "SELECT canonical, outcome FROM positions ORDER BY canonical;" | \
-python3 -c "
-import sys, struct
-data = bytearray()
-for line in sys.stdin:
-    c, o = line.strip().split('|')
-    data.extend(struct.pack('<qb', int(c), int(o)))
-with open('data/tablebase.bin', 'wb') as f:
-    f.write(data)
-print(f'Wrote {len(data)} bytes')
-"
-
-# 2. Copy to frontend
-cp data/tablebase.bin ../frontend-wasm/api/
-
-# 3. Deploy
-cd ../frontend-wasm
-git add api/tablebase.bin
-git commit -m "Update tablebase"
-git push
+cd solver
+cargo run --release --bin retro -- --save-ctb gobblet.ctb   # ~30 min, peak ~12 GB RAM on 14 cores
+cargo run --release --bin retro -- --verify   gobblet.ctb   # re-check before shipping
 ```
+
+Then upload `gobblet.ctb` to a GitHub Release and redeploy the Railway service
+with the new `CTB_URL` build arg (or release tag).
+
+## Deploy
+
+- **Explorer:** Vercel auto-deploys `explorer/` on push to `main`.
+- **API:** Railway rebuilds the root `Dockerfile`; trigger a redeploy when the
+  `.ctb` changes (new release tag → new `CTB_URL`).

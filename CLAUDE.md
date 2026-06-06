@@ -2,17 +2,22 @@
 
 ## Project Overview
 
-A solved implementation of the Gobblet Gobblers board game with optimal play visualization.
+A complete, game-theoretic solution of Gobblet Gobblers (the 3×3 children's game),
+with a browser explorer that colors every legal move by its win/draw/loss value and
+distance-to-mate.
 
-**Live demo:** https://gobblet-gobblers-tablebase.vercel.app/
+- **Live demo:** https://gobblet.brianhliou.com
+- **Write-up:** https://brianhliou.com/posts/gobblet-gobblers/
 
 ## Project Status: COMPLETE
 
-- Full game implementation with web UI
-- Solver using minimax with alpha-beta pruning (19.8 million positions)
-- Optimal play visualization (move colors show win/draw/loss)
+The first player wins with perfect play (13 plies from the opening). The game was solved
+by **retrograde analysis**, not forward minimax — see "The solver" below for why that
+distinction matters.
 
-Player 1 wins with perfect play. The tablebase contains positions reachable via optimal play, plus all P2 responses. Positions from suboptimal P1 play were pruned and appear as "unknown".
+- 531.5M reachable positions; 370.9M non-terminal (185.4M first-player wins, 185.3M
+  second-player wins, 208,563 draws ≈ 0.04%).
+- Solve: ~30 min, peak ~12 GB RAM, 14 cores. State packs into a `u64`.
 
 ## Game Rules
 
@@ -22,78 +27,74 @@ See [docs/rules.md](docs/rules.md) for complete rules including the reveal rule 
 
 ```
 gobblet-gobblers/
-├── v2/                          # Current implementation (Rust + WASM)
-│   ├── gobblet-core/            # Game logic library
-│   │   ├── src/lib.rs           # Board, Move, Player, win detection
-│   │   └── pkg/                 # Compiled WASM package
-│   ├── gobblet-solver/          # Minimax solver
-│   │   └── src/main.rs          # Alpha-beta with transposition tables
-│   ├── gobblet-api/             # REST API backend (deprecated)
-│   └── frontend-wasm/           # Production frontend
-│       ├── src/App.tsx          # React game UI
-│       ├── api/lookup/batch.ts  # Tablebase serverless function
-│       └── api/tablebase.bin    # 170MB binary tablebase
-├── v1/                          # Original Python (deprecated)
-├── frontend-api/                # API-based frontend (deprecated)
-└── docs/                        # Technical documentation
-    ├── deployment.md            # Production architecture
-    ├── rules.md                 # Game rules
-    ├── state_encoding.md        # Canonical position encoding
-    └── game_tree_analysis.md    # Solver analysis
+├── core/        # game logic: bit-packed board, moves, win detection (compiles to WASM)
+├── solver/      # retrograde solver (src/bin/retro.rs) + analysis bins; cuts the .ctb
+├── api/         # tablebase probe (Rust/axum); loads the .ctb into RAM, serves lookups
+├── explorer/    # React + WASM web explorer (deployed on Vercel)
+├── legacy/
+│   └── forward-solver/   # original forward minimax — GHI-buggy, preserved, NOT built
+├── docs/        # rules, state encoding, GHI correction, game-tree analysis, deployment
+├── assets/      # screenshot.png (README banner)
+└── Dockerfile   # builds gobblet-api for Railway
 ```
+
+The `v2/` wrapper and the old `v1/` Python implementation were removed in the cleanup;
+their history is in git. The forward solver's last buildable state is the
+`forward-solver-final` tag.
 
 ## How It Works
 
-### Frontend (Browser)
-- React UI with piece selection and move highlighting
-- Game logic runs via WebAssembly (gobblet-core compiled to WASM, ~32KB)
-- No server round-trips for gameplay - fully client-side
+### Explorer (browser)
+- React UI; game logic runs via WebAssembly (`gobblet-core` → WASM, ~32 KB). Gameplay is
+  fully client-side, no round-trips.
+- For move evaluations it POSTs canonical keys to the API (`VITE_API_URL`).
 
-### Tablebase API (Vercel Serverless)
-- Single endpoint: `POST /api/lookup/batch`
-- Looks up positions in 170MB binary tablebase
-- Returns evaluation: 1 (P1 wins), 0 (draw), -1 (P2 wins)
-- Binary search: O(log n) = ~24 comparisons per position
+### Tablebase API (`gobblet-api` on Railway)
+- `POST /lookup/batch` (alias `/api/lookup/batch`), `GET /health`.
+  - request:  `{ "positions": ["<canonical-u64-decimal>", ...] }`
+  - response: `{ "evaluations": [1|0|-1|null], "dtm": [n|null] }` (1 = P1 win, −1 = P2 win, 0 = draw)
+- Loads `gobblet.ctb` into RAM; terminals resolved by `check_winner`, others via the MPH.
+- Env: `CTB_PATH`, `PORT`, `CORS_ORIGIN`.
 
-### Tablebase Format
+### Tablebase format (`gobblet.ctb`)
 ```
-Entry: [canonical: u64 LE] [outcome: i8]
-       8 bytes              1 byte
-Total: 19,836,040 entries × 9 bytes = 170MB
-Sorted by canonical for binary search
+[ MAGIC "GOBCTB01" : 8B ][ n : u64 LE ][ mph_len : u64 LE ][ mph : bincode ][ values : n × i8 ]
 ```
+Minimal perfect hash over non-terminal canonical keys + one signed-DTM byte each, ~531 MB.
+Git-ignored; distributed as a GitHub Release asset, `ADD`ed into the image at build time.
 
-## Running Locally
+## The solver (`solver/src/bin/retro.rs`)
+
+Two-phase retrograde analysis, correct for a game with cycles:
+1. BFS-enumerate every non-terminal canonical position (game-over boards are leaves).
+2. Backward-induction fixpoint (parallel Jacobi) to signed distance-to-mate. Draws are the
+   cycle-bound residue the fixpoint never proves won or lost.
+
+Why not forward minimax: the threefold-repetition rule makes a position's value depend on
+its history, so a transposition table keyed on the board alone is unsound (the **Graph
+History Interaction** bug). The original forward solver lives in `legacy/forward-solver/`.
 
 ```bash
-cd v2/frontend-wasm
-npm install
-npm run dev      # Game only (evaluations unavailable)
-vercel dev       # Full stack with tablebase
+cd solver
+cargo run --release --bin retro -- --selftest
+cargo run --release --bin retro -- --save-ctb gobblet.ctb   # full solve
+cargo run --release --bin retro -- --verify   gobblet.ctb
+# analysis modes: --findings, --no-reveal, --no-stack (counterfactuals), --inspect-tb
 ```
 
-## Key Implementation Details
-
-### State Representation (gobblet-core)
-- Board is 3x3 grid of stacks (up to 3 pieces per cell)
-- Each cell encoded as 12 bits (4 bits per slot × 3 slots)
-- Full board: 108 bits for cells + 24 bits for reserves = 132 bits
-- Canonical form: min of all 8 symmetries (4 rotations × 2 reflections)
-
-### Move Generation
-- Reserve placements: any size to any empty or gobbleable square
-- Board moves: move visible piece you own to valid destination
-- Reveal rule: if lifting reveals opponent win, restrict to hail mary moves
-
-### Solver (gobblet-solver)
-- Forward minimax with alpha-beta pruning
-- Transposition table with canonical position encoding (symmetry reduction)
-- Move ordering: known wins first, unknown middle, known losses last
-- Result: 19.8M positions (optimal play + all P2 responses)
+Other solver bins: `render`, `count_tree`, `stats` (read-only analysis over the game graph).
 
 ## Conventions
 
-- Rust: Game logic in gobblet-core, solver in gobblet-solver
-- TypeScript: Frontend in v2/frontend-wasm
-- Tablebase: Binary format for production, SQLite for solver development
-- Git LFS: Used for tablebase.bin (170MB)
+- Rust: game logic in `core/`, solver in `solver/`, probe in `api/`. Crate package names
+  keep the `gobblet-` prefix (`gobblet-core`, `gobblet-solver`, `gobblet-api`); only the
+  directories are short. Path deps reference `../core`.
+- TypeScript: explorer in `explorer/`. Imports the WASM package as `gobblet-core` (`file:./wasm-pkg`).
+- Tablebase: compact `.ctb` for production; never committed (GitHub Release).
+
+## Deploy coupling (paths live in dashboards, not the repo)
+
+- **Vercel** (explorer): *Root Directory* = `explorer`.
+- **Railway** (api): *Root Directory* = repo root, *Dockerfile path* = `Dockerfile`.
+
+If the directory layout changes, update those two dashboard settings or the deploys break.

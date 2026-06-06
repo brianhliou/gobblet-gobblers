@@ -2,7 +2,7 @@
 
 This document explains the bit-level representation used in the V2 Rust solver for Gobblet Gobblers. Every aspect of the game—board state, moves, undo information, and win detection—is encoded in compact bit formats for maximum performance.
 
-**Key file:** `v2/gobblet-core/src/lib.rs`
+**Key file:** `core/src/lib.rs`
 
 ---
 

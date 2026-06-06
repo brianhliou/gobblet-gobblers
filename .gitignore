@@ -1,37 +1,12 @@
-# Python
-__pycache__/
-*.py[cod]
-*$py.class
-.venv/
-venv/
-*.egg-info/
-dist/
-build/
-.eggs/
-*.egg
-.mypy_cache/
-.pytest_cache/
-.ruff_cache/
-.coverage
-htmlcov/
-
 # Rust
 target/
 
 # Node
 node_modules/
-
-# Builds
 dist/
 
-# Frontend (deprecated)
-frontend-api/node_modules/
-frontend-api/dist/
-
-# V2
-v2/frontend-wasm/node_modules/
-v2/frontend-wasm/dist/
-v2/gobblet-solver/data/
+# Solver build artifacts (raw enumeration, intermediate tablebases)
+solver/data/
 
 # Tablebases — built artifacts served from GitHub Releases (never committed)
 *.ctb
