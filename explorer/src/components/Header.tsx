@@ -7,44 +7,37 @@ interface HeaderProps {
 export function Header({ onHowItWorksClick }: HeaderProps) {
   return (
     <header className="site-header">
-      <div className="header-content">
-        <div className="header-brand">
-          <span className="header-title">Gobblet Gobblers, solved</span>
-          <span className="header-tagline">
-            A 3×3 children's game, played to the last move.
-          </span>
-        </div>
+      <h1>Gobblet Gobblers, solved</h1>
+      <span className="tagline">
+        A 3×3 children's game, played to the last move.
+      </span>
 
-        <nav className="header-nav">
-          <button onClick={onHowItWorksClick} className="header-navbtn">
-            How it works
-          </button>
-          <a
-            href="https://brianhliou.com/posts/gobblet-gobblers/"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="header-link"
-          >
-            Write-up
-          </a>
-          <a
-            href="https://github.com/brianhliou/gobblet-gobblers"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="header-link"
-          >
-            GitHub
-          </a>
-          <a
-            href="https://brianhliou.com/"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="header-link"
-          >
-            Brian Liou
-          </a>
-        </nav>
-      </div>
+      <nav className="hlinks">
+        <button onClick={onHowItWorksClick} className="navbtn">
+          How it works
+        </button>
+        <a
+          href="https://brianhliou.com/posts/gobblet-gobblers/"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          Write-up
+        </a>
+        <a
+          href="https://github.com/brianhliou/gobblet-gobblers"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          GitHub
+        </a>
+        <a
+          href="https://brianhliou.com/"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          Brian Liou
+        </a>
+      </nav>
     </header>
   );
 }
